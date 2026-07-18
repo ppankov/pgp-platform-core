@@ -1,0 +1,67 @@
+{
+  "name": "JobDefinition",
+  "type": "object",
+  "title": "Job Definition",
+  "description": "A platform-global job type definition in the Scheduler and Background Job Runtime catalog. Describes a safe job type backed by a built-in static handler. Contains NO executable code and NO credentials. handlerKey must reference a handler present in the static handler registry (Phase 8: system.health_check only). key is stable, unique and immutable after creation. payloadSchema and resultSchema are declarative JSON schema only and must not contain secret-looking keys. RLS: read by developer/solution_architect/core_developer/admin/super_admin (payload redacted for developer/solution_architect); create by core_developer/super_admin via registerJobDefinition.",
+  "properties": {
+    "key": {
+      "type": "string",
+      "description": "Stable unique machine identifier. Immutable after creation."
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "handlerKey": {
+      "type": "string",
+      "description": "References a built-in static handler in the registry. Unknown values are rejected."
+    },
+    "payloadSchema": {
+      "type": "object",
+      "description": "Declarative JSON schema describing the job payload. No executable values; no secret-looking keys."
+    },
+    "resultSchema": {
+      "type": "object",
+      "description": "Declarative JSON schema describing the job result. No executable values; no secret-looking keys."
+    },
+    "defaultRetryPolicy": {
+      "type": "object",
+      "description": "Default retry policy { maxAttempts, backoffType, baseDelaySeconds, maxDelaySeconds }. Bounded."
+    },
+    "active": {
+      "type": "boolean",
+      "default": true
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "key",
+    "name",
+    "handlerKey",
+    "active"
+  ],
+  "rls": {
+    "read": {
+      "$or": [
+        {
+          "user_condition": {
+            "role": "admin"
+          }
+        },
+        {
+          "user_condition": {
+            "role": "user"
+          }
+        }
+      ]
+    },
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

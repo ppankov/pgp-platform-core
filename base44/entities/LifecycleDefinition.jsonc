@@ -1,0 +1,47 @@
+{
+  "name": "LifecycleDefinition",
+  "type": "object",
+  "title": "Lifecycle Definition",
+  "description": "A reusable lifecycle definition for ANY platform resource, identified by targetType. Platform-level. The engine contains NO application-specific logic \u2014 targetType is an open string so future resource types require no schema change. RLS: read by developer/solution_architect; create/update/delete by core_developer/admin/super_admin.",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Human-readable lifecycle name"
+    },
+    "description": {
+      "type": "string"
+    },
+    "targetType": {
+      "type": "string",
+      "description": "Open resource type this lifecycle applies to (e.g. application, plugin, connector, service, ai_provider, document, template, workflow). Deliberately NOT an enum \u2014 future resource types require no schema change."
+    },
+    "active": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "required": [
+    "name",
+    "targetType",
+    "active"
+  ],
+  "rls": {
+    "read": {
+      "$or": [
+        {
+          "user_condition": {
+            "role": "admin"
+          }
+        },
+        {
+          "user_condition": {
+            "role": "user"
+          }
+        }
+      ]
+    },
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

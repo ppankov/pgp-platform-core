@@ -1,0 +1,64 @@
+{
+  "name": "AuditRun",
+  "type": "object",
+  "title": "Audit Run",
+  "description": "A single audit execution against a project. Tenant boundary: organization_id. RLS: scoped by organization_id and archaudit.runs.*. Phase 1: model only, no execution engine.",
+  "properties": {
+    "organization_id": {
+      "type": "string"
+    },
+    "project_id": {
+      "type": "string"
+    },
+    "profile_definition_id": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string",
+      "description": "Project version at run time"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "running",
+        "completed",
+        "failed"
+      ],
+      "default": "pending"
+    },
+    "started_by_id": {
+      "type": "string"
+    },
+    "started_date": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "completed_date": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "config": {
+      "type": "object",
+      "description": "Categories included, ruleset version, options"
+    },
+    "overall_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100,
+      "description": "Weighted aggregate of category scores"
+    }
+  },
+  "required": [
+    "organization_id",
+    "project_id",
+    "profile_definition_id",
+    "status"
+  ],
+  "rls": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

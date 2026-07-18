@@ -1,0 +1,59 @@
+{
+  "name": "OrganizationMember",
+  "type": "object",
+  "title": "Organization Member",
+  "description": "User <-> organization membership. Tenant boundary: organization_id. RLS: read by org admins and self; create by admin/super_admin; update by org admin; delete by admin/super_admin.",
+  "properties": {
+    "organization_id": {
+      "type": "string",
+      "description": "Owning organization"
+    },
+    "user_id": {
+      "type": "string",
+      "description": "Member user id"
+    },
+    "role": {
+      "type": "string",
+      "enum": [
+        "admin",
+        "developer",
+        "core_developer",
+        "solution_architect",
+        "auditor",
+        "support",
+        "user",
+        "guest"
+      ],
+      "default": "user"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "invited",
+        "suspended",
+        "removed"
+      ],
+      "default": "invited"
+    },
+    "invited_by_id": {
+      "type": "string",
+      "description": "User who invited this member"
+    },
+    "joined_date": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "required": [
+    "organization_id",
+    "user_id",
+    "role"
+  ],
+  "rls": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "name": "AuditRuleEvaluation",
+  "type": "object",
+  "title": "Audit Rule Evaluation",
+  "description": "Result of evaluating a single rule during an audit run. Tenant boundary: organization_id via run. RLS: scoped by organization_id and archaudit.runs.view. Phase 1: model only.",
+  "properties": {
+    "organization_id": {
+      "type": "string"
+    },
+    "run_id": {
+      "type": "string"
+    },
+    "rule_definition_id": {
+      "type": "string"
+    },
+    "category_definition_id": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pass",
+        "fail",
+        "warning",
+        "not_applicable",
+        "manual"
+      ],
+      "default": "manual"
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      },
+      "description": "Evidence items supporting the evaluation"
+    },
+    "auto_detection_result": {
+      "type": "object",
+      "description": "Result from automatic detection (future engine)"
+    },
+    "manual_verification_result": {
+      "type": "object",
+      "description": "Result from manual verification"
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "organization_id",
+    "run_id",
+    "rule_definition_id",
+    "status"
+  ],
+  "rls": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

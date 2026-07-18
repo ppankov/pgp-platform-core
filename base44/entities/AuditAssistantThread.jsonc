@@ -1,0 +1,43 @@
+{
+  "name": "AuditAssistantThread",
+  "type": "object",
+  "title": "Audit Assistant Thread",
+  "description": "A Q&A conversation with the AI architecture assistant. Tenant boundary: organization_id. RLS: scoped by organization_id and archaudit.assistant.use. Phase 1: model only.",
+  "properties": {
+    "organization_id": {
+      "type": "string"
+    },
+    "project_id": {
+      "type": "string",
+      "description": "Null for general architecture questions"
+    },
+    "title": {
+      "type": "string"
+    },
+    "created_by_id": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "archived"
+      ],
+      "default": "active"
+    },
+    "metadata": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "organization_id",
+    "title",
+    "status"
+  ],
+  "rls": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

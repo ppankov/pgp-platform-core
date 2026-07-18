@@ -1,0 +1,43 @@
+{
+  "name": "AuditAssistantMessage",
+  "type": "object",
+  "title": "Audit Assistant Message",
+  "description": "A message in an assistant thread. Assistant messages must include citations to findings/rules/knowledge \u2014 no unsupported claims. Tenant boundary: organization_id via thread. RLS: scoped by organization_id and archaudit.assistant.use.",
+  "properties": {
+    "organization_id": {
+      "type": "string"
+    },
+    "thread_id": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string",
+      "enum": [
+        "user",
+        "assistant"
+      ]
+    },
+    "content": {
+      "type": "string"
+    },
+    "citations": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      },
+      "description": "References to findings, rules, or knowledge articles supporting the answer"
+    }
+  },
+  "required": [
+    "organization_id",
+    "thread_id",
+    "role",
+    "content"
+  ],
+  "rls": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "name": "AuditFinding",
+  "type": "object",
+  "title": "Audit Finding",
+  "description": "A concrete finding from an audit run. Enforces the output contract: every finding has why, evidence, risk, recommendation, priority, estimated effort, expected improvement. Tenant boundary: organization_id. RLS: scoped by organization_id and archaudit.findings.*.",
+  "properties": {
+    "organization_id": {
+      "type": "string"
+    },
+    "project_id": {
+      "type": "string"
+    },
+    "run_id": {
+      "type": "string"
+    },
+    "category_definition_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string",
+      "description": "Why this is a finding"
+    },
+    "risk": {
+      "type": "string",
+      "description": "Risk explanation"
+    },
+    "recommendation": {
+      "type": "string"
+    },
+    "priority": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high",
+        "urgent"
+      ]
+    },
+    "estimated_effort": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "expected_improvement": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "open",
+        "addressed",
+        "wont_fix"
+      ],
+      "default": "open"
+    },
+    "knowledge_article_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "organization_id",
+    "project_id",
+    "run_id",
+    "title",
+    "description",
+    "risk",
+    "recommendation",
+    "priority",
+    "status"
+  ],
+  "rls": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

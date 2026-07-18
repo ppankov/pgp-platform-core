@@ -1,0 +1,68 @@
+{
+  "name": "AuditProfileDefinition",
+  "type": "object",
+  "title": "Audit Profile Definition",
+  "description": "Reusable audit profile (CRM, ERP, DMS, REST API, Microservices, IoT, etc). Platform catalog for PGP Architecture Intelligence. RLS: read by any org member with archaudit.*.view; create/update by core_developer/solution_architect; delete by super_admin.",
+  "properties": {
+    "key": {
+      "type": "string",
+      "description": "Unique profile key e.g. crm, erp, rest_api, microservices, iot_platform"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "criteria": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Criteria identifiers for this profile"
+    },
+    "default_weights": {
+      "type": "object",
+      "description": "Category -> default weight mapping"
+    },
+    "recommendation_templates": {
+      "type": "object",
+      "description": "Templated recommendations per category"
+    },
+    "applicable_categories": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Category keys this profile evaluates"
+    },
+    "is_system": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "required": [
+    "key",
+    "name",
+    "applicable_categories"
+  ],
+  "rls": {
+    "read": {
+      "$or": [
+        {
+          "user_condition": {
+            "role": "admin"
+          }
+        },
+        {
+          "user_condition": {
+            "role": "user"
+          }
+        }
+      ]
+    },
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

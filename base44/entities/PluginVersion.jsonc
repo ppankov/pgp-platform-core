@@ -1,0 +1,54 @@
+{
+  "name": "PluginVersion",
+  "type": "object",
+  "title": "Plugin Version",
+  "description": "A versioned, declarative manifest for a plugin definition. Created as draft; released versions become IMMUTABLE. manifest is declarative data only \u2014 the Plugin Engine stores and validates its structure but never executes it. checksum is metadata-only in this phase (no package download or code execution). Unique by (pluginId, version). RLS: read by developer/solution_architect/core_developer/admin/super_admin; create by core_developer/super_admin; releaseStatus transition by core_developer/super_admin via releasePluginVersion.",
+  "properties": {
+    "pluginId": {
+      "type": "string",
+      "description": "Reference to PluginDefinition"
+    },
+    "version": {
+      "type": "string",
+      "description": "Semantic version string e.g. 1.0.0"
+    },
+    "coreCompatibility": {
+      "type": "string",
+      "description": "Core version compatibility expression e.g. >=1.0.0 <2.0.0"
+    },
+    "manifest": {
+      "type": "object",
+      "description": "Declarative manifest data only. Never executable. Validated against the manifest contract."
+    },
+    "releaseStatus": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "released",
+        "deprecated"
+      ],
+      "default": "draft",
+      "description": "draft = editable; released = immutable; deprecated = retired (deprecation path deferred)."
+    },
+    "checksum": {
+      "type": "string",
+      "description": "Metadata-only integrity checksum. No package download in this phase."
+    },
+    "releasedAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When the version was released. Null while draft."
+    }
+  },
+  "required": [
+    "pluginId",
+    "version",
+    "releaseStatus"
+  ],
+  "rls": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

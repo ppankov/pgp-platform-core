@@ -1,0 +1,38 @@
+{
+  "name": "SystemSetting",
+  "type": "object",
+  "title": "System Setting",
+  "description": "Platform-level key/value configuration. Platform-level. Sensitive values (is_sensitive=true) are never returned via list/get APIs except to super_admin/core_developer. RLS: read by admin+ (values redacted if sensitive); create/update/delete by super_admin/core_developer.",
+  "properties": {
+    "key": {
+      "type": "string",
+      "description": "Unique setting key"
+    },
+    "value": {
+      "type": "object",
+      "description": "Setting value \u2014 redacted on read when is_sensitive=true for non-elevated roles"
+    },
+    "category": {
+      "type": "string",
+      "description": "Logical grouping e.g. environment, security, branding"
+    },
+    "is_sensitive": {
+      "type": "boolean",
+      "default": false
+    },
+    "updated_by_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "key",
+    "category",
+    "is_sensitive"
+  ],
+  "rls": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

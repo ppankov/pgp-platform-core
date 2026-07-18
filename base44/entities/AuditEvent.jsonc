@@ -1,0 +1,57 @@
+{
+  "name": "AuditEvent",
+  "type": "object",
+  "title": "Audit Event",
+  "description": "Append-only audit trail. Tenant boundary: organization_id (nullable for platform events). RLS: read by auditor/admin/super_admin scoped by org; create by system or any authenticated actor; update/delete ONLY by super_admin/core_developer under break-glass (never normal admins).",
+  "properties": {
+    "organization_id": {
+      "type": "string",
+      "description": "Null for platform-level events"
+    },
+    "actor_user_id": {
+      "type": "string"
+    },
+    "action": {
+      "type": "string",
+      "description": "Action performed e.g. organization.created, application.installed"
+    },
+    "resource_type": {
+      "type": "string"
+    },
+    "resource_id": {
+      "type": "string"
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Additional non-sensitive context"
+    },
+    "severity": {
+      "type": "string",
+      "enum": [
+        "info",
+        "warning",
+        "error",
+        "critical"
+      ],
+      "default": "info"
+    },
+    "ip_address": {
+      "type": "string"
+    },
+    "event_topic": {
+      "type": "string",
+      "description": "Event Bus topic key e.g. application.installed \u2014 for future event correlation"
+    }
+  },
+  "required": [
+    "actor_user_id",
+    "action",
+    "severity"
+  ],
+  "rls": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

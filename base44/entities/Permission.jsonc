@@ -1,0 +1,42 @@
+{
+  "name": "Permission",
+  "type": "object",
+  "title": "Permission",
+  "description": "Granular platform capability. Platform-level. RLS: read by admin/super_admin; create/update/delete by super_admin.",
+  "properties": {
+    "key": {
+      "type": "string",
+      "description": "Unique permission key e.g. platform.organizations.manage"
+    },
+    "description": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string",
+      "description": "Logical grouping e.g. identity, extensibility, operations"
+    },
+    "scope": {
+      "type": "string",
+      "enum": [
+        "platform",
+        "organization"
+      ],
+      "default": "platform"
+    }
+  },
+  "required": [
+    "key",
+    "category",
+    "scope"
+  ],
+  "rls": {
+    "read": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

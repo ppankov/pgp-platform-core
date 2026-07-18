@@ -1,0 +1,99 @@
+{
+  "name": "AuditCategoryScore",
+  "type": "object",
+  "title": "Audit Category Score",
+  "description": "Per-category scoring result for an audit run (8 dimensions). Tenant boundary: organization_id via run. RLS: scoped by organization_id and archaudit.runs.view.",
+  "properties": {
+    "organization_id": {
+      "type": "string"
+    },
+    "run_id": {
+      "type": "string"
+    },
+    "category_definition_id": {
+      "type": "string"
+    },
+    "score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "weight": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "risk_level": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high",
+        "critical"
+      ],
+      "default": "medium"
+    },
+    "priority": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high",
+        "urgent"
+      ],
+      "default": "medium"
+    },
+    "estimated_improvement_impact": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "description": "Expected improvement if addressed"
+    },
+    "estimated_implementation_effort": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "description": "Effort to address"
+    },
+    "business_impact": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "technical_debt_indicator": {
+      "type": "string",
+      "enum": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "critical"
+      ]
+    },
+    "summary": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "organization_id",
+    "run_id",
+    "category_definition_id",
+    "score",
+    "risk_level"
+  ],
+  "rls": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

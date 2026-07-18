@@ -1,0 +1,81 @@
+{
+  "name": "ConnectorConnection",
+  "type": "object",
+  "title": "Connector Connection",
+  "description": "Layer 3 of the 3-layer connector model: an organization-scoped connection to a provider. Tenant boundary: organizationId. Stores non-sensitive configuration and an OPAQUE credential reference only \u2014 NEVER credentials, tokens, API keys, or secrets. credentialRef is redacted from ordinary frontend reads. disconnect is non-destructive; records are never deleted by runtime operations. Normalized in Phase 6 to the configured/active/disabled/disconnected/error status model. RLS: read by org members + developer/solution_architect/core_developer/admin/super_admin (credentialRef hidden from non-management reads); create/update by admin/super_admin via createConnectorConnection/activateConnectorConnection/disableConnectorConnection/disconnectConnectorConnection.",
+  "properties": {
+    "connectorDefinitionId": {
+      "type": "string",
+      "description": "Reference to ConnectorDefinition"
+    },
+    "connectorProviderId": {
+      "type": "string",
+      "description": "Reference to ConnectorProvider"
+    },
+    "organizationId": {
+      "type": "string",
+      "description": "Owning organization (tenant boundary)"
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable connection name. Unique among active (non-disconnected) connections per provider + organization."
+    },
+    "configuration": {
+      "type": "object",
+      "description": "Non-sensitive configuration data only. Never credentials, tokens, or secrets."
+    },
+    "credentialRef": {
+      "type": "string",
+      "description": "Opaque reference to externally managed secret material e.g. secret:connector:<orgId>:<providerKey>:<connectionId>. Never the secret itself; never returned to ordinary frontend reads."
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "configured",
+        "active",
+        "disabled",
+        "disconnected",
+        "error"
+      ],
+      "default": "configured",
+      "description": "Administrative status only. active means administratively enabled, NOT externally verified."
+    },
+    "enabled": {
+      "type": "boolean",
+      "default": false
+    },
+    "createdById": {
+      "type": "string"
+    },
+    "enabledAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "disabledAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "disconnectedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "lastError": {
+      "type": "string",
+      "description": "Safe error detail from a future adapter runtime; null when no failure."
+    }
+  },
+  "required": [
+    "connectorDefinitionId",
+    "connectorProviderId",
+    "organizationId",
+    "name",
+    "status",
+    "enabled"
+  ],
+  "rls": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

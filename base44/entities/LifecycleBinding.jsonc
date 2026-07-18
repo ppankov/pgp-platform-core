@@ -1,0 +1,36 @@
+{
+  "name": "LifecycleBinding",
+  "type": "object",
+  "title": "Lifecycle Binding",
+  "description": "Storage-independent binding linking a resource (resourceType + resourceId) to a lifecycle definition and its current state. This is the PERSISTENCE service of the lifecycle execution runtime. The engine NEVER touches resource storage \u2014 it reads/writes only currentLifecycleStateId here. Conceptually unique by (resourceType, resourceId). RLS: read by developer/solution_architect; create/update by core_developer/admin/super_admin (the runtime writes via service role).",
+  "properties": {
+    "resourceType": {
+      "type": "string",
+      "description": "Open resource type identifier, sharing the same value space as LifecycleDefinition.targetType. The engine makes no assumption about how or where the resource is stored."
+    },
+    "resourceId": {
+      "type": "string",
+      "description": "Stable identifier of the target resource within its own storage. Opaque to the engine."
+    },
+    "lifecycleId": {
+      "type": "string",
+      "description": "Reference to LifecycleDefinition. Named lifecycleId for consistency with LifecycleState and LifecycleTransition."
+    },
+    "currentLifecycleStateId": {
+      "type": "string",
+      "description": "Reference to LifecycleState \u2014 the ONLY piece of lifecycle state the engine mutates."
+    }
+  },
+  "required": [
+    "resourceType",
+    "resourceId",
+    "lifecycleId",
+    "currentLifecycleStateId"
+  ],
+  "rls": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

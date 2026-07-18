@@ -1,0 +1,39 @@
+{
+  "name": "FeatureFlag",
+  "type": "object",
+  "title": "Feature Flag",
+  "description": "Org-scoped or platform-level feature flag. When organization_id is null, the flag is platform-level. RLS: org flags read/create/update/delete by org admin/developer; platform flags by admin/super_admin.",
+  "properties": {
+    "key": {
+      "type": "string",
+      "description": "Unique flag key"
+    },
+    "organization_id": {
+      "type": "string",
+      "description": "Null for platform-level flags"
+    },
+    "enabled": {
+      "type": "boolean",
+      "default": false
+    },
+    "rollout_percentage": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100,
+      "default": 0
+    },
+    "description": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "key",
+    "enabled"
+  ],
+  "rls": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

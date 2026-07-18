@@ -1,0 +1,47 @@
+{
+  "name": "ApplicationInstallation",
+  "type": "object",
+  "title": "Application Installation",
+  "description": "Org-scoped record of an installed application. Tenant boundary: organization_id. RLS: read by org members; create by admin/super_admin; update/delete by org admin.",
+  "properties": {
+    "organization_id": {
+      "type": "string"
+    },
+    "application_definition_id": {
+      "type": "string"
+    },
+    "installed_version": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "installed",
+        "enabled",
+        "disabled",
+        "update_available",
+        "error"
+      ],
+      "default": "installed"
+    },
+    "installed_by_id": {
+      "type": "string"
+    },
+    "config": {
+      "type": "object",
+      "description": "Non-sensitive installation configuration"
+    }
+  },
+  "required": [
+    "organization_id",
+    "application_definition_id",
+    "installed_version",
+    "status"
+  ],
+  "rls": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

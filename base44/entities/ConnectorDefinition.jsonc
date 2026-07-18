@@ -1,0 +1,58 @@
+{
+  "name": "ConnectorDefinition",
+  "type": "object",
+  "title": "Connector Definition",
+  "description": "Layer 1 of the 3-layer connector model: a global catalog entry describing an integration capability (e.g. repository, files, messages). Platform-global and organization-independent. Contains no credentials and no executable code. Normalized in Phase 6 to carry declarative capabilities. RLS: read by developer/solution_architect/core_developer/admin/super_admin; create/update/delete by core_developer/super_admin.",
+  "properties": {
+    "key": {
+      "type": "string",
+      "description": "Stable, unique machine identifier. Immutable after creation."
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string",
+      "description": "Logical grouping e.g. repository, files, messages, issues"
+    },
+    "active": {
+      "type": "boolean",
+      "default": true,
+      "description": "Whether this definition can be used by providers and connections."
+    },
+    "capabilities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Declarative open-string capability values e.g. repository.read, files.write, messages.send"
+    }
+  },
+  "required": [
+    "key",
+    "name",
+    "active"
+  ],
+  "rls": {
+    "read": {
+      "$or": [
+        {
+          "user_condition": {
+            "role": "admin"
+          }
+        },
+        {
+          "user_condition": {
+            "role": "user"
+          }
+        }
+      ]
+    },
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

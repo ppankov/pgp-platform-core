@@ -1,0 +1,56 @@
+{
+  "name": "WorkflowDefinition",
+  "type": "object",
+  "title": "Workflow Definition",
+  "description": "Workflow identity in the platform catalog. Either platform-scoped (organizationId null) or organization-scoped (organizationId required). key is stable and unique within its scope. Contains NO executable code and is NOT a workflow instance. RLS: read by developer/solution_architect/core_developer/admin/super_admin; platform-scoped create by core_developer/super_admin; organization-scoped create by admin/super_admin; update by the same scope-permitted roles.",
+  "properties": {
+    "key": {
+      "type": "string",
+      "description": "Stable unique machine identifier within scope. Immutable after creation. Unique per platform scope, or per (organization, key) for organization scope."
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable display name"
+    },
+    "description": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "string",
+      "enum": [
+        "platform",
+        "organization"
+      ],
+      "description": "platform = global (organizationId null); organization = tenant-scoped (organizationId required)"
+    },
+    "organizationId": {
+      "type": "string",
+      "description": "Null for platform-scoped definitions. Required for organization-scoped definitions."
+    },
+    "active": {
+      "type": "boolean",
+      "default": true,
+      "description": "Whether this definition can be started. Inactive definitions cannot start new instances."
+    },
+    "currentVersionId": {
+      "type": "string",
+      "description": "Reference to the current released WorkflowVersion. Set when a version is released."
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "key",
+    "name",
+    "scope",
+    "active"
+  ],
+  "rls": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

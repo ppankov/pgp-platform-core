@@ -1,0 +1,77 @@
+{
+  "name": "EventDelivery",
+  "type": "object",
+  "title": "Event Delivery",
+  "description": "A per-subscriber delivery record created by the Event Bus delivery runtime. One EventDelivery is created per active EventSubscription that matches a dispatched PlatformEvent (exact eventType or wildcard '*'). Conceptually unique by (eventId, subscriptionId); idempotency is enforced in dispatchEvent (store-level uniqueness is deferred). Delivery status is the AUTHORITATIVE per-subscriber status; PlatformEvent.status is only an aggregate derived from its deliveries. RLS: read by developer/solution_architect/core_developer/admin/super_admin; create/update by the runtime (service role) via dispatchEvent/processEventDelivery.",
+  "properties": {
+    "eventId": {
+      "type": "string",
+      "description": "Reference to PlatformEvent"
+    },
+    "subscriptionId": {
+      "type": "string",
+      "description": "Reference to EventSubscription"
+    },
+    "subscriber": {
+      "type": "string",
+      "description": "Denormalized subscriber identifier from the subscription"
+    },
+    "eventType": {
+      "type": "string",
+      "description": "Denormalized eventType from the event"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "processing",
+        "processed",
+        "failed"
+      ],
+      "default": "pending",
+      "description": "Authoritative per-subscriber delivery status"
+    },
+    "attemptCount": {
+      "type": "number",
+      "default": 0,
+      "description": "Number of processing attempts made for this delivery"
+    },
+    "lastError": {
+      "type": "string",
+      "description": "Safe error detail from the most recent failure; null when no failure"
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When the delivery was created by dispatchEvent"
+    },
+    "startedAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When processing last started (pending \u2192 processing)"
+    },
+    "processedAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When the delivery reached processed"
+    },
+    "failedAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When the delivery last reached failed"
+    }
+  },
+  "required": [
+    "eventId",
+    "subscriptionId",
+    "subscriber",
+    "eventType",
+    "status"
+  ],
+  "rls": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

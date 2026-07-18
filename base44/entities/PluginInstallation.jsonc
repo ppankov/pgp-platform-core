@@ -1,0 +1,60 @@
+{
+  "name": "PluginInstallation",
+  "type": "object",
+  "title": "Plugin Installation",
+  "description": "An organization-scoped installation of a released plugin version. Tenant boundary: organizationId. One active (uninstalledAt == null) installation per plugin + organization. Uninstall is non-destructive \u2014 the record is preserved for history. configuration is data only (never secrets). Normalized in Phase 5 to reference a PluginVersion id and track full install/disable/uninstall history. RLS: read by org members + developer/solution_architect/core_developer/admin/super_admin; create/update by admin/super_admin via installPlugin/enablePlugin/disablePlugin/uninstallPlugin.",
+  "properties": {
+    "pluginId": {
+      "type": "string",
+      "description": "Reference to PluginDefinition"
+    },
+    "pluginVersionId": {
+      "type": "string",
+      "description": "Reference to the released PluginVersion that was installed"
+    },
+    "organizationId": {
+      "type": "string",
+      "description": "Owning organization (tenant boundary)"
+    },
+    "configuration": {
+      "type": "object",
+      "description": "Non-sensitive configuration data only. Never secrets, credentials, or tokens."
+    },
+    "enabled": {
+      "type": "boolean",
+      "default": false,
+      "description": "Whether the installation is enabled. Distinct from installed (uninstalledAt)."
+    },
+    "installedById": {
+      "type": "string",
+      "description": "User who performed the install"
+    },
+    "installedAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When the installation was created"
+    },
+    "disabledAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When the installation was last disabled. Cleared on re-enable."
+    },
+    "uninstalledAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Set when uninstalled. Null while the installation is active. Non-null means historical/uninstalled."
+    }
+  },
+  "required": [
+    "pluginId",
+    "pluginVersionId",
+    "organizationId",
+    "enabled"
+  ],
+  "rls": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

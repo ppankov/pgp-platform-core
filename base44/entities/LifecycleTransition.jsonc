@@ -1,0 +1,59 @@
+{
+  "name": "LifecycleTransition",
+  "type": "object",
+  "title": "Lifecycle Transition",
+  "description": "An allowed transition between two lifecycle states. Platform-level. The engine defines STRUCTURE only \u2014 execution (approval, publication, deprecation, custom workflows) is a separate Phase 2 concern and requires NO changes to this schema. RLS: read by developer/solution_architect; create/update/delete by core_developer/admin/super_admin.",
+  "properties": {
+    "lifecycleId": {
+      "type": "string",
+      "description": "Reference to LifecycleDefinition"
+    },
+    "fromState": {
+      "type": "string",
+      "description": "Source LifecycleState id"
+    },
+    "toState": {
+      "type": "string",
+      "description": "Target LifecycleState id"
+    },
+    "allowedRoles": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Platform roles permitted to perform this transition"
+    },
+    "requiresApproval": {
+      "type": "boolean",
+      "default": false,
+      "description": "If true, an approval step is required before the transition is applied (execution is Phase 2)"
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "lifecycleId",
+    "fromState",
+    "toState"
+  ],
+  "rls": {
+    "read": {
+      "$or": [
+        {
+          "user_condition": {
+            "role": "admin"
+          }
+        },
+        {
+          "user_condition": {
+            "role": "user"
+          }
+        }
+      ]
+    },
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "name": "WorkflowInstance",
+  "type": "object",
+  "title": "Workflow Instance",
+  "description": "One execution of a released workflow version. Tenant boundary: organizationId. Must use a released version. The runtime never modifies the referenced resource (resourceType/resourceId are opaque binding values). input/output are transport data, redacted from reads if secret-looking. correlationId is opaque and propagated unchanged. RLS: read by developer/solution_architect/core_developer/admin/super_admin; create/update by admin/super_admin via startWorkflow/completeWorkflowStep/failWorkflowStep/cancelWorkflowInstance.",
+  "properties": {
+    "workflowDefinitionId": {
+      "type": "string",
+      "description": "Reference to WorkflowDefinition"
+    },
+    "workflowVersionId": {
+      "type": "string",
+      "description": "Reference to the released WorkflowVersion that was executed"
+    },
+    "organizationId": {
+      "type": "string",
+      "description": "Owning organization (tenant boundary)"
+    },
+    "resourceType": {
+      "type": "string",
+      "description": "Optional opaque resource binding type. The runtime never touches the referenced resource."
+    },
+    "resourceId": {
+      "type": "string",
+      "description": "Optional opaque resource binding id."
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "running",
+        "waiting",
+        "completed",
+        "failed",
+        "cancelled"
+      ],
+      "default": "pending",
+      "description": "Execution status. waiting means paused at a manual Node awaiting explicit progression."
+    },
+    "currentNodeKey": {
+      "type": "string",
+      "description": "Key of the node the instance is currently at (the waiting manual node, or the terminal node)."
+    },
+    "input": {
+      "type": "object",
+      "description": "Transport data provided at start. Redacted from reads if secret-looking keys present."
+    },
+    "output": {
+      "type": "object",
+      "description": "Transport data produced on completion. Redacted from reads if secret-looking keys present."
+    },
+    "correlationId": {
+      "type": "string",
+      "description": "Opaque correlation id, propagated unchanged to execution events."
+    },
+    "startedById": {
+      "type": "string",
+      "description": "User who started the instance"
+    },
+    "startedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "completedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "failedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "cancelledAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "lastError": {
+      "type": "string",
+      "description": "Safe error text only. Never stack traces. Null when no failure."
+    }
+  },
+  "required": [
+    "workflowDefinitionId",
+    "workflowVersionId",
+    "organizationId",
+    "status"
+  ],
+  "rls": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "name": "AuditKnowledgeArticle",
+  "type": "object",
+  "title": "Audit Knowledge Article",
+  "description": "Reusable best-practice article (Design Patterns, OWASP, ISO 27001, NIST, GDPR, SOC2, DDD, Hexagonal, etc). Platform catalog. RLS: read by all authenticated; create/update by solution_architect/core_developer; delete by super_admin.",
+  "properties": {
+    "key": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string",
+      "description": "e.g. design_pattern, owasp, iso_27001, nist, gdpr, soc2, rest, ddd, hexagonal, clean_arch, plugin_guideline, connector_guideline, internal_pgp_standard"
+    },
+    "body_ref": {
+      "type": "string",
+      "description": "Reference/URL to markdown body in storage"
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "key",
+    "title",
+    "category"
+  ],
+  "rls": {
+    "read": {
+      "$or": [
+        {
+          "user_condition": {
+            "role": "admin"
+          }
+        },
+        {
+          "user_condition": {
+            "role": "user"
+          }
+        }
+      ]
+    },
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

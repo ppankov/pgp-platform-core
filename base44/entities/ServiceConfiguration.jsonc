@@ -1,0 +1,53 @@
+{
+  "name": "ServiceConfiguration",
+  "type": "object",
+  "title": "Service Configuration",
+  "description": "Abstracted configuration for a platform service (AI, Storage, Communications, Search). Tenant boundary: organization_id. Secrets never stored in config \u2014 only non-sensitive parameters. RLS: read/create/update/delete by org admin or developer.",
+  "properties": {
+    "organization_id": {
+      "type": "string"
+    },
+    "service_type": {
+      "type": "string",
+      "enum": [
+        "ai",
+        "storage",
+        "communications",
+        "search"
+      ]
+    },
+    "provider": {
+      "type": "string",
+      "description": "Provider key e.g. openai, aws_s3, resend, algolia"
+    },
+    "config": {
+      "type": "object",
+      "description": "Non-sensitive configuration only (region, endpoint, sender name). Secrets referenced by name, never inline."
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "inactive",
+        "error"
+      ],
+      "default": "inactive"
+    },
+    "is_default": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "required": [
+    "organization_id",
+    "service_type",
+    "provider",
+    "status"
+  ],
+  "rls": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

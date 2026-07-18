@@ -1,0 +1,53 @@
+{
+  "name": "Organization",
+  "type": "object",
+  "title": "Organization",
+  "description": "Top-level tenant entity. Root tenant boundary \u2014 not org-scoped. RLS: read by admin/super_admin and active members (own org); create by super_admin; update by admin/super_admin; delete by super_admin only.",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Display name of the organization"
+    },
+    "slug": {
+      "type": "string",
+      "description": "Unique URL-friendly identifier"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "suspended",
+        "archived"
+      ],
+      "default": "active"
+    },
+    "plan_tier": {
+      "type": "string",
+      "enum": [
+        "free",
+        "starter",
+        "business",
+        "enterprise"
+      ],
+      "default": "free"
+    },
+    "owner_user_id": {
+      "type": "string",
+      "description": "User id of the organization owner"
+    },
+    "settings": {
+      "type": "object",
+      "description": "Non-sensitive organization settings (preferences, defaults)"
+    }
+  },
+  "required": [
+    "name",
+    "slug"
+  ],
+  "rls": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

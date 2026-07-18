@@ -1,0 +1,58 @@
+{
+  "name": "AuditBenchmark",
+  "type": "object",
+  "title": "Audit Benchmark",
+  "description": "A benchmark comparison between two architectures/versions. Tenant boundary: organization_id. RLS: scoped by organization_id and archaudit.benchmarks.*. Phase 1: model only.",
+  "properties": {
+    "organization_id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "mode": {
+      "type": "string",
+      "enum": [
+        "project_vs_project",
+        "version_vs_version",
+        "customer_vs_reference",
+        "current_vs_pgp_best_practices"
+      ]
+    },
+    "left_project_id": {
+      "type": "string"
+    },
+    "right_project_id": {
+      "type": "string",
+      "description": "Null when using a reference architecture"
+    },
+    "right_reference_id": {
+      "type": "string",
+      "description": "Reference architecture id when mode is customer_vs_reference or current_vs_pgp_best_practices"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "completed",
+        "archived"
+      ],
+      "default": "draft"
+    },
+    "created_by_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "organization_id",
+    "name",
+    "mode",
+    "status"
+  ],
+  "rls": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

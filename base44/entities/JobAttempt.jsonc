@@ -1,0 +1,71 @@
+{
+  "name": "JobAttempt",
+  "type": "object",
+  "title": "Job Attempt",
+  "description": "A per-worker attempt record for a BackgroundJob. Historical: no attempt is ever deleted by runtime operations. Contains no job payload or result and no credentials, tokens, or secrets. lastError contains safe text only. An abandoned attempt is preserved when a lease expires and the job is reclaimed (at-least-once semantics). RLS: read by developer/solution_architect/core_developer/admin/super_admin; create/update by the worker runtime (service role).",
+  "properties": {
+    "backgroundJobId": {
+      "type": "string",
+      "description": "Reference to BackgroundJob"
+    },
+    "attemptNumber": {
+      "type": "number"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "running",
+        "succeeded",
+        "failed",
+        "abandoned"
+      ],
+      "default": "running"
+    },
+    "workerId": {
+      "type": "string",
+      "description": "Opaque worker identifier that performed the attempt."
+    },
+    "startedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "completedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "failedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "abandonedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "leaseExpiresAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "errorCode": {
+      "type": "string"
+    },
+    "lastError": {
+      "type": "string",
+      "description": "Safe error text only. Never stack traces."
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "backgroundJobId",
+    "attemptNumber",
+    "status"
+  ],
+  "rls": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

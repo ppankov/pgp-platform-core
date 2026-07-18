@@ -1,0 +1,76 @@
+{
+  "name": "ConnectorProvider",
+  "type": "object",
+  "title": "Connector Provider",
+  "description": "Layer 2 of the 3-layer connector model: a concrete provider implementation for a connector definition, with supported authentication modes. Platform-global. Contains no tokens, credentials, or executable code; no provider adapter is executed in Phase 6. Normalized in Phase 6 to the authModes/configurationSchema/credentialRequirements contract. RLS: read by developer/solution_architect/core_developer/admin/super_admin; create/update/delete by core_developer/super_admin.",
+  "properties": {
+    "connectorDefinitionId": {
+      "type": "string",
+      "description": "Reference to ConnectorDefinition"
+    },
+    "key": {
+      "type": "string",
+      "description": "Provider key e.g. google, microsoft, openai. Unique per definition."
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "authModes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "oauth2",
+          "api_key",
+          "basic",
+          "service_account",
+          "none"
+        ]
+      },
+      "description": "Supported authentication modes (declarative metadata only)."
+    },
+    "configurationSchema": {
+      "type": "object",
+      "description": "Non-secret configuration field descriptors only. Never secret-looking keys."
+    },
+    "credentialRequirements": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Declarative list of required secret references (e.g. oauth2_access_token). Metadata only."
+    },
+    "active": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "required": [
+    "connectorDefinitionId",
+    "key",
+    "name",
+    "authModes"
+  ],
+  "rls": {
+    "read": {
+      "$or": [
+        {
+          "user_condition": {
+            "role": "admin"
+          }
+        },
+        {
+          "user_condition": {
+            "role": "user"
+          }
+        }
+      ]
+    },
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

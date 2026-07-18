@@ -1,0 +1,60 @@
+{
+  "name": "PlatformRole",
+  "type": "object",
+  "title": "Platform Role",
+  "description": "System role definitions. Platform-level (not org-scoped). RLS: read by all authenticated platform roles; create/update/delete by super_admin (system roles immutable).",
+  "properties": {
+    "key": {
+      "type": "string",
+      "description": "Unique role key e.g. super_admin, admin, developer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "string",
+      "enum": [
+        "platform",
+        "organization"
+      ],
+      "default": "platform"
+    },
+    "branch": {
+      "type": "string",
+      "enum": [
+        "admin",
+        "developer",
+        "architecture",
+        "oversight",
+        "operations",
+        "end_user",
+        "limited"
+      ],
+      "description": "Permission branch this role belongs to"
+    },
+    "is_system": {
+      "type": "boolean",
+      "default": true,
+      "description": "System roles cannot be deleted"
+    }
+  },
+  "required": [
+    "key",
+    "name",
+    "scope",
+    "branch"
+  ],
+  "rls": {
+    "read": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

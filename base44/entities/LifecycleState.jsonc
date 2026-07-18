@@ -1,0 +1,70 @@
+{
+  "name": "LifecycleState",
+  "type": "object",
+  "title": "Lifecycle State",
+  "description": "A state within a lifecycle definition. Platform-level. Generic \u2014 no target-type-specific logic. RLS: read by developer/solution_architect; create/update/delete by core_developer/admin/super_admin.",
+  "properties": {
+    "lifecycleId": {
+      "type": "string",
+      "description": "Reference to LifecycleDefinition"
+    },
+    "key": {
+      "type": "string",
+      "description": "Unique state key within the lifecycle"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string",
+      "description": "UI color (hex or token) for visualization"
+    },
+    "icon": {
+      "type": "string",
+      "description": "Lucide icon name for visualization"
+    },
+    "order": {
+      "type": "number",
+      "default": 0,
+      "description": "Display/flow order within the lifecycle"
+    },
+    "isInitial": {
+      "type": "boolean",
+      "default": false,
+      "description": "Marks the entry state of the lifecycle"
+    },
+    "isFinal": {
+      "type": "boolean",
+      "default": false,
+      "description": "Marks a terminal state of the lifecycle"
+    }
+  },
+  "required": [
+    "lifecycleId",
+    "key",
+    "title",
+    "order"
+  ],
+  "rls": {
+    "read": {
+      "$or": [
+        {
+          "user_condition": {
+            "role": "admin"
+          }
+        },
+        {
+          "user_condition": {
+            "role": "user"
+          }
+        }
+      ]
+    },
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

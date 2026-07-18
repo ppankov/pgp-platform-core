@@ -1,0 +1,131 @@
+{
+  "name": "BackgroundJob",
+  "type": "object",
+  "title": "Background Job",
+  "description": "One queued execution in the Background Job Runtime. Created by the scheduler (from a JobSchedule, with a deterministic deduplicationKey) or by manual enqueue (jobScheduleId may be null). Tenant boundary: organizationId when scope=organization. payload and result contain non-sensitive data only. Terminal jobs (succeeded/cancelled/dead_letter) are never deleted by runtime operations. leaseOwner is an opaque worker identifier. lastError contains safe text only; stack traces are never stored. RLS: read by developer/solution_architect/core_developer/admin/super_admin (payload/result redacted for developer/solution_architect); create by the scheduler or admin/super_admin via enqueueBackgroundJob; update by the worker runtime (service role).",
+  "properties": {
+    "jobDefinitionId": {
+      "type": "string",
+      "description": "Reference to JobDefinition"
+    },
+    "jobScheduleId": {
+      "type": "string",
+      "description": "Reference to JobSchedule. Null for manually enqueued jobs."
+    },
+    "scope": {
+      "type": "string",
+      "enum": [
+        "platform",
+        "organization"
+      ]
+    },
+    "organizationId": {
+      "type": "string",
+      "description": "Null for platform-scoped jobs. Required for organization-scoped jobs."
+    },
+    "handlerKey": {
+      "type": "string",
+      "description": "Static handler key copied from the JobDefinition at enqueue time."
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "queued",
+        "leased",
+        "running",
+        "retry_wait",
+        "succeeded",
+        "cancelled",
+        "dead_letter"
+      ],
+      "default": "queued"
+    },
+    "payload": {
+      "type": "object",
+      "description": "Non-sensitive transport data. Secret-looking keys rejected."
+    },
+    "result": {
+      "type": "object",
+      "description": "Handler result data. Secret-looking keys rejected."
+    },
+    "priority": {
+      "type": "number",
+      "default": 5
+    },
+    "availableAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When the job becomes claimable. For retry_wait, the retry time."
+    },
+    "deduplicationKey": {
+      "type": "string",
+      "description": "Optional. Identifies one logical job. Repeated scheduler ticks for the same occurrence reuse the existing job."
+    },
+    "correlationId": {
+      "type": "string",
+      "description": "Opaque correlation id propagated to audit events."
+    },
+    "attemptCount": {
+      "type": "number",
+      "default": 0
+    },
+    "maxAttempts": {
+      "type": "number",
+      "default": 1
+    },
+    "retryPolicy": {
+      "type": "object"
+    },
+    "leaseOwner": {
+      "type": "string",
+      "description": "Opaque worker identifier holding the lease."
+    },
+    "leaseAcquiredAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "leaseExpiresAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "lastError": {
+      "type": "string",
+      "description": "Safe error text only. Never stack traces. Null when no failure."
+    },
+    "createdById": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "startedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "completedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "cancelledAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "deadLetteredAt": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "jobDefinitionId",
+    "scope",
+    "handlerKey",
+    "status"
+  ],
+  "rls": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

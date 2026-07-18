@@ -1,0 +1,58 @@
+{
+  "name": "AuditCategoryDefinition",
+  "type": "object",
+  "title": "Audit Category Definition",
+  "description": "One of the 20 independent audit categories (Architecture, Security, Code Quality, Performance, etc). Platform catalog. RLS: read by archaudit.*.view; create/update by core_developer/solution_architect; delete by super_admin.",
+  "properties": {
+    "key": {
+      "type": "string",
+      "description": "Unique category key e.g. architecture_review, security_review, gdpr_review"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "default_weight": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "scoring_dimensions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Dimensions evaluated within this category"
+    },
+    "evaluation_guidance": {
+      "type": "string",
+      "description": "Guidance for evaluators and the future engine"
+    }
+  },
+  "required": [
+    "key",
+    "name",
+    "default_weight"
+  ],
+  "rls": {
+    "read": {
+      "$or": [
+        {
+          "user_condition": {
+            "role": "admin"
+          }
+        },
+        {
+          "user_condition": {
+            "role": "user"
+          }
+        }
+      ]
+    },
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

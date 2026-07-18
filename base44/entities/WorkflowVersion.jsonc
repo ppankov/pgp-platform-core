@@ -1,0 +1,54 @@
+{
+  "name": "WorkflowVersion",
+  "type": "object",
+  "title": "Workflow Version",
+  "description": "A versioned, declarative workflow graph for a definition. Created as draft; released versions become IMMUTABLE. graph is declarative JSON only (nodes + edges) and never executable. checksum is metadata only. Unique by (workflowDefinitionId, version). RLS: read by developer/solution_architect/core_developer/admin/super_admin; create by scope-permitted roles; releaseStatus transition to released by scope-permitted roles via releaseWorkflowVersion.",
+  "properties": {
+    "workflowDefinitionId": {
+      "type": "string",
+      "description": "Reference to WorkflowDefinition"
+    },
+    "version": {
+      "type": "string",
+      "description": "Semantic version string e.g. 1.0.0. Unique per definition."
+    },
+    "graph": {
+      "type": "object",
+      "description": "Declarative workflow graph: { nodes: [{key,type,title,description,configuration}], edges: [{from,to,label}] }. Never scripts, functions, expressions or remote code."
+    },
+    "releaseStatus": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "released",
+        "deprecated"
+      ],
+      "default": "draft",
+      "description": "draft = editable; released = immutable; deprecated = retired (deprecation path deferred)."
+    },
+    "checksum": {
+      "type": "string",
+      "description": "Metadata-only integrity checksum. No package download in this phase."
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "releasedAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When the version was released. Null while draft."
+    }
+  },
+  "required": [
+    "workflowDefinitionId",
+    "version",
+    "releaseStatus"
+  ],
+  "rls": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

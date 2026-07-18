@@ -1,0 +1,30 @@
+{
+  "name": "RolePermission",
+  "type": "object",
+  "title": "Role Permission",
+  "description": "Mapping between a platform role and a permission. Platform-level. RLS: read by admin/super_admin; create/update/delete by super_admin.",
+  "properties": {
+    "role_id": {
+      "type": "string",
+      "description": "Reference to PlatformRole"
+    },
+    "permission_id": {
+      "type": "string",
+      "description": "Reference to Permission"
+    }
+  },
+  "required": [
+    "role_id",
+    "permission_id"
+  ],
+  "rls": {
+    "read": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

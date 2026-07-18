@@ -1,0 +1,66 @@
+{
+  "name": "AuditProjectSource",
+  "type": "object",
+  "title": "Audit Project Source",
+  "description": "An import source for an audit project (git, github, openapi, zip, db_schema, etc). Tenant boundary: organization_id. Never stores credentials \u2014 references Core ConnectorConnection. RLS: scoped by organization_id and archaudit.projects.*.",
+  "properties": {
+    "organization_id": {
+      "type": "string"
+    },
+    "project_id": {
+      "type": "string"
+    },
+    "source_type": {
+      "type": "string",
+      "enum": [
+        "git",
+        "github",
+        "gitlab",
+        "bitbucket",
+        "zip",
+        "openapi",
+        "swagger",
+        "db_schema",
+        "markdown",
+        "pdf",
+        "image",
+        "screenshot",
+        "video",
+        "ai_connector"
+      ]
+    },
+    "connector_connection_id": {
+      "type": "string",
+      "description": "Reference to Core ConnectorConnection (nullable for uploads)"
+    },
+    "reference": {
+      "type": "string",
+      "description": "Repo URL, file URL, or spec URL \u2014 never credentials"
+    },
+    "import_metadata": {
+      "type": "object",
+      "description": "Non-sensitive import metadata"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "imported",
+        "error"
+      ],
+      "default": "pending"
+    }
+  },
+  "required": [
+    "organization_id",
+    "project_id",
+    "source_type",
+    "status"
+  ],
+  "rls": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "name": "AuditBenchmarkComparison",
+  "type": "object",
+  "title": "Audit Benchmark Comparison",
+  "description": "Per-category comparison result within a benchmark. Tenant boundary: organization_id via benchmark. RLS: scoped by organization_id and archaudit.benchmarks.view.",
+  "properties": {
+    "organization_id": {
+      "type": "string"
+    },
+    "benchmark_id": {
+      "type": "string"
+    },
+    "category_definition_id": {
+      "type": "string"
+    },
+    "left_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "right_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "delta": {
+      "type": "number",
+      "description": "Right minus left"
+    },
+    "analysis": {
+      "type": "string"
+    },
+    "recommendation": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "organization_id",
+    "benchmark_id",
+    "category_definition_id",
+    "left_score",
+    "right_score",
+    "delta"
+  ],
+  "rls": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

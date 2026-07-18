@@ -1,0 +1,58 @@
+{
+  "name": "WorkflowExecutionEvent",
+  "type": "object",
+  "title": "Workflow Execution Event",
+  "description": "Immutable append-only audit record for a workflow instance. The runtime only creates records, never updates or deletes them. metadata contains safe identifiers/status values only \u2014 never workflow input/output content, credentials, secrets, or stack traces. RLS: read by developer/auditor/admin/core_developer/solution_architect; create by the runtime (service role).",
+  "properties": {
+    "workflowInstanceId": {
+      "type": "string",
+      "description": "Reference to WorkflowInstance"
+    },
+    "workflowDefinitionId": {
+      "type": "string",
+      "description": "Denormalized for audit queryability"
+    },
+    "workflowVersionId": {
+      "type": "string",
+      "description": "Denormalized for audit queryability"
+    },
+    "organizationId": {
+      "type": "string",
+      "description": "Denormalized tenant scope"
+    },
+    "eventType": {
+      "type": "string",
+      "description": "e.g. workflow.instance_started, workflow.step_waiting, workflow.step_completed, workflow.step_failed, workflow.instance_completed, workflow.instance_failed, workflow.instance_cancelled"
+    },
+    "nodeKey": {
+      "type": "string",
+      "description": "Node the event concerns, when applicable"
+    },
+    "actorId": {
+      "type": "string",
+      "description": "User or service that triggered the event"
+    },
+    "correlationId": {
+      "type": "string",
+      "description": "Propagated unchanged from the instance"
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Safe identifiers/status values only. Never input/output content, credentials, secrets, tokens, or stack traces."
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "workflowInstanceId",
+    "eventType"
+  ],
+  "rls": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

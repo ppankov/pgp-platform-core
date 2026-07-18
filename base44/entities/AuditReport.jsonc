@@ -1,0 +1,74 @@
+{
+  "name": "AuditReport",
+  "type": "object",
+  "title": "Audit Report",
+  "description": "A generated report for an audit run. Tenant boundary: organization_id. RLS: scoped by organization_id and archaudit.reports.*. Phase 1: model + placeholders only; generation runtime is Phase 4.",
+  "properties": {
+    "organization_id": {
+      "type": "string"
+    },
+    "project_id": {
+      "type": "string"
+    },
+    "run_id": {
+      "type": "string"
+    },
+    "report_type": {
+      "type": "string",
+      "enum": [
+        "executive_summary",
+        "technical",
+        "architecture",
+        "security",
+        "compliance",
+        "improvement_roadmap",
+        "technical_debt",
+        "management"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "generating",
+        "ready",
+        "failed"
+      ],
+      "default": "pending"
+    },
+    "content_ref": {
+      "type": "string",
+      "description": "Storage URL to generated report artifact (non-sensitive)"
+    },
+    "format": {
+      "type": "string",
+      "enum": [
+        "json",
+        "html",
+        "pdf"
+      ],
+      "default": "json",
+      "description": "pdf reserved \u2014 export architecture only in Phase 1"
+    },
+    "generated_by_id": {
+      "type": "string"
+    },
+    "generated_date": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "organization_id",
+    "project_id",
+    "run_id",
+    "report_type",
+    "status"
+  ],
+  "rls": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

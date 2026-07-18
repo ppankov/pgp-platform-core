@@ -1,0 +1,63 @@
+{
+  "name": "JobExecutionEvent",
+  "type": "object",
+  "title": "Job Execution Event",
+  "description": "Immutable append-only audit record for a BackgroundJob. The runtime only creates records, never updates or deletes them. metadata contains safe identifiers and status values only - never job payload, result, credentials, secrets, tokens, or stack traces. RLS: read by developer/auditor/solution_architect/core_developer/admin; create by the runtime (service role).",
+  "properties": {
+    "backgroundJobId": {
+      "type": "string",
+      "description": "Reference to BackgroundJob"
+    },
+    "jobDefinitionId": {
+      "type": "string",
+      "description": "Denormalized for audit queryability"
+    },
+    "jobScheduleId": {
+      "type": "string",
+      "description": "Denormalized for audit queryability. Null for manual jobs."
+    },
+    "organizationId": {
+      "type": "string",
+      "description": "Denormalized tenant scope"
+    },
+    "eventType": {
+      "type": "string",
+      "description": "e.g. job.enqueued, job.claimed, job.started, job.succeeded, job.retry_scheduled, job.dead_lettered, job.cancelled"
+    },
+    "status": {
+      "type": "string",
+      "description": "Job status at the time of the event."
+    },
+    "attemptNumber": {
+      "type": "number"
+    },
+    "actorId": {
+      "type": "string",
+      "description": "User or service that triggered the event."
+    },
+    "workerId": {
+      "type": "string"
+    },
+    "correlationId": {
+      "type": "string"
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Safe identifiers and status values only. Never payload, result, credentials, secrets, or stack traces."
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "backgroundJobId",
+    "eventType"
+  ],
+  "rls": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

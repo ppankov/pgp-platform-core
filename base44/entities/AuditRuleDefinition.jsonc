@@ -1,0 +1,86 @@
+{
+  "name": "AuditRuleDefinition",
+  "type": "object",
+  "title": "Audit Rule Definition",
+  "description": "Flexible rule engine entry. Rules are data, not hardcoded logic. Platform catalog. RLS: read by archaudit.*.view; create/update by core_developer/solution_architect; delete by super_admin.",
+  "properties": {
+    "key": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string",
+      "description": "Reference to AuditCategoryDefinition key"
+    },
+    "weight": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "severity": {
+      "type": "string",
+      "enum": [
+        "info",
+        "low",
+        "medium",
+        "high",
+        "critical"
+      ],
+      "default": "medium"
+    },
+    "recommendation": {
+      "type": "string"
+    },
+    "automatic_detection": {
+      "type": "object",
+      "description": "Method and hints for automated detection (future engine)"
+    },
+    "manual_verification": {
+      "type": "object",
+      "description": "Steps for manual verification"
+    },
+    "evidence_type": {
+      "type": "string",
+      "description": "Expected evidence type e.g. code_sample, config, doc, metric"
+    },
+    "reference": {
+      "type": "object",
+      "description": "Standards/document links e.g. OWASP, ISO 27001"
+    },
+    "is_system": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "required": [
+    "key",
+    "name",
+    "category",
+    "weight",
+    "severity"
+  ],
+  "rls": {
+    "read": {
+      "$or": [
+        {
+          "user_condition": {
+            "role": "admin"
+          }
+        },
+        {
+          "user_condition": {
+            "role": "user"
+          }
+        }
+      ]
+    },
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

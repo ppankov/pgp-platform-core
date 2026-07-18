@@ -1,0 +1,133 @@
+{
+  "name": "JobSchedule",
+  "type": "object",
+  "title": "Job Schedule",
+  "description": "Describes when BackgroundJobs should be created for a JobDefinition. Platform-scoped (organizationId null) or organization-scoped (organizationId required). Phase 8 supports scheduleType once and interval only (no cron, no timezone calendar). Cancellation is non-destructive; records are never deleted by runtime operations. All timestamps use UTC. RLS: read by developer/solution_architect/core_developer/admin/super_admin; create by core_developer/super_admin (platform scope) or admin/super_admin (organization scope) via createJobSchedule; update by authorized scope owners via pauseJobSchedule/resumeJobSchedule/cancelJobSchedule.",
+  "properties": {
+    "key": {
+      "type": "string",
+      "description": "Unique within schedule scope (platform, or per organization)."
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "jobDefinitionId": {
+      "type": "string",
+      "description": "Reference to JobDefinition"
+    },
+    "scope": {
+      "type": "string",
+      "enum": [
+        "platform",
+        "organization"
+      ],
+      "description": "platform = organizationId null; organization = organizationId required."
+    },
+    "organizationId": {
+      "type": "string",
+      "description": "Null for platform scope. Required for organization scope."
+    },
+    "scheduleType": {
+      "type": "string",
+      "enum": [
+        "once",
+        "interval"
+      ]
+    },
+    "runAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Required for once. Must be a valid future UTC timestamp."
+    },
+    "intervalSeconds": {
+      "type": "number",
+      "description": "Required for interval. Minimum 60."
+    },
+    "startAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "endAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Optional. Schedule disables when nextRunAt exceeds endAt."
+    },
+    "nextRunAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Deterministic next occurrence. Calculated by the scheduler."
+    },
+    "lastScheduledFor": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "lastEnqueuedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "payload": {
+      "type": "object",
+      "description": "Non-sensitive declarative data only. Secret-looking keys rejected."
+    },
+    "priority": {
+      "type": "number",
+      "default": 5,
+      "description": "Bounded 0..10 (higher = claimed first)."
+    },
+    "retryPolicy": {
+      "type": "object",
+      "description": "Overrides JobDefinition defaultRetryPolicy when provided."
+    },
+    "misfirePolicy": {
+      "type": "string",
+      "enum": [
+        "skip",
+        "run_once"
+      ],
+      "default": "skip"
+    },
+    "runCount": {
+      "type": "number",
+      "default": 0
+    },
+    "maxRuns": {
+      "type": "number",
+      "description": "Optional. Schedule disables when runCount reaches maxRuns."
+    },
+    "enabled": {
+      "type": "boolean",
+      "default": true
+    },
+    "pausedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "cancelledAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "createdById": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "key",
+    "jobDefinitionId",
+    "scope",
+    "scheduleType",
+    "enabled"
+  ],
+  "rls": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

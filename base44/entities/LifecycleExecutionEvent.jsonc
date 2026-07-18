@@ -1,0 +1,60 @@
+{
+  "name": "LifecycleExecutionEvent",
+  "type": "object",
+  "title": "Lifecycle Execution Event",
+  "description": "Immutable audit record emitted by the lifecycle execution runtime. This is the AUDIT service, kept separate from execution, approval, and persistence. Append-only \u2014 the runtime only creates records, never updates or deletes them. RLS: read by developer/auditor/admin/core_developer; create by the runtime (service role).",
+  "properties": {
+    "bindingId": {
+      "type": "string",
+      "description": "Reference to LifecycleBinding"
+    },
+    "resourceType": {
+      "type": "string"
+    },
+    "resourceId": {
+      "type": "string"
+    },
+    "lifecycleId": {
+      "type": "string",
+      "description": "Reference to LifecycleDefinition. Denormalized from the binding for audit queryability. Named lifecycleId for consistency with LifecycleState and LifecycleTransition."
+    },
+    "transitionId": {
+      "type": "string"
+    },
+    "fromState": {
+      "type": "string"
+    },
+    "toState": {
+      "type": "string"
+    },
+    "outcome": {
+      "type": "string",
+      "enum": [
+        "attached",
+        "detached",
+        "transitioned",
+        "approval_requested",
+        "approved",
+        "rejected",
+        "failed"
+      ],
+      "default": "transitioned"
+    },
+    "actorId": {
+      "type": "string"
+    },
+    "metadata": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "bindingId",
+    "outcome"
+  ],
+  "rls": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

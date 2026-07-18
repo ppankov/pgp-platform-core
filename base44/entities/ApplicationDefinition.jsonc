@@ -1,0 +1,68 @@
+{
+  "name": "ApplicationDefinition",
+  "type": "object",
+  "title": "Application Definition",
+  "description": "Catalog of installable platform applications (MyFeed, DocFlowTools, PGP Architecture Intelligence, etc). Platform catalog. RLS: read by all authenticated; create/update/delete by super_admin.",
+  "properties": {
+    "key": {
+      "type": "string",
+      "description": "Unique application key e.g. pgp_architecture_intelligence"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string",
+      "description": "Current catalog version"
+    },
+    "latest_version": {
+      "type": "string"
+    },
+    "is_core": {
+      "type": "boolean",
+      "default": false,
+      "description": "Whether this is a core-bundled application"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "available",
+        "deprecated",
+        "internal"
+      ],
+      "default": "available"
+    },
+    "manifest": {
+      "type": "object",
+      "description": "Module dependency metadata: name, version, min_platform_version, dependencies, required_permissions, required_connectors, required_services, supported_platform_version"
+    }
+  },
+  "required": [
+    "key",
+    "name",
+    "version",
+    "manifest"
+  ],
+  "rls": {
+    "read": {
+      "$or": [
+        {
+          "user_condition": {
+            "role": "admin"
+          }
+        },
+        {
+          "user_condition": {
+            "role": "user"
+          }
+        }
+      ]
+    },
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

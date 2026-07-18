@@ -1,0 +1,61 @@
+{
+  "name": "PluginDefinition",
+  "type": "object",
+  "title": "Plugin Definition",
+  "description": "Global plugin identity in the platform catalog. Organization-independent. Contains NO executable code. key is a stable machine identifier \u2014 unique and immutable after creation. Normalized in Phase 5 to separate plugin identity from versioning. RLS: read by developer/solution_architect/core_developer/admin/super_admin; create/update by core_developer/super_admin; delete by core_developer/super_admin.",
+  "properties": {
+    "key": {
+      "type": "string",
+      "description": "Stable unique machine identifier. Immutable after creation."
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable display name"
+    },
+    "description": {
+      "type": "string",
+      "description": "What the plugin does (non-sensitive prose)"
+    },
+    "vendor": {
+      "type": "string",
+      "description": "Author or owning vendor of the plugin"
+    },
+    "category": {
+      "type": "string",
+      "description": "Logical grouping e.g. integration, ui, workflow, data, observability"
+    },
+    "active": {
+      "type": "boolean",
+      "default": true,
+      "description": "Whether this definition can be installed. Inactive definitions cannot be installed."
+    },
+    "currentVersionId": {
+      "type": "string",
+      "description": "Reference to the current released PluginVersion. Set when a version is released."
+    }
+  },
+  "required": [
+    "key",
+    "name",
+    "active"
+  ],
+  "rls": {
+    "read": {
+      "$or": [
+        {
+          "user_condition": {
+            "role": "admin"
+          }
+        },
+        {
+          "user_condition": {
+            "role": "user"
+          }
+        }
+      ]
+    },
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

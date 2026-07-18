@@ -1,0 +1,55 @@
+{
+  "name": "EventTopic",
+  "type": "object",
+  "title": "Event Topic",
+  "description": "Catalog of reserved Event Bus topics. Platform-level. Architecture reservation only \u2014 no dispatch runtime in Phase 1. RLS: read by developer+; create/update by core_developer/super_admin; delete by super_admin.",
+  "properties": {
+    "key": {
+      "type": "string",
+      "description": "Unique topic key e.g. application.installed, user.created, connector.connected"
+    },
+    "description": {
+      "type": "string"
+    },
+    "payload_schema": {
+      "type": "object",
+      "description": "Expected payload shape for this topic"
+    },
+    "is_system": {
+      "type": "boolean",
+      "default": true
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "reserved",
+        "active",
+        "deprecated"
+      ],
+      "default": "reserved"
+    }
+  },
+  "required": [
+    "key",
+    "status"
+  ],
+  "rls": {
+    "read": {
+      "$or": [
+        {
+          "user_condition": {
+            "role": "admin"
+          }
+        },
+        {
+          "user_condition": {
+            "role": "user"
+          }
+        }
+      ]
+    },
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

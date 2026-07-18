@@ -1,0 +1,68 @@
+{
+  "name": "PlatformEvent",
+  "type": "object",
+  "title": "Platform Event",
+  "description": "A record of something that happened on the platform, transported by the Platform Event Bus. The Event Bus is GENERIC: it knows nothing about applications, plugins, connectors, lifecycle, documents, or AI \u2014 it stores and transports events only. Publishing an event stores it and executes NO business logic; processing is a separate, future concern. RLS: read by developer+; create by any authenticated member via the runtime (service role); update of status/processedAt by a future processor (service role).",
+  "properties": {
+    "eventType": {
+      "type": "string",
+      "description": "Open event type string e.g. lifecycle.transitioned, approval.requested, plugin.installed. NOT an enum \u2014 new event types require no schema change."
+    },
+    "sourceType": {
+      "type": "string",
+      "description": "Open source service/object type e.g. lifecycle, plugin, connector, application, document, ai, workflow"
+    },
+    "sourceId": {
+      "type": "string",
+      "description": "Identifier of the source within its own storage; opaque to the Event Bus"
+    },
+    "actorId": {
+      "type": "string",
+      "description": "User or service that triggered the event; null for system-generated events"
+    },
+    "organizationId": {
+      "type": "string",
+      "description": "Tenant scope; null for platform-level events"
+    },
+    "correlationId": {
+      "type": "string",
+      "description": "Traces a chain of related events across services"
+    },
+    "payload": {
+      "type": "object",
+      "description": "Free-form event data. The Event Bus does not interpret payload shape \u2014 interpreting it is the subscriber's responsibility."
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "processed",
+        "failed"
+      ],
+      "default": "pending",
+      "description": "Processing status. pending on publish; processed/failed by a future processor. The bus itself never processes."
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When the event was published"
+    },
+    "processedAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When the event was processed by a future processor; null until then"
+    }
+  },
+  "required": [
+    "eventType",
+    "sourceType",
+    "sourceId",
+    "status"
+  ],
+  "rls": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

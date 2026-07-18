@@ -1,0 +1,52 @@
+{
+  "name": "AuditProject",
+  "type": "object",
+  "title": "Audit Project",
+  "description": "A system being analyzed by PGP Architecture Intelligence. Tenant boundary: organization_id. RLS: read/create/update/delete scoped by organization_id and archaudit.projects.* permissions.",
+  "properties": {
+    "organization_id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "profile_definition_id": {
+      "type": "string",
+      "description": "Reference to AuditProfileDefinition"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "active",
+        "archived"
+      ],
+      "default": "draft"
+    },
+    "owner_user_id": {
+      "type": "string"
+    },
+    "system_metadata": {
+      "type": "object",
+      "description": "System type, stack, scale, etc (non-sensitive)"
+    },
+    "settings": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "organization_id",
+    "name",
+    "profile_definition_id",
+    "status"
+  ],
+  "rls": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

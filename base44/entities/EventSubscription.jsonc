@@ -1,0 +1,31 @@
+{
+  "name": "EventSubscription",
+  "type": "object",
+  "title": "Event Subscription",
+  "description": "A subscription registered by a platform service to consume events of a given type. The Event Bus never knows who consumes an event \u2014 subscribers register themselves; the publisher never knows the subscribers. RLS: read by developer+; create/update/delete by admin/core_developer/super_admin (or the runtime).",
+  "properties": {
+    "subscriber": {
+      "type": "string",
+      "description": "Identifier of the subscribing service e.g. notification-service, audit-service, analytics-service"
+    },
+    "eventType": {
+      "type": "string",
+      "description": "Event type to subscribe to. Open string; '*' means all event types."
+    },
+    "active": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "required": [
+    "subscriber",
+    "eventType",
+    "active"
+  ],
+  "rls": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

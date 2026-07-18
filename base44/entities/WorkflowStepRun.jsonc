@@ -1,0 +1,79 @@
+{
+  "name": "WorkflowStepRun",
+  "type": "object",
+  "title": "Workflow Step Run",
+  "description": "A per-node execution record within a workflow instance. One active (waiting/running) StepRun per instance + node visit; completed/failed runs are historical and never deleted by runtime operations. start and end nodes are processed internally (created directly as completed). manual nodes enter waiting until explicit progression. input/output are transport data, redacted from reads if secret-looking. RLS: read by developer/solution_architect/core_developer/admin/super_admin; create/update by admin/super_admin via the runtime.",
+  "properties": {
+    "workflowInstanceId": {
+      "type": "string",
+      "description": "Reference to WorkflowInstance"
+    },
+    "nodeKey": {
+      "type": "string",
+      "description": "Key of the graph node this run executes"
+    },
+    "nodeType": {
+      "type": "string",
+      "enum": [
+        "start",
+        "manual",
+        "end"
+      ],
+      "description": "Type of the graph node"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "running",
+        "waiting",
+        "completed",
+        "failed",
+        "skipped"
+      ],
+      "default": "pending",
+      "description": "Step execution status. waiting = paused at a manual node; completed/failed = historical."
+    },
+    "attemptCount": {
+      "type": "number",
+      "default": 0,
+      "description": "Number of processing attempts made for this step"
+    },
+    "input": {
+      "type": "object",
+      "description": "Transport data input to the step. Redacted from reads if secret-looking."
+    },
+    "output": {
+      "type": "object",
+      "description": "Transport data output from the step. Redacted from reads if secret-looking."
+    },
+    "startedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "completedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "failedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "lastError": {
+      "type": "string",
+      "description": "Safe error text only. Null when no failure."
+    }
+  },
+  "required": [
+    "workflowInstanceId",
+    "nodeKey",
+    "nodeType",
+    "status"
+  ],
+  "rls": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "name": "LifecycleApprovalRequest",
+  "type": "object",
+  "title": "Lifecycle Approval Request",
+  "description": "A pending request to apply a lifecycle transition that requires approval. This is the APPROVAL service of the lifecycle execution runtime, kept separate from execution and persistence. Created by the runtime when a transition has requiresApproval=true; resolved by an approver via the decideApproval function. RLS: read by admin/core_developer/solution_architect; create by the runtime (service role); decide (update) by admin/core_developer/super_admin.",
+  "properties": {
+    "bindingId": {
+      "type": "string",
+      "description": "Reference to LifecycleBinding"
+    },
+    "lifecycleId": {
+      "type": "string",
+      "description": "Reference to LifecycleDefinition. Denormalized from the binding for queryability without a join. Named lifecycleId for consistency with LifecycleState and LifecycleTransition."
+    },
+    "transitionId": {
+      "type": "string",
+      "description": "Reference to LifecycleTransition being requested"
+    },
+    "fromState": {
+      "type": "string"
+    },
+    "toState": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "approved",
+        "rejected"
+      ],
+      "default": "pending"
+    },
+    "requestedById": {
+      "type": "string"
+    },
+    "requestedDate": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "decidedById": {
+      "type": "string"
+    },
+    "decidedDate": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "bindingId",
+    "transitionId",
+    "fromState",
+    "toState",
+    "status"
+  ],
+  "rls": {
+    "read": false,
+    "create": false,
+    "update": false,
+    "delete": false
+  }
+}
