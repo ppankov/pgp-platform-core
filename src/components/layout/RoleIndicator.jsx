@@ -1,16 +1,1 @@
-import React from "react";
-import { Shield } from "lucide-react";
-import { useAuth } from "@/lib/AuthContext";
-import { t } from "@/lib/i18n";
-
-export default function RoleIndicator() {
-  const { user } = useAuth();
-  const role = user?.role || "user";
-
-  return (
-    <div className="hidden lg:flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-muted shrink-0">
-      <Shield className="w-3.5 h-3.5 text-muted-foreground" />
-      <span className="text-xs font-medium text-muted-foreground">{t(`role.${role}`)}</span>
-    </div>
-  );
-}
+aW1wb3J0IFJlYWN0IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgU2hpZWxkIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IHsgdXNlQXV0aCB9IGZyb20gIkAvYXV0aC9BdXRoQ29udGV4dEZhY2FkZSI7CmltcG9ydCB7IHQgfSBmcm9tICJAL2xpYi9pMThuIjsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFJvbGVJbmRpY2F0b3IoKSB7CiAgY29uc3QgeyB1c2VyIH0gPSB1c2VBdXRoKCk7CiAgY29uc3Qgcm9sZSA9IHVzZXI/LnJvbGUgfHwgInVzZXIiOwoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9ImhpZGRlbiBsZzpmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41IHB4LTIuNSBweS0xIHJvdW5kZWQtbWQgYmctbXV0ZWQgc2hyaW5rLTAiPgogICAgICA8U2hpZWxkIGNsYXNzTmFtZT0idy0zLjUgaC0zLjUgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIiAvPgogICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQteHMgZm9udC1tZWRpdW0gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57dChgcm9sZS4ke3JvbGV9YCl9PC9zcGFuPgogICAgPC9kaXY+CiAgKTsKfQ==
