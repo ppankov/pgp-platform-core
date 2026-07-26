@@ -1,1 +1,44 @@
-aW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JwppbXBvcnQgUmVhY3RET00gZnJvbSAncmVhY3QtZG9tL2NsaWVudCcKaW1wb3J0ICdAL2luZGV4LmNzcycKaW1wb3J0IHsgYXBwUGFyYW1zIH0gZnJvbSAnQC9saWIvYXBwLXBhcmFtcycKaW1wb3J0IHsgYm9vdHN0cmFwUHJvdmlkZXIgfSBmcm9tICdAL3NlcnZpY2VzL3Byb3ZpZGVyQm9vdHN0cmFwJwoKY29uc3QgUk9PVF9JRCA9ICdyb290JwoKZnVuY3Rpb24gc2V0Um9vdFRleHQodGV4dCkgewogIGNvbnN0IHJvb3QgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChST09UX0lEKQogIGlmIChyb290KSByb290LnRleHRDb250ZW50ID0gdGV4dAp9CgpmdW5jdGlvbiBzaG93U3RhcnR1cEZhaWx1cmUoY29kZSkgewogIGNvbnN0IHJvb3QgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChST09UX0lEKQogIGlmICghcm9vdCkgcmV0dXJuCiAgcm9vdC50ZXh0Q29udGVudCA9ICcnCiAgY29uc3QgbGluZSA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ3AnKQogIGxpbmUudGV4dENvbnRlbnQgPSAnQXBwbGljYXRpb24gc3RhcnR1cCBmYWlsZWQuJwogIHJvb3QuYXBwZW5kQ2hpbGQobGluZSkKICBpZiAoY29kZSkgewogICAgY29uc3QgY29kZUxpbmUgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdwJykKICAgIGNvZGVMaW5lLnRleHRDb250ZW50ID0gU3RyaW5nKGNvZGUpCiAgICByb290LmFwcGVuZENoaWxkKGNvZGVMaW5lKQogIH0KfQoKYXN5bmMgZnVuY3Rpb24gc3RhcnRBcHBsaWNhdGlvbigpIHsKICBjb25zdCByb290ID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoUk9PVF9JRCkKICBpZiAoIXJvb3QpIHJldHVybgogIHNldFJvb3RUZXh0KCdMb2FkaW5n4oCmJykKICB0cnkgewogICAgYXdhaXQgYm9vdHN0cmFwUHJvdmlkZXIoYXBwUGFyYW1zLnByb2ZpbGUpCiAgICBjb25zdCB7IGRlZmF1bHQ6IEFwcCB9ID0gYXdhaXQgaW1wb3J0KCdAL0FwcC5qc3gnKQogICAgc2V0Um9vdFRleHQoJycpCiAgICBSZWFjdERPTS5jcmVhdGVSb290KHJvb3QpLnJlbmRlcigKICAgICAgPEFwcCAvPgogICAgKQogIH0gY2F0Y2ggKGUpIHsKICAgIHNob3dTdGFydHVwRmFpbHVyZShlICYmIGUuY29kZSkKICB9Cn0KCnN0YXJ0QXBwbGljYXRpb24oKQ==
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import '@/index.css'
+import { appParams } from '@/lib/app-params'
+import { bootstrapProvider } from '@/services/providerBootstrap'
+
+const ROOT_ID = 'root'
+
+function setRootText(text) {
+  const root = document.getElementById(ROOT_ID)
+  if (root) root.textContent = text
+}
+
+function showStartupFailure(code) {
+  const root = document.getElementById(ROOT_ID)
+  if (!root) return
+  root.textContent = ''
+  const line = document.createElement('p')
+  line.textContent = 'Application startup failed.'
+  root.appendChild(line)
+  if (code) {
+    const codeLine = document.createElement('p')
+    codeLine.textContent = String(code)
+    root.appendChild(codeLine)
+  }
+}
+
+async function startApplication() {
+  const root = document.getElementById(ROOT_ID)
+  if (!root) return
+  setRootText('Loading…')
+  try {
+    await bootstrapProvider(appParams.profile)
+    const { default: App } = await import('@/App.jsx')
+    setRootText('')
+    ReactDOM.createRoot(root).render(
+      <App />
+    )
+  } catch (e) {
+    showStartupFailure(e && e.code)
+  }
+}
+
+startApplication()

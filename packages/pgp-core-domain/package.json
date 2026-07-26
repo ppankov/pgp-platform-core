@@ -1,1 +1,26 @@
-ewogICJuYW1lIjogIkBwcGFua292L3BncC1jb3JlLWRvbWFpbiIsCiAgInZlcnNpb24iOiAiMC4xLjAtYWxwaGEuMSIsCiAgImRlc2NyaXB0aW9uIjogIlByb3ZpZGVyLWluZGVwZW5kZW50IFBHUCBDb3JlIGRvbWFpbiBydWxlcy4gUHVyZSwgc2lkZS1lZmZlY3QtZnJlZS4gTm8gQmFzZTQ0IG9yIFN1cGFiYXNlIGRlcGVuZGVuY3kuIiwKICAidHlwZSI6ICJtb2R1bGUiLAogICJwcml2YXRlIjogZmFsc2UsCiAgInNpZGVFZmZlY3RzIjogZmFsc2UsCiAgImxpY2Vuc2UiOiAiVU5MSUNFTlNFRCIsCiAgImZpbGVzIjogWwogICAgInNyYyIsCiAgICAiUkVBRE1FLm1kIgogIF0sCiAgImV4cG9ydHMiOiB7CiAgICAiLiI6ICIuL3NyYy9pbmRleC5qcyIsCiAgICAiLi93b3JrZmxvdyI6ICIuL3NyYy93b3JrZmxvd0dyYXBoLmpzIiwKICAgICIuL3NjaGVkdWxpbmciOiAiLi9zcmMvam9iU2NoZWR1bGluZy5qcyIsCiAgICAiLi9iYWNrZ3JvdW5kLWpvYiI6ICIuL3NyYy9iYWNrZ3JvdW5kSm9iLmpzIiwKICAgICIuL3NhZmUtZGF0YSI6ICIuL3NyYy9zYWZlRGF0YS5qcyIKICB9LAogICJwdWJsaXNoQ29uZmlnIjogewogICAgImFjY2VzcyI6ICJwdWJsaWMiCiAgfSwKICAic2NyaXB0cyI6IHsKICAgICJ0ZXN0IjogIm5vZGUgdGVzdC92ZXJpZnkubWpzIgogIH0KfQ==
+{
+  "name": "@ppankov/pgp-core-domain",
+  "version": "0.1.0-alpha.1",
+  "description": "Provider-independent PGP Core domain rules. Pure, side-effect-free. No Base44 or Supabase dependency.",
+  "type": "module",
+  "private": false,
+  "sideEffects": false,
+  "license": "UNLICENSED",
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "exports": {
+    ".": "./src/index.js",
+    "./workflow": "./src/workflowGraph.js",
+    "./scheduling": "./src/jobScheduling.js",
+    "./background-job": "./src/backgroundJob.js",
+    "./safe-data": "./src/safeData.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node test/verify.mjs"
+  }
+}

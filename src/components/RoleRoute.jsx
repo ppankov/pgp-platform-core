@@ -1,1 +1,20 @@
-Ly8gUGhhc2UgMSBmcm9udGVuZCBhdXRob3JpemF0aW9uIFVYIGd1YXJkLgovLyBEZWxlZ2F0ZXMgZW50aXJlbHkgdG8gYWNjZXNzLWNvbnRyb2wuanMg4oCUIG5vIGR1cGxpY2F0ZWQgcm9sZSBtYXRyaWNlcy4KLy8gQmFja2VuZCBhdXRob3JpemF0aW9uIGFuZCBSTFMgcmVtYWluIG1hbmRhdG9yeSBpbiBQaGFzZSAyLgppbXBvcnQgeyB1c2VMb2NhdGlvbiB9IGZyb20gJ3JlYWN0LXJvdXRlci1kb20nOwppbXBvcnQgeyB1c2VBdXRoIH0gZnJvbSAnQC9hdXRoL0F1dGhDb250ZXh0RmFjYWRlJzsKaW1wb3J0IHsgQUxMX1JPVVRFUyB9IGZyb20gJ0AvbGliL25hdmlnYXRpb24nOwppbXBvcnQgeyBnZXRFZmZlY3RpdmVQbGF0Zm9ybVJvbGUsIGNhbkFjY2Vzc1JvdXRlIH0gZnJvbSAnQC9saWIvYWNjZXNzLWNvbnRyb2wnOwppbXBvcnQgTm90QXV0aG9yaXplZCBmcm9tICdAL3BhZ2VzL05vdEF1dGhvcml6ZWQnOwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gUm9sZVJvdXRlKHsgY2hpbGRyZW4gfSkgewogIGNvbnN0IHsgdXNlciB9ID0gdXNlQXV0aCgpOwogIGNvbnN0IGxvY2F0aW9uID0gdXNlTG9jYXRpb24oKTsKICBjb25zdCBlZmZlY3RpdmVSb2xlID0gZ2V0RWZmZWN0aXZlUGxhdGZvcm1Sb2xlKHVzZXIsIG51bGwpOwogIGNvbnN0IHJvdXRlID0gQUxMX1JPVVRFUy5maW5kKChyKSA9PiByLnBhdGggPT09IGxvY2F0aW9uLnBhdGhuYW1lKTsKCiAgaWYgKHJvdXRlICYmICFjYW5BY2Nlc3NSb3V0ZShyb3V0ZSwgeyBlZmZlY3RpdmVSb2xlIH0pKSB7CiAgICByZXR1cm4gPE5vdEF1dGhvcml6ZWQgLz47CiAgfQogIHJldHVybiBjaGlsZHJlbjsKfQ==
+// Phase 1 frontend authorization UX guard.
+// Delegates entirely to access-control.js — no duplicated role matrices.
+// Backend authorization and RLS remain mandatory in Phase 2.
+import { useLocation } from 'react-router-dom';
+import { useAuth } from '@/auth/AuthContextFacade';
+import { ALL_ROUTES } from '@/lib/navigation';
+import { getEffectivePlatformRole, canAccessRoute } from '@/lib/access-control';
+import NotAuthorized from '@/pages/NotAuthorized';
+
+export default function RoleRoute({ children }) {
+  const { user } = useAuth();
+  const location = useLocation();
+  const effectiveRole = getEffectivePlatformRole(user, null);
+  const route = ALL_ROUTES.find((r) => r.path === location.pathname);
+
+  if (route && !canAccessRoute(route, { effectiveRole })) {
+    return <NotAuthorized />;
+  }
+  return children;
+}

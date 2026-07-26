@@ -1,1 +1,100 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IExpbmsgfSBmcm9tICJyZWFjdC1yb3V0ZXItZG9tIjsKaW1wb3J0IHsgUGx1cywgQXJyb3dSaWdodCB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB7IGJhY2tlbmQgfSBmcm9tICJAL3NlcnZpY2VzL2JhY2tlbmRBZGFwdGVyIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IENhcmQsIENhcmRDb250ZW50IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2NhcmQiOwppbXBvcnQgeyBCYWRnZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9iYWRnZSI7CmltcG9ydCB7IERpYWxvZywgRGlhbG9nQ29udGVudCwgRGlhbG9nSGVhZGVyLCBEaWFsb2dUaXRsZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9kaWFsb2ciOwppbXBvcnQgeyBUYWJsZSwgVGFibGVIZWFkZXIsIFRhYmxlUm93LCBUYWJsZUhlYWQsIFRhYmxlQm9keSwgVGFibGVDZWxsIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3RhYmxlIjsKaW1wb3J0IE1vZHVsZUhlYWRlciBmcm9tICJAL2NvbXBvbmVudHMvc2hhcmVkL01vZHVsZUhlYWRlciI7CmltcG9ydCBKb2JTY2hlZHVsZUZvcm0gZnJvbSAiQC9jb21wb25lbnRzL2pvYnMvSm9iU2NoZWR1bGVGb3JtIjsKaW1wb3J0IHsgY2FsbEZuIH0gZnJvbSAiQC9saWIvZnVuY3Rpb24tY2FsbCI7CmltcG9ydCB7IHVzZUF1dGggfSBmcm9tICJAL2F1dGgvQXV0aENvbnRleHRGYWNhZGUiOwppbXBvcnQgeyBoYXNDYXBhYmlsaXR5IH0gZnJvbSAiQC9saWIvcGVybWlzc2lvbnMiOwppbXBvcnQgeyB0IH0gZnJvbSAiQC9saWIvaTE4biI7CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBKb2JTY2hlZHVsZXNQYWdlKCkgewogIGNvbnN0IHsgdXNlciB9ID0gdXNlQXV0aCgpOwogIGNvbnN0IGNhbk1hbmFnZSA9IGhhc0NhcGFiaWxpdHkodXNlcj8ucm9sZSwgInBsYXRmb3JtLmpvYnMubWFuYWdlIikgfHwgaGFzQ2FwYWJpbGl0eSh1c2VyPy5yb2xlLCAicGxhdGZvcm0uam9icy5jb25uZWN0Iik7CiAgY29uc3QgW2RhdGEsIHNldERhdGFdID0gdXNlU3RhdGUobnVsbCk7CiAgY29uc3QgW2Vyciwgc2V0RXJyXSA9IHVzZVN0YXRlKCIiKTsKICBjb25zdCBbb3Blbiwgc2V0T3Blbl0gPSB1c2VTdGF0ZShmYWxzZSk7CiAgY29uc3QgW2RlZnMsIHNldERlZnNdID0gdXNlU3RhdGUoW10pOwoKICBjb25zdCBsb2FkID0gYXN5bmMgKCkgPT4gewogICAgc2V0RXJyKCIiKTsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IGNhbGxGbigibGlzdEpvYlNjaGVkdWxlcyIsIHt9KTsKICAgICAgc2V0RGF0YShyZXMuc2NoZWR1bGVzIHx8IFtdKTsKICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgc2V0RXJyKGUucmVzcG9uc2U/LmRhdGE/LmVycm9yIHx8IGUubWVzc2FnZSk7CiAgICB9CiAgfTsKICBjb25zdCBsb2FkRGVmcyA9IGFzeW5jICgpID0+IHsKICAgIHRyeSB7IHNldERlZnMoYXdhaXQgYmFja2VuZC5jYXRhbG9nLmxpc3QoIkpvYkRlZmluaXRpb24iKSk7IH0gY2F0Y2ggKGUpIHt9CiAgfTsKICB1c2VFZmZlY3QoKCkgPT4geyBsb2FkKCk7IGxvYWREZWZzKCk7IH0sIFtdKTsKCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTYiPgogICAgICA8TW9kdWxlSGVhZGVyCiAgICAgICAgdGl0bGU9e3QoImpvYnMuc2NoZWR1bGVzIil9CiAgICAgICAgZGVzY3JpcHRpb249e3QoImpvYnMuc2NoZWR1bGVzX2Rlc2MiKX0KICAgICAgICBhY3Rpb25zPXtjYW5NYW5hZ2UgJiYgZGVmcy5sZW5ndGggPiAwICYmICgKICAgICAgICAgIDxCdXR0b24gc2l6ZT0ic20iIGNsYXNzTmFtZT0iZ2FwLTIiIG9uQ2xpY2s9eygpID0+IHNldE9wZW4odHJ1ZSl9PgogICAgICAgICAgICA8UGx1cyBjbGFzc05hbWU9InctNCBoLTQiIC8+e3QoImpvYnMubmV3X3NjaGVkdWxlIil9CiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICApfQogICAgICAvPgogICAgICA8Q2FyZD4KICAgICAgICA8Q2FyZENvbnRlbnQgY2xhc3NOYW1lPSJwdC02Ij4KICAgICAgICAgIHtkYXRhID09PSBudWxsID8gKAogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57dCgiam9icy5sb2FkaW5nIil9PC9wPgogICAgICAgICAgKSA6IGVyciA/ICgKICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtZGVzdHJ1Y3RpdmUiPntlcnJ9PC9wPgogICAgICAgICAgKSA6IGRhdGEubGVuZ3RoID09PSAwID8gKAogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57dCgiam9icy5lbXB0eSIpfTwvcD4KICAgICAgICAgICkgOiAoCiAgICAgICAgICAgIDxUYWJsZT4KICAgICAgICAgICAgICA8VGFibGVIZWFkZXI+CiAgICAgICAgICAgICAgICA8VGFibGVSb3c+CiAgICAgICAgICAgICAgICAgIDxUYWJsZUhlYWQ+e3QoImpvYnMuZmllbGQubmFtZSIpfTwvVGFibGVIZWFkPgogICAgICAgICAgICAgICAgICA8VGFibGVIZWFkPnt0KCJqb2JzLmZpZWxkLnNjb3BlIil9PC9UYWJsZUhlYWQ+CiAgICAgICAgICAgICAgICAgIDxUYWJsZUhlYWQ+e3QoImpvYnMuZmllbGQuc2NoZWR1bGVUeXBlIil9PC9UYWJsZUhlYWQ+CiAgICAgICAgICAgICAgICAgIDxUYWJsZUhlYWQ+e3QoImpvYnMuZmllbGQubmV4dFJ1bkF0Iil9PC9UYWJsZUhlYWQ+CiAgICAgICAgICAgICAgICAgIDxUYWJsZUhlYWQ+e3QoImpvYnMuZmllbGQubGFzdEVucXVldWVkQXQiKX08L1RhYmxlSGVhZD4KICAgICAgICAgICAgICAgICAgPFRhYmxlSGVhZD57dCgiam9icy5maWVsZC5lbmFibGVkIil9PC9UYWJsZUhlYWQ+CiAgICAgICAgICAgICAgICAgIDxUYWJsZUhlYWQgY2xhc3NOYW1lPSJ0ZXh0LXJpZ2h0Ij57dCgiam9icy52aWV3Iil9PC9UYWJsZUhlYWQ+CiAgICAgICAgICAgICAgICA8L1RhYmxlUm93PgogICAgICAgICAgICAgIDwvVGFibGVIZWFkZXI+CiAgICAgICAgICAgICAgPFRhYmxlQm9keT4KICAgICAgICAgICAgICAgIHtkYXRhLm1hcCgocykgPT4gKAogICAgICAgICAgICAgICAgICA8VGFibGVSb3cga2V5PXtzLmlkfT4KICAgICAgICAgICAgICAgICAgICA8VGFibGVDZWxsIGNsYXNzTmFtZT0iZm9udC1tZWRpdW0iPntzLm5hbWV9PC9UYWJsZUNlbGw+CiAgICAgICAgICAgICAgICAgICAgPFRhYmxlQ2VsbD48QmFkZ2UgdmFyaWFudD17cy5zY29wZSA9PT0gInBsYXRmb3JtIiA/ICJkZWZhdWx0IiA6ICJzZWNvbmRhcnkifT57dCgiam9icy5zY29wZV8iICsgcy5zY29wZSl9PC9CYWRnZT48L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICAgICAgICA8VGFibGVDZWxsPnt0KCJqb2JzLnNjaGVkdWxlXyIgKyBzLnNjaGVkdWxlVHlwZSl9PC9UYWJsZUNlbGw+CiAgICAgICAgICAgICAgICAgICAgPFRhYmxlQ2VsbCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57cy5uZXh0UnVuQXQgPyBuZXcgRGF0ZShzLm5leHRSdW5BdCkudG9Mb2NhbGVTdHJpbmcoKSA6ICLigJQifTwvVGFibGVDZWxsPgogICAgICAgICAgICAgICAgICAgIDxUYWJsZUNlbGwgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3MubGFzdEVucXVldWVkQXQgPyBuZXcgRGF0ZShzLmxhc3RFbnF1ZXVlZEF0KS50b0xvY2FsZVN0cmluZygpIDogIuKAlCJ9PC9UYWJsZUNlbGw+CiAgICAgICAgICAgICAgICAgICAgPFRhYmxlQ2VsbD48QmFkZ2UgdmFyaWFudD17cy5lbmFibGVkID8gImRlZmF1bHQiIDogInNlY29uZGFyeSJ9PntzLmVuYWJsZWQgPyB0KCJqb2JzLmZpZWxkLmVuYWJsZWQiKSA6ICLigJQifTwvQmFkZ2U+PC9UYWJsZUNlbGw+CiAgICAgICAgICAgICAgICAgICAgPFRhYmxlQ2VsbCBjbGFzc05hbWU9InRleHQtcmlnaHQiPgogICAgICAgICAgICAgICAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJnaG9zdCIgc2l6ZT0iaWNvbiIgYXNDaGlsZD4KICAgICAgICAgICAgICAgICAgICAgICAgPExpbmsgdG89e2Avam9icy9zY2hlZHVsZXMvJHtzLmlkfWB9IGFyaWEtbGFiZWw9e3QoImpvYnMudmlld19kZXRhaWwiKX0+PEFycm93UmlnaHQgY2xhc3NOYW1lPSJ3LTQgaC00IiAvPjwvTGluaz4KICAgICAgICAgICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgICAgICAgICAgICA8L1RhYmxlUm93PgogICAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgICAgPC9UYWJsZUJvZHk+CiAgICAgICAgICAgIDwvVGFibGU+CiAgICAgICAgICApfQogICAgICAgIDwvQ2FyZENvbnRlbnQ+CiAgICAgIDwvQ2FyZD4KICAgICAgPERpYWxvZyBvcGVuPXtvcGVufSBvbk9wZW5DaGFuZ2U9e3NldE9wZW59PgogICAgICAgIDxEaWFsb2dDb250ZW50IGNsYXNzTmFtZT0ibWF4LXctMnhsIj4KICAgICAgICAgIDxEaWFsb2dIZWFkZXI+PERpYWxvZ1RpdGxlPnt0KCJqb2JzLm5ld19zY2hlZHVsZSIpfTwvRGlhbG9nVGl0bGU+PC9EaWFsb2dIZWFkZXI+CiAgICAgICAgICB7b3BlbiAmJiA8Sm9iU2NoZWR1bGVGb3JtIGRlZmluaXRpb25zPXtkZWZzfSBvblNhdmU9eygpID0+IHsgc2V0T3BlbihmYWxzZSk7IGxvYWQoKTsgfX0gb25DYW5jZWw9eygpID0+IHNldE9wZW4oZmFsc2UpfSAvPn0KICAgICAgICA8L0RpYWxvZ0NvbnRlbnQ+CiAgICAgIDwvRGlhbG9nPgogICAgPC9kaXY+CiAgKTsKfQ==
+import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import { Plus, ArrowRight } from "lucide-react";
+import { backend } from "@/services/backendAdapter";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import { Table, TableHeader, TableRow, TableHead, TableBody, TableCell } from "@/components/ui/table";
+import ModuleHeader from "@/components/shared/ModuleHeader";
+import JobScheduleForm from "@/components/jobs/JobScheduleForm";
+import { callFn } from "@/lib/function-call";
+import { useAuth } from "@/auth/AuthContextFacade";
+import { hasCapability } from "@/lib/permissions";
+import { t } from "@/lib/i18n";
+
+export default function JobSchedulesPage() {
+  const { user } = useAuth();
+  const canManage = hasCapability(user?.role, "platform.jobs.manage") || hasCapability(user?.role, "platform.jobs.connect");
+  const [data, setData] = useState(null);
+  const [err, setErr] = useState("");
+  const [open, setOpen] = useState(false);
+  const [defs, setDefs] = useState([]);
+
+  const load = async () => {
+    setErr("");
+    try {
+      const res = await callFn("listJobSchedules", {});
+      setData(res.schedules || []);
+    } catch (e) {
+      setErr(e.response?.data?.error || e.message);
+    }
+  };
+  const loadDefs = async () => {
+    try { setDefs(await backend.catalog.list("JobDefinition")); } catch (e) {}
+  };
+  useEffect(() => { load(); loadDefs(); }, []);
+
+  return (
+    <div className="space-y-6">
+      <ModuleHeader
+        title={t("jobs.schedules")}
+        description={t("jobs.schedules_desc")}
+        actions={canManage && defs.length > 0 && (
+          <Button size="sm" className="gap-2" onClick={() => setOpen(true)}>
+            <Plus className="w-4 h-4" />{t("jobs.new_schedule")}
+          </Button>
+        )}
+      />
+      <Card>
+        <CardContent className="pt-6">
+          {data === null ? (
+            <p className="text-sm text-muted-foreground">{t("jobs.loading")}</p>
+          ) : err ? (
+            <p className="text-sm text-destructive">{err}</p>
+          ) : data.length === 0 ? (
+            <p className="text-sm text-muted-foreground">{t("jobs.empty")}</p>
+          ) : (
+            <Table>
+              <TableHeader>
+                <TableRow>
+                  <TableHead>{t("jobs.field.name")}</TableHead>
+                  <TableHead>{t("jobs.field.scope")}</TableHead>
+                  <TableHead>{t("jobs.field.scheduleType")}</TableHead>
+                  <TableHead>{t("jobs.field.nextRunAt")}</TableHead>
+                  <TableHead>{t("jobs.field.lastEnqueuedAt")}</TableHead>
+                  <TableHead>{t("jobs.field.enabled")}</TableHead>
+                  <TableHead className="text-right">{t("jobs.view")}</TableHead>
+                </TableRow>
+              </TableHeader>
+              <TableBody>
+                {data.map((s) => (
+                  <TableRow key={s.id}>
+                    <TableCell className="font-medium">{s.name}</TableCell>
+                    <TableCell><Badge variant={s.scope === "platform" ? "default" : "secondary"}>{t("jobs.scope_" + s.scope)}</Badge></TableCell>
+                    <TableCell>{t("jobs.schedule_" + s.scheduleType)}</TableCell>
+                    <TableCell className="text-xs text-muted-foreground">{s.nextRunAt ? new Date(s.nextRunAt).toLocaleString() : "—"}</TableCell>
+                    <TableCell className="text-xs text-muted-foreground">{s.lastEnqueuedAt ? new Date(s.lastEnqueuedAt).toLocaleString() : "—"}</TableCell>
+                    <TableCell><Badge variant={s.enabled ? "default" : "secondary"}>{s.enabled ? t("jobs.field.enabled") : "—"}</Badge></TableCell>
+                    <TableCell className="text-right">
+                      <Button variant="ghost" size="icon" asChild>
+                        <Link to={`/jobs/schedules/${s.id}`} aria-label={t("jobs.view_detail")}><ArrowRight className="w-4 h-4" /></Link>
+                      </Button>
+                    </TableCell>
+                  </TableRow>
+                ))}
+              </TableBody>
+            </Table>
+          )}
+        </CardContent>
+      </Card>
+      <Dialog open={open} onOpenChange={setOpen}>
+        <DialogContent className="max-w-2xl">
+          <DialogHeader><DialogTitle>{t("jobs.new_schedule")}</DialogTitle></DialogHeader>
+          {open && <JobScheduleForm definitions={defs} onSave={() => { setOpen(false); load(); }} onCancel={() => setOpen(false)} />}
+        </DialogContent>
+      </Dialog>
+    </div>
+  );
+}

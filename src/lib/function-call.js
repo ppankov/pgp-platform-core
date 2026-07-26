@@ -1,1 +1,9 @@
-aW1wb3J0IHsgYmFja2VuZCB9IGZyb20gIkAvc2VydmljZXMvYmFja2VuZEFkYXB0ZXIiOwoKLy8gVGhpbiBoZWxwZXIgdG8gaW52b2tlIGEgQmFzZTQ0IGJhY2tlbmQgZnVuY3Rpb24gZnJvbSB0aGUgZnJvbnRlbmQuCi8vIGludm9rZSgpIHJldHVybnMgdGhlIHJhdyBheGlvcyByZXNwb25zZTsgdGhlIGZ1bmN0aW9uJ3MgSlNPTiBpcyBvbiBgLmRhdGFgLgovLyBJdCB0aHJvd3Mgb24gbm9uLTJ4eDsgY2FsbGVycyBjYXRjaCBhbmQgcmVhZCBlcnIucmVzcG9uc2U/LmRhdGE/LmVycm9yLgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gY2FsbEZuKG5hbWUsIHBheWxvYWQpIHsKICBjb25zdCByZXMgPSBhd2FpdCBiYWNrZW5kLmZ1bmN0aW9ucy5pbnZva2UobmFtZSwgcGF5bG9hZCk7CiAgcmV0dXJuIHJlcy5kYXRhOwp9
+import { backend } from "@/services/backendAdapter";
+
+// Thin helper to invoke a Base44 backend function from the frontend.
+// invoke() returns the raw axios response; the function's JSON is on `.data`.
+// It throws on non-2xx; callers catch and read err.response?.data?.error.
+export async function callFn(name, payload) {
+  const res = await backend.functions.invoke(name, payload);
+  return res.data;
+}

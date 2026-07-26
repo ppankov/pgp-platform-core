@@ -1,1 +1,116 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IExpbmsgfSBmcm9tICJyZWFjdC1yb3V0ZXItZG9tIjsKaW1wb3J0IHsgUGx1cywgQXJyb3dSaWdodCB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBDYXJkLCBDYXJkQ29udGVudCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9jYXJkIjsKaW1wb3J0IHsgQmFkZ2UgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYmFkZ2UiOwppbXBvcnQgeyBEaWFsb2csIERpYWxvZ0NvbnRlbnQsIERpYWxvZ0hlYWRlciwgRGlhbG9nVGl0bGUgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvZGlhbG9nIjsKaW1wb3J0IHsgVGFibGUsIFRhYmxlSGVhZGVyLCBUYWJsZVJvdywgVGFibGVIZWFkLCBUYWJsZUJvZHksIFRhYmxlQ2VsbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS90YWJsZSI7CmltcG9ydCBNb2R1bGVIZWFkZXIgZnJvbSAiQC9jb21wb25lbnRzL3NoYXJlZC9Nb2R1bGVIZWFkZXIiOwppbXBvcnQgQ29ubmVjdG9yRGVmaW5pdGlvbkZvcm0gZnJvbSAiQC9jb21wb25lbnRzL2Nvbm5lY3RvcnMvQ29ubmVjdG9yRGVmaW5pdGlvbkZvcm0iOwppbXBvcnQgeyBjYWxsRm4gfSBmcm9tICJAL2xpYi9mdW5jdGlvbi1jYWxsIjsKaW1wb3J0IHsgdXNlQXV0aCB9IGZyb20gIkAvYXV0aC9BdXRoQ29udGV4dEZhY2FkZSI7CmltcG9ydCB7IGhhc0NhcGFiaWxpdHkgfSBmcm9tICJAL2xpYi9wZXJtaXNzaW9ucyI7CmltcG9ydCB7IHQgfSBmcm9tICJAL2xpYi9pMThuIjsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIENvbm5lY3RvckNhdGFsb2dQYWdlKCkgewogIGNvbnN0IHsgdXNlciB9ID0gdXNlQXV0aCgpOwogIGNvbnN0IGNhbk1hbmFnZSA9IGhhc0NhcGFiaWxpdHkodXNlcj8ucm9sZSwgInBsYXRmb3JtLmNvbm5lY3RvcnMubWFuYWdlIik7CiAgY29uc3QgY2FuQ29ubmVjdCA9IGhhc0NhcGFiaWxpdHkodXNlcj8ucm9sZSwgInBsYXRmb3JtLmNvbm5lY3RvcnMuY29ubmVjdCIpOwogIGNvbnN0IFtkYXRhLCBzZXREYXRhXSA9IHVzZVN0YXRlKG51bGwpOwogIGNvbnN0IFtvcGVuLCBzZXRPcGVuXSA9IHVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCBbZXJyLCBzZXRFcnJdID0gdXNlU3RhdGUoIiIpOwoKICBjb25zdCBsb2FkID0gYXN5bmMgKCkgPT4gewogICAgc2V0RXJyKCIiKTsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IGNhbGxGbigibGlzdENvbm5lY3RvcnMiLCB7fSk7CiAgICAgIHNldERhdGEocmVzKTsKICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgc2V0RXJyKGUucmVzcG9uc2U/LmRhdGE/LmVycm9yIHx8IGUubWVzc2FnZSk7CiAgICB9CiAgfTsKICB1c2VFZmZlY3QoKCkgPT4geyBsb2FkKCk7IH0sIFtdKTsKCiAgY29uc3QgcHJvdmlkZXJDb3VudCA9IChkZWZJZCkgPT4gKGRhdGE/LnByb3ZpZGVycyB8fCBbXSkuZmlsdGVyKChwKSA9PiBwLmNvbm5lY3RvckRlZmluaXRpb25JZCA9PT0gZGVmSWQpLmxlbmd0aDsKICBjb25zdCByb3dzID0gZGF0YT8uZGVmaW5pdGlvbnMgfHwgW107CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS02Ij4KICAgICAgPE1vZHVsZUhlYWRlcgogICAgICAgIHRpdGxlPXt0KCJjb25uZWN0b3IuY2F0YWxvZyIpfQogICAgICAgIGRlc2NyaXB0aW9uPXt0KCJjb25uZWN0b3IuY2F0YWxvZ19kZXNjIil9CiAgICAgICAgYWN0aW9ucz17CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBnYXAtMiI+CiAgICAgICAgICAgIHtjYW5Db25uZWN0ICYmICgKICAgICAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Im91dGxpbmUiIHNpemU9InNtIiBhc0NoaWxkPgogICAgICAgICAgICAgICAgPExpbmsgdG89Ii9jb25uZWN0b3JzL2Nvbm5lY3Rpb25zIj57dCgiY29ubmVjdG9yLm9yZ2FuaXphdGlvbl9jb25uZWN0aW9ucyIpfTwvTGluaz4KICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgKX0KICAgICAgICAgICAge2Nhbk1hbmFnZSAmJiAoCiAgICAgICAgICAgICAgPEJ1dHRvbiBzaXplPSJzbSIgY2xhc3NOYW1lPSJnYXAtMiIgb25DbGljaz17KCkgPT4gc2V0T3Blbih0cnVlKX0+CiAgICAgICAgICAgICAgICA8UGx1cyBjbGFzc05hbWU9InctNCBoLTQiIC8+e3QoImNvbm5lY3Rvci5yZWdpc3Rlcl9kZWZpbml0aW9uIil9CiAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICl9CiAgICAgICAgICA8L2Rpdj4KICAgICAgICB9CiAgICAgIC8+CgogICAgICA8Q2FyZD4KICAgICAgICA8Q2FyZENvbnRlbnQgY2xhc3NOYW1lPSJwdC02Ij4KICAgICAgICAgIHtkYXRhID09PSBudWxsID8gKAogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57dCgiY29ubmVjdG9yLmxvYWRpbmciKX08L3A+CiAgICAgICAgICApIDogZXJyID8gKAogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1kZXN0cnVjdGl2ZSI+e2Vycn08L3A+CiAgICAgICAgICApIDogcm93cy5sZW5ndGggPT09IDAgPyAoCiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPnt0KCJjb25uZWN0b3IuZW1wdHkiKX08L3A+CiAgICAgICAgICApIDogKAogICAgICAgICAgICA8VGFibGU+CiAgICAgICAgICAgICAgPFRhYmxlSGVhZGVyPgogICAgICAgICAgICAgICAgPFRhYmxlUm93PgogICAgICAgICAgICAgICAgICA8VGFibGVIZWFkPnt0KCJjb25uZWN0b3IuZmllbGQubmFtZSIpfTwvVGFibGVIZWFkPgogICAgICAgICAgICAgICAgICA8VGFibGVIZWFkPnt0KCJjb25uZWN0b3IuZmllbGQua2V5Iil9PC9UYWJsZUhlYWQ+CiAgICAgICAgICAgICAgICAgIDxUYWJsZUhlYWQ+e3QoImNvbm5lY3Rvci5maWVsZC5jYXRlZ29yeSIpfTwvVGFibGVIZWFkPgogICAgICAgICAgICAgICAgICA8VGFibGVIZWFkPnt0KCJjb25uZWN0b3IuZmllbGQucHJvdmlkZXJzIil9PC9UYWJsZUhlYWQ+CiAgICAgICAgICAgICAgICAgIDxUYWJsZUhlYWQ+e3QoImNvbm5lY3Rvci5maWVsZC5hY3RpdmUiKX08L1RhYmxlSGVhZD4KICAgICAgICAgICAgICAgICAgPFRhYmxlSGVhZCBjbGFzc05hbWU9InRleHQtcmlnaHQiPnt0KCJjb25uZWN0b3IudmlldyIpfTwvVGFibGVIZWFkPgogICAgICAgICAgICAgICAgPC9UYWJsZVJvdz4KICAgICAgICAgICAgICA8L1RhYmxlSGVhZGVyPgogICAgICAgICAgICAgIDxUYWJsZUJvZHk+CiAgICAgICAgICAgICAgICB7cm93cy5tYXAoKGQpID0+ICgKICAgICAgICAgICAgICAgICAgPFRhYmxlUm93IGtleT17ZC5pZH0+CiAgICAgICAgICAgICAgICAgICAgPFRhYmxlQ2VsbCBjbGFzc05hbWU9ImZvbnQtbWVkaXVtIj57ZC5uYW1lfTwvVGFibGVDZWxsPgogICAgICAgICAgICAgICAgICAgIDxUYWJsZUNlbGw+CiAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZvbnQtbW9ubyB0ZXh0LXhzIGJnLW11dGVkIHB4LTIgcHktMSByb3VuZGVkIj57ZC5rZXl9PC9zcGFuPgogICAgICAgICAgICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgICAgICAgICAgICAgIDxUYWJsZUNlbGwgY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQiPntkLmNhdGVnb3J5IHx8ICLigJQifTwvVGFibGVDZWxsPgogICAgICAgICAgICAgICAgICAgIDxUYWJsZUNlbGw+PEJhZGdlIHZhcmlhbnQ9InNlY29uZGFyeSI+e3Byb3ZpZGVyQ291bnQoZC5pZCl9PC9CYWRnZT48L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICAgICAgICA8VGFibGVDZWxsPgogICAgICAgICAgICAgICAgICAgICAgPEJhZGdlIHZhcmlhbnQ9e2QuYWN0aXZlID8gImRlZmF1bHQiIDogInNlY29uZGFyeSJ9PgogICAgICAgICAgICAgICAgICAgICAgICB7ZC5hY3RpdmUgPyB0KCJjb25uZWN0b3Iuc3RhdHVzX2F2YWlsYWJsZSIpIDogdCgiY29ubmVjdG9yLnN0YXR1c19kaXNhYmxlZCIpfQogICAgICAgICAgICAgICAgICAgICAgPC9CYWRnZT4KICAgICAgICAgICAgICAgICAgICA8L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICAgICAgICA8VGFibGVDZWxsIGNsYXNzTmFtZT0idGV4dC1yaWdodCI+CiAgICAgICAgICAgICAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Imdob3N0IiBzaXplPSJpY29uIiBhc0NoaWxkPgogICAgICAgICAgICAgICAgICAgICAgICA8TGluayB0bz17YC9jb25uZWN0b3JzLyR7ZC5pZH1gfSBhcmlhLWxhYmVsPXt0KCJjb25uZWN0b3Iudmlld19kZXRhaWwiKX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgPEFycm93UmlnaHQgY2xhc3NOYW1lPSJ3LTQgaC00IiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8L0xpbms+CiAgICAgICAgICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICAgICAgICA8L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICAgICAgPC9UYWJsZVJvdz4KICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgIDwvVGFibGVCb2R5PgogICAgICAgICAgICA8L1RhYmxlPgogICAgICAgICAgKX0KICAgICAgICA8L0NhcmRDb250ZW50PgogICAgICA8L0NhcmQ+CgogICAgICA8RGlhbG9nIG9wZW49e29wZW59IG9uT3BlbkNoYW5nZT17c2V0T3Blbn0+CiAgICAgICAgPERpYWxvZ0NvbnRlbnQgY2xhc3NOYW1lPSJtYXgtdy1sZyI+CiAgICAgICAgICA8RGlhbG9nSGVhZGVyPjxEaWFsb2dUaXRsZT57dCgiY29ubmVjdG9yLm5ld19kZWZpbml0aW9uIil9PC9EaWFsb2dUaXRsZT48L0RpYWxvZ0hlYWRlcj4KICAgICAgICAgIHtvcGVuICYmIDxDb25uZWN0b3JEZWZpbml0aW9uRm9ybSBvblNhdmU9eygpID0+IHsgc2V0T3BlbihmYWxzZSk7IGxvYWQoKTsgfX0gb25DYW5jZWw9eygpID0+IHNldE9wZW4oZmFsc2UpfSAvPn0KICAgICAgICA8L0RpYWxvZ0NvbnRlbnQ+CiAgICAgIDwvRGlhbG9nPgogICAgPC9kaXY+CiAgKTsKfQ==
+import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import { Plus, ArrowRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import { Table, TableHeader, TableRow, TableHead, TableBody, TableCell } from "@/components/ui/table";
+import ModuleHeader from "@/components/shared/ModuleHeader";
+import ConnectorDefinitionForm from "@/components/connectors/ConnectorDefinitionForm";
+import { callFn } from "@/lib/function-call";
+import { useAuth } from "@/auth/AuthContextFacade";
+import { hasCapability } from "@/lib/permissions";
+import { t } from "@/lib/i18n";
+
+export default function ConnectorCatalogPage() {
+  const { user } = useAuth();
+  const canManage = hasCapability(user?.role, "platform.connectors.manage");
+  const canConnect = hasCapability(user?.role, "platform.connectors.connect");
+  const [data, setData] = useState(null);
+  const [open, setOpen] = useState(false);
+  const [err, setErr] = useState("");
+
+  const load = async () => {
+    setErr("");
+    try {
+      const res = await callFn("listConnectors", {});
+      setData(res);
+    } catch (e) {
+      setErr(e.response?.data?.error || e.message);
+    }
+  };
+  useEffect(() => { load(); }, []);
+
+  const providerCount = (defId) => (data?.providers || []).filter((p) => p.connectorDefinitionId === defId).length;
+  const rows = data?.definitions || [];
+
+  return (
+    <div className="space-y-6">
+      <ModuleHeader
+        title={t("connector.catalog")}
+        description={t("connector.catalog_desc")}
+        actions={
+          <div className="flex gap-2">
+            {canConnect && (
+              <Button variant="outline" size="sm" asChild>
+                <Link to="/connectors/connections">{t("connector.organization_connections")}</Link>
+              </Button>
+            )}
+            {canManage && (
+              <Button size="sm" className="gap-2" onClick={() => setOpen(true)}>
+                <Plus className="w-4 h-4" />{t("connector.register_definition")}
+              </Button>
+            )}
+          </div>
+        }
+      />
+
+      <Card>
+        <CardContent className="pt-6">
+          {data === null ? (
+            <p className="text-sm text-muted-foreground">{t("connector.loading")}</p>
+          ) : err ? (
+            <p className="text-sm text-destructive">{err}</p>
+          ) : rows.length === 0 ? (
+            <p className="text-sm text-muted-foreground">{t("connector.empty")}</p>
+          ) : (
+            <Table>
+              <TableHeader>
+                <TableRow>
+                  <TableHead>{t("connector.field.name")}</TableHead>
+                  <TableHead>{t("connector.field.key")}</TableHead>
+                  <TableHead>{t("connector.field.category")}</TableHead>
+                  <TableHead>{t("connector.field.providers")}</TableHead>
+                  <TableHead>{t("connector.field.active")}</TableHead>
+                  <TableHead className="text-right">{t("connector.view")}</TableHead>
+                </TableRow>
+              </TableHeader>
+              <TableBody>
+                {rows.map((d) => (
+                  <TableRow key={d.id}>
+                    <TableCell className="font-medium">{d.name}</TableCell>
+                    <TableCell>
+                      <span className="font-mono text-xs bg-muted px-2 py-1 rounded">{d.key}</span>
+                    </TableCell>
+                    <TableCell className="text-muted-foreground">{d.category || "—"}</TableCell>
+                    <TableCell><Badge variant="secondary">{providerCount(d.id)}</Badge></TableCell>
+                    <TableCell>
+                      <Badge variant={d.active ? "default" : "secondary"}>
+                        {d.active ? t("connector.status_available") : t("connector.status_disabled")}
+                      </Badge>
+                    </TableCell>
+                    <TableCell className="text-right">
+                      <Button variant="ghost" size="icon" asChild>
+                        <Link to={`/connectors/${d.id}`} aria-label={t("connector.view_detail")}>
+                          <ArrowRight className="w-4 h-4" />
+                        </Link>
+                      </Button>
+                    </TableCell>
+                  </TableRow>
+                ))}
+              </TableBody>
+            </Table>
+          )}
+        </CardContent>
+      </Card>
+
+      <Dialog open={open} onOpenChange={setOpen}>
+        <DialogContent className="max-w-lg">
+          <DialogHeader><DialogTitle>{t("connector.new_definition")}</DialogTitle></DialogHeader>
+          {open && <ConnectorDefinitionForm onSave={() => { setOpen(false); load(); }} onCancel={() => setOpen(false)} />}
+        </DialogContent>
+      </Dialog>
+    </div>
+  );
+}

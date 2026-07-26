@@ -1,1 +1,92 @@
-Ly8gc3JjL3NlcnZpY2VzL2JhY2tlbmRBZGFwdGVyLmpzCi8vIFByb3ZpZGVyLW5ldXRyYWwgZnJvbnRlbmQgZmFjYWRlLgovLwovLyBXYXZlIDEwLjEg4oCUIEJhc2U0NCBpcyB0aGUgb25seSBwcm92aWRlci4gVGhpcyBmYWNhZGUgZGVsZWdhdGVzIHRvIHRoZQovLyBjYW5vbmljYWwgQmFzZTQ0IGFkYXB0ZXIgKGJhc2U0NEFkYXB0ZXIuanMpIHdpdGhvdXQgY2hhbmdpbmcgbWV0aG9kIG5hbWVzLAovLyBhcmd1bWVudCBzaGFwZXMsIHJldHVybiBzaGFwZXMsIG9yIGVycm9yIHByb3BhZ2F0aW9uLiBGcm9udGVuZCBjb25zdW1lcnMKLy8gaW1wb3J0IGBiYWNrZW5kYCBmcm9tIGhlcmUgaW5zdGVhZCBvZiB0b3VjaGluZyB0aGUgQmFzZTQ0IFNESyBvciB0aGUgcmF3Ci8vIHByb3ZpZGVyIGNsaWVudCBkaXJlY3RseS4KLy8KLy8gV2F2ZSAxMC4yIOKAlCBGcm9udGVuZCBQcm92aWRlciBGYWNhZGUgSGFyZGVuaW5nLgovLyBUaGUgYnJvYWQgYGJhY2tlbmQuZW50aXRpZXNgIHBhc3N0aHJvdWdoIGZyb20gV2F2ZSAxMC4xIGlzIFJFTU9WRUQuIERpcmVjdAovLyBmcm9udGVuZCByZWFkcyBub3cgZ28gdGhyb3VnaCBhIG5hcnJvdywgcmVhZC1vbmx5IGBiYWNrZW5kLmNhdGFsb2dgIEFQSQovLyBiYWNrZWQgYnkgYW4gZXhwbGljaXQgVGVtcGxhdGUgQSAvIFRlbXBsYXRlIEMgcmVhZCBhbGxvdy1saXN0IChmcm96ZW4KLy8gUGhhc2UgOSBlbnRpdHkgc2VjdXJpdHkgbWF0cml4KS4gVGVtcGxhdGUgQiAoZnVuY3Rpb24tb25seSkgYW5kIHVua25vd24KLy8gZW50aXR5IG5hbWVzIGFyZSByZWplY3RlZCBCRUZPUkUgYW55IHByb3ZpZGVyIGNhbGwuIE5vIGNyZWF0ZS91cGRhdGUvCi8vIGRlbGV0ZS9idWxrLCBubyBgYXNTZXJ2aWNlUm9sZWAsIG5vIFJMUyBieXBhc3MsIG5vIGV2YWwgLyByZWZsZWN0aXZlCi8vIGFyYml0cmFyeSBpbnZvY2F0aW9uLCBubyBkeW5hbWljIG1ldGhvZCBuYW1lcyAob25seSBsaXN0L2ZpbHRlci9nZXQpLgovLyBgYmFja2VuZC5mdW5jdGlvbnMuaW52b2tlYCAoVGVtcGxhdGUgQiByZWFkcyArIG11dGF0aW9ucykgYW5kCi8vIGBiYWNrZW5kLmF1dGguKmAga2VlcCB0aGVpciBXYXZlIDEwLjEgY29udHJhY3RzIHVuY2hhbmdlZC4gYGJhY2tlbmQucmF3YAovLyBhbmQgdGhlIHJhdyBwcm92aWRlciBjbGllbnQgYXJlIE5PVCBleHBvc2VkLgoKaW1wb3J0IHsgZ2V0Qm91bmRQcm92aWRlciB9IGZyb20gJ0Avc2VydmljZXMvcHJvdmlkZXJCb290c3RyYXAnOwoKLy8gV2F2ZSAxMC41Qy4yIOKAlCBwcm92aWRlciBpcyBib3VuZCBieSBwcm92aWRlckJvb3RzdHJhcCBiZWZvcmUgdGhpcyBtb2R1bGUKLy8gZXZhbHVhdGVzIChBcHAuanN4IGlzIGR5bmFtaWNhbGx5IGltcG9ydGVkIG9ubHkgYWZ0ZXIgYm9vdHN0cmFwIHN1Y2NlZWRzKS4KLy8gZ2V0Qm91bmRQcm92aWRlciBpcyBzeW5jaHJvbm91cyBhbmQgcmV0dXJucyB0aGUgZXhhY3QgZnJvemVuIGJ1bmRsZS4KY29uc3QgeyBwcm92aWRlckNsaWVudCwgZmV0Y2hQdWJsaWNTZXR0aW5ncyB9ID0gZ2V0Qm91bmRQcm92aWRlcigpOwoKLy8gUmVhZCBhbGxvdy1saXN0IChhdXRob3JpdGF0aXZlOiBmcm96ZW4gUGhhc2UgOSBlbnRpdHkgc2VjdXJpdHkgbWF0cml4KS4KLy8gVGVtcGxhdGUgQSDigJQgYXV0aGVudGljYXRlZCBkaXJlY3QgcmVhZCAoZGF0YXN0b3JlIFJMUzogcmVhZCBhZG1pbi91c2VyKS4KY29uc3QgVEVNUExBVEVfQV9SRUFEID0gbmV3IFNldChbCiAgIkFwcGxpY2F0aW9uRGVmaW5pdGlvbiIsCiAgIlBsdWdpbkRlZmluaXRpb24iLAogICJDb25uZWN0b3JEZWZpbml0aW9uIiwKICAiQ29ubmVjdG9yUHJvdmlkZXIiLAogICJKb2JEZWZpbml0aW9uIiwKICAiRXZlbnRUb3BpYyIsCiAgIkxpZmVjeWNsZURlZmluaXRpb24iLAogICJMaWZlY3ljbGVTdGF0ZSIsCiAgIkxpZmVjeWNsZVRyYW5zaXRpb24iLAogICJBdWRpdENhdGVnb3J5RGVmaW5pdGlvbiIsCiAgIkF1ZGl0UnVsZURlZmluaXRpb24iLAogICJBdWRpdFByb2ZpbGVEZWZpbml0aW9uIiwKICAiQXVkaXRLbm93bGVkZ2VBcnRpY2xlIiwKXSk7CgovLyBUZW1wbGF0ZSBDIOKAlCBhZG1pbi1vbmx5IGRhdGFzdG9yZSByZWFkIChkYXRhc3RvcmUgUkxTIHJlc3RyaWN0cyB0byBhZG1pbikuCmNvbnN0IFRFTVBMQVRFX0NfQURNSU5fUkVBRCA9IG5ldyBTZXQoWwogICJQbGF0Zm9ybVJvbGUiLAogICJQZXJtaXNzaW9uIiwKICAiUm9sZVBlcm1pc3Npb24iLApdKTsKCmNvbnN0IEFMTE9XRURfUkVBRCA9IG5ldyBTZXQoWy4uLlRFTVBMQVRFX0FfUkVBRCwgLi4uVEVNUExBVEVfQ19BRE1JTl9SRUFEXSk7CgpmdW5jdGlvbiBhc3NlcnRSZWFkYWJsZShlbnRpdHlOYW1lKSB7CiAgLy8gUmVqZWN0IFRlbXBsYXRlIEIgKGZ1bmN0aW9uLW9ubHkpIGFuZCB1bmtub3duIG5hbWVzIGJlZm9yZSBhbnkgcHJvdmlkZXIKICAvLyBjYWxsLiBUZW1wbGF0ZSBCIHJlYWRzIHJlbWFpbiB0aGUgY29udHJhY3Qgb2YgcHJvdGVjdGVkIGJhY2tlbmQgZnVuY3Rpb25zCiAgLy8gaW52b2tlZCB2aWEgYmFja2VuZC5mdW5jdGlvbnMuaW52b2tlLiBObyBSTFMgd2Vha2VuaW5nLCBubyBieXBhc3MuCiAgaWYgKHR5cGVvZiBlbnRpdHlOYW1lICE9PSAic3RyaW5nIiB8fCAhQUxMT1dFRF9SRUFELmhhcyhlbnRpdHlOYW1lKSkgewogICAgdGhyb3cgbmV3IEVycm9yKAogICAgICBgYmFja2VuZC5jYXRhbG9nOiBlbnRpdHkgIiR7U3RyaW5nKGVudGl0eU5hbWUpfSIgaXMgbm90IGluIHRoZSByZWFkIGFsbG93LWxpc3QuYAogICAgKTsKICB9Cn0KCi8vIFJlYWQtb25seSBjYXRhbG9nIGZhY2FkZS4gRml4ZWQgbWV0aG9kcyBvbmx5IChsaXN0IC8gZmlsdGVyIC8gZ2V0KTsgdGhlCi8vIGVudGl0eSBuYW1lIGlzIHRoZSBvbmx5IHN0cmluZyBwYXJhbWV0ZXIuIFNvcnQgYW5kIGxpbWl0IGFyZSBmb3J3YXJkZWQKLy8gcG9zaXRpb25hbGx5IHRvIHRoZSBwcm92aWRlciBleGFjdGx5IGFzIGJlZm9yZTsgbm8gbmV3IHF1ZXJ5IGxhbmd1YWdlLCBubwovLyBwYWdpbmF0aW9uIHNlbWFudGljcyBjaGFuZ2UsIHJlc3BvbnNlIHNoYXBlcyB1bmNoYW5nZWQuIE5vIGNyZWF0ZS91cGRhdGUvCi8vIGRlbGV0ZS9idWxrIG1ldGhvZHMgYXJlIGV4cG9zZWQuCmV4cG9ydCBjb25zdCBjYXRhbG9nID0gewogIGxpc3QoZW50aXR5TmFtZSwgb3B0aW9ucyA9IHt9KSB7CiAgICBhc3NlcnRSZWFkYWJsZShlbnRpdHlOYW1lKTsKICAgIHJldHVybiBwcm92aWRlckNsaWVudC5lbnRpdGllc1tlbnRpdHlOYW1lXS5saXN0KG9wdGlvbnMuc29ydCwgb3B0aW9ucy5saW1pdCk7CiAgfSwKICBmaWx0ZXIoZW50aXR5TmFtZSwgZmlsdGVycyA9IHt9LCBvcHRpb25zID0ge30pIHsKICAgIGFzc2VydFJlYWRhYmxlKGVudGl0eU5hbWUpOwogICAgcmV0dXJuIHByb3ZpZGVyQ2xpZW50LmVudGl0aWVzW2VudGl0eU5hbWVdLmZpbHRlcihmaWx0ZXJzLCBvcHRpb25zLnNvcnQsIG9wdGlvbnMubGltaXQpOwogIH0sCiAgZ2V0KGVudGl0eU5hbWUsIGlkKSB7CiAgICBhc3NlcnRSZWFkYWJsZShlbnRpdHlOYW1lKTsKICAgIHJldHVybiBwcm92aWRlckNsaWVudC5lbnRpdGllc1tlbnRpdHlOYW1lXS5nZXQoaWQpOwogIH0sCn07CgpleHBvcnQgY29uc3QgYmFja2VuZCA9IHsKICBhdXRoOiBwcm92aWRlckNsaWVudC5hdXRoLAogIGZ1bmN0aW9uczogcHJvdmlkZXJDbGllbnQuZnVuY3Rpb25zLAogIGNhdGFsb2csCiAgZmV0Y2hQdWJsaWNTZXR0aW5ncywKfTs=
+// src/services/backendAdapter.js
+// Provider-neutral frontend facade.
+//
+// Wave 10.1 — Base44 is the only provider. This facade delegates to the
+// canonical Base44 adapter (base44Adapter.js) without changing method names,
+// argument shapes, return shapes, or error propagation. Frontend consumers
+// import `backend` from here instead of touching the Base44 SDK or the raw
+// provider client directly.
+//
+// Wave 10.2 — Frontend Provider Facade Hardening.
+// The broad `backend.entities` passthrough from Wave 10.1 is REMOVED. Direct
+// frontend reads now go through a narrow, read-only `backend.catalog` API
+// backed by an explicit Template A / Template C read allow-list (frozen
+// Phase 9 entity security matrix). Template B (function-only) and unknown
+// entity names are rejected BEFORE any provider call. No create/update/
+// delete/bulk, no `asServiceRole`, no RLS bypass, no eval / reflective
+// arbitrary invocation, no dynamic method names (only list/filter/get).
+// `backend.functions.invoke` (Template B reads + mutations) and
+// `backend.auth.*` keep their Wave 10.1 contracts unchanged. `backend.raw`
+// and the raw provider client are NOT exposed.
+
+import { getBoundProvider } from '@/services/providerBootstrap';
+
+// Wave 10.5C.2 — provider is bound by providerBootstrap before this module
+// evaluates (App.jsx is dynamically imported only after bootstrap succeeds).
+// getBoundProvider is synchronous and returns the exact frozen bundle.
+const { providerClient, fetchPublicSettings } = getBoundProvider();
+
+// Read allow-list (authoritative: frozen Phase 9 entity security matrix).
+// Template A — authenticated direct read (datastore RLS: read admin/user).
+const TEMPLATE_A_READ = new Set([
+  "ApplicationDefinition",
+  "PluginDefinition",
+  "ConnectorDefinition",
+  "ConnectorProvider",
+  "JobDefinition",
+  "EventTopic",
+  "LifecycleDefinition",
+  "LifecycleState",
+  "LifecycleTransition",
+  "AuditCategoryDefinition",
+  "AuditRuleDefinition",
+  "AuditProfileDefinition",
+  "AuditKnowledgeArticle",
+]);
+
+// Template C — admin-only datastore read (datastore RLS restricts to admin).
+const TEMPLATE_C_ADMIN_READ = new Set([
+  "PlatformRole",
+  "Permission",
+  "RolePermission",
+]);
+
+const ALLOWED_READ = new Set([...TEMPLATE_A_READ, ...TEMPLATE_C_ADMIN_READ]);
+
+function assertReadable(entityName) {
+  // Reject Template B (function-only) and unknown names before any provider
+  // call. Template B reads remain the contract of protected backend functions
+  // invoked via backend.functions.invoke. No RLS weakening, no bypass.
+  if (typeof entityName !== "string" || !ALLOWED_READ.has(entityName)) {
+    throw new Error(
+      `backend.catalog: entity "${String(entityName)}" is not in the read allow-list.`
+    );
+  }
+}
+
+// Read-only catalog facade. Fixed methods only (list / filter / get); the
+// entity name is the only string parameter. Sort and limit are forwarded
+// positionally to the provider exactly as before; no new query language, no
+// pagination semantics change, response shapes unchanged. No create/update/
+// delete/bulk methods are exposed.
+export const catalog = {
+  list(entityName, options = {}) {
+    assertReadable(entityName);
+    return providerClient.entities[entityName].list(options.sort, options.limit);
+  },
+  filter(entityName, filters = {}, options = {}) {
+    assertReadable(entityName);
+    return providerClient.entities[entityName].filter(filters, options.sort, options.limit);
+  },
+  get(entityName, id) {
+    assertReadable(entityName);
+    return providerClient.entities[entityName].get(id);
+  },
+};
+
+export const backend = {
+  auth: providerClient.auth,
+  functions: providerClient.functions,
+  catalog,
+  fetchPublicSettings,
+};

@@ -1,1 +1,117 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IExpbmsgfSBmcm9tICJyZWFjdC1yb3V0ZXItZG9tIjsKaW1wb3J0IHsgQXJyb3dSaWdodCB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBDYXJkLCBDYXJkQ29udGVudCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9jYXJkIjsKaW1wb3J0IHsgQmFkZ2UgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYmFkZ2UiOwppbXBvcnQgeyBTZWxlY3QsIFNlbGVjdFRyaWdnZXIsIFNlbGVjdFZhbHVlLCBTZWxlY3RDb250ZW50LCBTZWxlY3RJdGVtIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3NlbGVjdCI7CmltcG9ydCB7CiAgVGFibGUsIFRhYmxlSGVhZGVyLCBUYWJsZVJvdywgVGFibGVIZWFkLCBUYWJsZUJvZHksIFRhYmxlQ2VsbCwKfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvdGFibGUiOwppbXBvcnQgTW9kdWxlSGVhZGVyIGZyb20gIkAvY29tcG9uZW50cy9zaGFyZWQvTW9kdWxlSGVhZGVyIjsKaW1wb3J0IHsgY2FsbEZuIH0gZnJvbSAiQC9saWIvZnVuY3Rpb24tY2FsbCI7CmltcG9ydCB7IHQgfSBmcm9tICJAL2xpYi9pMThuIjsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEluc3RhbGxlZFBsdWdpbnNQYWdlKCkgewogIGNvbnN0IFtvcmdzLCBzZXRPcmdzXSA9IHVzZVN0YXRlKFtdKTsKICBjb25zdCBbb3JnSWQsIHNldE9yZ0lkXSA9IHVzZVN0YXRlKCIiKTsKICBjb25zdCBbZGF0YSwgc2V0RGF0YV0gPSB1c2VTdGF0ZShudWxsKTsKICBjb25zdCBbZXJyLCBzZXRFcnJdID0gdXNlU3RhdGUoIiIpOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgY2FsbEZuKCJnZXRPcmdhbml6YXRpb25zIiwge30pCiAgICAgIC50aGVuKChyKSA9PiB7CiAgICAgICAgY29uc3QgbGlzdCA9IHI/Lm9yZ2FuaXphdGlvbnMgfHwgW107CiAgICAgICAgc2V0T3JncyhsaXN0KTsKICAgICAgICBpZiAobGlzdC5sZW5ndGgpIHNldE9yZ0lkKGxpc3RbMF0uaWQpOwogICAgICB9KQogICAgICAuY2F0Y2goKCkgPT4gc2V0T3JncyhbXSkpOwogIH0sIFtdKTsKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGlmICghb3JnSWQpIHsgc2V0RGF0YShudWxsKTsgcmV0dXJuOyB9CiAgICBzZXRFcnIoIiIpOwogICAgY2FsbEZuKCJsaXN0UGx1Z2lucyIsIHsgb3JnYW5pemF0aW9uSWQ6IG9yZ0lkIH0pCiAgICAgIC50aGVuKChyZXMpID0+IHNldERhdGEocmVzKSkKICAgICAgLmNhdGNoKChlKSA9PiBzZXRFcnIoZS5yZXNwb25zZT8uZGF0YT8uZXJyb3IgfHwgZS5tZXNzYWdlKSk7CiAgfSwgW29yZ0lkXSk7CgogIGNvbnN0IGRlZk5hbWUgPSAoaWQpID0+IChkYXRhPy5kZWZpbml0aW9ucyB8fCBbXSkuZmluZCgoZCkgPT4gZC5pZCA9PT0gaWQpPy5uYW1lIHx8IGlkOwogIGNvbnN0IHZlckxhYmVsID0gKGlkKSA9PiB7CiAgICBjb25zdCB2ID0gKGRhdGE/LnZlcnNpb25zIHx8IFtdKS5maW5kKCh4KSA9PiB4LmlkID09PSBpZCk7CiAgICByZXR1cm4gdiA/IHYudmVyc2lvbiA6ICLigJQiOwogIH07CgogIGNvbnN0IHJvd3MgPSBkYXRhPy5pbnN0YWxsYXRpb25zIHx8IFtdOwoKICBjb25zdCBzdGF0dXNPZiA9IChpKSA9PiB7CiAgICBpZiAoaS51bmluc3RhbGxlZEF0KSByZXR1cm4gInVuaW5zdGFsbGVkIjsKICAgIGlmIChpLmVuYWJsZWQpIHJldHVybiAiZW5hYmxlZCI7CiAgICByZXR1cm4gImRpc2FibGVkIjsKICB9OwogIGNvbnN0IFZBUklBTlQgPSB7IGVuYWJsZWQ6ICJkZWZhdWx0IiwgZGlzYWJsZWQ6ICJzZWNvbmRhcnkiLCB1bmluc3RhbGxlZDogIm91dGxpbmUiIH07CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS02Ij4KICAgICAgPE1vZHVsZUhlYWRlcgogICAgICAgIHRpdGxlPXt0KCJwbHVnaW4uaW5zdGFsbGVkIil9CiAgICAgICAgZGVzY3JpcHRpb249e3QoInBsdWdpbi5pbnN0YWxsZWRfZGVzYyIpfQogICAgICAgIGFjdGlvbnM9ewogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InctNjQiPgogICAgICAgICAgICA8U2VsZWN0IHZhbHVlPXtvcmdJZH0gb25WYWx1ZUNoYW5nZT17c2V0T3JnSWR9PgogICAgICAgICAgICAgIDxTZWxlY3RUcmlnZ2VyPjxTZWxlY3RWYWx1ZSBwbGFjZWhvbGRlcj17dCgicGx1Z2luLmZpZWxkLm9yZ2FuaXphdGlvbklkIil9IC8+PC9TZWxlY3RUcmlnZ2VyPgogICAgICAgICAgICAgIDxTZWxlY3RDb250ZW50PgogICAgICAgICAgICAgICAge29yZ3MubWFwKChvKSA9PiAoCiAgICAgICAgICAgICAgICAgIDxTZWxlY3RJdGVtIGtleT17by5pZH0gdmFsdWU9e28uaWR9PntvLm5hbWUgfHwgby5pZH08L1NlbGVjdEl0ZW0+CiAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICA8L1NlbGVjdENvbnRlbnQ+CiAgICAgICAgICAgIDwvU2VsZWN0PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgfQogICAgICAvPgoKICAgICAgPENhcmQ+CiAgICAgICAgPENhcmRDb250ZW50IGNsYXNzTmFtZT0icHQtNiI+CiAgICAgICAgICB7IW9yZ0lkID8gKAogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57dCgicGx1Z2luLmZpZWxkLm9yZ2FuaXphdGlvbklkIil9PC9wPgogICAgICAgICAgKSA6IGRhdGEgPT09IG51bGwgPyAoCiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPnt0KCJwbHVnaW4ubG9hZGluZyIpfTwvcD4KICAgICAgICAgICkgOiBlcnIgPyAoCiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LWRlc3RydWN0aXZlIj57ZXJyfTwvcD4KICAgICAgICAgICkgOiByb3dzLmxlbmd0aCA9PT0gMCA/ICgKICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3QoInBsdWdpbi5lbXB0eV9pbnN0YWxsZWQiKX08L3A+CiAgICAgICAgICApIDogKAogICAgICAgICAgICA8VGFibGU+CiAgICAgICAgICAgICAgPFRhYmxlSGVhZGVyPgogICAgICAgICAgICAgICAgPFRhYmxlUm93PgogICAgICAgICAgICAgICAgICA8VGFibGVIZWFkPnt0KCJwbHVnaW4uZmllbGQucGx1Z2luSWQiKX08L1RhYmxlSGVhZD4KICAgICAgICAgICAgICAgICAgPFRhYmxlSGVhZD57dCgicGx1Z2luLmZpZWxkLnZlcnNpb24iKX08L1RhYmxlSGVhZD4KICAgICAgICAgICAgICAgICAgPFRhYmxlSGVhZD57dCgicGx1Z2luLmZpZWxkLmluc3RhbGxlZEF0Iil9PC9UYWJsZUhlYWQ+CiAgICAgICAgICAgICAgICAgIDxUYWJsZUhlYWQ+e3QoInBsdWdpbi5maWVsZC5lbmFibGVkIil9PC9UYWJsZUhlYWQ+CiAgICAgICAgICAgICAgICAgIDxUYWJsZUhlYWQgY2xhc3NOYW1lPSJ0ZXh0LXJpZ2h0Ij57dCgicGx1Z2luLnZpZXciKX08L1RhYmxlSGVhZD4KICAgICAgICAgICAgICAgIDwvVGFibGVSb3c+CiAgICAgICAgICAgICAgPC9UYWJsZUhlYWRlcj4KICAgICAgICAgICAgICA8VGFibGVCb2R5PgogICAgICAgICAgICAgICAge3Jvd3MubWFwKChpKSA9PiAoCiAgICAgICAgICAgICAgICAgIDxUYWJsZVJvdyBrZXk9e2kuaWR9PgogICAgICAgICAgICAgICAgICAgIDxUYWJsZUNlbGwgY2xhc3NOYW1lPSJmb250LW1lZGl1bSI+e2RlZk5hbWUoaS5wbHVnaW5JZCl9PC9UYWJsZUNlbGw+CiAgICAgICAgICAgICAgICAgICAgPFRhYmxlQ2VsbD48QmFkZ2UgdmFyaWFudD0ic2Vjb25kYXJ5Ij57dmVyTGFiZWwoaS5wbHVnaW5WZXJzaW9uSWQpfTwvQmFkZ2U+PC9UYWJsZUNlbGw+CiAgICAgICAgICAgICAgICAgICAgPFRhYmxlQ2VsbCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57aS5pbnN0YWxsZWRBdCA/IG5ldyBEYXRlKGkuaW5zdGFsbGVkQXQpLnRvTG9jYWxlU3RyaW5nKCkgOiAi4oCUIn08L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICAgICAgICA8VGFibGVDZWxsPjxCYWRnZSB2YXJpYW50PXtWQVJJQU5UW3N0YXR1c09mKGkpXX0+e3QoYHBsdWdpbi5zdGF0dXNfJHtzdGF0dXNPZihpKX1gKX08L0JhZGdlPjwvVGFibGVDZWxsPgogICAgICAgICAgICAgICAgICAgIDxUYWJsZUNlbGwgY2xhc3NOYW1lPSJ0ZXh0LXJpZ2h0Ij4KICAgICAgICAgICAgICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0iZ2hvc3QiIHNpemU9Imljb24iIGFzQ2hpbGQ+CiAgICAgICAgICAgICAgICAgICAgICAgIDxMaW5rIHRvPXtgL3BsdWdpbnMvaW5zdGFsbGVkLyR7aS5pZH1gfSBhcmlhLWxhYmVsPXt0KCJwbHVnaW4udmlld19kZXRhaWwiKX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgPEFycm93UmlnaHQgY2xhc3NOYW1lPSJ3LTQgaC00IiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8L0xpbms+CiAgICAgICAgICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICAgICAgICA8L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICAgICAgPC9UYWJsZVJvdz4KICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgIDwvVGFibGVCb2R5PgogICAgICAgICAgICA8L1RhYmxlPgogICAgICAgICAgKX0KICAgICAgICA8L0NhcmRDb250ZW50PgogICAgICA8L0NhcmQ+CiAgICA8L2Rpdj4KICApOwp9
+import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import { ArrowRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "@/components/ui/select";
+import {
+  Table, TableHeader, TableRow, TableHead, TableBody, TableCell,
+} from "@/components/ui/table";
+import ModuleHeader from "@/components/shared/ModuleHeader";
+import { callFn } from "@/lib/function-call";
+import { t } from "@/lib/i18n";
+
+export default function InstalledPluginsPage() {
+  const [orgs, setOrgs] = useState([]);
+  const [orgId, setOrgId] = useState("");
+  const [data, setData] = useState(null);
+  const [err, setErr] = useState("");
+
+  useEffect(() => {
+    callFn("getOrganizations", {})
+      .then((r) => {
+        const list = r?.organizations || [];
+        setOrgs(list);
+        if (list.length) setOrgId(list[0].id);
+      })
+      .catch(() => setOrgs([]));
+  }, []);
+
+  useEffect(() => {
+    if (!orgId) { setData(null); return; }
+    setErr("");
+    callFn("listPlugins", { organizationId: orgId })
+      .then((res) => setData(res))
+      .catch((e) => setErr(e.response?.data?.error || e.message));
+  }, [orgId]);
+
+  const defName = (id) => (data?.definitions || []).find((d) => d.id === id)?.name || id;
+  const verLabel = (id) => {
+    const v = (data?.versions || []).find((x) => x.id === id);
+    return v ? v.version : "—";
+  };
+
+  const rows = data?.installations || [];
+
+  const statusOf = (i) => {
+    if (i.uninstalledAt) return "uninstalled";
+    if (i.enabled) return "enabled";
+    return "disabled";
+  };
+  const VARIANT = { enabled: "default", disabled: "secondary", uninstalled: "outline" };
+
+  return (
+    <div className="space-y-6">
+      <ModuleHeader
+        title={t("plugin.installed")}
+        description={t("plugin.installed_desc")}
+        actions={
+          <div className="w-64">
+            <Select value={orgId} onValueChange={setOrgId}>
+              <SelectTrigger><SelectValue placeholder={t("plugin.field.organizationId")} /></SelectTrigger>
+              <SelectContent>
+                {orgs.map((o) => (
+                  <SelectItem key={o.id} value={o.id}>{o.name || o.id}</SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+          </div>
+        }
+      />
+
+      <Card>
+        <CardContent className="pt-6">
+          {!orgId ? (
+            <p className="text-sm text-muted-foreground">{t("plugin.field.organizationId")}</p>
+          ) : data === null ? (
+            <p className="text-sm text-muted-foreground">{t("plugin.loading")}</p>
+          ) : err ? (
+            <p className="text-sm text-destructive">{err}</p>
+          ) : rows.length === 0 ? (
+            <p className="text-sm text-muted-foreground">{t("plugin.empty_installed")}</p>
+          ) : (
+            <Table>
+              <TableHeader>
+                <TableRow>
+                  <TableHead>{t("plugin.field.pluginId")}</TableHead>
+                  <TableHead>{t("plugin.field.version")}</TableHead>
+                  <TableHead>{t("plugin.field.installedAt")}</TableHead>
+                  <TableHead>{t("plugin.field.enabled")}</TableHead>
+                  <TableHead className="text-right">{t("plugin.view")}</TableHead>
+                </TableRow>
+              </TableHeader>
+              <TableBody>
+                {rows.map((i) => (
+                  <TableRow key={i.id}>
+                    <TableCell className="font-medium">{defName(i.pluginId)}</TableCell>
+                    <TableCell><Badge variant="secondary">{verLabel(i.pluginVersionId)}</Badge></TableCell>
+                    <TableCell className="text-xs text-muted-foreground">{i.installedAt ? new Date(i.installedAt).toLocaleString() : "—"}</TableCell>
+                    <TableCell><Badge variant={VARIANT[statusOf(i)]}>{t(`plugin.status_${statusOf(i)}`)}</Badge></TableCell>
+                    <TableCell className="text-right">
+                      <Button variant="ghost" size="icon" asChild>
+                        <Link to={`/plugins/installed/${i.id}`} aria-label={t("plugin.view_detail")}>
+                          <ArrowRight className="w-4 h-4" />
+                        </Link>
+                      </Button>
+                    </TableCell>
+                  </TableRow>
+                ))}
+              </TableBody>
+            </Table>
+          )}
+        </CardContent>
+      </Card>
+    </div>
+  );
+}

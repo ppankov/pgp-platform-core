@@ -1,1 +1,87 @@
-Ly8gUEdQIENvcmUg4oCUIFdvcmtmbG93IEdyYXBoIERvbWFpbiAocHJvdmlkZXItaW5kZXBlbmRlbnQpCi8vIEJlaGF2aW9yYWwgcGFyaXR5IHdpdGggZGVwbG95ZWQgQmFzZTQ0IGZ1bmN0aW9uczoKLy8gICByZWdpc3RlcldvcmtmbG93VmVyc2lvbi9lbnRyeS50cyAodmFsaWRhdGVHcmFwaCkKLy8gICByZWxlYXNlV29ya2Zsb3dWZXJzaW9uL2VudHJ5LnRzICh2YWxpZGF0ZUdyYXBoKQovLyBQdXJlOiBubyBCYXNlNDQsIG5vIERlbm8sIG5vIFN1cGFiYXNlLCBubyBuZXR3b3JrLCBubyBmaWxlc3lzdGVtLCBubyBlbnYsCi8vIG5vIGltcGxpY2l0IGN1cnJlbnQgdGltZSwgbm8gc2lkZSBlZmZlY3RzLCBubyBpbnB1dCBtdXRhdGlvbi4KCmNvbnN0IFNVUFBPUlRFRF9OT0RFX1RZUEVTID0gWyJzdGFydCIsICJtYW51YWwiLCAiZW5kIl07CmNvbnN0IEVYRUNfUEFUVEVSTiA9IC9mdW5jdGlvbnxldmFsXCh8bmV3XHMrRnVuY3Rpb258aW1wb3J0XCh8cmVxdWlyZVwofF9fcHJvdG9fX3w8c2NyaXB0fGphdmFzY3JpcHQ6L2k7CgpleHBvcnQgZnVuY3Rpb24gdmFsaWRhdGVXb3JrZmxvd0dyYXBoKGdyYXBoKSB7CiAgaWYgKCFncmFwaCB8fCB0eXBlb2YgZ3JhcGggIT09ICJvYmplY3QiIHx8IEFycmF5LmlzQXJyYXkoZ3JhcGgpKQogICAgcmV0dXJuIHsgb2s6IGZhbHNlLCBlcnJvcjogImdyYXBoIG11c3QgYmUgYW4gb2JqZWN0IiB9OwogIGNvbnN0IG5vZGVzID0gZ3JhcGgubm9kZXMsIGVkZ2VzID0gZ3JhcGguZWRnZXM7CiAgaWYgKCFBcnJheS5pc0FycmF5KG5vZGVzKSB8fCAhQXJyYXkuaXNBcnJheShlZGdlcykpCiAgICByZXR1cm4geyBvazogZmFsc2UsIGVycm9yOiAiZ3JhcGggcmVxdWlyZXMgbm9kZXMgYW5kIGVkZ2VzIGFycmF5cyIgfTsKICBpZiAobm9kZXMubGVuZ3RoID09PSAwKQogICAgcmV0dXJuIHsgb2s6IGZhbHNlLCBlcnJvcjogImdyYXBoIG11c3QgY29udGFpbiBhdCBsZWFzdCBvbmUgbm9kZSIgfTsKICBjb25zdCBrZXlzID0gbmV3IFNldCgpOwogIGZvciAoY29uc3QgbiBvZiBub2RlcykgewogICAgaWYgKCFuIHx8IHR5cGVvZiBuICE9PSAib2JqZWN0IikgcmV0dXJuIHsgb2s6IGZhbHNlLCBlcnJvcjogImludmFsaWQgbm9kZSIgfTsKICAgIGlmICh0eXBlb2Ygbi5rZXkgIT09ICJzdHJpbmciIHx8ICFuLmtleSkgcmV0dXJuIHsgb2s6IGZhbHNlLCBlcnJvcjogIm5vZGUga2V5IGlzIHJlcXVpcmVkIiB9OwogICAgaWYgKGtleXMuaGFzKG4ua2V5KSkgcmV0dXJuIHsgb2s6IGZhbHNlLCBlcnJvcjogImR1cGxpY2F0ZSBub2RlIGtleTogIiArIG4ua2V5IH07CiAgICBrZXlzLmFkZChuLmtleSk7CiAgICBpZiAodHlwZW9mIG4udHlwZSAhPT0gInN0cmluZyIgfHwgIW4udHlwZSkgcmV0dXJuIHsgb2s6IGZhbHNlLCBlcnJvcjogIm5vZGUgdHlwZSBpcyByZXF1aXJlZCIgfTsKICAgIGlmICghU1VQUE9SVEVEX05PREVfVFlQRVMuaW5jbHVkZXMobi50eXBlKSkgcmV0dXJuIHsgb2s6IGZhbHNlLCBlcnJvcjogInVuc3VwcG9ydGVkIG5vZGUgdHlwZTogIiArIG4udHlwZSB9OwogIH0KICBjb25zdCBzdGFydHMgPSBub2Rlcy5maWx0ZXIoKG4pID0+IG4udHlwZSA9PT0gInN0YXJ0Iik7CiAgaWYgKHN0YXJ0cy5sZW5ndGggIT09IDEpCiAgICByZXR1cm4geyBvazogZmFsc2UsIGVycm9yOiAiZ3JhcGggbXVzdCBjb250YWluIGV4YWN0bHkgb25lIHN0YXJ0IG5vZGUiIH07CiAgY29uc3QgZW5kcyA9IG5vZGVzLmZpbHRlcigobikgPT4gbi50eXBlID09PSAiZW5kIik7CiAgaWYgKGVuZHMubGVuZ3RoID09PSAwKQogICAgcmV0dXJuIHsgb2s6IGZhbHNlLCBlcnJvcjogImdyYXBoIG11c3QgY29udGFpbiBhdCBsZWFzdCBvbmUgZW5kIG5vZGUiIH07CiAgY29uc3QgZWRnZVNldCA9IG5ldyBTZXQoKTsKICBmb3IgKGNvbnN0IGUgb2YgZWRnZXMpIHsKICAgIGlmICghZSB8fCB0eXBlb2YgZSAhPT0gIm9iamVjdCIpIHJldHVybiB7IG9rOiBmYWxzZSwgZXJyb3I6ICJpbnZhbGlkIGVkZ2UiIH07CiAgICBpZiAodHlwZW9mIGUuZnJvbSAhPT0gInN0cmluZyIgfHwgdHlwZW9mIGUudG8gIT09ICJzdHJpbmciKSByZXR1cm4geyBvazogZmFsc2UsIGVycm9yOiAiZWRnZSBmcm9tL3RvIGFyZSByZXF1aXJlZCIgfTsKICAgIGlmICgha2V5cy5oYXMoZS5mcm9tKSB8fCAha2V5cy5oYXMoZS50bykpIHJldHVybiB7IG9rOiBmYWxzZSwgZXJyb3I6ICJlZGdlIHJlZmVyZW5jZXMgdW5rbm93biBub2RlIiB9OwogICAgLy8gT3BlbiBjb250cmFjdCByZWNvbmNpbGlhdGlvbiBpdGVtIOKAlCBubyBiZWhhdmlvciBjaGFuZ2UgaW4gV2F2ZSAxMC4zQToKICAgIC8vIERlcGxveWVkIGNvZGUgaWRlbnRpdHk6IGZyb20gKyAifCIgKyB0byArICJ8IiArIGxhYmVsICAobGFiZWwgcGFydGljaXBhdGVzIGluIHVuaXF1ZW5lc3MpCiAgICAvLyBGcm96ZW4gUGhhc2UgNyBzcGVjIGlkZW50aXR5OiByZXBlYXRlZCAoZnJvbSwgdG8pIHBhaXIgIChsYWJlbCBkb2VzIE5PVCBwYXJ0aWNpcGF0ZSkKICAgIC8vIFBhY2thZ2UgdXNlcyBkZXBsb3llZCBiZWhhdmlvciB0byBndWFyYW50ZWUgbm8gcnVudGltZSBzZW1hbnRpYyBjaGFuZ2Ugb24gaW50ZWdyYXRpb24uCiAgICBjb25zdCBlayA9IGUuZnJvbSArICJ8IiArIGUudG8gKyAifCIgKyAoZS5sYWJlbCB8fCAiIik7CiAgICBpZiAoZWRnZVNldC5oYXMoZWspKSByZXR1cm4geyBvazogZmFsc2UsIGVycm9yOiAiZHVwbGljYXRlIGVkZ2U6ICIgKyBlLmZyb20gKyAiLT4iICsgZS50byB9OwogICAgZWRnZVNldC5hZGQoZWspOwogIH0KICBmb3IgKGNvbnN0IGUgb2YgZWRnZXMpIGlmIChlLnRvID09PSBzdGFydHNbMF0ua2V5KSByZXR1cm4geyBvazogZmFsc2UsIGVycm9yOiAic3RhcnQgbm9kZSBjYW5ub3QgaGF2ZSBpbmNvbWluZyBlZGdlcyIgfTsKICBmb3IgKGNvbnN0IG4gb2YgZW5kcykgZm9yIChjb25zdCBlIG9mIGVkZ2VzKSBpZiAoZS5mcm9tID09PSBuLmtleSkgcmV0dXJuIHsgb2s6IGZhbHNlLCBlcnJvcjogImVuZCBub2RlcyBjYW5ub3QgaGF2ZSBvdXRnb2luZyBlZGdlcyIgfTsKICBmb3IgKGNvbnN0IG4gb2Ygbm9kZXMpIHsKICAgIGlmIChuLnR5cGUgPT09ICJlbmQiKSBjb250aW51ZTsKICAgIGlmICghZWRnZXMuc29tZSgoZSkgPT4gZS5mcm9tID09PSBuLmtleSkpIHJldHVybiB7IG9rOiBmYWxzZSwgZXJyb3I6ICJub2RlICIgKyBuLmtleSArICIgaGFzIG5vIG91dGdvaW5nIGVkZ2VzIiB9OwogIH0KICAvLyByZWFjaGFiaWxpdHkgZnJvbSBzdGFydAogIGNvbnN0IHJlYWNoYWJsZSA9IG5ldyBTZXQoW3N0YXJ0c1swXS5rZXldKTsKICBsZXQgcSA9IFtzdGFydHNbMF0ua2V5XTsKICB3aGlsZSAocS5sZW5ndGgpIHsKICAgIGNvbnN0IGN1ciA9IHEuc2hpZnQoKTsKICAgIGZvciAoY29uc3QgZSBvZiBlZGdlcykgaWYgKGUuZnJvbSA9PT0gY3VyICYmICFyZWFjaGFibGUuaGFzKGUudG8pKSB7IHJlYWNoYWJsZS5hZGQoZS50byk7IHEucHVzaChlLnRvKTsgfQogIH0KICBmb3IgKGNvbnN0IGsgb2Yga2V5cykgaWYgKCFyZWFjaGFibGUuaGFzKGspKSByZXR1cm4geyBvazogZmFsc2UsIGVycm9yOiAidW5yZWFjaGFibGUgbm9kZTogIiArIGsgfTsKICAvLyBjeWNsZSBkZXRlY3Rpb24gKGl0ZXJhdGl2ZSBERlMpCiAgY29uc3QgYWRqID0gbmV3IE1hcCgpOwogIGZvciAoY29uc3QgayBvZiBrZXlzKSBhZGouc2V0KGssIFtdKTsKICBmb3IgKGNvbnN0IGUgb2YgZWRnZXMpIGFkai5nZXQoZS5mcm9tKS5wdXNoKGUudG8pOwogIGNvbnN0IGNvbG9yID0gbmV3IE1hcCgpOwogIGZvciAoY29uc3QgayBvZiBrZXlzKSBjb2xvci5zZXQoaywgMCk7CiAgbGV0IGN5Y2xlID0gZmFsc2U7CiAgY29uc3Qgc3RhY2sgPSBbW3N0YXJ0c1swXS5rZXksIDBdXTsKICB3aGlsZSAoc3RhY2subGVuZ3RoKSB7CiAgICBjb25zdCB0b3AgPSBzdGFja1tzdGFjay5sZW5ndGggLSAxXTsKICAgIGNvbnN0IHUgPSB0b3BbMF0sIGkgPSB0b3BbMV07CiAgICBjb2xvci5zZXQodSwgMSk7CiAgICBjb25zdCBuZWlnaGJvcnMgPSBhZGouZ2V0KHUpOwogICAgaWYgKGkgPCBuZWlnaGJvcnMubGVuZ3RoKSB7CiAgICAgIHRvcFsxXSA9IGkgKyAxOwogICAgICBjb25zdCB2ID0gbmVpZ2hib3JzW2ldOwogICAgICBpZiAoY29sb3IuZ2V0KHYpID09PSAxKSB7IGN5Y2xlID0gdHJ1ZTsgYnJlYWs7IH0KICAgICAgaWYgKGNvbG9yLmdldCh2KSA9PT0gMCkgc3RhY2sucHVzaChbdiwgMF0pOwogICAgfSBlbHNlIHsKICAgICAgY29sb3Iuc2V0KHUsIDIpOwogICAgICBzdGFjay5wb3AoKTsKICAgIH0KICB9CiAgaWYgKGN5Y2xlKSByZXR1cm4geyBvazogZmFsc2UsIGVycm9yOiAiZ3JhcGggbXVzdCBub3QgY29udGFpbiBjeWNsZXMiIH07CiAgaWYgKEVYRUNfUEFUVEVSTi50ZXN0KEpTT04uc3RyaW5naWZ5KGdyYXBoKSkpIHJldHVybiB7IG9rOiBmYWxzZSwgZXJyb3I6ICJncmFwaCBjb250YWlucyBleGVjdXRhYmxlLWxvb2tpbmcgdmFsdWVzIiB9OwogIHJldHVybiB7IG9rOiB0cnVlIH07Cn0=
+// PGP Core — Workflow Graph Domain (provider-independent)
+// Behavioral parity with deployed Base44 functions:
+//   registerWorkflowVersion/entry.ts (validateGraph)
+//   releaseWorkflowVersion/entry.ts (validateGraph)
+// Pure: no Base44, no Deno, no Supabase, no network, no filesystem, no env,
+// no implicit current time, no side effects, no input mutation.
+
+const SUPPORTED_NODE_TYPES = ["start", "manual", "end"];
+const EXEC_PATTERN = /function|eval\(|new\s+Function|import\(|require\(|__proto__|<script|javascript:/i;
+
+export function validateWorkflowGraph(graph) {
+  if (!graph || typeof graph !== "object" || Array.isArray(graph))
+    return { ok: false, error: "graph must be an object" };
+  const nodes = graph.nodes, edges = graph.edges;
+  if (!Array.isArray(nodes) || !Array.isArray(edges))
+    return { ok: false, error: "graph requires nodes and edges arrays" };
+  if (nodes.length === 0)
+    return { ok: false, error: "graph must contain at least one node" };
+  const keys = new Set();
+  for (const n of nodes) {
+    if (!n || typeof n !== "object") return { ok: false, error: "invalid node" };
+    if (typeof n.key !== "string" || !n.key) return { ok: false, error: "node key is required" };
+    if (keys.has(n.key)) return { ok: false, error: "duplicate node key: " + n.key };
+    keys.add(n.key);
+    if (typeof n.type !== "string" || !n.type) return { ok: false, error: "node type is required" };
+    if (!SUPPORTED_NODE_TYPES.includes(n.type)) return { ok: false, error: "unsupported node type: " + n.type };
+  }
+  const starts = nodes.filter((n) => n.type === "start");
+  if (starts.length !== 1)
+    return { ok: false, error: "graph must contain exactly one start node" };
+  const ends = nodes.filter((n) => n.type === "end");
+  if (ends.length === 0)
+    return { ok: false, error: "graph must contain at least one end node" };
+  const edgeSet = new Set();
+  for (const e of edges) {
+    if (!e || typeof e !== "object") return { ok: false, error: "invalid edge" };
+    if (typeof e.from !== "string" || typeof e.to !== "string") return { ok: false, error: "edge from/to are required" };
+    if (!keys.has(e.from) || !keys.has(e.to)) return { ok: false, error: "edge references unknown node" };
+    // Open contract reconciliation item — no behavior change in Wave 10.3A:
+    // Deployed code identity: from + "|" + to + "|" + label  (label participates in uniqueness)
+    // Frozen Phase 7 spec identity: repeated (from, to) pair  (label does NOT participate)
+    // Package uses deployed behavior to guarantee no runtime semantic change on integration.
+    const ek = e.from + "|" + e.to + "|" + (e.label || "");
+    if (edgeSet.has(ek)) return { ok: false, error: "duplicate edge: " + e.from + "->" + e.to };
+    edgeSet.add(ek);
+  }
+  for (const e of edges) if (e.to === starts[0].key) return { ok: false, error: "start node cannot have incoming edges" };
+  for (const n of ends) for (const e of edges) if (e.from === n.key) return { ok: false, error: "end nodes cannot have outgoing edges" };
+  for (const n of nodes) {
+    if (n.type === "end") continue;
+    if (!edges.some((e) => e.from === n.key)) return { ok: false, error: "node " + n.key + " has no outgoing edges" };
+  }
+  // reachability from start
+  const reachable = new Set([starts[0].key]);
+  let q = [starts[0].key];
+  while (q.length) {
+    const cur = q.shift();
+    for (const e of edges) if (e.from === cur && !reachable.has(e.to)) { reachable.add(e.to); q.push(e.to); }
+  }
+  for (const k of keys) if (!reachable.has(k)) return { ok: false, error: "unreachable node: " + k };
+  // cycle detection (iterative DFS)
+  const adj = new Map();
+  for (const k of keys) adj.set(k, []);
+  for (const e of edges) adj.get(e.from).push(e.to);
+  const color = new Map();
+  for (const k of keys) color.set(k, 0);
+  let cycle = false;
+  const stack = [[starts[0].key, 0]];
+  while (stack.length) {
+    const top = stack[stack.length - 1];
+    const u = top[0], i = top[1];
+    color.set(u, 1);
+    const neighbors = adj.get(u);
+    if (i < neighbors.length) {
+      top[1] = i + 1;
+      const v = neighbors[i];
+      if (color.get(v) === 1) { cycle = true; break; }
+      if (color.get(v) === 0) stack.push([v, 0]);
+    } else {
+      color.set(u, 2);
+      stack.pop();
+    }
+  }
+  if (cycle) return { ok: false, error: "graph must not contain cycles" };
+  if (EXEC_PATTERN.test(JSON.stringify(graph))) return { ok: false, error: "graph contains executable-looking values" };
+  return { ok: true };
+}

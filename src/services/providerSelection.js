@@ -1,1 +1,98 @@
-Ly8gc3JjL3NlcnZpY2VzL3Byb3ZpZGVyU2VsZWN0aW9uLmpzCi8vIFdhdmUgMTAuNUMuMiDigJQgcHJvdmlkZXItc2VsZWN0aW9uIGJvdW5kYXJ5IChpbnRlcm5hbCBpbXBsZW1lbnRhdGlvbiBtb2R1bGUpLgovLwovLyBTeW5jaHJvbm91cywgc3RhdGVsZXNzLCBpbXBvcnQtZnJlZS4gTWFwcyBhbiBhbHJlYWR5LXJlc29sdmVkIGVudmlyb25tZW50Ci8vIHByb2ZpbGUgdG8gYSBwcm92aWRlciBmYW1pbHkgYW5kIHZhbGlkYXRlcyBhIGNhbmRpZGF0ZSBwcm92aWRlciBidW5kbGUuCi8vIE5vIGJvb3RzdHJhcCBzdGF0ZSwgbm8gcHJvdmlkZXIgbW9kdWxlIGxvYWRpbmcsIG5vIGNsaWVudCBjb25zdHJ1Y3Rpb24uCi8vIFNvbGUgaW1wb3J0ZXI6IHByb3ZpZGVyQm9vdHN0cmFwLmpzLgovLwovLyBQdXJpdHk6IDAgaW1wb3J0cy4gTm8gU0RLLCBubyBwcm92aWRlciBhZGFwdGVyLCBubyBhcHAgcGFyYW1ldGVycywgbm8KLy8gZW52aXJvbm1lbnQgcmVhZHMsIG5vIGR5bmFtaWMgaW1wb3J0cywgbm8gYm9vdHN0cmFwIHN0YXRlLgoKLy8gSW1tdXRhYmxlIGFsbG93LWxpc3RlZCBwcm9maWxlIC0+IHByb3ZpZGVyLWZhbWlseSBtYXBwaW5nLiBFeGFjdGx5IDIga2V5cy4KY29uc3QgUFJPRklMRV9UT19GQU1JTFkgPSBPYmplY3QuZnJlZXplKHsKICAiYmFzZTQ0LWNsb3VkIjogImJhc2U0NCIsCiAgImxvY2FsLWRldmVsb3BtZW50IjogImJhc2U0NCIsCn0pOwoKLy8gSW50ZXJuYWwgZXJyb3IgY29kZXMgKG5vdCBleHBvcnRlZCkuCmNvbnN0IEVSUk9SX0NPREVTID0gT2JqZWN0LmZyZWV6ZSh7CiAgTk9UX1JFR0lTVEVSRUQ6ICJQR1BfUFJPVklERVJfTk9UX1JFR0lTVEVSRUQiLAogIElOVkFMSURfRkFDQURFOiAiUEdQX1BST1ZJREVSX0lOVkFMSURfRkFDQURFIiwKfSk7CgovLyBXYXZlIDEwLjVCLjQgY29ycmVjdGlvbiBCOiBzYWZlLCBub24tdGhyb3dpbmcgY29udmVyc2lvbiBvZiB0aGUgcHJvZmlsZQovLyBsYWJlbCBmb3IgZXJyb3IgbWVzc2FnZXMuIFJldHVybnMgYSBmaXhlZCBub24tc2VjcmV0IGZhbGxiYWNrIGxhYmVsIHdoZW4KLy8gU3RyaW5nKHZhbHVlKSB0aHJvd3MgKGUuZy4gT2JqZWN0LmNyZWF0ZShudWxsKSwgdGhyb3dpbmcgdG9TdHJpbmcgLwovLyBTeW1ib2wudG9QcmltaXRpdmUpLiBJbnRlcm5hbCBvbmx5OyBuZXZlciBleHBvcnRlZDsgbm8gbG9nZ2luZywgbm8gZHVtcC4KZnVuY3Rpb24gc2FmZVByb2ZpbGVMYWJlbCh2YWx1ZSkgewogIHRyeSB7CiAgICByZXR1cm4gU3RyaW5nKHZhbHVlKTsKICB9IGNhdGNoIChfKSB7CiAgICByZXR1cm4gIjx1bmNvbnZlcnRpYmxlPiI7CiAgfQp9CgpmdW5jdGlvbiBzZWxlY3Rpb25FcnJvcihjb2RlLCBwcm9maWxlTmFtZSkgewogIGNvbnN0IHNhZmVOYW1lID0gc2FmZVByb2ZpbGVMYWJlbChwcm9maWxlTmFtZSk7CiAgY29uc3QgbWVzc2FnZSA9CiAgICBjb2RlID09PSBFUlJPUl9DT0RFUy5OT1RfUkVHSVNURVJFRAogICAgICA/IGBObyByZWdpc3RlcmVkIHByb3ZpZGVyIGZvciBlbnZpcm9ubWVudCBwcm9maWxlOiAke3NhZmVOYW1lfWAKICAgICAgOiBgUHJvdmlkZXIgcmV0dXJuZWQgYW4gaW52YWxpZCBmYWNhZGUgZm9yIGVudmlyb25tZW50IHByb2ZpbGU6ICR7c2FmZU5hbWV9YDsKICBjb25zdCBlcnIgPSBuZXcgRXJyb3IobWVzc2FnZSk7CiAgZXJyLmNvZGUgPSBjb2RlOwogIHJldHVybiBlcnI7Cn0KCi8vIFB1YmxpYyBBUEkg4oCUIHJlc29sdmVQcm92aWRlckZhbWlseShwcm9maWxlTmFtZSkuCi8vIFN5bmNocm9ub3VzLiBBY2NlcHRzIGFuIGFscmVhZHktcmVzb2x2ZWQgcHJvZmlsZSBuYW1lLiBNYXBzIGV4YWN0bHkKLy8gYmFzZTQ0LWNsb3VkIC0+IGJhc2U0NCwgbG9jYWwtZGV2ZWxvcG1lbnQgLT4gYmFzZTQ0LiBSZWplY3RzIGV2ZXJ5IG90aGVyCi8vIHZhbHVlIChpbmNsdWRpbmcgaW5oZXJpdGVkIE9iamVjdC5wcm90b3R5cGUga2V5cykgd2l0aAovLyBQR1BfUFJPVklERVJfTk9UX1JFR0lTVEVSRUQuIExvYWRzIG5vIG1vZHVsZSwgY29uc3RydWN0cyBubyBjbGllbnQuCmV4cG9ydCBmdW5jdGlvbiByZXNvbHZlUHJvdmlkZXJGYW1pbHkocHJvZmlsZU5hbWUpIHsKICBpZiAodHlwZW9mIHByb2ZpbGVOYW1lICE9PSAic3RyaW5nIikgewogICAgdGhyb3cgc2VsZWN0aW9uRXJyb3IoRVJST1JfQ09ERVMuTk9UX1JFR0lTVEVSRUQsIHByb2ZpbGVOYW1lKTsKICB9CiAgLy8gV2F2ZSAxMC41Qi40IGNvcnJlY3Rpb24gQTogcmVxdWlyZSBhbiBPV04gcHJvcGVydHkgc28gaW5oZXJpdGVkCiAgLy8gT2JqZWN0LnByb3RvdHlwZSBrZXlzIChfX3Byb3RvX18sIGNvbnN0cnVjdG9yLCB0b1N0cmluZywgaGFzT3duUHJvcGVydHksCiAgLy8gcHJvdG90eXBlKSBjYW5ub3QgYmUgYWNjZXB0ZWQgYXMgYSBwcm9maWxlIG1hcHBpbmcuCiAgaWYgKCFPYmplY3QucHJvdG90eXBlLmhhc093blByb3BlcnR5LmNhbGwoUFJPRklMRV9UT19GQU1JTFksIHByb2ZpbGVOYW1lKSkgewogICAgdGhyb3cgc2VsZWN0aW9uRXJyb3IoRVJST1JfQ09ERVMuTk9UX1JFR0lTVEVSRUQsIHByb2ZpbGVOYW1lKTsKICB9CiAgcmV0dXJuIFBST0ZJTEVfVE9fRkFNSUxZW3Byb2ZpbGVOYW1lXTsKfQoKLy8gUHVibGljIEFQSSDigJQgdmFsaWRhdGVQcm92aWRlckJ1bmRsZShidW5kbGUsIHByb2ZpbGVOYW1lKS4KLy8gU3luY2hyb25vdXMuIFJlcXVpcmVzIGV4YWN0bHkgeyBwcm92aWRlckNsaWVudCwgZmV0Y2hQdWJsaWNTZXR0aW5ncyB9OwovLyBwcm92aWRlckNsaWVudCBtdXN0IGJlIG9iamVjdC1saWtlIHdpdGggYXV0aC9mdW5jdGlvbnMvZW50aXRpZXM7Ci8vIGZldGNoUHVibGljU2V0dGluZ3MgbXVzdCBiZSBhIGZ1bmN0aW9uLiBSZXR1cm5zIGEgZnJvemVuIHR3by1rZXkgYnVuZGxlCi8vIHByZXNlcnZpbmcgdGhlIGV4YWN0IHByb3ZpZGVyQ2xpZW50IGFuZCBmZXRjaFB1YmxpY1NldHRpbmdzIHJlZmVyZW5jZXMuCi8vIFRocm93cyBQR1BfUFJPVklERVJfSU5WQUxJRF9GQUNBREUgZm9yIG1hbGZvcm1lZCBidW5kbGVzLiBFeHBvc2VzIG5vCi8vIHByb3ZpZGVyIGR1bXAgb3Igc2VjcmV0LgpleHBvcnQgZnVuY3Rpb24gdmFsaWRhdGVQcm92aWRlckJ1bmRsZShidW5kbGUsIHByb2ZpbGVOYW1lKSB7CiAgaWYgKCFidW5kbGUgfHwgdHlwZW9mIGJ1bmRsZSAhPT0gIm9iamVjdCIpIHsKICAgIHRocm93IHNlbGVjdGlvbkVycm9yKEVSUk9SX0NPREVTLklOVkFMSURfRkFDQURFLCBwcm9maWxlTmFtZSk7CiAgfQogIGNvbnN0IGtleXMgPSBPYmplY3Qua2V5cyhidW5kbGUpOwogIGlmICgKICAgIGtleXMubGVuZ3RoICE9PSAyIHx8CiAgICAha2V5cy5pbmNsdWRlcygicHJvdmlkZXJDbGllbnQiKSB8fAogICAgIWtleXMuaW5jbHVkZXMoImZldGNoUHVibGljU2V0dGluZ3MiKQogICkgewogICAgdGhyb3cgc2VsZWN0aW9uRXJyb3IoRVJST1JfQ09ERVMuSU5WQUxJRF9GQUNBREUsIHByb2ZpbGVOYW1lKTsKICB9CiAgY29uc3QgcGMgPSBidW5kbGUucHJvdmlkZXJDbGllbnQ7CiAgaWYgKCFwYyB8fCB0eXBlb2YgcGMgIT09ICJvYmplY3QiKSB7CiAgICB0aHJvdyBzZWxlY3Rpb25FcnJvcihFUlJPUl9DT0RFUy5JTlZBTElEX0ZBQ0FERSwgcHJvZmlsZU5hbWUpOwogIH0KICBpZiAoIXBjLmF1dGggfHwgIXBjLmZ1bmN0aW9ucyB8fCAhcGMuZW50aXRpZXMpIHsKICAgIHRocm93IHNlbGVjdGlvbkVycm9yKEVSUk9SX0NPREVTLklOVkFMSURfRkFDQURFLCBwcm9maWxlTmFtZSk7CiAgfQogIGlmICh0eXBlb2YgYnVuZGxlLmZldGNoUHVibGljU2V0dGluZ3MgIT09ICJmdW5jdGlvbiIpIHsKICAgIHRocm93IHNlbGVjdGlvbkVycm9yKEVSUk9SX0NPREVTLklOVkFMSURfRkFDQURFLCBwcm9maWxlTmFtZSk7CiAgfQogIHJldHVybiBPYmplY3QuZnJlZXplKHsKICAgIHByb3ZpZGVyQ2xpZW50OiBidW5kbGUucHJvdmlkZXJDbGllbnQsCiAgICBmZXRjaFB1YmxpY1NldHRpbmdzOiBidW5kbGUuZmV0Y2hQdWJsaWNTZXR0aW5ncywKICB9KTsKfQ==
+// src/services/providerSelection.js
+// Wave 10.5C.2 — provider-selection boundary (internal implementation module).
+//
+// Synchronous, stateless, import-free. Maps an already-resolved environment
+// profile to a provider family and validates a candidate provider bundle.
+// No bootstrap state, no provider module loading, no client construction.
+// Sole importer: providerBootstrap.js.
+//
+// Purity: 0 imports. No SDK, no provider adapter, no app parameters, no
+// environment reads, no dynamic imports, no bootstrap state.
+
+// Immutable allow-listed profile -> provider-family mapping. Exactly 2 keys.
+const PROFILE_TO_FAMILY = Object.freeze({
+  "base44-cloud": "base44",
+  "local-development": "base44",
+});
+
+// Internal error codes (not exported).
+const ERROR_CODES = Object.freeze({
+  NOT_REGISTERED: "PGP_PROVIDER_NOT_REGISTERED",
+  INVALID_FACADE: "PGP_PROVIDER_INVALID_FACADE",
+});
+
+// Wave 10.5B.4 correction B: safe, non-throwing conversion of the profile
+// label for error messages. Returns a fixed non-secret fallback label when
+// String(value) throws (e.g. Object.create(null), throwing toString /
+// Symbol.toPrimitive). Internal only; never exported; no logging, no dump.
+function safeProfileLabel(value) {
+  try {
+    return String(value);
+  } catch (_) {
+    return "<unconvertible>";
+  }
+}
+
+function selectionError(code, profileName) {
+  const safeName = safeProfileLabel(profileName);
+  const message =
+    code === ERROR_CODES.NOT_REGISTERED
+      ? `No registered provider for environment profile: ${safeName}`
+      : `Provider returned an invalid facade for environment profile: ${safeName}`;
+  const err = new Error(message);
+  err.code = code;
+  return err;
+}
+
+// Public API — resolveProviderFamily(profileName).
+// Synchronous. Accepts an already-resolved profile name. Maps exactly
+// base44-cloud -> base44, local-development -> base44. Rejects every other
+// value (including inherited Object.prototype keys) with
+// PGP_PROVIDER_NOT_REGISTERED. Loads no module, constructs no client.
+export function resolveProviderFamily(profileName) {
+  if (typeof profileName !== "string") {
+    throw selectionError(ERROR_CODES.NOT_REGISTERED, profileName);
+  }
+  // Wave 10.5B.4 correction A: require an OWN property so inherited
+  // Object.prototype keys (__proto__, constructor, toString, hasOwnProperty,
+  // prototype) cannot be accepted as a profile mapping.
+  if (!Object.prototype.hasOwnProperty.call(PROFILE_TO_FAMILY, profileName)) {
+    throw selectionError(ERROR_CODES.NOT_REGISTERED, profileName);
+  }
+  return PROFILE_TO_FAMILY[profileName];
+}
+
+// Public API — validateProviderBundle(bundle, profileName).
+// Synchronous. Requires exactly { providerClient, fetchPublicSettings };
+// providerClient must be object-like with auth/functions/entities;
+// fetchPublicSettings must be a function. Returns a frozen two-key bundle
+// preserving the exact providerClient and fetchPublicSettings references.
+// Throws PGP_PROVIDER_INVALID_FACADE for malformed bundles. Exposes no
+// provider dump or secret.
+export function validateProviderBundle(bundle, profileName) {
+  if (!bundle || typeof bundle !== "object") {
+    throw selectionError(ERROR_CODES.INVALID_FACADE, profileName);
+  }
+  const keys = Object.keys(bundle);
+  if (
+    keys.length !== 2 ||
+    !keys.includes("providerClient") ||
+    !keys.includes("fetchPublicSettings")
+  ) {
+    throw selectionError(ERROR_CODES.INVALID_FACADE, profileName);
+  }
+  const pc = bundle.providerClient;
+  if (!pc || typeof pc !== "object") {
+    throw selectionError(ERROR_CODES.INVALID_FACADE, profileName);
+  }
+  if (!pc.auth || !pc.functions || !pc.entities) {
+    throw selectionError(ERROR_CODES.INVALID_FACADE, profileName);
+  }
+  if (typeof bundle.fetchPublicSettings !== "function") {
+    throw selectionError(ERROR_CODES.INVALID_FACADE, profileName);
+  }
+  return Object.freeze({
+    providerClient: bundle.providerClient,
+    fetchPublicSettings: bundle.fetchPublicSettings,
+  });
+}

@@ -1,1 +1,134 @@
-Ly8gc3JjL3NlcnZpY2VzL3Byb3ZpZGVyQm9vdHN0cmFwLmpzCi8vIFdhdmUgMTAuNUMuMiDigJQgZGVmZXJyZWQgYXBwbGljYXRpb24gYm9vdHN0cmFwIGFuZCBwcm92aWRlci1sb2FkaW5nCi8vIGlzb2xhdGlvbiAoaW50ZXJuYWwgaW1wbGVtZW50YXRpb24gbW9kdWxlKS4KLy8KLy8gU29sZSBvd25lciBvZiB0aGUgYm9vdHN0cmFwIGxpZmVjeWNsZTogc3RhdGUsIGJvdW5kIHByb2ZpbGUvZmFtaWx5LCBib3VuZAovLyBidW5kbGUsIGFuZCBpbi1mbGlnaHQgYmluZGluZyBwcm9taXNlLiBEeW5hbWljYWxseSBpbXBvcnRzIHRoZSBzZWxlY3RlZAovLyBwcm92aWRlciBhZGFwdGVyIE9OTFkgYWZ0ZXIgZXhwbGljaXQgYm9vdHN0cmFwIHNlbGVjdGlvbiwgdmFsaWRhdGVzIHRoZQovLyByZXR1cm5lZCBidW5kbGUsIGFuZCBiaW5kcyBpdCBleGFjdGx5IG9uY2UuIGJhY2tlbmRBZGFwdGVyLmpzIHJlYWRzIHRoZQovLyBib3VuZCBidW5kbGUgc3luY2hyb25vdXNseSB2aWEgZ2V0Qm91bmRQcm92aWRlcigpLgovLwovLyBJbXBvcnRzIG9ubHkgcmVzb2x2ZVByb3ZpZGVyRmFtaWx5IGFuZCB2YWxpZGF0ZVByb3ZpZGVyQnVuZGxlIGZyb20KLy8gcHJvdmlkZXJTZWxlY3Rpb24uanMuIE5vIHN0YXRpYyBpbXBvcnQgb2YgYmFzZTQ0QWRhcHRlciwgYmFzZTQ0Q2xpZW50LAovLyBiYWNrZW5kQWRhcHRlciwgQXBwLCBBdXRoQ29udGV4dCwgQGJhc2U0NC9zZGssIGFwcFBhcmFtcywgb3IKLy8gZW52aXJvbm1lbnQtcHJvZmlsZS4KLy8KLy8gU3RhdGUgbW9kZWw6IHVuaW5pdGlhbGl6ZWQgLT4gYmluZGluZyAtPiBib3VuZCB8IGZhaWxlZC4KLy8gTm8gZmFsbGJhY2suIE5vIHNpbGVudCBCYXNlNDQgc2VsZWN0aW9uLiBObyBzZWNyZXQvZHVtcCBleHBvc3VyZS4KCmltcG9ydCB7CiAgcmVzb2x2ZVByb3ZpZGVyRmFtaWx5LAogIHZhbGlkYXRlUHJvdmlkZXJCdW5kbGUsCn0gZnJvbSAnQC9zZXJ2aWNlcy9wcm92aWRlclNlbGVjdGlvbic7CgovLyBJbW11dGFibGUgZml4ZWQgcHJvdmlkZXItZmFtaWx5IC0+IGFzeW5jIGxvYWRlciBtYXAuIEV4YWN0bHkgb25lIGZhbWlseS4KLy8gVGhlIGxvYWRlciB1c2VzIE9ORSBmaXhlZCBkeW5hbWljIGltcG9ydCBwYXRoOyB0aGUgcGF0aCBpcyBub3QgY29uc3RydWN0ZWQKLy8gZnJvbSBwcm9maWxlTmFtZSwgZmFtaWx5IHRleHQsIFVSTCwgaG9zdG5hbWUsIGVudiwgb3IgdXNlciBpbnB1dC4gVGhlCi8vIGxvYWRlciBzZWxlY3RzIG9ubHkgdGhlIHR3byByZXF1aXJlZCBtb2R1bGUgZXhwb3J0czsgaXQgZG9lcyBub3QgcmV0dXJuCi8vIHRoZSBmdWxsIG1vZHVsZSBuYW1lc3BhY2UuIENsaWVudCBjb25zdHJ1Y3Rpb24gcmVtYWlucyBvbmx5IGluIHRoZQovLyBwcm92aWRlciBhZGFwdGVyIG1vZHVsZS4KY29uc3QgUFJPVklERVJfTE9BREVSUyA9IE9iamVjdC5mcmVlemUoewogIGJhc2U0NDogYXN5bmMgKCkgPT4gewogICAgY29uc3QgbW9kdWxlID0gYXdhaXQgaW1wb3J0KCdAL3NlcnZpY2VzL2Jhc2U0NEFkYXB0ZXInKTsKICAgIHJldHVybiB7CiAgICAgIHByb3ZpZGVyQ2xpZW50OiBtb2R1bGUucHJvdmlkZXJDbGllbnQsCiAgICAgIGZldGNoUHVibGljU2V0dGluZ3M6IG1vZHVsZS5mZXRjaFB1YmxpY1NldHRpbmdzLAogICAgfTsKICB9LAp9KTsKCmNvbnN0IEVSUk9SX0NPREVTID0gT2JqZWN0LmZyZWV6ZSh7CiAgTk9UX1JFR0lTVEVSRUQ6ICJQR1BfUFJPVklERVJfTk9UX1JFR0lTVEVSRUQiLAogIElOVkFMSURfRkFDQURFOiAiUEdQX1BST1ZJREVSX0lOVkFMSURfRkFDQURFIiwKICBCT09UU1RSQVBfUkVRVUlSRUQ6ICJQR1BfUFJPVklERVJfQk9PVFNUUkFQX1JFUVVJUkVEIiwKICBMT0FEX0ZBSUxFRDogIlBHUF9QUk9WSURFUl9MT0FEX0ZBSUxFRCIsCiAgQUxSRUFEWV9JTklUSUFMSVpFRDogIlBHUF9QUk9WSURFUl9BTFJFQURZX0lOSVRJQUxJWkVEIiwKICBSRUVOVFJBTlQ6ICJQR1BfUFJPVklERVJfQk9PVFNUUkFQX1JFRU5UUkFOVCIsCn0pOwoKZnVuY3Rpb24gYm9vdHN0cmFwRXJyb3IoY29kZSkgewogIGNvbnN0IGVyciA9IG5ldyBFcnJvcihgUHJvdmlkZXIgYm9vdHN0cmFwIGZhaWxlZDogJHtjb2RlfWApOwogIGVyci5jb2RlID0gY29kZTsKICByZXR1cm4gZXJyOwp9CgovLyBTb2xlIG11dGFibGUgYm9vdHN0cmFwIHN0YXRlIChtb2R1bGUtcHJpdmF0ZTsgbm90IGV4cG9ydGVkIGRpcmVjdGx5KS4KbGV0IHN0YXRlID0gInVuaW5pdGlhbGl6ZWQiOwpsZXQgYm91bmRQcm9maWxlID0gbnVsbDsKbGV0IGJvdW5kRmFtaWx5ID0gbnVsbDsKbGV0IGJvdW5kQnVuZGxlID0gbnVsbDsKbGV0IGJpbmRpbmdQcm9taXNlID0gbnVsbDsKCi8vIGJvb3RzdHJhcFByb3ZpZGVyKHByb2ZpbGVOYW1lKToKLy8gMS4gcmVzb2x2ZSBmYW1pbHkgc3luY2hyb25vdXNseSAoTk9UX1JFR0lTVEVSRUQgb24gaW52YWxpZC91bmtub3duIHByb2ZpbGUpCi8vIDIuIHZlcmlmeSBmYW1pbHkgb3ducyBhIGxvYWRlciAoTk9UX1JFR0lTVEVSRUQgaWYgbWlzc2luZykKLy8gMy4gZW50ZXIgYmluZGluZwovLyA0LiBydW4gc2VsZWN0ZWQgbG9hZGVyIChvbmNlKQovLyA1LiB2YWxpZGF0ZSByZXR1cm5lZCBidW5kbGUgKElOVkFMSURfRkFDQURFIG9uIG1hbGZvcm1lZCkKLy8gNi4gYmluZCBidW5kbGUgZXhhY3RseSBvbmNlCi8vIDcuIGVudGVyIGJvdW5kCi8vIElkZW1wb3RlbnQgZm9yIHRoZSBzYW1lIHByb2ZpbGUgYWZ0ZXIgYm91bmQuIERpZmZlcmVudCBwcm9maWxlIGFmdGVyIGJvdW5kCi8vIC0+IEFMUkVBRFlfSU5JVElBTElaRUQuIERpZmZlcmVudCBwcm9maWxlIGR1cmluZyBiaW5kaW5nIC0+IFJFRU5UUkFOVC4KLy8gU2FtZSBwcm9maWxlIGR1cmluZyBiaW5kaW5nIC0+IHJldXNlIGluLWZsaWdodCBwcm9taXNlLiBGYWlsZWQgc3RhdGUgLT4KLy8gTE9BRF9GQUlMRUQgb24gbGF0ZXIgYXR0ZW1wdHMuIER5bmFtaWMtaW1wb3J0IHJlamVjdGlvbiAtPiBMT0FEX0ZBSUxFRAovLyAocmF3IGVycm9yIG5vdCBleHBvc2VkKS4gU2VsZWN0aW9uL3ZhbGlkYXRpb24gZXJyb3JzIHByb3BhZ2F0ZSB1bndyYXBwZWQuCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBib290c3RyYXBQcm92aWRlcihwcm9maWxlTmFtZSkgewogIGNvbnN0IGZhbWlseSA9IHJlc29sdmVQcm92aWRlckZhbWlseShwcm9maWxlTmFtZSk7CgogIGlmIChzdGF0ZSA9PT0gImJvdW5kIikgewogICAgaWYgKGJvdW5kUHJvZmlsZSA9PT0gcHJvZmlsZU5hbWUpIHsKICAgICAgcmV0dXJuOyAvLyBpZGVtcG90ZW50OyBsb2FkZXIgbm90IGNhbGxlZCBhZ2FpbgogICAgfQogICAgdGhyb3cgYm9vdHN0cmFwRXJyb3IoRVJST1JfQ09ERVMuQUxSRUFEWV9JTklUSUFMSVpFRCk7CiAgfQogIGlmIChzdGF0ZSA9PT0gImZhaWxlZCIpIHsKICAgIHRocm93IGJvb3RzdHJhcEVycm9yKEVSUk9SX0NPREVTLkxPQURfRkFJTEVEKTsKICB9CiAgaWYgKHN0YXRlID09PSAiYmluZGluZyIpIHsKICAgIGlmIChib3VuZFByb2ZpbGUgPT09IHByb2ZpbGVOYW1lKSB7CiAgICAgIHJldHVybiBiaW5kaW5nUHJvbWlzZTsgLy8gcmV1c2UgaW4tZmxpZ2h0OyBsb2FkZXIgZXhlY3V0ZXMgb25jZQogICAgfQogICAgdGhyb3cgYm9vdHN0cmFwRXJyb3IoRVJST1JfQ09ERVMuUkVFTlRSQU5UKTsKICB9CgogIC8vIHVuaW5pdGlhbGl6ZWQgLT4gYmluZGluZy4KICBzdGF0ZSA9ICJiaW5kaW5nIjsKICBib3VuZFByb2ZpbGUgPSBwcm9maWxlTmFtZTsKICBib3VuZEZhbWlseSA9IGZhbWlseTsKCiAgY29uc3QgcHJvbWlzZSA9IChhc3luYyAoKSA9PiB7CiAgICB0cnkgewogICAgICBjb25zdCBsb2FkZXIgPSBQUk9WSURFUl9MT0FERVJTW2JvdW5kRmFtaWx5XTsKICAgICAgaWYgKCFsb2FkZXIpIHsKICAgICAgICB0aHJvdyBib290c3RyYXBFcnJvcihFUlJPUl9DT0RFUy5OT1RfUkVHSVNURVJFRCk7CiAgICAgIH0KICAgICAgY29uc3QgcmF3QnVuZGxlID0gYXdhaXQgbG9hZGVyKCk7CiAgICAgIGJvdW5kQnVuZGxlID0gdmFsaWRhdGVQcm92aWRlckJ1bmRsZShyYXdCdW5kbGUsIHByb2ZpbGVOYW1lKTsKICAgICAgc3RhdGUgPSAiYm91bmQiOwogICAgICBiaW5kaW5nUHJvbWlzZSA9IG51bGw7CiAgICB9IGNhdGNoIChlKSB7CiAgICAgIHN0YXRlID0gImZhaWxlZCI7CiAgICAgIGJvdW5kQnVuZGxlID0gbnVsbDsKICAgICAgYmluZGluZ1Byb21pc2UgPSBudWxsOwogICAgICBpZiAoZSAmJiAoZS5jb2RlID09PSBFUlJPUl9DT0RFUy5OT1RfUkVHSVNURVJFRCB8fCBlLmNvZGUgPT09IEVSUk9SX0NPREVTLklOVkFMSURfRkFDQURFKSkgewogICAgICAgIHRocm93IGU7CiAgICAgIH0KICAgICAgdGhyb3cgYm9vdHN0cmFwRXJyb3IoRVJST1JfQ09ERVMuTE9BRF9GQUlMRUQpOwogICAgfQogIH0pKCk7CgogIGJpbmRpbmdQcm9taXNlID0gcHJvbWlzZTsKICByZXR1cm4gcHJvbWlzZTsKfQoKLy8gZ2V0Qm91bmRQcm92aWRlcigpOiBzeW5jaHJvbm91cy4gUmV0dXJucyB0aGUgZXhhY3QgZnJvemVuIGJvdW5kIGJ1bmRsZQovLyB7IHByb3ZpZGVyQ2xpZW50LCBmZXRjaFB1YmxpY1NldHRpbmdzIH0gd2hlbiBzdGF0ZSBpcyBib3VuZDsgc2FtZSBpZGVudGl0eQovLyBvbiBldmVyeSBjYWxsLiBUaHJvd3MgUEdQX1BST1ZJREVSX0JPT1RTVFJBUF9SRVFVSVJFRCB3aGVuIG5vdCBib3VuZAovLyAoaW5jbHVkaW5nIHVuaW5pdGlhbGl6ZWQgYW5kIGZhaWxlZCBzdGF0ZXMpLiBOZXZlciByZXR1cm5zIG51bGwvdW5kZWZpbmVkLwovLyBQcm9taXNlL3BsYWNlaG9sZGVyL1Byb3h5L2xhenkgd3JhcHBlcnM7IG5vIGZhbGxiYWNrIEJhc2U0NCBwcm92aWRlci4KZXhwb3J0IGZ1bmN0aW9uIGdldEJvdW5kUHJvdmlkZXIoKSB7CiAgaWYgKHN0YXRlICE9PSAiYm91bmQiIHx8ICFib3VuZEJ1bmRsZSkgewogICAgdGhyb3cgYm9vdHN0cmFwRXJyb3IoRVJST1JfQ09ERVMuQk9PVFNUUkFQX1JFUVVJUkVEKTsKICB9CiAgcmV0dXJuIGJvdW5kQnVuZGxlOwp9
+// src/services/providerBootstrap.js
+// Wave 10.5C.2 — deferred application bootstrap and provider-loading
+// isolation (internal implementation module).
+//
+// Sole owner of the bootstrap lifecycle: state, bound profile/family, bound
+// bundle, and in-flight binding promise. Dynamically imports the selected
+// provider adapter ONLY after explicit bootstrap selection, validates the
+// returned bundle, and binds it exactly once. backendAdapter.js reads the
+// bound bundle synchronously via getBoundProvider().
+//
+// Imports only resolveProviderFamily and validateProviderBundle from
+// providerSelection.js. No static import of base44Adapter, base44Client,
+// backendAdapter, App, AuthContext, @base44/sdk, appParams, or
+// environment-profile.
+//
+// State model: uninitialized -> binding -> bound | failed.
+// No fallback. No silent Base44 selection. No secret/dump exposure.
+
+import {
+  resolveProviderFamily,
+  validateProviderBundle,
+} from '@/services/providerSelection';
+
+// Immutable fixed provider-family -> async loader map. Exactly one family.
+// The loader uses ONE fixed dynamic import path; the path is not constructed
+// from profileName, family text, URL, hostname, env, or user input. The
+// loader selects only the two required module exports; it does not return
+// the full module namespace. Client construction remains only in the
+// provider adapter module.
+const PROVIDER_LOADERS = Object.freeze({
+  base44: async () => {
+    const module = await import('@/services/base44Adapter');
+    return {
+      providerClient: module.providerClient,
+      fetchPublicSettings: module.fetchPublicSettings,
+    };
+  },
+});
+
+const ERROR_CODES = Object.freeze({
+  NOT_REGISTERED: "PGP_PROVIDER_NOT_REGISTERED",
+  INVALID_FACADE: "PGP_PROVIDER_INVALID_FACADE",
+  BOOTSTRAP_REQUIRED: "PGP_PROVIDER_BOOTSTRAP_REQUIRED",
+  LOAD_FAILED: "PGP_PROVIDER_LOAD_FAILED",
+  ALREADY_INITIALIZED: "PGP_PROVIDER_ALREADY_INITIALIZED",
+  REENTRANT: "PGP_PROVIDER_BOOTSTRAP_REENTRANT",
+});
+
+function bootstrapError(code) {
+  const err = new Error(`Provider bootstrap failed: ${code}`);
+  err.code = code;
+  return err;
+}
+
+// Sole mutable bootstrap state (module-private; not exported directly).
+let state = "uninitialized";
+let boundProfile = null;
+let boundFamily = null;
+let boundBundle = null;
+let bindingPromise = null;
+
+// bootstrapProvider(profileName):
+// 1. resolve family synchronously (NOT_REGISTERED on invalid/unknown profile)
+// 2. verify family owns a loader (NOT_REGISTERED if missing)
+// 3. enter binding
+// 4. run selected loader (once)
+// 5. validate returned bundle (INVALID_FACADE on malformed)
+// 6. bind bundle exactly once
+// 7. enter bound
+// Idempotent for the same profile after bound. Different profile after bound
+// -> ALREADY_INITIALIZED. Different profile during binding -> REENTRANT.
+// Same profile during binding -> reuse in-flight promise. Failed state ->
+// LOAD_FAILED on later attempts. Dynamic-import rejection -> LOAD_FAILED
+// (raw error not exposed). Selection/validation errors propagate unwrapped.
+export async function bootstrapProvider(profileName) {
+  const family = resolveProviderFamily(profileName);
+
+  if (state === "bound") {
+    if (boundProfile === profileName) {
+      return; // idempotent; loader not called again
+    }
+    throw bootstrapError(ERROR_CODES.ALREADY_INITIALIZED);
+  }
+  if (state === "failed") {
+    throw bootstrapError(ERROR_CODES.LOAD_FAILED);
+  }
+  if (state === "binding") {
+    if (boundProfile === profileName) {
+      return bindingPromise; // reuse in-flight; loader executes once
+    }
+    throw bootstrapError(ERROR_CODES.REENTRANT);
+  }
+
+  // uninitialized -> binding.
+  state = "binding";
+  boundProfile = profileName;
+  boundFamily = family;
+
+  const promise = (async () => {
+    try {
+      const loader = PROVIDER_LOADERS[boundFamily];
+      if (!loader) {
+        throw bootstrapError(ERROR_CODES.NOT_REGISTERED);
+      }
+      const rawBundle = await loader();
+      boundBundle = validateProviderBundle(rawBundle, profileName);
+      state = "bound";
+      bindingPromise = null;
+    } catch (e) {
+      state = "failed";
+      boundBundle = null;
+      bindingPromise = null;
+      if (e && (e.code === ERROR_CODES.NOT_REGISTERED || e.code === ERROR_CODES.INVALID_FACADE)) {
+        throw e;
+      }
+      throw bootstrapError(ERROR_CODES.LOAD_FAILED);
+    }
+  })();
+
+  bindingPromise = promise;
+  return promise;
+}
+
+// getBoundProvider(): synchronous. Returns the exact frozen bound bundle
+// { providerClient, fetchPublicSettings } when state is bound; same identity
+// on every call. Throws PGP_PROVIDER_BOOTSTRAP_REQUIRED when not bound
+// (including uninitialized and failed states). Never returns null/undefined/
+// Promise/placeholder/Proxy/lazy wrappers; no fallback Base44 provider.
+export function getBoundProvider() {
+  if (state !== "bound" || !boundBundle) {
+    throw bootstrapError(ERROR_CODES.BOOTSTRAP_REQUIRED);
+  }
+  return boundBundle;
+}

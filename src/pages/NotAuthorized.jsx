@@ -1,1 +1,45 @@
-aW1wb3J0IFJlYWN0IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgQ2FyZCwgQ2FyZENvbnRlbnQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvY2FyZCI7CmltcG9ydCB7IFNoaWVsZFggfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgeyB1c2VBdXRoIH0gZnJvbSAiQC9hdXRoL0F1dGhDb250ZXh0RmFjYWRlIjsKaW1wb3J0IHsgdCB9IGZyb20gIkAvbGliL2kxOG4iOwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gTm90QXV0aG9yaXplZCgpIHsKICBjb25zdCB7IHVzZXIgfSA9IHVzZUF1dGgoKTsKICBjb25zdCByb2xlID0gdXNlcj8ucm9sZSB8fCAidW5rbm93biI7CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS02Ij4KICAgICAgPGRpdj4KICAgICAgICA8aDEgY2xhc3NOYW1lPSJ0ZXh0LTJ4bCBmb250LWhlYWRpbmcgZm9udC1ib2xkIHRleHQtZm9yZWdyb3VuZCI+CiAgICAgICAgICB7dCgiY29tbW9uLmFjY2Vzc19yZXN0cmljdGVkIil9CiAgICAgICAgPC9oMT4KICAgICAgPC9kaXY+CiAgICAgIDxDYXJkPgogICAgICAgIDxDYXJkQ29udGVudCBjbGFzc05hbWU9InB0LTYiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtc3RhcnQgZ2FwLTMiPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy0xMCBoLTEwIHJvdW5kZWQtbGcgYmctbXV0ZWQgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgc2hyaW5rLTAiPgogICAgICAgICAgICAgIDxTaGllbGRYIGNsYXNzTmFtZT0idy01IGgtNSB0ZXh0LW11dGVkLWZvcmVncm91bmQiIC8+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0iZm9udC1tZWRpdW0gdGV4dC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgIHt0KCJjb21tb24uYWNjZXNzX3Jlc3RyaWN0ZWQiKX0KICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCBtdC0xIGxlYWRpbmctcmVsYXhlZCI+CiAgICAgICAgICAgICAgICB7dCgiY29tbW9uLmFjY2Vzc19yZXN0cmljdGVkX2Rlc2MiKX0KICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTQgZmxleCBmbGV4LXdyYXAgZ2FwLTIiPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJweC0yLjUgcHktMSByb3VuZGVkLW1kIHRleHQteHMgZm9udC1tb25vIGJnLW11dGVkIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICAgIHJvbGU6IHtyb2xlfQogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJweC0yLjUgcHktMSByb3VuZGVkLW1kIHRleHQteHMgYmctYW1iZXItMTAwIHRleHQtYW1iZXItODAwIGRhcms6YmctYW1iZXItOTAwLzMwIGRhcms6dGV4dC1hbWJlci00MDAiPgogICAgICAgICAgICAgICAgICBQaGFzZSAxIOKAlCBGcm9udGVuZCBBdXRob3JpemF0aW9uIFVYCiAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9DYXJkQ29udGVudD4KICAgICAgPC9DYXJkPgogICAgPC9kaXY+CiAgKTsKfQ==
+import React from "react";
+import { Card, CardContent } from "@/components/ui/card";
+import { ShieldX } from "lucide-react";
+import { useAuth } from "@/auth/AuthContextFacade";
+import { t } from "@/lib/i18n";
+
+export default function NotAuthorized() {
+  const { user } = useAuth();
+  const role = user?.role || "unknown";
+
+  return (
+    <div className="space-y-6">
+      <div>
+        <h1 className="text-2xl font-heading font-bold text-foreground">
+          {t("common.access_restricted")}
+        </h1>
+      </div>
+      <Card>
+        <CardContent className="pt-6">
+          <div className="flex items-start gap-3">
+            <div className="w-10 h-10 rounded-lg bg-muted flex items-center justify-center shrink-0">
+              <ShieldX className="w-5 h-5 text-muted-foreground" />
+            </div>
+            <div>
+              <p className="font-medium text-foreground">
+                {t("common.access_restricted")}
+              </p>
+              <p className="text-sm text-muted-foreground mt-1 leading-relaxed">
+                {t("common.access_restricted_desc")}
+              </p>
+              <div className="mt-4 flex flex-wrap gap-2">
+                <span className="px-2.5 py-1 rounded-md text-xs font-mono bg-muted text-muted-foreground">
+                  role: {role}
+                </span>
+                <span className="px-2.5 py-1 rounded-md text-xs bg-amber-100 text-amber-800 dark:bg-amber-900/30 dark:text-amber-400">
+                  Phase 1 — Frontend Authorization UX
+                </span>
+              </div>
+            </div>
+          </div>
+        </CardContent>
+      </Card>
+    </div>
+  );
+}

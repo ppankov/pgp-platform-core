@@ -1,1 +1,143 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IHVzZVBhcmFtcywgTGluayB9IGZyb20gInJlYWN0LXJvdXRlci1kb20iOwppbXBvcnQgeyBBcnJvd0xlZnQsIFBsdXMgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgQ2FyZCwgQ2FyZENvbnRlbnQsIENhcmRIZWFkZXIsIENhcmRUaXRsZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9jYXJkIjsKaW1wb3J0IHsgQmFkZ2UgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYmFkZ2UiOwppbXBvcnQgeyBEaWFsb2csIERpYWxvZ0NvbnRlbnQsIERpYWxvZ0hlYWRlciwgRGlhbG9nVGl0bGUgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvZGlhbG9nIjsKaW1wb3J0IHsgVGFibGUsIFRhYmxlSGVhZGVyLCBUYWJsZVJvdywgVGFibGVIZWFkLCBUYWJsZUJvZHksIFRhYmxlQ2VsbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS90YWJsZSI7CmltcG9ydCBNb2R1bGVIZWFkZXIgZnJvbSAiQC9jb21wb25lbnRzL3NoYXJlZC9Nb2R1bGVIZWFkZXIiOwppbXBvcnQgQ29ubmVjdG9yUHJvdmlkZXJGb3JtIGZyb20gIkAvY29tcG9uZW50cy9jb25uZWN0b3JzL0Nvbm5lY3RvclByb3ZpZGVyRm9ybSI7CmltcG9ydCB7IGNhbGxGbiB9IGZyb20gIkAvbGliL2Z1bmN0aW9uLWNhbGwiOwppbXBvcnQgeyB1c2VBdXRoIH0gZnJvbSAiQC9hdXRoL0F1dGhDb250ZXh0RmFjYWRlIjsKaW1wb3J0IHsgaGFzQ2FwYWJpbGl0eSB9IGZyb20gIkAvbGliL3Blcm1pc3Npb25zIjsKaW1wb3J0IHsgdCB9IGZyb20gIkAvbGliL2kxOG4iOwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gQ29ubmVjdG9yRGVmaW5pdGlvbkRldGFpbFBhZ2UoKSB7CiAgY29uc3QgeyBkZWZpbml0aW9uSWQgfSA9IHVzZVBhcmFtcygpOwogIGNvbnN0IHsgdXNlciB9ID0gdXNlQXV0aCgpOwogIGNvbnN0IGNhbk1hbmFnZSA9IGhhc0NhcGFiaWxpdHkodXNlcj8ucm9sZSwgInBsYXRmb3JtLmNvbm5lY3RvcnMubWFuYWdlIik7CiAgY29uc3QgW2RhdGEsIHNldERhdGFdID0gdXNlU3RhdGUobnVsbCk7CiAgY29uc3QgW29wZW4sIHNldE9wZW5dID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IFtlcnIsIHNldEVycl0gPSB1c2VTdGF0ZSgiIik7CgogIGNvbnN0IGxvYWQgPSBhc3luYyAoKSA9PiB7CiAgICBzZXRFcnIoIiIpOwogICAgdHJ5IHsKICAgICAgY29uc3QgcmVzID0gYXdhaXQgY2FsbEZuKCJsaXN0Q29ubmVjdG9ycyIsIHsgZGVmaW5pdGlvbklkIH0pOwogICAgICBzZXREYXRhKHJlcyk7CiAgICB9IGNhdGNoIChlKSB7CiAgICAgIHNldEVycihlLnJlc3BvbnNlPy5kYXRhPy5lcnJvciB8fCBlLm1lc3NhZ2UpOwogICAgfQogIH07CiAgdXNlRWZmZWN0KCgpID0+IHsgbG9hZCgpOyB9LCBbZGVmaW5pdGlvbklkXSk7CgogIGNvbnN0IGRlZmluaXRpb24gPSAoZGF0YT8uZGVmaW5pdGlvbnMgfHwgW10pLmZpbmQoKGQpID0+IGQuaWQgPT09IGRlZmluaXRpb25JZCkgfHwgbnVsbDsKICBjb25zdCBwcm92aWRlcnMgPSAoZGF0YT8ucHJvdmlkZXJzIHx8IFtdKS5maWx0ZXIoKHApID0+IHAuY29ubmVjdG9yRGVmaW5pdGlvbklkID09PSBkZWZpbml0aW9uSWQpOwoKICBpZiAoZGF0YSA9PT0gbnVsbCAmJiAhZXJyKSB7CiAgICByZXR1cm4gPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3QoImNvbm5lY3Rvci5sb2FkaW5nIil9PC9wPjsKICB9CiAgaWYgKCFkZWZpbml0aW9uICYmIGVycikgewogICAgcmV0dXJuICgKICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktNCI+CiAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJnaG9zdCIgc2l6ZT0ic20iIGFzQ2hpbGQ+PExpbmsgdG89Ii9jb25uZWN0b3JzIj48QXJyb3dMZWZ0IGNsYXNzTmFtZT0idy00IGgtNCBtci0yIiAvPnt0KCJjb25uZWN0b3IuYmFjayIpfTwvTGluaz48L0J1dHRvbj4KICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1kZXN0cnVjdGl2ZSI+e2Vycn08L3A+CiAgICAgIDwvZGl2PgogICAgKTsKICB9CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS02Ij4KICAgICAgPE1vZHVsZUhlYWRlcgogICAgICAgIHRpdGxlPXtkZWZpbml0aW9uPy5uYW1lIHx8IHQoImNvbm5lY3Rvci5kZWZpbml0aW9uX2RldGFpbCIpfQogICAgICAgIGRlc2NyaXB0aW9uPXtkZWZpbml0aW9uPy5kZXNjcmlwdGlvbiB8fCAiIn0KICAgICAgICBhY3Rpb25zPXsKICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0iZ2hvc3QiIHNpemU9InNtIiBhc0NoaWxkPgogICAgICAgICAgICA8TGluayB0bz0iL2Nvbm5lY3RvcnMiPjxBcnJvd0xlZnQgY2xhc3NOYW1lPSJ3LTQgaC00IG1yLTIiIC8+e3QoImNvbm5lY3Rvci5iYWNrIil9PC9MaW5rPgogICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgfQogICAgICAvPgoKICAgICAgPENhcmQ+CiAgICAgICAgPENhcmRIZWFkZXI+PENhcmRUaXRsZT57dCgiY29ubmVjdG9yLmRlZmluaXRpb25fZGV0YWlsIil9PC9DYXJkVGl0bGU+PC9DYXJkSGVhZGVyPgogICAgICAgIDxDYXJkQ29udGVudCBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTIgZ2FwLTQgdGV4dC1zbSBzbTpncmlkLWNvbHMtMyI+CiAgICAgICAgICA8ZGl2PjxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPnt0KCJjb25uZWN0b3IuZmllbGQua2V5Iil9PC9wPjxwIGNsYXNzTmFtZT0iZm9udC1tb25vIHRleHQteHMiPntkZWZpbml0aW9uPy5rZXl9PC9wPjwvZGl2PgogICAgICAgICAgPGRpdj48cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57dCgiY29ubmVjdG9yLmZpZWxkLmNhdGVnb3J5Iil9PC9wPjxwPntkZWZpbml0aW9uPy5jYXRlZ29yeSB8fCAi4oCUIn08L3A+PC9kaXY+CiAgICAgICAgICA8ZGl2PjxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPnt0KCJjb25uZWN0b3IuZmllbGQuYWN0aXZlIil9PC9wPgogICAgICAgICAgICA8QmFkZ2UgdmFyaWFudD17ZGVmaW5pdGlvbj8uYWN0aXZlID8gImRlZmF1bHQiIDogInNlY29uZGFyeSJ9PntkZWZpbml0aW9uPy5hY3RpdmUgPyB0KCJjb25uZWN0b3Iuc3RhdHVzX2F2YWlsYWJsZSIpIDogdCgiY29ubmVjdG9yLnN0YXR1c19kaXNhYmxlZCIpfTwvQmFkZ2U+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJjb2wtc3Bhbi0yIHNtOmNvbC1zcGFuLTMiPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57dCgiY29ubmVjdG9yLmZpZWxkLmNhcGFiaWxpdGllcyIpfTwvcD4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC13cmFwIGdhcC0xLjUgbXQtMSI+CiAgICAgICAgICAgICAgeyhkZWZpbml0aW9uPy5jYXBhYmlsaXRpZXMgfHwgW10pLm1hcCgoYykgPT4gKAogICAgICAgICAgICAgICAgPHNwYW4ga2V5PXtjfSBjbGFzc05hbWU9ImZvbnQtbW9ubyB0ZXh0LXhzIGJnLW11dGVkIHB4LTIgcHktMC41IHJvdW5kZWQiPntjfTwvc3Bhbj4KICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICB7IShkZWZpbml0aW9uPy5jYXBhYmlsaXRpZXMgfHwgW10pLmxlbmd0aCAmJiA8c3BhbiBjbGFzc05hbWU9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj7igJQ8L3NwYW4+fQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvQ2FyZENvbnRlbnQ+CiAgICAgIDwvQ2FyZD4KCiAgICAgIDxDYXJkPgogICAgICAgIDxDYXJkSGVhZGVyPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiI+CiAgICAgICAgICAgIDxDYXJkVGl0bGU+e3QoImNvbm5lY3Rvci5wcm92aWRlcnMiKX08L0NhcmRUaXRsZT4KICAgICAgICAgICAge2Nhbk1hbmFnZSAmJiAoCiAgICAgICAgICAgICAgPEJ1dHRvbiBzaXplPSJzbSIgY2xhc3NOYW1lPSJnYXAtMiIgb25DbGljaz17KCkgPT4gc2V0T3Blbih0cnVlKX0+CiAgICAgICAgICAgICAgICA8UGx1cyBjbGFzc05hbWU9InctNCBoLTQiIC8+e3QoImNvbm5lY3Rvci5yZWdpc3Rlcl9wcm92aWRlciIpfQogICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICApfQogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9DYXJkSGVhZGVyPgogICAgICAgIDxDYXJkQ29udGVudD4KICAgICAgICAgIHtwcm92aWRlcnMubGVuZ3RoID09PSAwID8gKAogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57dCgiY29ubmVjdG9yLm5vX3Byb3ZpZGVycyIpfTwvcD4KICAgICAgICAgICkgOiAoCiAgICAgICAgICAgIDxUYWJsZT4KICAgICAgICAgICAgICA8VGFibGVIZWFkZXI+CiAgICAgICAgICAgICAgICA8VGFibGVSb3c+CiAgICAgICAgICAgICAgICAgIDxUYWJsZUhlYWQ+e3QoImNvbm5lY3Rvci5maWVsZC5uYW1lIil9PC9UYWJsZUhlYWQ+CiAgICAgICAgICAgICAgICAgIDxUYWJsZUhlYWQ+e3QoImNvbm5lY3Rvci5maWVsZC5rZXkiKX08L1RhYmxlSGVhZD4KICAgICAgICAgICAgICAgICAgPFRhYmxlSGVhZD57dCgiY29ubmVjdG9yLmZpZWxkLmF1dGhNb2RlcyIpfTwvVGFibGVIZWFkPgogICAgICAgICAgICAgICAgICA8VGFibGVIZWFkPnt0KCJjb25uZWN0b3IuZmllbGQuYWN0aXZlIil9PC9UYWJsZUhlYWQ+CiAgICAgICAgICAgICAgICA8L1RhYmxlUm93PgogICAgICAgICAgICAgIDwvVGFibGVIZWFkZXI+CiAgICAgICAgICAgICAgPFRhYmxlQm9keT4KICAgICAgICAgICAgICAgIHtwcm92aWRlcnMubWFwKChwKSA9PiAoCiAgICAgICAgICAgICAgICAgIDxUYWJsZVJvdyBrZXk9e3AuaWR9PgogICAgICAgICAgICAgICAgICAgIDxUYWJsZUNlbGwgY2xhc3NOYW1lPSJmb250LW1lZGl1bSI+e3AubmFtZX08L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICAgICAgICA8VGFibGVDZWxsPjxzcGFuIGNsYXNzTmFtZT0iZm9udC1tb25vIHRleHQteHMgYmctbXV0ZWQgcHgtMiBweS0xIHJvdW5kZWQiPntwLmtleX08L3NwYW4+PC9UYWJsZUNlbGw+CiAgICAgICAgICAgICAgICAgICAgPFRhYmxlQ2VsbD4KICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtd3JhcCBnYXAtMSI+CiAgICAgICAgICAgICAgICAgICAgICAgIHsocC5hdXRoTW9kZXMgfHwgW10pLm1hcCgobSkgPT4gKAogICAgICAgICAgICAgICAgICAgICAgICAgIDxCYWRnZSBrZXk9e219IHZhcmlhbnQ9InNlY29uZGFyeSI+e219PC9CYWRnZT4KICAgICAgICAgICAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICA8L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICAgICAgICA8VGFibGVDZWxsPgogICAgICAgICAgICAgICAgICAgICAgPEJhZGdlIHZhcmlhbnQ9e3AuYWN0aXZlID8gImRlZmF1bHQiIDogInNlY29uZGFyeSJ9PntwLmFjdGl2ZSA/IHQoImNvbm5lY3Rvci5zdGF0dXNfYXZhaWxhYmxlIikgOiB0KCJjb25uZWN0b3Iuc3RhdHVzX2Rpc2FibGVkIil9PC9CYWRnZT4KICAgICAgICAgICAgICAgICAgICA8L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICAgICAgPC9UYWJsZVJvdz4KICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgIDwvVGFibGVCb2R5PgogICAgICAgICAgICA8L1RhYmxlPgogICAgICAgICAgKX0KICAgICAgICA8L0NhcmRDb250ZW50PgogICAgICA8L0NhcmQ+CgogICAgICA8RGlhbG9nIG9wZW49e29wZW59IG9uT3BlbkNoYW5nZT17c2V0T3Blbn0+CiAgICAgICAgPERpYWxvZ0NvbnRlbnQgY2xhc3NOYW1lPSJtYXgtdy0yeGwiPgogICAgICAgICAgPERpYWxvZ0hlYWRlcj48RGlhbG9nVGl0bGU+e3QoImNvbm5lY3Rvci5uZXdfcHJvdmlkZXIiKX08L0RpYWxvZ1RpdGxlPjwvRGlhbG9nSGVhZGVyPgogICAgICAgICAge29wZW4gJiYgKAogICAgICAgICAgICA8Q29ubmVjdG9yUHJvdmlkZXJGb3JtCiAgICAgICAgICAgICAgY29ubmVjdG9yRGVmaW5pdGlvbklkPXtkZWZpbml0aW9uSWR9CiAgICAgICAgICAgICAgb25TYXZlPXsoKSA9PiB7IHNldE9wZW4oZmFsc2UpOyBsb2FkKCk7IH19CiAgICAgICAgICAgICAgb25DYW5jZWw9eygpID0+IHNldE9wZW4oZmFsc2UpfQogICAgICAgICAgICAvPgogICAgICAgICAgKX0KICAgICAgICA8L0RpYWxvZ0NvbnRlbnQ+CiAgICAgIDwvRGlhbG9nPgogICAgPC9kaXY+CiAgKTsKfQ==
+import React, { useEffect, useState } from "react";
+import { useParams, Link } from "react-router-dom";
+import { ArrowLeft, Plus } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import { Table, TableHeader, TableRow, TableHead, TableBody, TableCell } from "@/components/ui/table";
+import ModuleHeader from "@/components/shared/ModuleHeader";
+import ConnectorProviderForm from "@/components/connectors/ConnectorProviderForm";
+import { callFn } from "@/lib/function-call";
+import { useAuth } from "@/auth/AuthContextFacade";
+import { hasCapability } from "@/lib/permissions";
+import { t } from "@/lib/i18n";
+
+export default function ConnectorDefinitionDetailPage() {
+  const { definitionId } = useParams();
+  const { user } = useAuth();
+  const canManage = hasCapability(user?.role, "platform.connectors.manage");
+  const [data, setData] = useState(null);
+  const [open, setOpen] = useState(false);
+  const [err, setErr] = useState("");
+
+  const load = async () => {
+    setErr("");
+    try {
+      const res = await callFn("listConnectors", { definitionId });
+      setData(res);
+    } catch (e) {
+      setErr(e.response?.data?.error || e.message);
+    }
+  };
+  useEffect(() => { load(); }, [definitionId]);
+
+  const definition = (data?.definitions || []).find((d) => d.id === definitionId) || null;
+  const providers = (data?.providers || []).filter((p) => p.connectorDefinitionId === definitionId);
+
+  if (data === null && !err) {
+    return <p className="text-sm text-muted-foreground">{t("connector.loading")}</p>;
+  }
+  if (!definition && err) {
+    return (
+      <div className="space-y-4">
+        <Button variant="ghost" size="sm" asChild><Link to="/connectors"><ArrowLeft className="w-4 h-4 mr-2" />{t("connector.back")}</Link></Button>
+        <p className="text-sm text-destructive">{err}</p>
+      </div>
+    );
+  }
+
+  return (
+    <div className="space-y-6">
+      <ModuleHeader
+        title={definition?.name || t("connector.definition_detail")}
+        description={definition?.description || ""}
+        actions={
+          <Button variant="ghost" size="sm" asChild>
+            <Link to="/connectors"><ArrowLeft className="w-4 h-4 mr-2" />{t("connector.back")}</Link>
+          </Button>
+        }
+      />
+
+      <Card>
+        <CardHeader><CardTitle>{t("connector.definition_detail")}</CardTitle></CardHeader>
+        <CardContent className="grid grid-cols-2 gap-4 text-sm sm:grid-cols-3">
+          <div><p className="text-xs text-muted-foreground">{t("connector.field.key")}</p><p className="font-mono text-xs">{definition?.key}</p></div>
+          <div><p className="text-xs text-muted-foreground">{t("connector.field.category")}</p><p>{definition?.category || "—"}</p></div>
+          <div><p className="text-xs text-muted-foreground">{t("connector.field.active")}</p>
+            <Badge variant={definition?.active ? "default" : "secondary"}>{definition?.active ? t("connector.status_available") : t("connector.status_disabled")}</Badge>
+          </div>
+          <div className="col-span-2 sm:col-span-3">
+            <p className="text-xs text-muted-foreground">{t("connector.field.capabilities")}</p>
+            <div className="flex flex-wrap gap-1.5 mt-1">
+              {(definition?.capabilities || []).map((c) => (
+                <span key={c} className="font-mono text-xs bg-muted px-2 py-0.5 rounded">{c}</span>
+              ))}
+              {!(definition?.capabilities || []).length && <span className="text-xs text-muted-foreground">—</span>}
+            </div>
+          </div>
+        </CardContent>
+      </Card>
+
+      <Card>
+        <CardHeader>
+          <div className="flex items-center justify-between">
+            <CardTitle>{t("connector.providers")}</CardTitle>
+            {canManage && (
+              <Button size="sm" className="gap-2" onClick={() => setOpen(true)}>
+                <Plus className="w-4 h-4" />{t("connector.register_provider")}
+              </Button>
+            )}
+          </div>
+        </CardHeader>
+        <CardContent>
+          {providers.length === 0 ? (
+            <p className="text-sm text-muted-foreground">{t("connector.no_providers")}</p>
+          ) : (
+            <Table>
+              <TableHeader>
+                <TableRow>
+                  <TableHead>{t("connector.field.name")}</TableHead>
+                  <TableHead>{t("connector.field.key")}</TableHead>
+                  <TableHead>{t("connector.field.authModes")}</TableHead>
+                  <TableHead>{t("connector.field.active")}</TableHead>
+                </TableRow>
+              </TableHeader>
+              <TableBody>
+                {providers.map((p) => (
+                  <TableRow key={p.id}>
+                    <TableCell className="font-medium">{p.name}</TableCell>
+                    <TableCell><span className="font-mono text-xs bg-muted px-2 py-1 rounded">{p.key}</span></TableCell>
+                    <TableCell>
+                      <div className="flex flex-wrap gap-1">
+                        {(p.authModes || []).map((m) => (
+                          <Badge key={m} variant="secondary">{m}</Badge>
+                        ))}
+                      </div>
+                    </TableCell>
+                    <TableCell>
+                      <Badge variant={p.active ? "default" : "secondary"}>{p.active ? t("connector.status_available") : t("connector.status_disabled")}</Badge>
+                    </TableCell>
+                  </TableRow>
+                ))}
+              </TableBody>
+            </Table>
+          )}
+        </CardContent>
+      </Card>
+
+      <Dialog open={open} onOpenChange={setOpen}>
+        <DialogContent className="max-w-2xl">
+          <DialogHeader><DialogTitle>{t("connector.new_provider")}</DialogTitle></DialogHeader>
+          {open && (
+            <ConnectorProviderForm
+              connectorDefinitionId={definitionId}
+              onSave={() => { setOpen(false); load(); }}
+              onCancel={() => setOpen(false)}
+            />
+          )}
+        </DialogContent>
+      </Dialog>
+    </div>
+  );
+}

@@ -1,1 +1,84 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IFBsdXMgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgeyBiYWNrZW5kIH0gZnJvbSAiQC9zZXJ2aWNlcy9iYWNrZW5kQWRhcHRlciI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBDYXJkLCBDYXJkQ29udGVudCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9jYXJkIjsKaW1wb3J0IHsgQmFkZ2UgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYmFkZ2UiOwppbXBvcnQgeyBEaWFsb2csIERpYWxvZ0NvbnRlbnQsIERpYWxvZ0hlYWRlciwgRGlhbG9nVGl0bGUgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvZGlhbG9nIjsKaW1wb3J0IHsgVGFibGUsIFRhYmxlSGVhZGVyLCBUYWJsZVJvdywgVGFibGVIZWFkLCBUYWJsZUJvZHksIFRhYmxlQ2VsbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS90YWJsZSI7CmltcG9ydCBNb2R1bGVIZWFkZXIgZnJvbSAiQC9jb21wb25lbnRzL3NoYXJlZC9Nb2R1bGVIZWFkZXIiOwppbXBvcnQgSm9iRGVmaW5pdGlvbkZvcm0gZnJvbSAiQC9jb21wb25lbnRzL2pvYnMvSm9iRGVmaW5pdGlvbkZvcm0iOwppbXBvcnQgeyB1c2VBdXRoIH0gZnJvbSAiQC9hdXRoL0F1dGhDb250ZXh0RmFjYWRlIjsKaW1wb3J0IHsgaGFzQ2FwYWJpbGl0eSB9IGZyb20gIkAvbGliL3Blcm1pc3Npb25zIjsKaW1wb3J0IHsgdCB9IGZyb20gIkAvbGliL2kxOG4iOwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gSm9iRGVmaW5pdGlvbnNQYWdlKCkgewogIGNvbnN0IHsgdXNlciB9ID0gdXNlQXV0aCgpOwogIGNvbnN0IGNhbk1hbmFnZSA9IGhhc0NhcGFiaWxpdHkodXNlcj8ucm9sZSwgInBsYXRmb3JtLmpvYnMubWFuYWdlIik7CiAgY29uc3QgW3Jvd3MsIHNldFJvd3NdID0gdXNlU3RhdGUobnVsbCk7CiAgY29uc3QgW2Vyciwgc2V0RXJyXSA9IHVzZVN0YXRlKCIiKTsKICBjb25zdCBbb3Blbiwgc2V0T3Blbl0gPSB1c2VTdGF0ZShmYWxzZSk7CgogIGNvbnN0IGxvYWQgPSBhc3luYyAoKSA9PiB7CiAgICBzZXRFcnIoIiIpOwogICAgdHJ5IHsKICAgICAgY29uc3QgciA9IGF3YWl0IGJhY2tlbmQuY2F0YWxvZy5saXN0KCJKb2JEZWZpbml0aW9uIik7CiAgICAgIHNldFJvd3Mocik7CiAgICB9IGNhdGNoIChlKSB7CiAgICAgIHNldEVycihlLnJlc3BvbnNlPy5kYXRhPy5lcnJvciB8fCBlLm1lc3NhZ2UpOwogICAgfQogIH07CiAgdXNlRWZmZWN0KCgpID0+IHsgbG9hZCgpOyB9LCBbXSk7CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS02Ij4KICAgICAgPE1vZHVsZUhlYWRlcgogICAgICAgIHRpdGxlPXt0KCJqb2JzLmRlZmluaXRpb25zIil9CiAgICAgICAgZGVzY3JpcHRpb249e3QoImpvYnMuZGVmaW5pdGlvbnNfZGVzYyIpfQogICAgICAgIGFjdGlvbnM9e2Nhbk1hbmFnZSAmJiAoCiAgICAgICAgICA8QnV0dG9uIHNpemU9InNtIiBjbGFzc05hbWU9ImdhcC0yIiBvbkNsaWNrPXsoKSA9PiBzZXRPcGVuKHRydWUpfT4KICAgICAgICAgICAgPFBsdXMgY2xhc3NOYW1lPSJ3LTQgaC00IiAvPnt0KCJqb2JzLm5ld19kZWZpbml0aW9uIil9CiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICApfQogICAgICAvPgogICAgICA8Q2FyZD4KICAgICAgICA8Q2FyZENvbnRlbnQgY2xhc3NOYW1lPSJwdC02Ij4KICAgICAgICAgIHtyb3dzID09PSBudWxsID8gKAogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57dCgiam9icy5sb2FkaW5nIil9PC9wPgogICAgICAgICAgKSA6IGVyciA/ICgKICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtZGVzdHJ1Y3RpdmUiPntlcnJ9PC9wPgogICAgICAgICAgKSA6IHJvd3MubGVuZ3RoID09PSAwID8gKAogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57dCgiam9icy5lbXB0eSIpfTwvcD4KICAgICAgICAgICkgOiAoCiAgICAgICAgICAgIDxUYWJsZT4KICAgICAgICAgICAgICA8VGFibGVIZWFkZXI+CiAgICAgICAgICAgICAgICA8VGFibGVSb3c+CiAgICAgICAgICAgICAgICAgIDxUYWJsZUhlYWQ+e3QoImpvYnMuZmllbGQubmFtZSIpfTwvVGFibGVIZWFkPgogICAgICAgICAgICAgICAgICA8VGFibGVIZWFkPnt0KCJqb2JzLmZpZWxkLmtleSIpfTwvVGFibGVIZWFkPgogICAgICAgICAgICAgICAgICA8VGFibGVIZWFkPnt0KCJqb2JzLmZpZWxkLmhhbmRsZXJLZXkiKX08L1RhYmxlSGVhZD4KICAgICAgICAgICAgICAgICAgPFRhYmxlSGVhZD57dCgiam9icy5maWVsZC5hY3RpdmUiKX08L1RhYmxlSGVhZD4KICAgICAgICAgICAgICAgIDwvVGFibGVSb3c+CiAgICAgICAgICAgICAgPC9UYWJsZUhlYWRlcj4KICAgICAgICAgICAgICA8VGFibGVCb2R5PgogICAgICAgICAgICAgICAge3Jvd3MubWFwKChkKSA9PiAoCiAgICAgICAgICAgICAgICAgIDxUYWJsZVJvdyBrZXk9e2QuaWR9PgogICAgICAgICAgICAgICAgICAgIDxUYWJsZUNlbGwgY2xhc3NOYW1lPSJmb250LW1lZGl1bSI+e2QubmFtZX08L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICAgICAgICA8VGFibGVDZWxsPjxzcGFuIGNsYXNzTmFtZT0iZm9udC1tb25vIHRleHQteHMgYmctbXV0ZWQgcHgtMiBweS0xIHJvdW5kZWQiPntkLmtleX08L3NwYW4+PC9UYWJsZUNlbGw+CiAgICAgICAgICAgICAgICAgICAgPFRhYmxlQ2VsbD48c3BhbiBjbGFzc05hbWU9ImZvbnQtbW9ubyB0ZXh0LXhzIj57ZC5oYW5kbGVyS2V5fTwvc3Bhbj48L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICAgICAgICA8VGFibGVDZWxsPjxCYWRnZSB2YXJpYW50PXtkLmFjdGl2ZSA/ICJkZWZhdWx0IiA6ICJzZWNvbmRhcnkifT57ZC5hY3RpdmUgPyB0KCJqb2JzLmZpZWxkLmFjdGl2ZSIpIDogIuKAlCJ9PC9CYWRnZT48L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICAgICAgPC9UYWJsZVJvdz4KICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgIDwvVGFibGVCb2R5PgogICAgICAgICAgICA8L1RhYmxlPgogICAgICAgICAgKX0KICAgICAgICA8L0NhcmRDb250ZW50PgogICAgICA8L0NhcmQ+CiAgICAgIDxEaWFsb2cgb3Blbj17b3Blbn0gb25PcGVuQ2hhbmdlPXtzZXRPcGVufT4KICAgICAgICA8RGlhbG9nQ29udGVudCBjbGFzc05hbWU9Im1heC13LTJ4bCI+CiAgICAgICAgICA8RGlhbG9nSGVhZGVyPjxEaWFsb2dUaXRsZT57dCgiam9icy5uZXdfZGVmaW5pdGlvbiIpfTwvRGlhbG9nVGl0bGU+PC9EaWFsb2dIZWFkZXI+CiAgICAgICAgICB7b3BlbiAmJiA8Sm9iRGVmaW5pdGlvbkZvcm0gb25TYXZlPXsoKSA9PiB7IHNldE9wZW4oZmFsc2UpOyBsb2FkKCk7IH19IG9uQ2FuY2VsPXsoKSA9PiBzZXRPcGVuKGZhbHNlKX0gLz59CiAgICAgICAgPC9EaWFsb2dDb250ZW50PgogICAgICA8L0RpYWxvZz4KICAgIDwvZGl2PgogICk7Cn0=
+import React, { useEffect, useState } from "react";
+import { Plus } from "lucide-react";
+import { backend } from "@/services/backendAdapter";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import { Table, TableHeader, TableRow, TableHead, TableBody, TableCell } from "@/components/ui/table";
+import ModuleHeader from "@/components/shared/ModuleHeader";
+import JobDefinitionForm from "@/components/jobs/JobDefinitionForm";
+import { useAuth } from "@/auth/AuthContextFacade";
+import { hasCapability } from "@/lib/permissions";
+import { t } from "@/lib/i18n";
+
+export default function JobDefinitionsPage() {
+  const { user } = useAuth();
+  const canManage = hasCapability(user?.role, "platform.jobs.manage");
+  const [rows, setRows] = useState(null);
+  const [err, setErr] = useState("");
+  const [open, setOpen] = useState(false);
+
+  const load = async () => {
+    setErr("");
+    try {
+      const r = await backend.catalog.list("JobDefinition");
+      setRows(r);
+    } catch (e) {
+      setErr(e.response?.data?.error || e.message);
+    }
+  };
+  useEffect(() => { load(); }, []);
+
+  return (
+    <div className="space-y-6">
+      <ModuleHeader
+        title={t("jobs.definitions")}
+        description={t("jobs.definitions_desc")}
+        actions={canManage && (
+          <Button size="sm" className="gap-2" onClick={() => setOpen(true)}>
+            <Plus className="w-4 h-4" />{t("jobs.new_definition")}
+          </Button>
+        )}
+      />
+      <Card>
+        <CardContent className="pt-6">
+          {rows === null ? (
+            <p className="text-sm text-muted-foreground">{t("jobs.loading")}</p>
+          ) : err ? (
+            <p className="text-sm text-destructive">{err}</p>
+          ) : rows.length === 0 ? (
+            <p className="text-sm text-muted-foreground">{t("jobs.empty")}</p>
+          ) : (
+            <Table>
+              <TableHeader>
+                <TableRow>
+                  <TableHead>{t("jobs.field.name")}</TableHead>
+                  <TableHead>{t("jobs.field.key")}</TableHead>
+                  <TableHead>{t("jobs.field.handlerKey")}</TableHead>
+                  <TableHead>{t("jobs.field.active")}</TableHead>
+                </TableRow>
+              </TableHeader>
+              <TableBody>
+                {rows.map((d) => (
+                  <TableRow key={d.id}>
+                    <TableCell className="font-medium">{d.name}</TableCell>
+                    <TableCell><span className="font-mono text-xs bg-muted px-2 py-1 rounded">{d.key}</span></TableCell>
+                    <TableCell><span className="font-mono text-xs">{d.handlerKey}</span></TableCell>
+                    <TableCell><Badge variant={d.active ? "default" : "secondary"}>{d.active ? t("jobs.field.active") : "—"}</Badge></TableCell>
+                  </TableRow>
+                ))}
+              </TableBody>
+            </Table>
+          )}
+        </CardContent>
+      </Card>
+      <Dialog open={open} onOpenChange={setOpen}>
+        <DialogContent className="max-w-2xl">
+          <DialogHeader><DialogTitle>{t("jobs.new_definition")}</DialogTitle></DialogHeader>
+          {open && <JobDefinitionForm onSave={() => { setOpen(false); load(); }} onCancel={() => setOpen(false)} />}
+        </DialogContent>
+      </Dialog>
+    </div>
+  );
+}

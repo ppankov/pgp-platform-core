@@ -1,1 +1,17 @@
-Ly8gc3JjL2FwaS9iYXNlNDRDbGllbnQuanMKLy8gQmFja3dhcmQtY29tcGF0IHNoaW0gKFdhdmUgMTAuMSkuCi8vCi8vIFRoZSBjYW5vbmljYWwgQmFzZTQ0IGNsaWVudCBub3cgbGl2ZXMgaW4gc3JjL3NlcnZpY2VzL2Jhc2U0NEFkYXB0ZXIuanMuCi8vIFRoaXMgZmlsZSByZS1leHBvcnRzIGl0IGFzIGBiYXNlNDRgIGZvciBBdXRoQ29udGV4dCAocGxhdGZvcm0tbWFuYWdlZCwKLy8gaW1wb3J0cyBgYmFzZTQ0YCBmcm9tIGhlcmUpLiBJdCBkb2VzIG5vdCBpbXBvcnQgdGhlIEJhc2U0NCBTREsgZGlyZWN0bHkuCi8vCi8vIFBoYXNlIDEwIFdhdmUgMTAuMSDigJQgYXV0aCByZWRpcmVjdCByZWdyZXNzaW9uOiBhIHByZXZpb3VzIGxvZ291dCB3cmFwcGVyCi8vIGhlcmUgKGZvcmNlZCBmdWxsIHJlbG9hZCB0byAiLyIpIHdhcyBhbiBpbmNvcnJlY3QKLy8gcmFjZS1jb25kaXRpb24gbWFzayBhbmQgaGFzIGJlZW4gUkVNT1ZFRC4gYGJhc2U0NC5hdXRoYCBpcyBhZ2FpbiB0aGUKLy8gdW5tb2RpZmllZCBwcm92aWRlciBgYXV0aGAgb2JqZWN0IOKAlCBgbG9nb3V0YCBrZWVwcyB0aGUgb3JpZ2luYWwgcHJvdmlkZXIKLy8gY29udHJhY3QgKGFyZ3MvcmV0dXJuIHVuY2hhbmdlZCkuIFRoZSByZWFsIGZpeCBpcyBpbiBBcHAuanN4Ci8vICh1bmF1dGhlbnRpY2F0ZWQgcmVkaXJlY3QgLT4gIi8iIGluc3RlYWQgb2YgIi9sb2dpbiIpIHBsdXMgYSAiL2xvZ2luIiAtPgovLyAiLyIgY29tcGF0aWJpbGl0eSByb3V0ZS4gTm8gd2luZG93LmxvY2F0aW9uIHdvcmthcm91bmQsIG5vIHNldFRpbWVvdXQsIG5vCi8vIGZvcmNlZCByZWxvYWQsIG5vIHJhY2UgbWFza2luZy4KCmV4cG9ydCB7IHByb3ZpZGVyQ2xpZW50IGFzIGJhc2U0NCB9IGZyb20gJ0Avc2VydmljZXMvYmFzZTQ0QWRhcHRlcic7
+// src/api/base44Client.js
+// Backward-compat shim (Wave 10.1).
+//
+// The canonical Base44 client now lives in src/services/base44Adapter.js.
+// This file re-exports it as `base44` for AuthContext (platform-managed,
+// imports `base44` from here). It does not import the Base44 SDK directly.
+//
+// Phase 10 Wave 10.1 — auth redirect regression: a previous logout wrapper
+// here (forced full reload to "/") was an incorrect
+// race-condition mask and has been REMOVED. `base44.auth` is again the
+// unmodified provider `auth` object — `logout` keeps the original provider
+// contract (args/return unchanged). The real fix is in App.jsx
+// (unauthenticated redirect -> "/" instead of "/login") plus a "/login" ->
+// "/" compatibility route. No window.location workaround, no setTimeout, no
+// forced reload, no race masking.
+
+export { providerClient as base44 } from '@/services/base44Adapter';

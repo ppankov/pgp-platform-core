@@ -1,1 +1,125 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IHVzZVBhcmFtcywgTGluayB9IGZyb20gInJlYWN0LXJvdXRlci1kb20iOwppbXBvcnQgeyBBcnJvd0xlZnQsIFBvd2VyLCBQb3dlck9mZiwgUGx1Z1phcCB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBDYXJkLCBDYXJkQ29udGVudCwgQ2FyZEhlYWRlciwgQ2FyZFRpdGxlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2NhcmQiOwppbXBvcnQgeyBCYWRnZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9iYWRnZSI7CmltcG9ydCBNb2R1bGVIZWFkZXIgZnJvbSAiQC9jb21wb25lbnRzL3NoYXJlZC9Nb2R1bGVIZWFkZXIiOwppbXBvcnQgeyBjYWxsRm4gfSBmcm9tICJAL2xpYi9mdW5jdGlvbi1jYWxsIjsKaW1wb3J0IHsgdXNlQXV0aCB9IGZyb20gIkAvYXV0aC9BdXRoQ29udGV4dEZhY2FkZSI7CmltcG9ydCB7IGhhc0NhcGFiaWxpdHkgfSBmcm9tICJAL2xpYi9wZXJtaXNzaW9ucyI7CmltcG9ydCB7IHQgfSBmcm9tICJAL2xpYi9pMThuIjsKCmNvbnN0IFNUQVRVU19WQVJJQU5UID0geyBjb25maWd1cmVkOiAic2Vjb25kYXJ5IiwgYWN0aXZlOiAiZGVmYXVsdCIsIGRpc2FibGVkOiAib3V0bGluZSIsIGRpc2Nvbm5lY3RlZDogIm91dGxpbmUiLCBlcnJvcjogImRlc3RydWN0aXZlIiB9OwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gQ29ubmVjdG9yQ29ubmVjdGlvbkRldGFpbFBhZ2UoKSB7CiAgY29uc3QgeyBjb25uZWN0aW9uSWQgfSA9IHVzZVBhcmFtcygpOwogIGNvbnN0IHsgdXNlciB9ID0gdXNlQXV0aCgpOwogIGNvbnN0IGNhbkNvbm5lY3QgPSBoYXNDYXBhYmlsaXR5KHVzZXI/LnJvbGUsICJwbGF0Zm9ybS5jb25uZWN0b3JzLmNvbm5lY3QiKTsKICBjb25zdCBbZGF0YSwgc2V0RGF0YV0gPSB1c2VTdGF0ZShudWxsKTsKICBjb25zdCBbZXJyLCBzZXRFcnJdID0gdXNlU3RhdGUoIiIpOwogIGNvbnN0IFttc2csIHNldE1zZ10gPSB1c2VTdGF0ZSgiIik7CiAgY29uc3QgW2J1c3ksIHNldEJ1c3ldID0gdXNlU3RhdGUoZmFsc2UpOwoKICBjb25zdCBsb2FkID0gYXN5bmMgKCkgPT4gewogICAgc2V0RXJyKCIiKTsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IGNhbGxGbigiZ2V0Q29ubmVjdG9yQ29ubmVjdGlvbiIsIHsgY29ubmVjdGlvbklkIH0pOwogICAgICBzZXREYXRhKHJlcyk7CiAgICB9IGNhdGNoIChlKSB7CiAgICAgIHNldEVycihlLnJlc3BvbnNlPy5kYXRhPy5lcnJvciB8fCBlLm1lc3NhZ2UpOwogICAgfQogIH07CiAgdXNlRWZmZWN0KCgpID0+IHsgbG9hZCgpOyB9LCBbY29ubmVjdGlvbklkXSk7CgogIGNvbnN0IGFjdCA9IGFzeW5jIChmbiwgbGFiZWwpID0+IHsKICAgIHNldEVycigiIik7IHNldE1zZygiIik7IHNldEJ1c3kodHJ1ZSk7CiAgICB0cnkgewogICAgICBjb25zdCByZXMgPSBhd2FpdCBjYWxsRm4oZm4sIHsgY29ubmVjdGlvbklkIH0pOwogICAgICBzZXRNc2coYCR7bGFiZWx9OiAke3Jlcy5zdGF0dXN9YCk7CiAgICAgIGxvYWQoKTsKICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgc2V0RXJyKGUucmVzcG9uc2U/LmRhdGE/LmVycm9yIHx8IGUubWVzc2FnZSk7CiAgICB9IGZpbmFsbHkgewogICAgICBzZXRCdXN5KGZhbHNlKTsKICAgIH0KICB9OwoKICBpZiAoZGF0YSA9PT0gbnVsbCAmJiAhZXJyKSB7CiAgICByZXR1cm4gPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3QoImNvbm5lY3Rvci5sb2FkaW5nIil9PC9wPjsKICB9CiAgaWYgKGVyciAmJiAhZGF0YSkgewogICAgcmV0dXJuICgKICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktNCI+CiAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJnaG9zdCIgc2l6ZT0ic20iIGFzQ2hpbGQ+PExpbmsgdG89Ii9jb25uZWN0b3JzL2Nvbm5lY3Rpb25zIj48QXJyb3dMZWZ0IGNsYXNzTmFtZT0idy00IGgtNCBtci0yIiAvPnt0KCJjb25uZWN0b3IuYmFjayIpfTwvTGluaz48L0J1dHRvbj4KICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1kZXN0cnVjdGl2ZSI+e2Vycn08L3A+CiAgICAgIDwvZGl2PgogICAgKTsKICB9CgogIGNvbnN0IHsgZGVmaW5pdGlvbiwgcHJvdmlkZXIsIGNvbm5lY3Rpb24gfSA9IGRhdGE7CiAgY29uc3Qgc3RhdHVzID0gY29ubmVjdGlvbi5zdGF0dXM7CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS02Ij4KICAgICAgPE1vZHVsZUhlYWRlcgogICAgICAgIHRpdGxlPXtjb25uZWN0aW9uPy5uYW1lIHx8IHQoImNvbm5lY3Rvci5jb25uZWN0aW9uX2RldGFpbCIpfQogICAgICAgIGRlc2NyaXB0aW9uPXt0KCJjb25uZWN0b3IuY29ubmVjdGlvbl9kZXRhaWwiKX0KICAgICAgICBhY3Rpb25zPXsKICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0iZ2hvc3QiIHNpemU9InNtIiBhc0NoaWxkPgogICAgICAgICAgICA8TGluayB0bz0iL2Nvbm5lY3RvcnMvY29ubmVjdGlvbnMiPjxBcnJvd0xlZnQgY2xhc3NOYW1lPSJ3LTQgaC00IG1yLTIiIC8+e3QoImNvbm5lY3Rvci5iYWNrIil9PC9MaW5rPgogICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgfQogICAgICAvPgoKICAgICAge2VyciAmJiA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1kZXN0cnVjdGl2ZSI+e2Vycn08L3A+fQogICAgICB7bXNnICYmIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LXByaW1hcnkiPnttc2d9PC9wPn0KCiAgICAgIDxDYXJkPgogICAgICAgIDxDYXJkSGVhZGVyPjxDYXJkVGl0bGU+e3QoImNvbm5lY3Rvci5jb25uZWN0aW9uIil9PC9DYXJkVGl0bGU+PC9DYXJkSGVhZGVyPgogICAgICAgIDxDYXJkQ29udGVudCBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTIgZ2FwLTQgdGV4dC1zbSBzbTpncmlkLWNvbHMtMyI+CiAgICAgICAgICA8ZGl2PjxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPnt0KCJjb25uZWN0b3IuZmllbGQuY29ubmVjdGlvbk5hbWUiKX08L3A+PHAgY2xhc3NOYW1lPSJmb250LW1lZGl1bSI+e2Nvbm5lY3Rpb24ubmFtZX08L3A+PC9kaXY+CiAgICAgICAgICA8ZGl2PjxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPnt0KCJjb25uZWN0b3IuZmllbGQuZGVmaW5pdGlvbiIpfTwvcD48cD57ZGVmaW5pdGlvbj8ubmFtZSB8fCAi4oCUIn08L3A+PC9kaXY+CiAgICAgICAgICA8ZGl2PjxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPnt0KCJjb25uZWN0b3IuZmllbGQucHJvdmlkZXIiKX08L3A+PHA+e3Byb3ZpZGVyPy5uYW1lIHx8ICLigJQifTwvcD48L2Rpdj4KICAgICAgICAgIDxkaXY+PHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3QoImNvbm5lY3Rvci5maWVsZC5vcmdhbml6YXRpb25JZCIpfTwvcD48cCBjbGFzc05hbWU9ImZvbnQtbW9ubyB0ZXh0LXhzIj57Y29ubmVjdGlvbi5vcmdhbml6YXRpb25JZH08L3A+PC9kaXY+CiAgICAgICAgICA8ZGl2PjxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPnt0KCJjb25uZWN0b3IuZmllbGQuc3RhdHVzIil9PC9wPgogICAgICAgICAgICA8QmFkZ2UgdmFyaWFudD17U1RBVFVTX1ZBUklBTlRbc3RhdHVzXX0+e3QoYGNvbm5lY3Rvci5zdGF0dXNfJHtzdGF0dXN9YCl9PC9CYWRnZT4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdj48cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57dCgiY29ubmVjdG9yLmZpZWxkLmVuYWJsZWQiKX08L3A+CiAgICAgICAgICAgIDxCYWRnZSB2YXJpYW50PXtjb25uZWN0aW9uLmVuYWJsZWQgPyAiZGVmYXVsdCIgOiAic2Vjb25kYXJ5In0+e2Nvbm5lY3Rpb24uZW5hYmxlZCA/IHQoImNvbm5lY3Rvci55ZXMiKSA6IHQoImNvbm5lY3Rvci5ubyIpfTwvQmFkZ2U+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXY+PHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3QoImNvbm5lY3Rvci5maWVsZC5jcmVkZW50aWFsUmVmIil9PC9wPgogICAgICAgICAgICB7Y29ubmVjdGlvbi5oYXNDcmVkZW50aWFsID8gKAogICAgICAgICAgICAgIDxCYWRnZSB2YXJpYW50PSJzZWNvbmRhcnkiPnt0KCJjb25uZWN0b3IuY3JlZGVudGlhbF9zdG9yZWQiKX08L0JhZGdlPgogICAgICAgICAgICApIDogKAogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPnt0KCJjb25uZWN0b3Iubm9fY3JlZGVudGlhbCIpfTwvc3Bhbj4KICAgICAgICAgICAgKX0KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdj48cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57dCgiY29ubmVjdG9yLmZpZWxkLmVuYWJsZWRBdCIpfTwvcD48cD57Y29ubmVjdGlvbi5lbmFibGVkQXQgPyBuZXcgRGF0ZShjb25uZWN0aW9uLmVuYWJsZWRBdCkudG9Mb2NhbGVTdHJpbmcoKSA6ICLigJQifTwvcD48L2Rpdj4KICAgICAgICAgIDxkaXY+PHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3QoImNvbm5lY3Rvci5maWVsZC5kaXNhYmxlZEF0Iil9PC9wPjxwPntjb25uZWN0aW9uLmRpc2FibGVkQXQgPyBuZXcgRGF0ZShjb25uZWN0aW9uLmRpc2FibGVkQXQpLnRvTG9jYWxlU3RyaW5nKCkgOiAi4oCUIn08L3A+PC9kaXY+CiAgICAgICAgICA8ZGl2PjxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPnt0KCJjb25uZWN0b3IuZmllbGQuZGlzY29ubmVjdGVkQXQiKX08L3A+PHA+e2Nvbm5lY3Rpb24uZGlzY29ubmVjdGVkQXQgPyBuZXcgRGF0ZShjb25uZWN0aW9uLmRpc2Nvbm5lY3RlZEF0KS50b0xvY2FsZVN0cmluZygpIDogIuKAlCJ9PC9wPjwvZGl2PgogICAgICAgIDwvQ2FyZENvbnRlbnQ+CiAgICAgIDwvQ2FyZD4KCiAgICAgIHtjYW5Db25uZWN0ICYmICgKICAgICAgICA8Q2FyZD4KICAgICAgICAgIDxDYXJkSGVhZGVyPjxDYXJkVGl0bGU+e3QoImNvbm5lY3Rvci5tYW5hZ2UiKX08L0NhcmRUaXRsZT48L0NhcmRIZWFkZXI+CiAgICAgICAgICA8Q2FyZENvbnRlbnQgY2xhc3NOYW1lPSJzcGFjZS15LTMiPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57dCgiY29ubmVjdG9yLmFkbWluaXN0cmF0aXZlX25vdGUiKX08L3A+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtd3JhcCBnYXAtMiI+CiAgICAgICAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJkZWZhdWx0IiBjbGFzc05hbWU9ImdhcC0yIiBkaXNhYmxlZD17YnVzeSB8fCBzdGF0dXMgPT09ICJhY3RpdmUiIHx8IHN0YXR1cyA9PT0gImRpc2Nvbm5lY3RlZCJ9IG9uQ2xpY2s9eygpID0+IGFjdCgiYWN0aXZhdGVDb25uZWN0b3JDb25uZWN0aW9uIiwgdCgiY29ubmVjdG9yLmFjdGl2YXRlIikpfT4KICAgICAgICAgICAgICAgIDxQb3dlciBjbGFzc05hbWU9InctNCBoLTQiIC8+e3QoImNvbm5lY3Rvci5hY3RpdmF0ZSIpfQogICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0ib3V0bGluZSIgY2xhc3NOYW1lPSJnYXAtMiIgZGlzYWJsZWQ9e2J1c3kgfHwgc3RhdHVzID09PSAiZGlzYWJsZWQiIHx8IHN0YXR1cyA9PT0gImRpc2Nvbm5lY3RlZCJ9IG9uQ2xpY2s9eygpID0+IGFjdCgiZGlzYWJsZUNvbm5lY3RvckNvbm5lY3Rpb24iLCB0KCJjb25uZWN0b3IuZGlzYWJsZSIpKX0+CiAgICAgICAgICAgICAgICA8UG93ZXJPZmYgY2xhc3NOYW1lPSJ3LTQgaC00IiAvPnt0KCJjb25uZWN0b3IuZGlzYWJsZSIpfQogICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0iZGVzdHJ1Y3RpdmUiIGNsYXNzTmFtZT0iZ2FwLTIiIGRpc2FibGVkPXtidXN5IHx8IHN0YXR1cyA9PT0gImRpc2Nvbm5lY3RlZCJ9IG9uQ2xpY2s9eygpID0+IHsgaWYgKHdpbmRvdy5jb25maXJtKHQoImNvbm5lY3Rvci5jb25maXJtX2Rpc2Nvbm5lY3QiKSkpIGFjdCgiZGlzY29ubmVjdENvbm5lY3RvckNvbm5lY3Rpb24iLCB0KCJjb25uZWN0b3IuZGlzY29ubmVjdCIpKTsgfX0+CiAgICAgICAgICAgICAgICA8UGx1Z1phcCBjbGFzc05hbWU9InctNCBoLTQiIC8+e3QoImNvbm5lY3Rvci5kaXNjb25uZWN0Iil9CiAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9DYXJkQ29udGVudD4KICAgICAgICA8L0NhcmQ+CiAgICAgICl9CiAgICA8L2Rpdj4KICApOwp9
+import React, { useEffect, useState } from "react";
+import { useParams, Link } from "react-router-dom";
+import { ArrowLeft, Power, PowerOff, PlugZap } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import ModuleHeader from "@/components/shared/ModuleHeader";
+import { callFn } from "@/lib/function-call";
+import { useAuth } from "@/auth/AuthContextFacade";
+import { hasCapability } from "@/lib/permissions";
+import { t } from "@/lib/i18n";
+
+const STATUS_VARIANT = { configured: "secondary", active: "default", disabled: "outline", disconnected: "outline", error: "destructive" };
+
+export default function ConnectorConnectionDetailPage() {
+  const { connectionId } = useParams();
+  const { user } = useAuth();
+  const canConnect = hasCapability(user?.role, "platform.connectors.connect");
+  const [data, setData] = useState(null);
+  const [err, setErr] = useState("");
+  const [msg, setMsg] = useState("");
+  const [busy, setBusy] = useState(false);
+
+  const load = async () => {
+    setErr("");
+    try {
+      const res = await callFn("getConnectorConnection", { connectionId });
+      setData(res);
+    } catch (e) {
+      setErr(e.response?.data?.error || e.message);
+    }
+  };
+  useEffect(() => { load(); }, [connectionId]);
+
+  const act = async (fn, label) => {
+    setErr(""); setMsg(""); setBusy(true);
+    try {
+      const res = await callFn(fn, { connectionId });
+      setMsg(`${label}: ${res.status}`);
+      load();
+    } catch (e) {
+      setErr(e.response?.data?.error || e.message);
+    } finally {
+      setBusy(false);
+    }
+  };
+
+  if (data === null && !err) {
+    return <p className="text-sm text-muted-foreground">{t("connector.loading")}</p>;
+  }
+  if (err && !data) {
+    return (
+      <div className="space-y-4">
+        <Button variant="ghost" size="sm" asChild><Link to="/connectors/connections"><ArrowLeft className="w-4 h-4 mr-2" />{t("connector.back")}</Link></Button>
+        <p className="text-sm text-destructive">{err}</p>
+      </div>
+    );
+  }
+
+  const { definition, provider, connection } = data;
+  const status = connection.status;
+
+  return (
+    <div className="space-y-6">
+      <ModuleHeader
+        title={connection?.name || t("connector.connection_detail")}
+        description={t("connector.connection_detail")}
+        actions={
+          <Button variant="ghost" size="sm" asChild>
+            <Link to="/connectors/connections"><ArrowLeft className="w-4 h-4 mr-2" />{t("connector.back")}</Link>
+          </Button>
+        }
+      />
+
+      {err && <p className="text-sm text-destructive">{err}</p>}
+      {msg && <p className="text-sm text-primary">{msg}</p>}
+
+      <Card>
+        <CardHeader><CardTitle>{t("connector.connection")}</CardTitle></CardHeader>
+        <CardContent className="grid grid-cols-2 gap-4 text-sm sm:grid-cols-3">
+          <div><p className="text-xs text-muted-foreground">{t("connector.field.connectionName")}</p><p className="font-medium">{connection.name}</p></div>
+          <div><p className="text-xs text-muted-foreground">{t("connector.field.definition")}</p><p>{definition?.name || "—"}</p></div>
+          <div><p className="text-xs text-muted-foreground">{t("connector.field.provider")}</p><p>{provider?.name || "—"}</p></div>
+          <div><p className="text-xs text-muted-foreground">{t("connector.field.organizationId")}</p><p className="font-mono text-xs">{connection.organizationId}</p></div>
+          <div><p className="text-xs text-muted-foreground">{t("connector.field.status")}</p>
+            <Badge variant={STATUS_VARIANT[status]}>{t(`connector.status_${status}`)}</Badge>
+          </div>
+          <div><p className="text-xs text-muted-foreground">{t("connector.field.enabled")}</p>
+            <Badge variant={connection.enabled ? "default" : "secondary"}>{connection.enabled ? t("connector.yes") : t("connector.no")}</Badge>
+          </div>
+          <div><p className="text-xs text-muted-foreground">{t("connector.field.credentialRef")}</p>
+            {connection.hasCredential ? (
+              <Badge variant="secondary">{t("connector.credential_stored")}</Badge>
+            ) : (
+              <span className="text-xs text-muted-foreground">{t("connector.no_credential")}</span>
+            )}
+          </div>
+          <div><p className="text-xs text-muted-foreground">{t("connector.field.enabledAt")}</p><p>{connection.enabledAt ? new Date(connection.enabledAt).toLocaleString() : "—"}</p></div>
+          <div><p className="text-xs text-muted-foreground">{t("connector.field.disabledAt")}</p><p>{connection.disabledAt ? new Date(connection.disabledAt).toLocaleString() : "—"}</p></div>
+          <div><p className="text-xs text-muted-foreground">{t("connector.field.disconnectedAt")}</p><p>{connection.disconnectedAt ? new Date(connection.disconnectedAt).toLocaleString() : "—"}</p></div>
+        </CardContent>
+      </Card>
+
+      {canConnect && (
+        <Card>
+          <CardHeader><CardTitle>{t("connector.manage")}</CardTitle></CardHeader>
+          <CardContent className="space-y-3">
+            <p className="text-xs text-muted-foreground">{t("connector.administrative_note")}</p>
+            <div className="flex flex-wrap gap-2">
+              <Button variant="default" className="gap-2" disabled={busy || status === "active" || status === "disconnected"} onClick={() => act("activateConnectorConnection", t("connector.activate"))}>
+                <Power className="w-4 h-4" />{t("connector.activate")}
+              </Button>
+              <Button variant="outline" className="gap-2" disabled={busy || status === "disabled" || status === "disconnected"} onClick={() => act("disableConnectorConnection", t("connector.disable"))}>
+                <PowerOff className="w-4 h-4" />{t("connector.disable")}
+              </Button>
+              <Button variant="destructive" className="gap-2" disabled={busy || status === "disconnected"} onClick={() => { if (window.confirm(t("connector.confirm_disconnect"))) act("disconnectConnectorConnection", t("connector.disconnect")); }}>
+                <PlugZap className="w-4 h-4" />{t("connector.disconnect")}
+              </Button>
+            </div>
+          </CardContent>
+        </Card>
+      )}
+    </div>
+  );
+}

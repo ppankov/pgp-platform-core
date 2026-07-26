@@ -1,1 +1,128 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IExpbmssIHVzZVBhcmFtcyB9IGZyb20gInJlYWN0LXJvdXRlci1kb20iOwppbXBvcnQgeyBBcnJvd0xlZnQsIFBhdXNlLCBQbGF5LCBYQ2lyY2xlIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IENhcmQsIENhcmRDb250ZW50LCBDYXJkSGVhZGVyIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2NhcmQiOwppbXBvcnQgeyBCYWRnZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9iYWRnZSI7CmltcG9ydCB7IFRhYmxlLCBUYWJsZUhlYWRlciwgVGFibGVSb3csIFRhYmxlSGVhZCwgVGFibGVCb2R5LCBUYWJsZUNlbGwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvdGFibGUiOwppbXBvcnQgTW9kdWxlSGVhZGVyIGZyb20gIkAvY29tcG9uZW50cy9zaGFyZWQvTW9kdWxlSGVhZGVyIjsKaW1wb3J0IEpvYlN0YXR1c0JhZGdlIGZyb20gIkAvY29tcG9uZW50cy9qb2JzL0pvYlN0YXR1c0JhZGdlIjsKaW1wb3J0IHsgY2FsbEZuIH0gZnJvbSAiQC9saWIvZnVuY3Rpb24tY2FsbCI7CmltcG9ydCB7IHVzZUF1dGggfSBmcm9tICJAL2F1dGgvQXV0aENvbnRleHRGYWNhZGUiOwppbXBvcnQgeyBoYXNDYXBhYmlsaXR5IH0gZnJvbSAiQC9saWIvcGVybWlzc2lvbnMiOwppbXBvcnQgeyB1c2VUb2FzdCB9IGZyb20gIkAvY29tcG9uZW50cy91aS91c2UtdG9hc3QiOwppbXBvcnQgeyB0IH0gZnJvbSAiQC9saWIvaTE4biI7CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBKb2JTY2hlZHVsZURldGFpbFBhZ2UoKSB7CiAgY29uc3QgeyBzY2hlZHVsZUlkIH0gPSB1c2VQYXJhbXMoKTsKICBjb25zdCB7IHVzZXIgfSA9IHVzZUF1dGgoKTsKICBjb25zdCB7IHRvYXN0IH0gPSB1c2VUb2FzdCgpOwogIGNvbnN0IFtzY2hlZHVsZSwgc2V0U2NoZWR1bGVdID0gdXNlU3RhdGUobnVsbCk7CiAgY29uc3QgW2pvYnMsIHNldEpvYnNdID0gdXNlU3RhdGUoW10pOwogIGNvbnN0IFtlcnIsIHNldEVycl0gPSB1c2VTdGF0ZSgiIik7CgogIGNvbnN0IGxvYWQgPSBhc3luYyAoKSA9PiB7CiAgICBzZXRFcnIoIiIpOwogICAgdHJ5IHsKICAgICAgY29uc3QgcmVzID0gYXdhaXQgY2FsbEZuKCJsaXN0Sm9iU2NoZWR1bGVzIiwge30pOwogICAgICBjb25zdCBzID0gKHJlcy5zY2hlZHVsZXMgfHwgW10pLmZpbmQoKHgpID0+IHguaWQgPT09IHNjaGVkdWxlSWQpOwogICAgICBzZXRTY2hlZHVsZShzIHx8IG51bGwpOwogICAgICBjb25zdCBqciA9IGF3YWl0IGNhbGxGbigibGlzdEJhY2tncm91bmRKb2JzIiwgeyBqb2JTY2hlZHVsZUlkOiBzY2hlZHVsZUlkLCBzb3J0OiAiLWNyZWF0ZWRBdCIsIGxpbWl0OiA1MCB9KTsKICAgICAgc2V0Sm9icyhqci5qb2JzIHx8IFtdKTsKICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgc2V0RXJyKGUucmVzcG9uc2U/LmRhdGE/LmVycm9yIHx8IGUubWVzc2FnZSk7CiAgICB9CiAgfTsKICB1c2VFZmZlY3QoKCkgPT4geyBsb2FkKCk7IH0sIFtzY2hlZHVsZUlkXSk7CgogIGNvbnN0IGNhbk1hbmFnZSA9IChzY29wZSkgPT4gewogICAgaWYgKHVzZXI/LnJvbGUgPT09ICJzdXBlcl9hZG1pbiIpIHJldHVybiB0cnVlOwogICAgaWYgKHNjb3BlID09PSAicGxhdGZvcm0iKSByZXR1cm4gaGFzQ2FwYWJpbGl0eSh1c2VyPy5yb2xlLCAicGxhdGZvcm0uam9icy5tYW5hZ2UiKTsKICAgIHJldHVybiBoYXNDYXBhYmlsaXR5KHVzZXI/LnJvbGUsICJwbGF0Zm9ybS5qb2JzLmNvbm5lY3QiKTsKICB9OwogIGNvbnN0IGFsbG93ZWQgPSBzY2hlZHVsZSAmJiBjYW5NYW5hZ2Uoc2NoZWR1bGUuc2NvcGUpICYmIHNjaGVkdWxlLmVuYWJsZWQgJiYgIXNjaGVkdWxlLmNhbmNlbGxlZEF0OwoKICBjb25zdCBhY3QgPSBhc3luYyAoZm4sIGxhYmVsKSA9PiB7CiAgICB0cnkgewogICAgICBhd2FpdCBjYWxsRm4oZm4sIHsgam9iU2NoZWR1bGVJZDogc2NoZWR1bGVJZCB9KTsKICAgICAgdG9hc3QoeyB0aXRsZTogbGFiZWwgfSk7CiAgICAgIGxvYWQoKTsKICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgdG9hc3QoeyB2YXJpYW50OiAiZGVzdHJ1Y3RpdmUiLCB0aXRsZTogZS5yZXNwb25zZT8uZGF0YT8uZXJyb3IgfHwgZS5tZXNzYWdlIH0pOwogICAgfQogIH07CgogIGNvbnN0IGZtdCA9ICh2KSA9PiB2ID8gbmV3IERhdGUodikudG9Mb2NhbGVTdHJpbmcoKSA6ICLigJQiOwoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktNiI+CiAgICAgIDxkaXY+CiAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJnaG9zdCIgc2l6ZT0ic20iIGFzQ2hpbGQgY2xhc3NOYW1lPSJtYi0yIj4KICAgICAgICAgIDxMaW5rIHRvPSIvam9icy9zY2hlZHVsZXMiPjxBcnJvd0xlZnQgY2xhc3NOYW1lPSJ3LTQgaC00IG1yLTEiIC8+e3QoImpvYnMuYmFjayIpfTwvTGluaz4KICAgICAgICA8L0J1dHRvbj4KICAgICAgICA8TW9kdWxlSGVhZGVyIHRpdGxlPXtzY2hlZHVsZT8ubmFtZSB8fCB0KCJqb2JzLnNjaGVkdWxlX2RldGFpbCIpfSBkZXNjcmlwdGlvbj17c2NoZWR1bGU/LmRlc2NyaXB0aW9uIHx8ICIifSBhY3Rpb25zPXthbGxvd2VkICYmICgKICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGdhcC0yIj4KICAgICAgICAgICAgPEJ1dHRvbiBzaXplPSJzbSIgdmFyaWFudD0ib3V0bGluZSIgY2xhc3NOYW1lPSJnYXAtMiIgb25DbGljaz17KCkgPT4gYWN0KCJwYXVzZUpvYlNjaGVkdWxlIiwgdCgiam9icy5wYXVzZV9zY2hlZHVsZSIpKX0+PFBhdXNlIGNsYXNzTmFtZT0idy00IGgtNCIgLz57dCgiam9icy5wYXVzZV9zY2hlZHVsZSIpfTwvQnV0dG9uPgogICAgICAgICAgICA8QnV0dG9uIHNpemU9InNtIiB2YXJpYW50PSJvdXRsaW5lIiBjbGFzc05hbWU9ImdhcC0yIiBvbkNsaWNrPXsoKSA9PiBhY3QoImNhbmNlbEpvYlNjaGVkdWxlIiwgdCgiam9icy5jYW5jZWxfc2NoZWR1bGUiKSl9PjxYQ2lyY2xlIGNsYXNzTmFtZT0idy00IGgtNCIgLz57dCgiam9icy5jYW5jZWxfc2NoZWR1bGUiKX08L0J1dHRvbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICl9IC8+CiAgICAgICAge3NjaGVkdWxlICYmICFzY2hlZHVsZS5lbmFibGVkICYmIHNjaGVkdWxlLnBhdXNlZEF0ICYmICFzY2hlZHVsZS5jYW5jZWxsZWRBdCAmJiBjYW5NYW5hZ2Uoc2NoZWR1bGUuc2NvcGUpICYmICgKICAgICAgICAgIDxCdXR0b24gc2l6ZT0ic20iIHZhcmlhbnQ9Im91dGxpbmUiIGNsYXNzTmFtZT0iZ2FwLTIgbXQtMiIgb25DbGljaz17KCkgPT4gYWN0KCJyZXN1bWVKb2JTY2hlZHVsZSIsIHQoImpvYnMucmVzdW1lX3NjaGVkdWxlIikpfT48UGxheSBjbGFzc05hbWU9InctNCBoLTQiIC8+e3QoImpvYnMucmVzdW1lX3NjaGVkdWxlIil9PC9CdXR0b24+CiAgICAgICAgKX0KICAgICAgPC9kaXY+CiAgICAgIHtlcnIgJiYgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtZGVzdHJ1Y3RpdmUiPntlcnJ9PC9wPn0KICAgICAgeyFzY2hlZHVsZSAmJiAhZXJyICYmIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPnt0KCJqb2JzLmxvYWRpbmciKX08L3A+fQogICAgICB7c2NoZWR1bGUgJiYgKAogICAgICAgIDw+CiAgICAgICAgICA8Q2FyZD4KICAgICAgICAgICAgPENhcmRDb250ZW50IGNsYXNzTmFtZT0icHQtNiI+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTIgbWQ6Z3JpZC1jb2xzLTQgZ2FwLTQgdGV4dC1zbSI+CiAgICAgICAgICAgICAgICA8ZGl2PjxwIGNsYXNzTmFtZT0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57dCgiam9icy5maWVsZC5rZXkiKX08L3A+PHAgY2xhc3NOYW1lPSJmb250LW1vbm8iPntzY2hlZHVsZS5rZXl9PC9wPjwvZGl2PgogICAgICAgICAgICAgICAgPGRpdj48cCBjbGFzc05hbWU9InRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3QoImpvYnMuZmllbGQuc2NvcGUiKX08L3A+PHA+e3QoImpvYnMuc2NvcGVfIiArIHNjaGVkdWxlLnNjb3BlKX08L3A+PC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2PjxwIGNsYXNzTmFtZT0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57dCgiam9icy5maWVsZC5zY2hlZHVsZVR5cGUiKX08L3A+PHA+e3QoImpvYnMuc2NoZWR1bGVfIiArIHNjaGVkdWxlLnNjaGVkdWxlVHlwZSl9PC9wPjwvZGl2PgogICAgICAgICAgICAgICAgPGRpdj48cCBjbGFzc05hbWU9InRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3QoImpvYnMuZmllbGQuZW5hYmxlZCIpfTwvcD48QmFkZ2UgdmFyaWFudD17c2NoZWR1bGUuZW5hYmxlZCA/ICJkZWZhdWx0IiA6ICJzZWNvbmRhcnkifT57U3RyaW5nKHNjaGVkdWxlLmVuYWJsZWQpfTwvQmFkZ2U+PC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2PjxwIGNsYXNzTmFtZT0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57dCgiam9icy5maWVsZC5uZXh0UnVuQXQiKX08L3A+PHA+e2ZtdChzY2hlZHVsZS5uZXh0UnVuQXQpfTwvcD48L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXY+PHAgY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQiPnt0KCJqb2JzLmZpZWxkLmxhc3RFbnF1ZXVlZEF0Iil9PC9wPjxwPntmbXQoc2NoZWR1bGUubGFzdEVucXVldWVkQXQpfTwvcD48L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXY+PHAgY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQiPnt0KCJqb2JzLmZpZWxkLnJ1bkNvdW50Iil9PC9wPjxwPntzY2hlZHVsZS5ydW5Db3VudCA/PyAwfTwvcD48L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXY+PHAgY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQiPnt0KCJqb2JzLmZpZWxkLnByaW9yaXR5Iil9PC9wPjxwPntzY2hlZHVsZS5wcmlvcml0eSA/PyA1fTwvcD48L2Rpdj4KICAgICAgICAgICAgICAgIHtzY2hlZHVsZS5jYW5jZWxsZWRBdCAmJiA8ZGl2PjxwIGNsYXNzTmFtZT0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57dCgiam9icy5maWVsZC5jYW5jZWxsZWRBdCIpfTwvcD48cD57Zm10KHNjaGVkdWxlLmNhbmNlbGxlZEF0KX08L3A+PC9kaXY+fQogICAgICAgICAgICAgICAge3NjaGVkdWxlLnBhdXNlZEF0ICYmIDxkaXY+PHAgY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQiPnt0KCJqb2JzLmZpZWxkLnBhdXNlZEF0Iil9PC9wPjxwPntmbXQoc2NoZWR1bGUucGF1c2VkQXQpfTwvcD48L2Rpdj59CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvQ2FyZENvbnRlbnQ+CiAgICAgICAgICA8L0NhcmQ+CiAgICAgICAgICA8Q2FyZD4KICAgICAgICAgICAgPENhcmRIZWFkZXI+PHAgY2xhc3NOYW1lPSJmb250LWhlYWRpbmcgZm9udC1zZW1pYm9sZCI+e3QoImpvYnMucXVldWUiKX08L3A+PC9DYXJkSGVhZGVyPgogICAgICAgICAgICA8Q2FyZENvbnRlbnQ+CiAgICAgICAgICAgICAge2pvYnMubGVuZ3RoID09PSAwID8gKAogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3QoImpvYnMuZW1wdHkiKX08L3A+CiAgICAgICAgICAgICAgKSA6ICgKICAgICAgICAgICAgICAgIDxUYWJsZT4KICAgICAgICAgICAgICAgICAgPFRhYmxlSGVhZGVyPgogICAgICAgICAgICAgICAgICAgIDxUYWJsZVJvdz4KICAgICAgICAgICAgICAgICAgICAgIDxUYWJsZUhlYWQ+e3QoImpvYnMuZmllbGQuc3RhdHVzIil9PC9UYWJsZUhlYWQ+CiAgICAgICAgICAgICAgICAgICAgICA8VGFibGVIZWFkPnt0KCJqb2JzLmZpZWxkLmNyZWF0ZWRBdCIpfTwvVGFibGVIZWFkPgogICAgICAgICAgICAgICAgICAgICAgPFRhYmxlSGVhZD57dCgiam9icy5maWVsZC5hdmFpbGFibGVBdCIpfTwvVGFibGVIZWFkPgogICAgICAgICAgICAgICAgICAgICAgPFRhYmxlSGVhZCBjbGFzc05hbWU9InRleHQtcmlnaHQiPnt0KCJqb2JzLnZpZXciKX08L1RhYmxlSGVhZD4KICAgICAgICAgICAgICAgICAgICA8L1RhYmxlUm93PgogICAgICAgICAgICAgICAgICA8L1RhYmxlSGVhZGVyPgogICAgICAgICAgICAgICAgICA8VGFibGVCb2R5PgogICAgICAgICAgICAgICAgICAgIHtqb2JzLm1hcCgoaikgPT4gKAogICAgICAgICAgICAgICAgICAgICAgPFRhYmxlUm93IGtleT17ai5pZH0+CiAgICAgICAgICAgICAgICAgICAgICAgIDxUYWJsZUNlbGw+PEpvYlN0YXR1c0JhZGdlIHN0YXR1cz17ai5zdGF0dXN9IC8+PC9UYWJsZUNlbGw+CiAgICAgICAgICAgICAgICAgICAgICAgIDxUYWJsZUNlbGwgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e2ZtdChqLmNyZWF0ZWRBdCl9PC9UYWJsZUNlbGw+CiAgICAgICAgICAgICAgICAgICAgICAgIDxUYWJsZUNlbGwgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e2ZtdChqLmF2YWlsYWJsZUF0KX08L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICAgICAgICAgICAgPFRhYmxlQ2VsbCBjbGFzc05hbWU9InRleHQtcmlnaHQiPgogICAgICAgICAgICAgICAgICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0iZ2hvc3QiIHNpemU9Imljb24iIGFzQ2hpbGQ+PExpbmsgdG89e2Avam9icy9qb2JzLyR7ai5pZH1gfT48QXJyb3dMZWZ0IGNsYXNzTmFtZT0idy00IGgtNCByb3RhdGUtMTgwIiAvPjwvTGluaz48L0J1dHRvbj4KICAgICAgICAgICAgICAgICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICAgICAgICAgICAgICA8L1RhYmxlUm93PgogICAgICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgICAgICA8L1RhYmxlQm9keT4KICAgICAgICAgICAgICAgIDwvVGFibGU+CiAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgPC9DYXJkQ29udGVudD4KICAgICAgICAgIDwvQ2FyZD4KICAgICAgICA8Lz4KICAgICAgKX0KICAgIDwvZGl2PgogICk7Cn0=
+import React, { useEffect, useState } from "react";
+import { Link, useParams } from "react-router-dom";
+import { ArrowLeft, Pause, Play, XCircle } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { Table, TableHeader, TableRow, TableHead, TableBody, TableCell } from "@/components/ui/table";
+import ModuleHeader from "@/components/shared/ModuleHeader";
+import JobStatusBadge from "@/components/jobs/JobStatusBadge";
+import { callFn } from "@/lib/function-call";
+import { useAuth } from "@/auth/AuthContextFacade";
+import { hasCapability } from "@/lib/permissions";
+import { useToast } from "@/components/ui/use-toast";
+import { t } from "@/lib/i18n";
+
+export default function JobScheduleDetailPage() {
+  const { scheduleId } = useParams();
+  const { user } = useAuth();
+  const { toast } = useToast();
+  const [schedule, setSchedule] = useState(null);
+  const [jobs, setJobs] = useState([]);
+  const [err, setErr] = useState("");
+
+  const load = async () => {
+    setErr("");
+    try {
+      const res = await callFn("listJobSchedules", {});
+      const s = (res.schedules || []).find((x) => x.id === scheduleId);
+      setSchedule(s || null);
+      const jr = await callFn("listBackgroundJobs", { jobScheduleId: scheduleId, sort: "-createdAt", limit: 50 });
+      setJobs(jr.jobs || []);
+    } catch (e) {
+      setErr(e.response?.data?.error || e.message);
+    }
+  };
+  useEffect(() => { load(); }, [scheduleId]);
+
+  const canManage = (scope) => {
+    if (user?.role === "super_admin") return true;
+    if (scope === "platform") return hasCapability(user?.role, "platform.jobs.manage");
+    return hasCapability(user?.role, "platform.jobs.connect");
+  };
+  const allowed = schedule && canManage(schedule.scope) && schedule.enabled && !schedule.cancelledAt;
+
+  const act = async (fn, label) => {
+    try {
+      await callFn(fn, { jobScheduleId: scheduleId });
+      toast({ title: label });
+      load();
+    } catch (e) {
+      toast({ variant: "destructive", title: e.response?.data?.error || e.message });
+    }
+  };
+
+  const fmt = (v) => v ? new Date(v).toLocaleString() : "—";
+
+  return (
+    <div className="space-y-6">
+      <div>
+        <Button variant="ghost" size="sm" asChild className="mb-2">
+          <Link to="/jobs/schedules"><ArrowLeft className="w-4 h-4 mr-1" />{t("jobs.back")}</Link>
+        </Button>
+        <ModuleHeader title={schedule?.name || t("jobs.schedule_detail")} description={schedule?.description || ""} actions={allowed && (
+          <div className="flex gap-2">
+            <Button size="sm" variant="outline" className="gap-2" onClick={() => act("pauseJobSchedule", t("jobs.pause_schedule"))}><Pause className="w-4 h-4" />{t("jobs.pause_schedule")}</Button>
+            <Button size="sm" variant="outline" className="gap-2" onClick={() => act("cancelJobSchedule", t("jobs.cancel_schedule"))}><XCircle className="w-4 h-4" />{t("jobs.cancel_schedule")}</Button>
+          </div>
+        )} />
+        {schedule && !schedule.enabled && schedule.pausedAt && !schedule.cancelledAt && canManage(schedule.scope) && (
+          <Button size="sm" variant="outline" className="gap-2 mt-2" onClick={() => act("resumeJobSchedule", t("jobs.resume_schedule"))}><Play className="w-4 h-4" />{t("jobs.resume_schedule")}</Button>
+        )}
+      </div>
+      {err && <p className="text-sm text-destructive">{err}</p>}
+      {!schedule && !err && <p className="text-sm text-muted-foreground">{t("jobs.loading")}</p>}
+      {schedule && (
+        <>
+          <Card>
+            <CardContent className="pt-6">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+                <div><p className="text-muted-foreground">{t("jobs.field.key")}</p><p className="font-mono">{schedule.key}</p></div>
+                <div><p className="text-muted-foreground">{t("jobs.field.scope")}</p><p>{t("jobs.scope_" + schedule.scope)}</p></div>
+                <div><p className="text-muted-foreground">{t("jobs.field.scheduleType")}</p><p>{t("jobs.schedule_" + schedule.scheduleType)}</p></div>
+                <div><p className="text-muted-foreground">{t("jobs.field.enabled")}</p><Badge variant={schedule.enabled ? "default" : "secondary"}>{String(schedule.enabled)}</Badge></div>
+                <div><p className="text-muted-foreground">{t("jobs.field.nextRunAt")}</p><p>{fmt(schedule.nextRunAt)}</p></div>
+                <div><p className="text-muted-foreground">{t("jobs.field.lastEnqueuedAt")}</p><p>{fmt(schedule.lastEnqueuedAt)}</p></div>
+                <div><p className="text-muted-foreground">{t("jobs.field.runCount")}</p><p>{schedule.runCount ?? 0}</p></div>
+                <div><p className="text-muted-foreground">{t("jobs.field.priority")}</p><p>{schedule.priority ?? 5}</p></div>
+                {schedule.cancelledAt && <div><p className="text-muted-foreground">{t("jobs.field.cancelledAt")}</p><p>{fmt(schedule.cancelledAt)}</p></div>}
+                {schedule.pausedAt && <div><p className="text-muted-foreground">{t("jobs.field.pausedAt")}</p><p>{fmt(schedule.pausedAt)}</p></div>}
+              </div>
+            </CardContent>
+          </Card>
+          <Card>
+            <CardHeader><p className="font-heading font-semibold">{t("jobs.queue")}</p></CardHeader>
+            <CardContent>
+              {jobs.length === 0 ? (
+                <p className="text-sm text-muted-foreground">{t("jobs.empty")}</p>
+              ) : (
+                <Table>
+                  <TableHeader>
+                    <TableRow>
+                      <TableHead>{t("jobs.field.status")}</TableHead>
+                      <TableHead>{t("jobs.field.createdAt")}</TableHead>
+                      <TableHead>{t("jobs.field.availableAt")}</TableHead>
+                      <TableHead className="text-right">{t("jobs.view")}</TableHead>
+                    </TableRow>
+                  </TableHeader>
+                  <TableBody>
+                    {jobs.map((j) => (
+                      <TableRow key={j.id}>
+                        <TableCell><JobStatusBadge status={j.status} /></TableCell>
+                        <TableCell className="text-xs text-muted-foreground">{fmt(j.createdAt)}</TableCell>
+                        <TableCell className="text-xs text-muted-foreground">{fmt(j.availableAt)}</TableCell>
+                        <TableCell className="text-right">
+                          <Button variant="ghost" size="icon" asChild><Link to={`/jobs/jobs/${j.id}`}><ArrowLeft className="w-4 h-4 rotate-180" /></Link></Button>
+                        </TableCell>
+                      </TableRow>
+                    ))}
+                  </TableBody>
+                </Table>
+              )}
+            </CardContent>
+          </Card>
+        </>
+      )}
+    </div>
+  );
+}

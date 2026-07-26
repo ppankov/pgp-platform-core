@@ -1,1 +1,40 @@
-Ly8gUEdQIENvcmUg4oCUIEJhY2tncm91bmQgSm9iIERvbWFpbiAocHJvdmlkZXItaW5kZXBlbmRlbnQpCi8vIEJlaGF2aW9yYWwgcGFyaXR5IHdpdGggZGVwbG95ZWQgQmFzZTQ0IGZ1bmN0aW9uOgovLyAgIHByb2Nlc3NCYWNrZ3JvdW5kSm9icy9lbnRyeS50cyAocmV0cnlEZWxheSArIHJldHJ5L2RlYWQtbGV0dGVyIGRlY2lzaW9uKQovLyBQdXJlOiBubyBCYXNlNDQsIG5vIERlbm8sIG5vIFN1cGFiYXNlLCBubyBkYXRhc3RvcmUsIG5vIG5ldHdvcmssIG5vIGVudiwKLy8gbm8gaW1wbGljaXQgY3VycmVudCB0aW1lIChub3dJc28gaXMgZXhwbGljaXQgaW5wdXQpLCBubyBzaWRlIGVmZmVjdHMsCi8vIG5vIGlucHV0IG11dGF0aW9uLCBubyBsZWFzZS9oYW5kbGVyIGV4ZWN1dGlvbi4KCmV4cG9ydCBmdW5jdGlvbiBjYWxjdWxhdGVSZXRyeURlbGF5KHJldHJ5UG9saWN5LCBhdHRlbXB0TnVtYmVyKSB7CiAgaWYgKCFyZXRyeVBvbGljeSkgcmV0dXJuIDA7CiAgY29uc3QgYnQgPSByZXRyeVBvbGljeS5iYWNrb2ZmVHlwZSB8fCAibm9uZSI7CiAgY29uc3QgYmFzZSA9IE51bWJlcihyZXRyeVBvbGljeS5iYXNlRGVsYXlTZWNvbmRzIHx8IDApOwogIGNvbnN0IG1heGQgPSBOdW1iZXIocmV0cnlQb2xpY3kubWF4RGVsYXlTZWNvbmRzIHx8IDApOwogIGlmIChidCA9PT0gIm5vbmUiKSByZXR1cm4gMDsKICBpZiAoYnQgPT09ICJmaXhlZCIpIHJldHVybiBiYXNlOwogIC8vIGV4cG9uZW50aWFsCiAgY29uc3QgZCA9IE1hdGgubWluKG1heGQsIGJhc2UgKiBNYXRoLnBvdygyLCBNYXRoLm1heCgwLCBhdHRlbXB0TnVtYmVyIC0gMSkpKTsKICByZXR1cm4gZDsKfQoKZXhwb3J0IGZ1bmN0aW9uIGRlY2lkZUZhaWxlZEpvYlRyYW5zaXRpb24oaW5wdXQpIHsKICBjb25zdCBhdHRlbXB0TnVtYmVyID0gaW5wdXQuYXR0ZW1wdE51bWJlcjsKICBjb25zdCBtYXhBdHRlbXB0cyA9IGlucHV0Lm1heEF0dGVtcHRzOwogIGNvbnN0IHJldHJ5UG9saWN5ID0gaW5wdXQucmV0cnlQb2xpY3k7CiAgY29uc3Qgbm93SXNvID0gaW5wdXQubm93SXNvOwoKICBpZiAoYXR0ZW1wdE51bWJlciA8IG1heEF0dGVtcHRzKSB7CiAgICBjb25zdCBkZWxheSA9IGNhbGN1bGF0ZVJldHJ5RGVsYXkocmV0cnlQb2xpY3ksIGF0dGVtcHROdW1iZXIpOwogICAgY29uc3Qgbm93TXMgPSBuZXcgRGF0ZShub3dJc28pLmdldFRpbWUoKTsKICAgIGNvbnN0IGF2YWlsYWJsZUF0ID0gbmV3IERhdGUobm93TXMgKyBkZWxheSAqIDEwMDApLnRvSVNPU3RyaW5nKCk7CiAgICByZXR1cm4gewogICAgICBzdGF0dXM6ICJyZXRyeV93YWl0IiwKICAgICAgZGVsYXlTZWNvbmRzOiBkZWxheSwKICAgICAgYXZhaWxhYmxlQXQsCiAgICB9OwogIH0KICByZXR1cm4gewogICAgc3RhdHVzOiAiZGVhZF9sZXR0ZXIiLAogICAgZGVhZExldHRlcmVkQXQ6IG5vd0lzbywKICB9Owp9
+// PGP Core — Background Job Domain (provider-independent)
+// Behavioral parity with deployed Base44 function:
+//   processBackgroundJobs/entry.ts (retryDelay + retry/dead-letter decision)
+// Pure: no Base44, no Deno, no Supabase, no datastore, no network, no env,
+// no implicit current time (nowIso is explicit input), no side effects,
+// no input mutation, no lease/handler execution.
+
+export function calculateRetryDelay(retryPolicy, attemptNumber) {
+  if (!retryPolicy) return 0;
+  const bt = retryPolicy.backoffType || "none";
+  const base = Number(retryPolicy.baseDelaySeconds || 0);
+  const maxd = Number(retryPolicy.maxDelaySeconds || 0);
+  if (bt === "none") return 0;
+  if (bt === "fixed") return base;
+  // exponential
+  const d = Math.min(maxd, base * Math.pow(2, Math.max(0, attemptNumber - 1)));
+  return d;
+}
+
+export function decideFailedJobTransition(input) {
+  const attemptNumber = input.attemptNumber;
+  const maxAttempts = input.maxAttempts;
+  const retryPolicy = input.retryPolicy;
+  const nowIso = input.nowIso;
+
+  if (attemptNumber < maxAttempts) {
+    const delay = calculateRetryDelay(retryPolicy, attemptNumber);
+    const nowMs = new Date(nowIso).getTime();
+    const availableAt = new Date(nowMs + delay * 1000).toISOString();
+    return {
+      status: "retry_wait",
+      delaySeconds: delay,
+      availableAt,
+    };
+  }
+  return {
+    status: "dead_letter",
+    deadLetteredAt: nowIso,
+  };
+}

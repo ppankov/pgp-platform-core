@@ -1,1 +1,8 @@
-Ly8gUEdQIENvcmUg4oCUIERvbWFpbiBwYWNrYWdlIHB1YmxpYyBlbnRyeS4KLy8gUmUtZXhwb3J0cyB0aGUgcHJvdmlkZXItaW5kZXBlbmRlbnQgcHVyZSBkb21haW4gbW9kdWxlcy4KLy8gTm8gYnVpbGQgc3RlcCByZXF1aXJlZC4KCmV4cG9ydCB7IHZhbGlkYXRlV29ya2Zsb3dHcmFwaCB9IGZyb20gIi4vd29ya2Zsb3dHcmFwaC5qcyI7CmV4cG9ydCB7IGJ1aWxkT2NjdXJyZW5jZUtleSwgZXZhbHVhdGVTY2hlZHVsZU9jY3VycmVuY2UgfSBmcm9tICIuL2pvYlNjaGVkdWxpbmcuanMiOwpleHBvcnQgeyBjYWxjdWxhdGVSZXRyeURlbGF5LCBkZWNpZGVGYWlsZWRKb2JUcmFuc2l0aW9uIH0gZnJvbSAiLi9iYWNrZ3JvdW5kSm9iLmpzIjsKZXhwb3J0IHsgY29udGFpbnNTZWNyZXRLZXksIHJlZGFjdFNlY3JldEtleXMsIHNhbml0aXplRXJyb3JUZXh0IH0gZnJvbSAiLi9zYWZlRGF0YS5qcyI7
+// PGP Core — Domain package public entry.
+// Re-exports the provider-independent pure domain modules.
+// No build step required.
+
+export { validateWorkflowGraph } from "./workflowGraph.js";
+export { buildOccurrenceKey, evaluateScheduleOccurrence } from "./jobScheduling.js";
+export { calculateRetryDelay, decideFailedJobTransition } from "./backgroundJob.js";
+export { containsSecretKey, redactSecretKeys, sanitizeErrorText } from "./safeData.js";

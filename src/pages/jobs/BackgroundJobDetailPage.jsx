@@ -1,1 +1,135 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IExpbmssIHVzZVBhcmFtcyB9IGZyb20gInJlYWN0LXJvdXRlci1kb20iOwppbXBvcnQgeyBBcnJvd0xlZnQsIFhDaXJjbGUgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgQ2FyZCwgQ2FyZENvbnRlbnQsIENhcmRIZWFkZXIgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvY2FyZCI7CmltcG9ydCB7IEJhZGdlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2JhZGdlIjsKaW1wb3J0IHsgVGFibGUsIFRhYmxlSGVhZGVyLCBUYWJsZVJvdywgVGFibGVIZWFkLCBUYWJsZUJvZHksIFRhYmxlQ2VsbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS90YWJsZSI7CmltcG9ydCBNb2R1bGVIZWFkZXIgZnJvbSAiQC9jb21wb25lbnRzL3NoYXJlZC9Nb2R1bGVIZWFkZXIiOwppbXBvcnQgSm9iU3RhdHVzQmFkZ2UgZnJvbSAiQC9jb21wb25lbnRzL2pvYnMvSm9iU3RhdHVzQmFkZ2UiOwppbXBvcnQgeyBjYWxsRm4gfSBmcm9tICJAL2xpYi9mdW5jdGlvbi1jYWxsIjsKaW1wb3J0IHsgdXNlQXV0aCB9IGZyb20gIkAvYXV0aC9BdXRoQ29udGV4dEZhY2FkZSI7CmltcG9ydCB7IGhhc0NhcGFiaWxpdHkgfSBmcm9tICJAL2xpYi9wZXJtaXNzaW9ucyI7CmltcG9ydCB7IHVzZVRvYXN0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3VzZS10b2FzdCI7CmltcG9ydCB7IHQgfSBmcm9tICJAL2xpYi9pMThuIjsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEJhY2tncm91bmRKb2JEZXRhaWxQYWdlKCkgewogIGNvbnN0IHsgam9iSWQgfSA9IHVzZVBhcmFtcygpOwogIGNvbnN0IHsgdXNlciB9ID0gdXNlQXV0aCgpOwogIGNvbnN0IHsgdG9hc3QgfSA9IHVzZVRvYXN0KCk7CiAgY29uc3QgW2RhdGEsIHNldERhdGFdID0gdXNlU3RhdGUobnVsbCk7CiAgY29uc3QgW2Vyciwgc2V0RXJyXSA9IHVzZVN0YXRlKCIiKTsKCiAgY29uc3QgbG9hZCA9IGFzeW5jICgpID0+IHsKICAgIHNldEVycigiIik7CiAgICB0cnkgewogICAgICBjb25zdCByZXMgPSBhd2FpdCBjYWxsRm4oImdldEJhY2tncm91bmRKb2IiLCB7IGJhY2tncm91bmRKb2JJZDogam9iSWQgfSk7CiAgICAgIHNldERhdGEocmVzKTsKICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgc2V0RXJyKGUucmVzcG9uc2U/LmRhdGE/LmVycm9yIHx8IGUubWVzc2FnZSk7CiAgICB9CiAgfTsKICB1c2VFZmZlY3QoKCkgPT4geyBsb2FkKCk7IH0sIFtqb2JJZF0pOwoKICBjb25zdCBqb2IgPSBkYXRhPy5qb2I7CiAgY29uc3QgYXR0ZW1wdHMgPSBkYXRhPy5hdHRlbXB0cyB8fCBbXTsKICBjb25zdCBldmVudHMgPSBkYXRhPy5ldmVudHMgfHwgW107CgogIGNvbnN0IGNhbkNhbmNlbCA9IChqKSA9PiB7CiAgICBpZiAoIWopIHJldHVybiBmYWxzZTsKICAgIGlmICh1c2VyPy5yb2xlID09PSAic3VwZXJfYWRtaW4iKSByZXR1cm4gdHJ1ZTsKICAgIGlmIChqLnNjb3BlID09PSAicGxhdGZvcm0iKSByZXR1cm4gaGFzQ2FwYWJpbGl0eSh1c2VyPy5yb2xlLCAicGxhdGZvcm0uam9icy5tYW5hZ2UiKTsKICAgIHJldHVybiBoYXNDYXBhYmlsaXR5KHVzZXI/LnJvbGUsICJwbGF0Zm9ybS5qb2JzLmNvbm5lY3QiKTsKICB9OwogIGNvbnN0IGNhbmNlbEpvYiA9IGFzeW5jICgpID0+IHsKICAgIHRyeSB7IGF3YWl0IGNhbGxGbigiY2FuY2VsQmFja2dyb3VuZEpvYiIsIHsgYmFja2dyb3VuZEpvYklkOiBqb2JJZCB9KTsgdG9hc3QoeyB0aXRsZTogdCgiam9icy5jYW5jZWxfam9iIikgfSk7IGxvYWQoKTsgfQogICAgY2F0Y2ggKGUpIHsgdG9hc3QoeyB2YXJpYW50OiAiZGVzdHJ1Y3RpdmUiLCB0aXRsZTogZS5yZXNwb25zZT8uZGF0YT8uZXJyb3IgfHwgZS5tZXNzYWdlIH0pOyB9CiAgfTsKCiAgY29uc3QgZm10ID0gKHYpID0+IHYgPyBuZXcgRGF0ZSh2KS50b0xvY2FsZVN0cmluZygpIDogIuKAlCI7CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS02Ij4KICAgICAgPGRpdj4KICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Imdob3N0IiBzaXplPSJzbSIgYXNDaGlsZCBjbGFzc05hbWU9Im1iLTIiPgogICAgICAgICAgPExpbmsgdG89Ii9qb2JzL3F1ZXVlIj48QXJyb3dMZWZ0IGNsYXNzTmFtZT0idy00IGgtNCBtci0xIiAvPnt0KCJqb2JzLmJhY2siKX08L0xpbms+CiAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPE1vZHVsZUhlYWRlcgogICAgICAgICAgdGl0bGU9e3QoImpvYnMuam9iX2RldGFpbCIpfQogICAgICAgICAgZGVzY3JpcHRpb249e2pvYiA/IGAke2pvYi5oYW5kbGVyS2V5fWAgOiAiIn0KICAgICAgICAgIGFjdGlvbnM9e2pvYiAmJiBjYW5DYW5jZWwoam9iKSAmJiBbInF1ZXVlZCIsICJyZXRyeV93YWl0Il0uaW5jbHVkZXMoam9iLnN0YXR1cykgJiYgKAogICAgICAgICAgICA8QnV0dG9uIHNpemU9InNtIiB2YXJpYW50PSJvdXRsaW5lIiBjbGFzc05hbWU9ImdhcC0yIiBvbkNsaWNrPXtjYW5jZWxKb2J9PjxYQ2lyY2xlIGNsYXNzTmFtZT0idy00IGgtNCIgLz57dCgiam9icy5jYW5jZWxfam9iIil9PC9CdXR0b24+CiAgICAgICAgICApfQogICAgICAgIC8+CiAgICAgIDwvZGl2PgogICAgICB7ZXJyICYmIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LWRlc3RydWN0aXZlIj57ZXJyfTwvcD59CiAgICAgIHshZGF0YSAmJiAhZXJyICYmIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPnt0KCJqb2JzLmxvYWRpbmciKX08L3A+fQogICAgICB7am9iICYmICgKICAgICAgICA8PgogICAgICAgICAgPENhcmQ+CiAgICAgICAgICAgIDxDYXJkQ29udGVudCBjbGFzc05hbWU9InB0LTYiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0yIG1kOmdyaWQtY29scy00IGdhcC00IHRleHQtc20iPgogICAgICAgICAgICAgICAgPGRpdj48cCBjbGFzc05hbWU9InRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3QoImpvYnMuZmllbGQuc3RhdHVzIil9PC9wPjxKb2JTdGF0dXNCYWRnZSBzdGF0dXM9e2pvYi5zdGF0dXN9IC8+PC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2PjxwIGNsYXNzTmFtZT0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57dCgiam9icy5maWVsZC5zY29wZSIpfTwvcD48cD57dCgiam9icy5zY29wZV8iICsgam9iLnNjb3BlKX08L3A+PC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2PjxwIGNsYXNzTmFtZT0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57dCgiam9icy5maWVsZC5wcmlvcml0eSIpfTwvcD48cD57am9iLnByaW9yaXR5ID8/IDV9PC9wPjwvZGl2PgogICAgICAgICAgICAgICAgPGRpdj48cCBjbGFzc05hbWU9InRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3QoImpvYnMuZmllbGQuYXR0ZW1wdENvdW50Iil9PC9wPjxwPntqb2IuYXR0ZW1wdENvdW50ID8/IDB9IC8ge2pvYi5tYXhBdHRlbXB0cyA/PyAxfTwvcD48L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXY+PHAgY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQiPnt0KCJqb2JzLmZpZWxkLmNyZWF0ZWRBdCIpfTwvcD48cD57Zm10KGpvYi5jcmVhdGVkQXQpfTwvcD48L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXY+PHAgY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQiPnt0KCJqb2JzLmZpZWxkLmF2YWlsYWJsZUF0Iil9PC9wPjxwPntmbXQoam9iLmF2YWlsYWJsZUF0KX08L3A+PC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2PjxwIGNsYXNzTmFtZT0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57dCgiam9icy5maWVsZC5sZWFzZU93bmVyIil9PC9wPjxwIGNsYXNzTmFtZT0iZm9udC1tb25vIHRleHQteHMiPntqb2IubGVhc2VPd25lciB8fCAi4oCUIn08L3A+PC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2PjxwIGNsYXNzTmFtZT0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57dCgiam9icy5maWVsZC5sZWFzZUV4cGlyZXNBdCIpfTwvcD48cD57Zm10KGpvYi5sZWFzZUV4cGlyZXNBdCl9PC9wPjwvZGl2PgogICAgICAgICAgICAgICAgPGRpdj48cCBjbGFzc05hbWU9InRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3QoImpvYnMuZmllbGQuZGVkdXBsaWNhdGlvbktleSIpfTwvcD48cCBjbGFzc05hbWU9ImZvbnQtbW9ubyB0ZXh0LXhzIj57am9iLmRlZHVwbGljYXRpb25LZXkgfHwgIuKAlCJ9PC9wPjwvZGl2PgogICAgICAgICAgICAgICAgPGRpdj48cCBjbGFzc05hbWU9InRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3QoImpvYnMuZmllbGQuY29ycmVsYXRpb25JZCIpfTwvcD48cCBjbGFzc05hbWU9ImZvbnQtbW9ubyB0ZXh0LXhzIj57am9iLmNvcnJlbGF0aW9uSWQgfHwgIuKAlCJ9PC9wPjwvZGl2PgogICAgICAgICAgICAgICAgPGRpdj48cCBjbGFzc05hbWU9InRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3QoImpvYnMuZmllbGQuc3RhcnRlZEF0Iil9PC9wPjxwPntmbXQoam9iLnN0YXJ0ZWRBdCl9PC9wPjwvZGl2PgogICAgICAgICAgICAgICAgPGRpdj48cCBjbGFzc05hbWU9InRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3QoImpvYnMuZmllbGQuY29tcGxldGVkQXQiKX08L3A+PHA+e2ZtdChqb2IuY29tcGxldGVkQXQpfTwvcD48L2Rpdj4KICAgICAgICAgICAgICAgIHtqb2IubGFzdEVycm9yICYmIDxkaXYgY2xhc3NOYW1lPSJjb2wtc3Bhbi0yIj48cCBjbGFzc05hbWU9InRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3QoImpvYnMuZmllbGQubGFzdEVycm9yIil9PC9wPjxwIGNsYXNzTmFtZT0idGV4dC1kZXN0cnVjdGl2ZSB0ZXh0LXhzIj57am9iLmxhc3RFcnJvcn08L3A+PC9kaXY+fQogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L0NhcmRDb250ZW50PgogICAgICAgICAgPC9DYXJkPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgbWQ6Z3JpZC1jb2xzLTIgZ2FwLTYiPgogICAgICAgICAgICA8Q2FyZD4KICAgICAgICAgICAgICA8Q2FyZEhlYWRlcj48cCBjbGFzc05hbWU9ImZvbnQtaGVhZGluZyBmb250LXNlbWlib2xkIj57dCgiam9icy5hdHRlbXB0cyIpfTwvcD48L0NhcmRIZWFkZXI+CiAgICAgICAgICAgICAgPENhcmRDb250ZW50PgogICAgICAgICAgICAgICAge2F0dGVtcHRzLmxlbmd0aCA9PT0gMCA/IDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPnt0KCJqb2JzLm5vX2F0dGVtcHRzIil9PC9wPiA6ICgKICAgICAgICAgICAgICAgICAgPFRhYmxlPgogICAgICAgICAgICAgICAgICAgIDxUYWJsZUhlYWRlcj48VGFibGVSb3c+CiAgICAgICAgICAgICAgICAgICAgICA8VGFibGVIZWFkPnt0KCJqb2JzLmZpZWxkLmF0dGVtcHROdW1iZXIiKX08L1RhYmxlSGVhZD4KICAgICAgICAgICAgICAgICAgICAgIDxUYWJsZUhlYWQ+e3QoImpvYnMuZmllbGQuc3RhdHVzIil9PC9UYWJsZUhlYWQ+CiAgICAgICAgICAgICAgICAgICAgICA8VGFibGVIZWFkPnt0KCJqb2JzLmZpZWxkLndvcmtlcklkIil9PC9UYWJsZUhlYWQ+CiAgICAgICAgICAgICAgICAgICAgICA8VGFibGVIZWFkPnt0KCJqb2JzLmZpZWxkLnN0YXJ0ZWRBdCIpfTwvVGFibGVIZWFkPgogICAgICAgICAgICAgICAgICAgIDwvVGFibGVSb3c+PC9UYWJsZUhlYWRlcj4KICAgICAgICAgICAgICAgICAgICA8VGFibGVCb2R5PgogICAgICAgICAgICAgICAgICAgICAge2F0dGVtcHRzLm1hcCgoYSkgPT4gKAogICAgICAgICAgICAgICAgICAgICAgICA8VGFibGVSb3cga2V5PXthLmlkfT4KICAgICAgICAgICAgICAgICAgICAgICAgICA8VGFibGVDZWxsPnthLmF0dGVtcHROdW1iZXJ9PC9UYWJsZUNlbGw+CiAgICAgICAgICAgICAgICAgICAgICAgICAgPFRhYmxlQ2VsbD48QmFkZ2UgdmFyaWFudD0ic2Vjb25kYXJ5Ij57YS5zdGF0dXN9PC9CYWRnZT48L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICAgICAgICAgICAgICA8VGFibGVDZWxsIGNsYXNzTmFtZT0iZm9udC1tb25vIHRleHQteHMiPnthLndvcmtlcklkIHx8ICLigJQifTwvVGFibGVDZWxsPgogICAgICAgICAgICAgICAgICAgICAgICAgIDxUYWJsZUNlbGwgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e2ZtdChhLnN0YXJ0ZWRBdCl9PC9UYWJsZUNlbGw+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvVGFibGVSb3c+CiAgICAgICAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICAgICAgICA8L1RhYmxlQm9keT4KICAgICAgICAgICAgICAgICAgPC9UYWJsZT4KICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgPC9DYXJkQ29udGVudD4KICAgICAgICAgICAgPC9DYXJkPgogICAgICAgICAgICA8Q2FyZD4KICAgICAgICAgICAgICA8Q2FyZEhlYWRlcj48cCBjbGFzc05hbWU9ImZvbnQtaGVhZGluZyBmb250LXNlbWlib2xkIj57dCgiam9icy50aW1lbGluZSIpfTwvcD48L0NhcmRIZWFkZXI+CiAgICAgICAgICAgICAgPENhcmRDb250ZW50PgogICAgICAgICAgICAgICAge2V2ZW50cy5sZW5ndGggPT09IDAgPyA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57dCgiam9icy5ub19ldmVudHMiKX08L3A+IDogKAogICAgICAgICAgICAgICAgICA8b2wgY2xhc3NOYW1lPSJzcGFjZS15LTIiPgogICAgICAgICAgICAgICAgICAgIHtldmVudHMubWFwKChlKSA9PiAoCiAgICAgICAgICAgICAgICAgICAgICA8bGkga2V5PXtlLmlkfSBjbGFzc05hbWU9InRleHQteHMgYm9yZGVyLWwtMiBib3JkZXItYm9yZGVyIHBsLTMiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZvbnQtbW9ubyB0ZXh0LWZvcmVncm91bmQiPntlLmV2ZW50VHlwZX08L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4gwrcge2ZtdChlLmNyZWF0ZWRBdCl9PC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICB7ZS5hdHRlbXB0TnVtYmVyID8gPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQiPiDCtyAje2UuYXR0ZW1wdE51bWJlcn08L3NwYW4+IDogbnVsbH0KICAgICAgICAgICAgICAgICAgICAgIDwvbGk+CiAgICAgICAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgICAgICAgIDwvb2w+CiAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgIDwvQ2FyZENvbnRlbnQ+CiAgICAgICAgICAgIDwvQ2FyZD4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvPgogICAgICApfQogICAgPC9kaXY+CiAgKTsKfQ==
+import React, { useEffect, useState } from "react";
+import { Link, useParams } from "react-router-dom";
+import { ArrowLeft, XCircle } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { Table, TableHeader, TableRow, TableHead, TableBody, TableCell } from "@/components/ui/table";
+import ModuleHeader from "@/components/shared/ModuleHeader";
+import JobStatusBadge from "@/components/jobs/JobStatusBadge";
+import { callFn } from "@/lib/function-call";
+import { useAuth } from "@/auth/AuthContextFacade";
+import { hasCapability } from "@/lib/permissions";
+import { useToast } from "@/components/ui/use-toast";
+import { t } from "@/lib/i18n";
+
+export default function BackgroundJobDetailPage() {
+  const { jobId } = useParams();
+  const { user } = useAuth();
+  const { toast } = useToast();
+  const [data, setData] = useState(null);
+  const [err, setErr] = useState("");
+
+  const load = async () => {
+    setErr("");
+    try {
+      const res = await callFn("getBackgroundJob", { backgroundJobId: jobId });
+      setData(res);
+    } catch (e) {
+      setErr(e.response?.data?.error || e.message);
+    }
+  };
+  useEffect(() => { load(); }, [jobId]);
+
+  const job = data?.job;
+  const attempts = data?.attempts || [];
+  const events = data?.events || [];
+
+  const canCancel = (j) => {
+    if (!j) return false;
+    if (user?.role === "super_admin") return true;
+    if (j.scope === "platform") return hasCapability(user?.role, "platform.jobs.manage");
+    return hasCapability(user?.role, "platform.jobs.connect");
+  };
+  const cancelJob = async () => {
+    try { await callFn("cancelBackgroundJob", { backgroundJobId: jobId }); toast({ title: t("jobs.cancel_job") }); load(); }
+    catch (e) { toast({ variant: "destructive", title: e.response?.data?.error || e.message }); }
+  };
+
+  const fmt = (v) => v ? new Date(v).toLocaleString() : "—";
+
+  return (
+    <div className="space-y-6">
+      <div>
+        <Button variant="ghost" size="sm" asChild className="mb-2">
+          <Link to="/jobs/queue"><ArrowLeft className="w-4 h-4 mr-1" />{t("jobs.back")}</Link>
+        </Button>
+        <ModuleHeader
+          title={t("jobs.job_detail")}
+          description={job ? `${job.handlerKey}` : ""}
+          actions={job && canCancel(job) && ["queued", "retry_wait"].includes(job.status) && (
+            <Button size="sm" variant="outline" className="gap-2" onClick={cancelJob}><XCircle className="w-4 h-4" />{t("jobs.cancel_job")}</Button>
+          )}
+        />
+      </div>
+      {err && <p className="text-sm text-destructive">{err}</p>}
+      {!data && !err && <p className="text-sm text-muted-foreground">{t("jobs.loading")}</p>}
+      {job && (
+        <>
+          <Card>
+            <CardContent className="pt-6">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+                <div><p className="text-muted-foreground">{t("jobs.field.status")}</p><JobStatusBadge status={job.status} /></div>
+                <div><p className="text-muted-foreground">{t("jobs.field.scope")}</p><p>{t("jobs.scope_" + job.scope)}</p></div>
+                <div><p className="text-muted-foreground">{t("jobs.field.priority")}</p><p>{job.priority ?? 5}</p></div>
+                <div><p className="text-muted-foreground">{t("jobs.field.attemptCount")}</p><p>{job.attemptCount ?? 0} / {job.maxAttempts ?? 1}</p></div>
+                <div><p className="text-muted-foreground">{t("jobs.field.createdAt")}</p><p>{fmt(job.createdAt)}</p></div>
+                <div><p className="text-muted-foreground">{t("jobs.field.availableAt")}</p><p>{fmt(job.availableAt)}</p></div>
+                <div><p className="text-muted-foreground">{t("jobs.field.leaseOwner")}</p><p className="font-mono text-xs">{job.leaseOwner || "—"}</p></div>
+                <div><p className="text-muted-foreground">{t("jobs.field.leaseExpiresAt")}</p><p>{fmt(job.leaseExpiresAt)}</p></div>
+                <div><p className="text-muted-foreground">{t("jobs.field.deduplicationKey")}</p><p className="font-mono text-xs">{job.deduplicationKey || "—"}</p></div>
+                <div><p className="text-muted-foreground">{t("jobs.field.correlationId")}</p><p className="font-mono text-xs">{job.correlationId || "—"}</p></div>
+                <div><p className="text-muted-foreground">{t("jobs.field.startedAt")}</p><p>{fmt(job.startedAt)}</p></div>
+                <div><p className="text-muted-foreground">{t("jobs.field.completedAt")}</p><p>{fmt(job.completedAt)}</p></div>
+                {job.lastError && <div className="col-span-2"><p className="text-muted-foreground">{t("jobs.field.lastError")}</p><p className="text-destructive text-xs">{job.lastError}</p></div>}
+              </div>
+            </CardContent>
+          </Card>
+          <div className="grid md:grid-cols-2 gap-6">
+            <Card>
+              <CardHeader><p className="font-heading font-semibold">{t("jobs.attempts")}</p></CardHeader>
+              <CardContent>
+                {attempts.length === 0 ? <p className="text-sm text-muted-foreground">{t("jobs.no_attempts")}</p> : (
+                  <Table>
+                    <TableHeader><TableRow>
+                      <TableHead>{t("jobs.field.attemptNumber")}</TableHead>
+                      <TableHead>{t("jobs.field.status")}</TableHead>
+                      <TableHead>{t("jobs.field.workerId")}</TableHead>
+                      <TableHead>{t("jobs.field.startedAt")}</TableHead>
+                    </TableRow></TableHeader>
+                    <TableBody>
+                      {attempts.map((a) => (
+                        <TableRow key={a.id}>
+                          <TableCell>{a.attemptNumber}</TableCell>
+                          <TableCell><Badge variant="secondary">{a.status}</Badge></TableCell>
+                          <TableCell className="font-mono text-xs">{a.workerId || "—"}</TableCell>
+                          <TableCell className="text-xs text-muted-foreground">{fmt(a.startedAt)}</TableCell>
+                        </TableRow>
+                      ))}
+                    </TableBody>
+                  </Table>
+                )}
+              </CardContent>
+            </Card>
+            <Card>
+              <CardHeader><p className="font-heading font-semibold">{t("jobs.timeline")}</p></CardHeader>
+              <CardContent>
+                {events.length === 0 ? <p className="text-sm text-muted-foreground">{t("jobs.no_events")}</p> : (
+                  <ol className="space-y-2">
+                    {events.map((e) => (
+                      <li key={e.id} className="text-xs border-l-2 border-border pl-3">
+                        <span className="font-mono text-foreground">{e.eventType}</span>
+                        <span className="text-muted-foreground"> · {fmt(e.createdAt)}</span>
+                        {e.attemptNumber ? <span className="text-muted-foreground"> · #{e.attemptNumber}</span> : null}
+                      </li>
+                    ))}
+                  </ol>
+                )}
+              </CardContent>
+            </Card>
+          </div>
+        </>
+      )}
+    </div>
+  );
+}

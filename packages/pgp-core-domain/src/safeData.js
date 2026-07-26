@@ -1,1 +1,44 @@
-Ly8gUEdQIENvcmUg4oCUIFNhZmUgRGF0YSBEb21haW4gKHByb3ZpZGVyLWluZGVwZW5kZW50KQovLyBCZWhhdmlvcmFsIHBhcml0eSB3aXRoIGRlcGxveWVkIEJhc2U0NCBmdW5jdGlvbjoKLy8gICBwcm9jZXNzQmFja2dyb3VuZEpvYnMvZW50cnkudHMgKGhhc1NlY3JldEtleSAvIHJlZGFjdFJlc3VsdCAvIHNhbml0aXplRXJyb3JUZXh0KQovLyBQdXJlOiBubyBCYXNlNDQsIG5vIERlbm8sIG5vIFN1cGFiYXNlLCBubyBuZXR3b3JrLCBubyBlbnYsIG5vIGltcGxpY2l0IHRpbWUsCi8vIG5vIHNpZGUgZWZmZWN0cywgbm8gaW5wdXQgbXV0YXRpb24uIFNlY3JldCB2b2NhYnVsYXJ5IGlzIGZpeGVkIGF0IGN1cnJlbnQKLy8gZGVwbG95ZWQgc2V0IOKAlCBkbyBOT1QgZXhwYW5kIG9yIHNocmluayBpbiB0aGlzIHdhdmUuCgpjb25zdCBTRUNSRVRfS0VZUyA9IFsKICAicGFzc3dvcmQiLCAicGFzc3dkIiwgInNlY3JldCIsICJ0b2tlbiIsICJhY2Nlc3NfdG9rZW4iLCAicmVmcmVzaF90b2tlbiIsCiAgImFwaV9rZXkiLCAiYXBpa2V5IiwgImNsaWVudF9zZWNyZXQiLCAicHJpdmF0ZV9rZXkiLCAiY3JlZGVudGlhbCIsCiAgImF1dGhvcml6YXRpb24iLCAiY29va2llIiwgInNlc3Npb24iLApdOwoKY29uc3QgU0VDUkVUX1RFWFRfS0VZID0gL1xiKHBhc3N3b3JkfHBhc3N3ZHxzZWNyZXR8dG9rZW58YWNjZXNzX3Rva2VufHJlZnJlc2hfdG9rZW58YXBpX2tleXxhcGlrZXl8Y2xpZW50X3NlY3JldHxwcml2YXRlX2tleXxjcmVkZW50aWFsfGNyZWRlbnRpYWxyZWZ8YXV0aG9yaXphdGlvbnxjb29raWV8c2Vzc2lvbilcYlxzKls6PV1ccyooW15ccyw7IiddKykvZ2k7CmNvbnN0IEJFQVJFUl9URVhUID0gL1xiKEJlYXJlcilccysoW15ccyw7IiddKykvZ2k7CmNvbnN0IE1BWF9FUlJPUl9MRU4gPSA1MDA7CgpleHBvcnQgZnVuY3Rpb24gY29udGFpbnNTZWNyZXRLZXkodmFsdWUsIGRlcHRoID0gMCkgewogIGlmIChkZXB0aCA+IDEyIHx8IHZhbHVlID09IG51bGwgfHwgdHlwZW9mIHZhbHVlICE9PSAib2JqZWN0IikgcmV0dXJuIGZhbHNlOwogIGZvciAoY29uc3QgayBvZiBPYmplY3Qua2V5cyh2YWx1ZSkpIHsKICAgIGNvbnN0IGxrID0gU3RyaW5nKGspLnRvTG93ZXJDYXNlKCk7CiAgICBpZiAoU0VDUkVUX0tFWVMuc29tZSgocykgPT4gbGsuaW5jbHVkZXMocykpKSByZXR1cm4gdHJ1ZTsKICAgIGlmIChjb250YWluc1NlY3JldEtleSh2YWx1ZVtrXSwgZGVwdGggKyAxKSkgcmV0dXJuIHRydWU7CiAgfQogIHJldHVybiBmYWxzZTsKfQoKZXhwb3J0IGZ1bmN0aW9uIHJlZGFjdFNlY3JldEtleXModmFsdWUsIGRlcHRoID0gMCkgewogIGlmIChkZXB0aCA+IDEyIHx8IHZhbHVlID09IG51bGwgfHwgdHlwZW9mIHZhbHVlICE9PSAib2JqZWN0IikgcmV0dXJuIHZhbHVlOwogIGNvbnN0IG91dCA9IEFycmF5LmlzQXJyYXkodmFsdWUpID8gW10gOiB7fTsKICBmb3IgKGNvbnN0IGsgb2YgT2JqZWN0LmtleXModmFsdWUpKSB7CiAgICBjb25zdCBsayA9IFN0cmluZyhrKS50b0xvd2VyQ2FzZSgpOwogICAgaWYgKFNFQ1JFVF9LRVlTLnNvbWUoKHMpID0+IGxrLmluY2x1ZGVzKHMpKSkgb3V0W2tdID0gIltyZWRhY3RlZF0iOwogICAgZWxzZSBvdXRba10gPSByZWRhY3RTZWNyZXRLZXlzKHZhbHVlW2tdLCBkZXB0aCArIDEpOwogIH0KICByZXR1cm4gb3V0Owp9CgpleHBvcnQgZnVuY3Rpb24gc2FuaXRpemVFcnJvclRleHQobWVzc2FnZSkgewogIGxldCBzID0gdHlwZW9mIG1lc3NhZ2UgPT09ICJzdHJpbmciID8gbWVzc2FnZSA6IFN0cmluZyhtZXNzYWdlIHx8ICIiKTsKICBzID0gcy5yZXBsYWNlKFNFQ1JFVF9URVhUX0tFWSwgIiQxPVtyZWRhY3RlZF0iKTsKICBzID0gcy5yZXBsYWNlKEJFQVJFUl9URVhULCAiJDEgW3JlZGFjdGVkXSIpOwogIHJldHVybiBzLmxlbmd0aCA+IE1BWF9FUlJPUl9MRU4gPyBzLnNsaWNlKDAsIE1BWF9FUlJPUl9MRU4pIDogczsKfQ==
+// PGP Core — Safe Data Domain (provider-independent)
+// Behavioral parity with deployed Base44 function:
+//   processBackgroundJobs/entry.ts (hasSecretKey / redactResult / sanitizeErrorText)
+// Pure: no Base44, no Deno, no Supabase, no network, no env, no implicit time,
+// no side effects, no input mutation. Secret vocabulary is fixed at current
+// deployed set — do NOT expand or shrink in this wave.
+
+const SECRET_KEYS = [
+  "password", "passwd", "secret", "token", "access_token", "refresh_token",
+  "api_key", "apikey", "client_secret", "private_key", "credential",
+  "authorization", "cookie", "session",
+];
+
+const SECRET_TEXT_KEY = /\b(password|passwd|secret|token|access_token|refresh_token|api_key|apikey|client_secret|private_key|credential|credentialref|authorization|cookie|session)\b\s*[:=]\s*([^\s,;"']+)/gi;
+const BEARER_TEXT = /\b(Bearer)\s+([^\s,;"']+)/gi;
+const MAX_ERROR_LEN = 500;
+
+export function containsSecretKey(value, depth = 0) {
+  if (depth > 12 || value == null || typeof value !== "object") return false;
+  for (const k of Object.keys(value)) {
+    const lk = String(k).toLowerCase();
+    if (SECRET_KEYS.some((s) => lk.includes(s))) return true;
+    if (containsSecretKey(value[k], depth + 1)) return true;
+  }
+  return false;
+}
+
+export function redactSecretKeys(value, depth = 0) {
+  if (depth > 12 || value == null || typeof value !== "object") return value;
+  const out = Array.isArray(value) ? [] : {};
+  for (const k of Object.keys(value)) {
+    const lk = String(k).toLowerCase();
+    if (SECRET_KEYS.some((s) => lk.includes(s))) out[k] = "[redacted]";
+    else out[k] = redactSecretKeys(value[k], depth + 1);
+  }
+  return out;
+}
+
+export function sanitizeErrorText(message) {
+  let s = typeof message === "string" ? message : String(message || "");
+  s = s.replace(SECRET_TEXT_KEY, "$1=[redacted]");
+  s = s.replace(BEARER_TEXT, "$1 [redacted]");
+  return s.length > MAX_ERROR_LEN ? s.slice(0, MAX_ERROR_LEN) : s;
+}

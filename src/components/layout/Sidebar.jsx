@@ -1,1 +1,124 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZVN0YXRlIH0gZnJvbSAicmVhY3QiOwppbXBvcnQgeyBOYXZMaW5rIH0gZnJvbSAicmVhY3Qtcm91dGVyLWRvbSI7CmltcG9ydCB7IENoZXZyb25Eb3duLCBDaGV2cm9uUmlnaHQgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgeyBOQVZfR1JPVVBTLCBOQVZfSVRFTVMsIGlzUm9sZUFsbG93ZWQgfSBmcm9tICJAL2xpYi9uYXZpZ2F0aW9uIjsKaW1wb3J0IHsgZ2V0RWZmZWN0aXZlUGxhdGZvcm1Sb2xlIH0gZnJvbSAiQC9saWIvYWNjZXNzLWNvbnRyb2wiOwppbXBvcnQgeyB0IH0gZnJvbSAiQC9saWIvaTE4biI7CmltcG9ydCB7IHVzZUF1dGggfSBmcm9tICJAL2F1dGgvQXV0aENvbnRleHRGYWNhZGUiOwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gU2lkZWJhcih7IG9uTmF2aWdhdGUgfSkgewogIGNvbnN0IHsgdXNlciB9ID0gdXNlQXV0aCgpOwogIGNvbnN0IHJvbGUgPSBnZXRFZmZlY3RpdmVQbGF0Zm9ybVJvbGUodXNlcik7CiAgY29uc3QgW2V4cGFuZGVkLCBzZXRFeHBhbmRlZF0gPSB1c2VTdGF0ZSh7fSk7CgogIGNvbnN0IHRvZ2dsZSA9IChrZXkpID0+IHNldEV4cGFuZGVkKChwKSA9PiAoeyAuLi5wLCBba2V5XTogIXBba2V5XSB9KSk7CgogIGNvbnN0IGl0ZW1zQnlHcm91cCA9IChncm91cEtleSkgPT4KICAgIE5BVl9JVEVNUy5maWx0ZXIoKGkpID0+IGkuZ3JvdXAgPT09IGdyb3VwS2V5ICYmIGlzUm9sZUFsbG93ZWQoaS5yb2xlcywgcm9sZSkpOwoKICByZXR1cm4gKAogICAgPGFzaWRlIGNsYXNzTmFtZT0idy02NCBoLXNjcmVlbiBmbGV4IGZsZXgtY29sIGJnLXNpZGViYXIgYm9yZGVyLXIgYm9yZGVyLXNpZGViYXItYm9yZGVyIHNocmluay0wIj4KICAgICAgey8qIExvZ28gLyBCcmFuZCAqL30KICAgICAgPGRpdiBjbGFzc05hbWU9ImgtMTYgZmxleCBpdGVtcy1jZW50ZXIgcHgtNiBib3JkZXItYiBib3JkZXItc2lkZWJhci1ib3JkZXIiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy04IGgtOCByb3VuZGVkLWxnIGJnLXNpZGViYXItcHJpbWFyeSBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciI+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1zaWRlYmFyLXByaW1hcnktZm9yZWdyb3VuZCBmb250LWJvbGQgdGV4dC1zbSI+UDwvc3Bhbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdj4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJmb250LWhlYWRpbmcgZm9udC1ib2xkIHRleHQtc20gdGV4dC1zaWRlYmFyLWZvcmVncm91bmQiPlBHUCBDb3JlPC9wPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtWzEwcHhdIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+UGxhdGZvcm0gRm91bmRhdGlvbjwvcD4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KCiAgICAgIHsvKiBOYXZpZ2F0aW9uICovfQogICAgICA8bmF2IGNsYXNzTmFtZT0iZmxleC0xIG92ZXJmbG93LXktYXV0byBweS00IHB4LTMiPgogICAgICAgIHtOQVZfR1JPVVBTLm1hcCgoZ3JvdXApID0+IHsKICAgICAgICAgIGNvbnN0IGl0ZW1zID0gaXRlbXNCeUdyb3VwKGdyb3VwLmtleSk7CiAgICAgICAgICBpZiAoaXRlbXMubGVuZ3RoID09PSAwKSByZXR1cm4gbnVsbDsKICAgICAgICAgIHJldHVybiAoCiAgICAgICAgICAgIDxkaXYga2V5PXtncm91cC5rZXl9IGNsYXNzTmFtZT0ibWItNiI+CiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJweC0zIG1iLTIgdGV4dC1bMTBweF0gZm9udC1zZW1pYm9sZCB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXIgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgIHt0KGdyb3VwLmxhYmVsS2V5KX0KICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktMC41Ij4KICAgICAgICAgICAgICAgIHtpdGVtcy5tYXAoKGl0ZW0pID0+IHsKICAgICAgICAgICAgICAgICAgY29uc3QgaGFzQ2hpbGRyZW4gPSBpdGVtLmNoaWxkcmVuICYmIGl0ZW0uY2hpbGRyZW4ubGVuZ3RoID4gMDsKICAgICAgICAgICAgICAgICAgY29uc3QgaXNWaXNpYmxlID0gaXNSb2xlQWxsb3dlZChpdGVtLnJvbGVzLCByb2xlKTsKICAgICAgICAgICAgICAgICAgaWYgKCFpc1Zpc2libGUpIHJldHVybiBudWxsOwogICAgICAgICAgICAgICAgICBjb25zdCBpc09wZW4gPSBleHBhbmRlZFtpdGVtLmtleV07CgogICAgICAgICAgICAgICAgICBpZiAoaGFzQ2hpbGRyZW4pIHsKICAgICAgICAgICAgICAgICAgICBjb25zdCB2aXNpYmxlQ2hpbGRyZW4gPSBpdGVtLmNoaWxkcmVuLmZpbHRlcigoYykgPT4KICAgICAgICAgICAgICAgICAgICAgIGlzUm9sZUFsbG93ZWQoYy5yb2xlcywgcm9sZSkKICAgICAgICAgICAgICAgICAgICApOwogICAgICAgICAgICAgICAgICAgIGlmICh2aXNpYmxlQ2hpbGRyZW4ubGVuZ3RoID09PSAwKSByZXR1cm4gbnVsbDsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICAgICAgICAgICAgPGRpdiBrZXk9e2l0ZW0ua2V5fT4KICAgICAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHRvZ2dsZShpdGVtLmtleSl9CiAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgcHgtMyBweS0yIHJvdW5kZWQtbWQgdGV4dC1zbSB0ZXh0LXNpZGViYXItZm9yZWdyb3VuZCBob3ZlcjpiZy1zaWRlYmFyLWFjY2VudCB0cmFuc2l0aW9uLWNvbG9ycyIKICAgICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICAgIHtpc09wZW4gPyAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8Q2hldnJvbkRvd24gY2xhc3NOYW1lPSJ3LTQgaC00IHNocmluay0wIiAvPgogICAgICAgICAgICAgICAgICAgICAgICAgICkgOiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8Q2hldnJvblJpZ2h0IGNsYXNzTmFtZT0idy00IGgtNCBzaHJpbmstMCIgLz4KICAgICAgICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuPnt0KGl0ZW0ubGFiZWxLZXkpfTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgICAgIHtpc09wZW4gJiYgKAogICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtbC00IG10LTAuNSBzcGFjZS15LTAuNSBib3JkZXItbCBib3JkZXItc2lkZWJhci1ib3JkZXIgcGwtMiI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7dmlzaWJsZUNoaWxkcmVuLm1hcCgoY2hpbGQpID0+ICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPE5hdkxpbmsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBrZXk9e2NoaWxkLmtleX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0bz17Y2hpbGQucGF0aH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXtvbk5hdmlnYXRlfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17KHsgaXNBY3RpdmUgfSkgPT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGBibG9jayBweC0zIHB5LTEuNSByb3VuZGVkLW1kIHRleHQtc20gdHJhbnNpdGlvbi1jb2xvcnMgJHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaXNBY3RpdmUKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA/ICJiZy1zaWRlYmFyLWFjY2VudCB0ZXh0LXNpZGViYXItYWNjZW50LWZvcmVncm91bmQgZm9udC1tZWRpdW0iCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgOiAidGV4dC1tdXRlZC1mb3JlZ3JvdW5kIGhvdmVyOmJnLXNpZGViYXItYWNjZW50IGhvdmVyOnRleHQtc2lkZWJhci1hY2NlbnQtZm9yZWdyb3VuZCIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1gCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge3QoY2hpbGQubGFiZWxLZXkpfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L05hdkxpbms+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgIHJldHVybiAoCiAgICAgICAgICAgICAgICAgICAgPE5hdkxpbmsKICAgICAgICAgICAgICAgICAgICAgIGtleT17aXRlbS5rZXl9CiAgICAgICAgICAgICAgICAgICAgICB0bz17aXRlbS5wYXRofQogICAgICAgICAgICAgICAgICAgICAgb25DbGljaz17b25OYXZpZ2F0ZX0KICAgICAgICAgICAgICAgICAgICAgIGVuZD17aXRlbS5wYXRoID09PSAiLyJ9CiAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9eyh7IGlzQWN0aXZlIH0pID0+CiAgICAgICAgICAgICAgICAgICAgICAgIGBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiBweC0zIHB5LTIgcm91bmRlZC1tZCB0ZXh0LXNtIHRyYW5zaXRpb24tY29sb3JzICR7CiAgICAgICAgICAgICAgICAgICAgICAgICAgaXNBY3RpdmUKICAgICAgICAgICAgICAgICAgICAgICAgICAgID8gImJnLXNpZGViYXItcHJpbWFyeSB0ZXh0LXNpZGViYXItcHJpbWFyeS1mb3JlZ3JvdW5kIGZvbnQtbWVkaXVtIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgOiAidGV4dC1zaWRlYmFyLWZvcmVncm91bmQgaG92ZXI6Ymctc2lkZWJhci1hY2NlbnQiCiAgICAgICAgICAgICAgICAgICAgICAgIH1gCiAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ3LTQgc2hyaW5rLTAiIC8+CiAgICAgICAgICAgICAgICAgICAgICA8c3Bhbj57dChpdGVtLmxhYmVsS2V5KX08L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgPC9OYXZMaW5rPgogICAgICAgICAgICAgICAgICApOwogICAgICAgICAgICAgICAgfSl9CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgKTsKICAgICAgICB9KX0KICAgICAgPC9uYXY+CgogICAgICB7LyogRm9vdGVyIHZlcnNpb24gKi99CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJweC02IHB5LTMgYm9yZGVyLXQgYm9yZGVyLXNpZGViYXItYm9yZGVyIj4KICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtWzEwcHhdIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+UEdQIENvcmUgdjEuMC4wIOKAlCBQaGFzZSAxPC9wPgogICAgICA8L2Rpdj4KICAgIDwvYXNpZGU+CiAgKTsKfQ==
+import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
+import { ChevronDown, ChevronRight } from "lucide-react";
+import { NAV_GROUPS, NAV_ITEMS, isRoleAllowed } from "@/lib/navigation";
+import { getEffectivePlatformRole } from "@/lib/access-control";
+import { t } from "@/lib/i18n";
+import { useAuth } from "@/auth/AuthContextFacade";
+
+export default function Sidebar({ onNavigate }) {
+  const { user } = useAuth();
+  const role = getEffectivePlatformRole(user);
+  const [expanded, setExpanded] = useState({});
+
+  const toggle = (key) => setExpanded((p) => ({ ...p, [key]: !p[key] }));
+
+  const itemsByGroup = (groupKey) =>
+    NAV_ITEMS.filter((i) => i.group === groupKey && isRoleAllowed(i.roles, role));
+
+  return (
+    <aside className="w-64 h-screen flex flex-col bg-sidebar border-r border-sidebar-border shrink-0">
+      {/* Logo / Brand */}
+      <div className="h-16 flex items-center px-6 border-b border-sidebar-border">
+        <div className="flex items-center gap-2">
+          <div className="w-8 h-8 rounded-lg bg-sidebar-primary flex items-center justify-center">
+            <span className="text-sidebar-primary-foreground font-bold text-sm">P</span>
+          </div>
+          <div>
+            <p className="font-heading font-bold text-sm text-sidebar-foreground">PGP Core</p>
+            <p className="text-[10px] text-muted-foreground">Platform Foundation</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Navigation */}
+      <nav className="flex-1 overflow-y-auto py-4 px-3">
+        {NAV_GROUPS.map((group) => {
+          const items = itemsByGroup(group.key);
+          if (items.length === 0) return null;
+          return (
+            <div key={group.key} className="mb-6">
+              <p className="px-3 mb-2 text-[10px] font-semibold uppercase tracking-wider text-muted-foreground">
+                {t(group.labelKey)}
+              </p>
+              <div className="space-y-0.5">
+                {items.map((item) => {
+                  const hasChildren = item.children && item.children.length > 0;
+                  const isVisible = isRoleAllowed(item.roles, role);
+                  if (!isVisible) return null;
+                  const isOpen = expanded[item.key];
+
+                  if (hasChildren) {
+                    const visibleChildren = item.children.filter((c) =>
+                      isRoleAllowed(c.roles, role)
+                    );
+                    if (visibleChildren.length === 0) return null;
+                    return (
+                      <div key={item.key}>
+                        <button
+                          onClick={() => toggle(item.key)}
+                          className="w-full flex items-center gap-2 px-3 py-2 rounded-md text-sm text-sidebar-foreground hover:bg-sidebar-accent transition-colors"
+                        >
+                          {isOpen ? (
+                            <ChevronDown className="w-4 h-4 shrink-0" />
+                          ) : (
+                            <ChevronRight className="w-4 h-4 shrink-0" />
+                          )}
+                          <span>{t(item.labelKey)}</span>
+                        </button>
+                        {isOpen && (
+                          <div className="ml-4 mt-0.5 space-y-0.5 border-l border-sidebar-border pl-2">
+                            {visibleChildren.map((child) => (
+                              <NavLink
+                                key={child.key}
+                                to={child.path}
+                                onClick={onNavigate}
+                                className={({ isActive }) =>
+                                  `block px-3 py-1.5 rounded-md text-sm transition-colors ${
+                                    isActive
+                                      ? "bg-sidebar-accent text-sidebar-accent-foreground font-medium"
+                                      : "text-muted-foreground hover:bg-sidebar-accent hover:text-sidebar-accent-foreground"
+                                  }`
+                                }
+                              >
+                                {t(child.labelKey)}
+                              </NavLink>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+                    );
+                  }
+
+                  return (
+                    <NavLink
+                      key={item.key}
+                      to={item.path}
+                      onClick={onNavigate}
+                      end={item.path === "/"}
+                      className={({ isActive }) =>
+                        `flex items-center gap-2 px-3 py-2 rounded-md text-sm transition-colors ${
+                          isActive
+                            ? "bg-sidebar-primary text-sidebar-primary-foreground font-medium"
+                            : "text-sidebar-foreground hover:bg-sidebar-accent"
+                        }`
+                      }
+                    >
+                      <span className="w-4 shrink-0" />
+                      <span>{t(item.labelKey)}</span>
+                    </NavLink>
+                  );
+                })}
+              </div>
+            </div>
+          );
+        })}
+      </nav>
+
+      {/* Footer version */}
+      <div className="px-6 py-3 border-t border-sidebar-border">
+        <p className="text-[10px] text-muted-foreground">PGP Core v1.0.0 — Phase 1</p>
+      </div>
+    </aside>
+  );
+}

@@ -1,1 +1,169 @@
-IyBAcHBhbmtvdi9wZ3AtY29yZS1kb21haW4KClByb3ZpZGVyLWluZGVwZW5kZW50IFBHUCBDb3JlIGRvbWFpbiBydWxlcy4gUHVyZSwgc2lkZS1lZmZlY3QtZnJlZS4KCiMjIFB1cnBvc2UKClRoaXMgcGFja2FnZSBpcyB0aGUgKipmaXJzdCBwcm92aWRlci1pbmRlcGVuZGVudCBkb21haW4gbGF5ZXIqKiBvZiBQR1AgQ29yZSwKZXh0cmFjdGVkIGFzIGEgc3RhbmRhbG9uZSBzb3VyY2Ugd29ya3NwYWNlLiBJdCBjb250YWlucyB0aGUgcHVyZSBkZWNpc2lvbiwKdmFsaWRhdGlvbiwgY2FsY3VsYXRpb24sIGFuZCBzYW5pdGl6YXRpb24gcnVsZXMgdGhhdCBwcmV2aW91c2x5IGxpdmVkIGlubGluZQppbnNpZGUgZGVwbG95ZWQgQmFzZTQ0IGJhY2tlbmQgZnVuY3Rpb25zLiBUaGUgcGFja2FnZSBoYXMgKipubyBCYXNlNDQKZGVwZW5kZW5jeSBhbmQgbm8gU3VwYWJhc2UgZGVwZW5kZW5jeSoqIOKAlCBpdCBpcyBwbGFpbiBzdGFuZGFyZCBFU00gSmF2YVNjcmlwdAp0aGF0IGNhbiBiZSBjb25zdW1lZCBieSBhbnkgcnVudGltZSB0aGF0IHN1cHBvcnRzIEVTIG1vZHVsZXMgKEJhc2U0NCBEZW5vCmZ1bmN0aW9ucyB2aWEgYG5wbTpgLCBTdXBhYmFzZSBFZGdlIEZ1bmN0aW9ucywgTm9kZSwgZXRjLikuCgojIyBTdGF0dXMKCi0gKipQYWNrYWdlIG5hbWU6KiogYEBwcGFua292L3BncC1jb3JlLWRvbWFpbmAgKHB1YmxpYyBwYWNrYWdlIHVuZGVyIHRoZQogIGBAcHBhbmtvdmAgbnBtIHNjb3BlKS4KLSAqKkV4YWN0IHZlcnNpb246KiogYDAuMS4wLWFscGhhLjFgIChhbHBoYSBwcmVyZWxlYXNlIHRhZykuCi0gKipQdWJsaWNhdGlvbiBzdGF0dXM6KiogKipQVUJMSVNIRUQqKiB0byB0aGUgcHVibGljIG5wbSByZWdpc3RyeSB3aXRoIHB1YmxpYwogIGFjY2VzcyAoYHB1Ymxpc2hDb25maWcuYWNjZXNzOiBwdWJsaWNgKS4gUHVibGlzaGVkIGJ5IG5wbSBhY2NvdW50IGBwcGFua292YAogIHdpdGggYXV0aC1hbmQtd3JpdGVzIDJGQSAvIFdlYkF1dGhuLgotICoqSW50ZWdyYXRpb24gc3RhdHVzOioqIEludGVncmF0ZWQgaW50byB0aGUgZm91ciBwcm9kdWN0aW9uIEJhc2U0NCBiYWNrZW5kCiAgZnVuY3Rpb25zIGluIFdhdmUgMTAuM0IgdmlhIGV4YWN0LXZlcnNpb24gYG5wbTpgIGltcG9ydHMuIEJlZm9yZSBXYXZlIDEwLjNCCiAgY29tcGxldGVkLCB0aGUgcGFja2FnZSB3YXMgbm90IGltcG9ydGVkIGJ5IGFueSBkZXBsb3llZCBmdW5jdGlvbi4KLSAqKkxvY2FsIHZlcmlmaWNhdGlvbjoqKiAxNTAgYXNzZXJ0aW9ucyBQQVNTIChgbnBtIHRlc3RgKS4KLSAqKk5vIG5wbSBjcmVkZW50aWFscyBiZWxvbmcgaW4gQmFzZTQ0LioqIFRoZSBwYWNrYWdlIGlzIGF1dGhvcmVkIGFuZAogIHB1Ymxpc2hlZCBmcm9tIHRoZSByZXBvc2l0b3J5IG93bmVyJ3MgZW52aXJvbm1lbnQsIG5vdCBmcm9tIHRoZSBCYXNlNDQgYXBwLgogIE5vIG5wbSB0b2tlbiBpcyByZXF1ZXN0ZWQsIGNyZWF0ZWQsIG9yIHN0b3JlZCBpbiBCYXNlNDQuCgojIyBQdXJpdHkgY29udHJhY3QKCkV2ZXJ5IGZpbGUgaW4gYHNyYy9gIGlzIHByb3ZpZGVyLWluZGVwZW5kZW50LiBGb3JiaWRkZW4gaW5zaWRlIHRoZSBwYWNrYWdlOgoKLSBgQGJhc2U0NC9zZGtgIG9yIGFueSBCYXNlNDQgQVBJCi0gRGVubyBBUElzIChgRGVuby5zZXJ2ZWAsIGBEZW5vLmVudmAsIOKApikKLSBTdXBhYmFzZSBvciBhbnkgZGF0YWJhc2UgY2xpZW50Ci0gUmVhY3Qgb3IgYW55IGJyb3dzZXIgQVBJCi0gTm9kZS1zcGVjaWZpYyBBUElzIChmcywgbmV0LCBjcnlwdG8ucmFuZG9tVVVJRCwg4oCmKQotIGBmZXRjaGAgLyBuZXR3b3JrCi0gZmlsZXN5c3RlbSBhY2Nlc3MKLSBlbnZpcm9ubWVudCB2YXJpYWJsZXMKLSBhdXRoZW50aWNhdGlvbiAvIGF1dGhvcml6YXRpb24KLSBhdWRpdCB3cml0ZXMgLyBldmVudCBwdWJsaWNhdGlvbgotIHJhbmRvbSBVVUlEIGdlbmVyYXRpb24KLSBpbXBsaWNpdCBjdXJyZW50IHRpbWUgKGBEYXRlLm5vdygpYCwgYG5ldyBEYXRlKClgIHdpdGggbm8gYXJnKQoKVGltZS1kZXBlbmRlbnQgZnVuY3Rpb25zIGFjY2VwdCBhbiBleHBsaWNpdCBgbm93SXNvYCAoSVNPIDg2MDEgVVRDIHN0cmluZykgb3IKYG5vd01zYCAoZXBvY2ggbWlsbGlzKSBpbnB1dC4gRGV0ZXJtaW5pc3RpYyBgRGF0ZWAgY29udmVyc2lvbnMgYXJlIGFsbG93ZWQKKipvbmx5IG92ZXIgZXhwbGljaXQgaW5wdXQgdGltZXN0YW1wcyoqLgoKQWxsIGV4cG9ydGVkIGZ1bmN0aW9uczoKLSBkbyBub3QgbXV0YXRlIHRoZWlyIGlucHV0czsKLSBoYXZlIG5vIHNpZGUgZWZmZWN0czsKLSByZXR1cm4gcGxhaW4gc2VyaWFsaXphYmxlIGRhdGE7Ci0gcHJlc2VydmUgdGhlIGN1cnJlbnQgZGVwbG95ZWQgYmVoYXZpb3IgKG5vIGxhdGVudC1idWcgZml4ZXMgaW4gdGhpcyB3YXZlKS4KCiMjIE1vZHVsZXMKCnwgTW9kdWxlIHwgRXhwb3J0cyB8CnwgLS0tIHwgLS0tIHwKfCBgd29ya2Zsb3dHcmFwaC5qc2AgfCBgdmFsaWRhdGVXb3JrZmxvd0dyYXBoKGdyYXBoKWAgfAp8IGBqb2JTY2hlZHVsaW5nLmpzYCB8IGBidWlsZE9jY3VycmVuY2VLZXkoc2NoZWR1bGVJZCwgc2NoZWR1bGVkRm9yVXRjSXNvKWAsIGBldmFsdWF0ZVNjaGVkdWxlT2NjdXJyZW5jZShpbnB1dClgIHwKfCBgYmFja2dyb3VuZEpvYi5qc2AgfCBgY2FsY3VsYXRlUmV0cnlEZWxheShyZXRyeVBvbGljeSwgYXR0ZW1wdE51bWJlcilgLCBgZGVjaWRlRmFpbGVkSm9iVHJhbnNpdGlvbihpbnB1dClgIHwKfCBgc2FmZURhdGEuanNgIHwgYGNvbnRhaW5zU2VjcmV0S2V5KHZhbHVlKWAsIGByZWRhY3RTZWNyZXRLZXlzKHZhbHVlKWAsIGBzYW5pdGl6ZUVycm9yVGV4dChtZXNzYWdlKWAgfAoKIyMgUHVibGljIGV4cG9ydHMgKHN1YnBhdGggaW1wb3J0cykKCnwgSW1wb3J0IHBhdGggfCBSZXNvbHZlcyB0byB8CnwgLS0tIHwgLS0tIHwKfCBgQHBwYW5rb3YvcGdwLWNvcmUtZG9tYWluYCB8IGBzcmMvaW5kZXguanNgIChyZS1leHBvcnRzIGFsbCkgfAp8IGBAcHBhbmtvdi9wZ3AtY29yZS1kb21haW4vd29ya2Zsb3dgIHwgYHNyYy93b3JrZmxvd0dyYXBoLmpzYCB8CnwgYEBwcGFua292L3BncC1jb3JlLWRvbWFpbi9zY2hlZHVsaW5nYCB8IGBzcmMvam9iU2NoZWR1bGluZy5qc2AgfAp8IGBAcHBhbmtvdi9wZ3AtY29yZS1kb21haW4vYmFja2dyb3VuZC1qb2JgIHwgYHNyYy9iYWNrZ3JvdW5kSm9iLmpzYCB8CnwgYEBwcGFua292L3BncC1jb3JlLWRvbWFpbi9zYWZlLWRhdGFgIHwgYHNyYy9zYWZlRGF0YS5qc2AgfAoKIyMgVmVyc2lvbiBwaW5uaW5nIChSRVFVSVJFRCkKCkNvbnN1bWVycyAqKm11c3QgcGluIGFuIGV4YWN0IHZlcnNpb24qKi4gRmxvYXRpbmcgaW1wb3J0cyBhcmUgTk9UIHBlcm1pdHRlZDoKCmBgYGpzCmltcG9ydCB7IHZhbGlkYXRlV29ya2Zsb3dHcmFwaCB9IGZyb20gIm5wbTpAcHBhbmtvdi9wZ3AtY29yZS1kb21haW5AMC4xLjAtYWxwaGEuMS93b3JrZmxvdyI7CmltcG9ydCB7IGJ1aWxkT2NjdXJyZW5jZUtleSwgZXZhbHVhdGVTY2hlZHVsZU9jY3VycmVuY2UgfSBmcm9tICJucG06QHBwYW5rb3YvcGdwLWNvcmUtZG9tYWluQDAuMS4wLWFscGhhLjEvc2NoZWR1bGluZyI7CmltcG9ydCB7IGNhbGN1bGF0ZVJldHJ5RGVsYXksIGRlY2lkZUZhaWxlZEpvYlRyYW5zaXRpb24gfSBmcm9tICJucG06QHBwYW5rb3YvcGdwLWNvcmUtZG9tYWluQDAuMS4wLWFscGhhLjEvYmFja2dyb3VuZC1qb2IiOwppbXBvcnQgeyBjb250YWluc1NlY3JldEtleSwgcmVkYWN0U2VjcmV0S2V5cywgc2FuaXRpemVFcnJvclRleHQgfSBmcm9tICJucG06QHBwYW5rb3YvcGdwLWNvcmUtZG9tYWluQDAuMS4wLWFscGhhLjEvc2FmZS1kYXRhIjsKYGBgCgpUaGUgZm9sbG93aW5nIGFyZSAqKk5PVCBhbGxvd2VkKio6Ci0gYG5wbTpAcHBhbmtvdi9wZ3AtY29yZS1kb21haW5AbGF0ZXN0Ly4uLmAKLSBgbnBtOkBwcGFua292L3BncC1jb3JlLWRvbWFpbkBhbHBoYS8uLi5gIChmbG9hdGluZyBhbHBoYSB0YWcpCi0gdmVyc2lvbiByYW5nZXMgKGBeMC4xLjAtYWxwaGEuMWAsIGB+MC4xLjAtYWxwaGEuMWApCi0gdW52ZXJzaW9uZWQgaW1wb3J0cwoKQSBuZXdlciBvciBmbG9hdGluZyB2ZXJzaW9uIGlzICoqbmV2ZXIqKiBhbiBlbWVyZ2VuY3kgd29ya2Fyb3VuZC4gT24KaW50ZWdyYXRpb24gcmVncmVzc2lvbiwgcmVzdG9yZSB0aGUgcHJlLWludGVncmF0aW9uIGlubGluZSBsb2dpYyBpbnN0ZWFkLgoKIyMgQmVoYXZpb3JhbCBwYXJpdHkKClRoZSBwYWNrYWdlIGlzIGEgYmVoYXZpb3JhbCBtaXJyb3Igb2YgdGhlIGRlcGxveWVkIGZ1bmN0aW9ucyAoYmVmb3JlIFdhdmUKMTAuM0IgaW50ZWdyYXRpb24pOgoKLSBgdmFsaWRhdGVXb3JrZmxvd0dyYXBoYCDihpAgYHJlZ2lzdGVyV29ya2Zsb3dWZXJzaW9uL2VudHJ5LnRzYCBhbmQKICBgcmVsZWFzZVdvcmtmbG93VmVyc2lvbi9lbnRyeS50c2AgKGlkZW50aWNhbCBpbmxpbmUgYHZhbGlkYXRlR3JhcGhgKS4KLSBgZXZhbHVhdGVTY2hlZHVsZU9jY3VycmVuY2VgIC8gYGJ1aWxkT2NjdXJyZW5jZUtleWAg4oaQCiAgYHJ1blNjaGVkdWxlclRpY2svZW50cnkudHNgIChvY2N1cnJlbmNlIGtleSArIG9uY2UvaW50ZXJ2YWwgZGVjaXNpb24pLgotIGBjYWxjdWxhdGVSZXRyeURlbGF5YCAvIGBkZWNpZGVGYWlsZWRKb2JUcmFuc2l0aW9uYCDihpAKICBgcHJvY2Vzc0JhY2tncm91bmRKb2JzL2VudHJ5LnRzYCAocmV0cnkgZGVsYXkgKyByZXRyeS9kZWFkLWxldHRlciBkZWNpc2lvbikuCi0gYGNvbnRhaW5zU2VjcmV0S2V5YCAvIGByZWRhY3RTZWNyZXRLZXlzYCAvIGBzYW5pdGl6ZUVycm9yVGV4dGAg4oaQCiAgYHByb2Nlc3NCYWNrZ3JvdW5kSm9icy9lbnRyeS50c2AgKHNlY3JldCBkZXRlY3Rpb24gLyByZWRhY3Rpb24gLyBlcnJvciB0ZXh0CiAgc2FuaXRpemF0aW9uKS4KCiMjIENvbnRyYWN0IGRpc2NyZXBhbmN5IGZpbmRpbmdzIChPcGVuIHJlY29uY2lsaWF0aW9uIGl0ZW1zIOKAlCBOTyBiZWhhdmlvcgpjaGFuZ2UpCgojIyMgRHVwbGljYXRlIGVkZ2UgaWRlbnRpdHkgKHdvcmtmbG93IGdyYXBoKQoKLSAqKkRlcGxveWVkIGNvZGUgaWRlbnRpdHk6KiogYGZyb20gKyAifCIgKyB0byArICJ8IiArIGxhYmVsYCDigJQgdGhlIGVkZ2UKICBgbGFiZWxgICoqcGFydGljaXBhdGVzKiogaW4gZHVwbGljYXRlIGRldGVjdGlvbi4gVHdvIGVkZ2VzIHdpdGggdGhlIHNhbWUKICBgKGZyb20sIHRvKWAgYnV0ICoqZGlmZmVyZW50KiogbGFiZWxzIGFyZSBhY2NlcHRlZCBhcyBkaXN0aW5jdCBlZGdlcy4KLSAqKkZyb3plbiBQaGFzZSA3IHNwZWMgaWRlbnRpdHk6KiogcmVwZWF0ZWQgYChmcm9tLCB0bylgIHBhaXIg4oCUIHRoZSBsYWJlbAogIGRvZXMgKipub3QqKiBwYXJ0aWNpcGF0ZTsgYW55IHJlcGVhdGVkIGAoZnJvbSwgdG8pYCBwYWlyIGlzIGEgZHVwbGljYXRlLgoKVGhlIHBhY2thZ2UgZm9sbG93cyAqKmRlcGxveWVkIGJlaGF2aW9yKiogdG8gZ3VhcmFudGVlIG5vIHJ1bnRpbWUgc2VtYW50aWMKY2hhbmdlIHdoZW4gdGhlIHBhY2thZ2UgaXMgaW50ZWdyYXRlZC4gVGhlIGZyb3plbi1zcGVjIGRpc2NyZXBhbmN5IGlzCnJlY29yZGVkIGFzIGFuIG9wZW4gcmVjb25jaWxpYXRpb24gaXRlbSBhbmQgbXVzdCBiZSByZXNvbHZlZCBieSBhbiBleHBsaWNpdApkZWNpc2lvbiBpbiBhIGZ1dHVyZSB3YXZlIChub3QgYnkgYSBzaWxlbnQgYmVoYXZpb3IgY2hhbmdlIGhlcmUpLgoKIyMgVmVyaWZpY2F0aW9uCgpgYGBzaApjZCBwYWNrYWdlcy9wZ3AtY29yZS1kb21haW4KbnBtIHRlc3QKYGBgCgpUaGUgdGVzdCAoYHRlc3QvdmVyaWZ5Lm1qc2ApIGlzIGZ1bGx5IHNlbGYtY29udGFpbmVkOiBpdCB1c2VzIG9ubHkKYG5vZGU6YXNzZXJ0L3N0cmljdGAsIG5vIG5ldHdvcmssIG5vIGRhdGFiYXNlLCBubyBlbnZpcm9ubWVudCB2YXJpYWJsZXMsIG5vCkJhc2U0NCwgbm8gU3VwYWJhc2UsIG5vIGZpbGVzeXN0ZW0sIG5vIGV4dGVybmFsIHBhY2thZ2VzLiBJdCBwcmludHMgYSBzaW5nbGUKZGV0ZXJtaW5pc3RpYyBzdW1tYXJ5IGxpbmUgb24gc3VjY2VzczoKCmBgYApQR1AgQ29yZSBkb21haW4gdmVyaWZpY2F0aW9uIHBhc3NlZDogMTUwIGFzc2VydGlvbnMuCmBgYAoKYW5kIGV4aXRzIG5vbi16ZXJvIG9uIGFueSBmYWlsdXJlLiBUaGUgcHVibGlzaGVkIGAwLjEuMC1hbHBoYS4xYCByZWxlYXNlCnBhc3NlZCAxNTAgYXNzZXJ0aW9ucyBsb2NhbGx5IGJlZm9yZSBwdWJsaWNhdGlvbi4KCiMjIEZ1dHVyZSByZXVzZQoKLSAqKlN1cGFiYXNlIEVkZ2UgRnVuY3Rpb25zKiogbWF5IGltcG9ydCB0aGlzIHBhY2thZ2UgZGlyZWN0bHkgKGl0IGlzIHBsYWluCiAgRVNNIHdpdGggbm8gQmFzZTQ0IG9yIERlbm8gY291cGxpbmcpLiBTdXBhYmFzZSBpbXBsZW1lbnRhdGlvbiBpcyAqKm5vdAogIHN0YXJ0ZWQqKiDigJQgdGhlcmUgaXMgbm8gU3VwYWJhc2UgY2xpZW50LCBubyBtaWdyYXRpb24sIG5vIGR1YWwtcnVudGltZQogIGJlaGF2aW9yIGluIHRoaXMgcGFja2FnZSBvciBpbiB0aGUgYXBwLiBUaGUgcGFja2FnZSBpcyBzdHJ1Y3R1cmVkIHRvIGVuYWJsZQogIHRoaXMgcmV1c2Ugd2l0aG91dCBjaGFuZ2VzLgotICoqQmFzZTQ0IERlbm8gZnVuY3Rpb25zKiogaW1wb3J0IGl0IHZpYSB0aGUgYG5wbTpgIHNwZWNpZmllci4gVGhpcyBpcyB0aGUKICBpbnRlZ3JhdGlvbiB0YXJnZXQgc2F0aXNmaWVkIGJ5IFdhdmUgMTAuM0IuCgojIyBSb2xsYmFjawoKVG8gdW5kbyBXYXZlIDEwLjNCOiByZXN0b3JlIHRoZSBmb3VyIHByb2R1Y3Rpb24gZnVuY3Rpb25zIHRvIHRoZWlyIGV4YWN0CnByZS1XYXZlLTEwLjNCIGlubGluZSBsb2dpYy4gVGhlIHB1Ymxpc2hlZCBucG0gcGFja2FnZSBzdGF5cyBpbnRhY3QgKGRvIE5PVAp1bnB1Ymxpc2gpLiBSZW1vdmUgdGhlIHRlbXBvcmFyeSBwcm9iZSBpZiBwcmVzZW50LiBEb2N1bWVudCB0aGUgZmFpbHVyZS4KClRvIHVuZG8gV2F2ZSAxMC4zQTogZGVsZXRlIHRoZSBgcGFja2FnZXMvcGdwLWNvcmUtZG9tYWluL2AgZGlyZWN0b3J5IGFuZCB0aGUKY29ycmVzcG9uZGluZyAiV2F2ZSAxMC4zQSIgc2VjdGlvbiBpbgpgc3JjL2RvY3MvUEhBU0VfMTBfUE9SVEFCSUxJVFlfU1BFQy5tZGAuCgojIyBMaWNlbnNlCgpVTkxJQ0VOU0VEIOKAlCBpbnRlcm5hbCBQR1AgQ29yZSBwYWNrYWdlLg==
+# @ppankov/pgp-core-domain
+
+Provider-independent PGP Core domain rules. Pure, side-effect-free.
+
+## Purpose
+
+This package is the **first provider-independent domain layer** of PGP Core,
+extracted as a standalone source workspace. It contains the pure decision,
+validation, calculation, and sanitization rules that previously lived inline
+inside deployed Base44 backend functions. The package has **no Base44
+dependency and no Supabase dependency** — it is plain standard ESM JavaScript
+that can be consumed by any runtime that supports ES modules (Base44 Deno
+functions via `npm:`, Supabase Edge Functions, Node, etc.).
+
+## Status
+
+- **Package name:** `@ppankov/pgp-core-domain` (public package under the
+  `@ppankov` npm scope).
+- **Exact version:** `0.1.0-alpha.1` (alpha prerelease tag).
+- **Publication status:** **PUBLISHED** to the public npm registry with public
+  access (`publishConfig.access: public`). Published by npm account `ppankov`
+  with auth-and-writes 2FA / WebAuthn.
+- **Integration status:** Integrated into the four production Base44 backend
+  functions in Wave 10.3B via exact-version `npm:` imports. Before Wave 10.3B
+  completed, the package was not imported by any deployed function.
+- **Local verification:** 150 assertions PASS (`npm test`).
+- **No npm credentials belong in Base44.** The package is authored and
+  published from the repository owner's environment, not from the Base44 app.
+  No npm token is requested, created, or stored in Base44.
+
+## Purity contract
+
+Every file in `src/` is provider-independent. Forbidden inside the package:
+
+- `@base44/sdk` or any Base44 API
+- Deno APIs (`Deno.serve`, `Deno.env`, …)
+- Supabase or any database client
+- React or any browser API
+- Node-specific APIs (fs, net, crypto.randomUUID, …)
+- `fetch` / network
+- filesystem access
+- environment variables
+- authentication / authorization
+- audit writes / event publication
+- random UUID generation
+- implicit current time (`Date.now()`, `new Date()` with no arg)
+
+Time-dependent functions accept an explicit `nowIso` (ISO 8601 UTC string) or
+`nowMs` (epoch millis) input. Deterministic `Date` conversions are allowed
+**only over explicit input timestamps**.
+
+All exported functions:
+- do not mutate their inputs;
+- have no side effects;
+- return plain serializable data;
+- preserve the current deployed behavior (no latent-bug fixes in this wave).
+
+## Modules
+
+| Module | Exports |
+| --- | --- |
+| `workflowGraph.js` | `validateWorkflowGraph(graph)` |
+| `jobScheduling.js` | `buildOccurrenceKey(scheduleId, scheduledForUtcIso)`, `evaluateScheduleOccurrence(input)` |
+| `backgroundJob.js` | `calculateRetryDelay(retryPolicy, attemptNumber)`, `decideFailedJobTransition(input)` |
+| `safeData.js` | `containsSecretKey(value)`, `redactSecretKeys(value)`, `sanitizeErrorText(message)` |
+
+## Public exports (subpath imports)
+
+| Import path | Resolves to |
+| --- | --- |
+| `@ppankov/pgp-core-domain` | `src/index.js` (re-exports all) |
+| `@ppankov/pgp-core-domain/workflow` | `src/workflowGraph.js` |
+| `@ppankov/pgp-core-domain/scheduling` | `src/jobScheduling.js` |
+| `@ppankov/pgp-core-domain/background-job` | `src/backgroundJob.js` |
+| `@ppankov/pgp-core-domain/safe-data` | `src/safeData.js` |
+
+## Version pinning (REQUIRED)
+
+Consumers **must pin an exact version**. Floating imports are NOT permitted:
+
+```js
+import { validateWorkflowGraph } from "npm:@ppankov/pgp-core-domain@0.1.0-alpha.1/workflow";
+import { buildOccurrenceKey, evaluateScheduleOccurrence } from "npm:@ppankov/pgp-core-domain@0.1.0-alpha.1/scheduling";
+import { calculateRetryDelay, decideFailedJobTransition } from "npm:@ppankov/pgp-core-domain@0.1.0-alpha.1/background-job";
+import { containsSecretKey, redactSecretKeys, sanitizeErrorText } from "npm:@ppankov/pgp-core-domain@0.1.0-alpha.1/safe-data";
+```
+
+The following are **NOT allowed**:
+- `npm:@ppankov/pgp-core-domain@latest/...`
+- `npm:@ppankov/pgp-core-domain@alpha/...` (floating alpha tag)
+- version ranges (`^0.1.0-alpha.1`, `~0.1.0-alpha.1`)
+- unversioned imports
+
+A newer or floating version is **never** an emergency workaround. On
+integration regression, restore the pre-integration inline logic instead.
+
+## Behavioral parity
+
+The package is a behavioral mirror of the deployed functions (before Wave
+10.3B integration):
+
+- `validateWorkflowGraph` ← `registerWorkflowVersion/entry.ts` and
+  `releaseWorkflowVersion/entry.ts` (identical inline `validateGraph`).
+- `evaluateScheduleOccurrence` / `buildOccurrenceKey` ←
+  `runSchedulerTick/entry.ts` (occurrence key + once/interval decision).
+- `calculateRetryDelay` / `decideFailedJobTransition` ←
+  `processBackgroundJobs/entry.ts` (retry delay + retry/dead-letter decision).
+- `containsSecretKey` / `redactSecretKeys` / `sanitizeErrorText` ←
+  `processBackgroundJobs/entry.ts` (secret detection / redaction / error text
+  sanitization).
+
+## Contract discrepancy findings (Open reconciliation items — NO behavior
+change)
+
+### Duplicate edge identity (workflow graph)
+
+- **Deployed code identity:** `from + "|" + to + "|" + label` — the edge
+  `label` **participates** in duplicate detection. Two edges with the same
+  `(from, to)` but **different** labels are accepted as distinct edges.
+- **Frozen Phase 7 spec identity:** repeated `(from, to)` pair — the label
+  does **not** participate; any repeated `(from, to)` pair is a duplicate.
+
+The package follows **deployed behavior** to guarantee no runtime semantic
+change when the package is integrated. The frozen-spec discrepancy is
+recorded as an open reconciliation item and must be resolved by an explicit
+decision in a future wave (not by a silent behavior change here).
+
+## Verification
+
+```sh
+cd packages/pgp-core-domain
+npm test
+```
+
+The test (`test/verify.mjs`) is fully self-contained: it uses only
+`node:assert/strict`, no network, no database, no environment variables, no
+Base44, no Supabase, no filesystem, no external packages. It prints a single
+deterministic summary line on success:
+
+```
+PGP Core domain verification passed: 150 assertions.
+```
+
+and exits non-zero on any failure. The published `0.1.0-alpha.1` release
+passed 150 assertions locally before publication.
+
+## Future reuse
+
+- **Supabase Edge Functions** may import this package directly (it is plain
+  ESM with no Base44 or Deno coupling). Supabase implementation is **not
+  started** — there is no Supabase client, no migration, no dual-runtime
+  behavior in this package or in the app. The package is structured to enable
+  this reuse without changes.
+- **Base44 Deno functions** import it via the `npm:` specifier. This is the
+  integration target satisfied by Wave 10.3B.
+
+## Rollback
+
+To undo Wave 10.3B: restore the four production functions to their exact
+pre-Wave-10.3B inline logic. The published npm package stays intact (do NOT
+unpublish). Remove the temporary probe if present. Document the failure.
+
+To undo Wave 10.3A: delete the `packages/pgp-core-domain/` directory and the
+corresponding "Wave 10.3A" section in
+`src/docs/PHASE_10_PORTABILITY_SPEC.md`.
+
+## License
+
+UNLICENSED — internal PGP Core package.

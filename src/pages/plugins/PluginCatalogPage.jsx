@@ -1,1 +1,136 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IExpbmsgfSBmcm9tICJyZWFjdC1yb3V0ZXItZG9tIjsKaW1wb3J0IHsgUGx1cywgQXJyb3dSaWdodCB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBDYXJkLCBDYXJkQ29udGVudCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9jYXJkIjsKaW1wb3J0IHsgQmFkZ2UgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYmFkZ2UiOwppbXBvcnQgeyBEaWFsb2csIERpYWxvZ0NvbnRlbnQsIERpYWxvZ0hlYWRlciwgRGlhbG9nVGl0bGUgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvZGlhbG9nIjsKaW1wb3J0IHsKICBUYWJsZSwgVGFibGVIZWFkZXIsIFRhYmxlUm93LCBUYWJsZUhlYWQsIFRhYmxlQm9keSwgVGFibGVDZWxsLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS90YWJsZSI7CmltcG9ydCBNb2R1bGVIZWFkZXIgZnJvbSAiQC9jb21wb25lbnRzL3NoYXJlZC9Nb2R1bGVIZWFkZXIiOwppbXBvcnQgUGx1Z2luRGVmaW5pdGlvbkZvcm0gZnJvbSAiQC9jb21wb25lbnRzL3BsdWdpbnMvUGx1Z2luRGVmaW5pdGlvbkZvcm0iOwppbXBvcnQgeyBjYWxsRm4gfSBmcm9tICJAL2xpYi9mdW5jdGlvbi1jYWxsIjsKaW1wb3J0IHsgdXNlQXV0aCB9IGZyb20gIkAvYXV0aC9BdXRoQ29udGV4dEZhY2FkZSI7CmltcG9ydCB7IGhhc0NhcGFiaWxpdHkgfSBmcm9tICJAL2xpYi9wZXJtaXNzaW9ucyI7CmltcG9ydCB7IHQgfSBmcm9tICJAL2xpYi9pMThuIjsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFBsdWdpbkNhdGFsb2dQYWdlKCkgewogIGNvbnN0IHsgdXNlciB9ID0gdXNlQXV0aCgpOwogIGNvbnN0IHJvbGUgPSB1c2VyPy5yb2xlOwogIGNvbnN0IGNhbk1hbmFnZSA9IGhhc0NhcGFiaWxpdHkocm9sZSwgInBsYXRmb3JtLnBsdWdpbnMubWFuYWdlIik7CiAgY29uc3QgW2RhdGEsIHNldERhdGFdID0gdXNlU3RhdGUobnVsbCk7CiAgY29uc3QgW29wZW4sIHNldE9wZW5dID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IFtlcnIsIHNldEVycl0gPSB1c2VTdGF0ZSgiIik7CgogIGNvbnN0IGxvYWQgPSBhc3luYyAoKSA9PiB7CiAgICBzZXRFcnIoIiIpOwogICAgdHJ5IHsKICAgICAgY29uc3QgcmVzID0gYXdhaXQgY2FsbEZuKCJsaXN0UGx1Z2lucyIsIHt9KTsKICAgICAgc2V0RGF0YShyZXMpOwogICAgfSBjYXRjaCAoZSkgewogICAgICBzZXRFcnIoZS5yZXNwb25zZT8uZGF0YT8uZXJyb3IgfHwgZS5tZXNzYWdlKTsKICAgIH0KICB9OwogIHVzZUVmZmVjdCgoKSA9PiB7IGxvYWQoKTsgfSwgW10pOwoKICBjb25zdCB2ZXJzaW9uTmFtZSA9IChpZCkgPT4gewogICAgY29uc3QgdiA9IChkYXRhPy52ZXJzaW9ucyB8fCBbXSkuZmluZCgoeCkgPT4geC5pZCA9PT0gaWQpOwogICAgcmV0dXJuIHYgPyB2LnZlcnNpb24gOiAi4oCUIjsKICB9OwoKICBjb25zdCByb3dzID0gZGF0YT8uZGVmaW5pdGlvbnMgfHwgW107CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS02Ij4KICAgICAgPE1vZHVsZUhlYWRlcgogICAgICAgIHRpdGxlPXt0KCJwbHVnaW4uY2F0YWxvZyIpfQogICAgICAgIGRlc2NyaXB0aW9uPXt0KCJwbHVnaW4uY2F0YWxvZ19kZXNjIil9CiAgICAgICAgYWN0aW9ucz17CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBnYXAtMiI+CiAgICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0ib3V0bGluZSIgc2l6ZT0ic20iIGFzQ2hpbGQ+CiAgICAgICAgICAgICAgPExpbmsgdG89Ii9wbHVnaW5zL2luc3RhbGxlZCI+e3QoInBsdWdpbi5pbnN0YWxsZWQiKX08L0xpbms+CiAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICB7Y2FuTWFuYWdlICYmICgKICAgICAgICAgICAgICA8QnV0dG9uIHNpemU9InNtIiBjbGFzc05hbWU9ImdhcC0yIiBvbkNsaWNrPXsoKSA9PiBzZXRPcGVuKHRydWUpfT4KICAgICAgICAgICAgICAgIDxQbHVzIGNsYXNzTmFtZT0idy00IGgtNCIgLz4KICAgICAgICAgICAgICAgIHt0KCJwbHVnaW4ucmVnaXN0ZXIiKX0KICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgKX0KICAgICAgICAgIDwvZGl2PgogICAgICAgIH0KICAgICAgLz4KCiAgICAgIDxDYXJkPgogICAgICAgIDxDYXJkQ29udGVudCBjbGFzc05hbWU9InB0LTYiPgogICAgICAgICAge2RhdGEgPT09IG51bGwgPyAoCiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPnt0KCJwbHVnaW4ubG9hZGluZyIpfTwvcD4KICAgICAgICAgICkgOiBlcnIgPyAoCiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LWRlc3RydWN0aXZlIj57ZXJyfTwvcD4KICAgICAgICAgICkgOiByb3dzLmxlbmd0aCA9PT0gMCA/ICgKICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3QoInBsdWdpbi5lbXB0eSIpfTwvcD4KICAgICAgICAgICkgOiAoCiAgICAgICAgICAgIDxUYWJsZT4KICAgICAgICAgICAgICA8VGFibGVIZWFkZXI+CiAgICAgICAgICAgICAgICA8VGFibGVSb3c+CiAgICAgICAgICAgICAgICAgIDxUYWJsZUhlYWQ+e3QoInBsdWdpbi5maWVsZC5uYW1lIil9PC9UYWJsZUhlYWQ+CiAgICAgICAgICAgICAgICAgIDxUYWJsZUhlYWQ+e3QoInBsdWdpbi5maWVsZC5rZXkiKX08L1RhYmxlSGVhZD4KICAgICAgICAgICAgICAgICAgPFRhYmxlSGVhZD57dCgicGx1Z2luLmZpZWxkLnZlbmRvciIpfTwvVGFibGVIZWFkPgogICAgICAgICAgICAgICAgICA8VGFibGVIZWFkPnt0KCJwbHVnaW4uZmllbGQuY2F0ZWdvcnkiKX08L1RhYmxlSGVhZD4KICAgICAgICAgICAgICAgICAgPFRhYmxlSGVhZD57dCgicGx1Z2luLmZpZWxkLmN1cnJlbnRWZXJzaW9uIil9PC9UYWJsZUhlYWQ+CiAgICAgICAgICAgICAgICAgIDxUYWJsZUhlYWQ+e3QoInBsdWdpbi5maWVsZC5hY3RpdmUiKX08L1RhYmxlSGVhZD4KICAgICAgICAgICAgICAgICAgPFRhYmxlSGVhZCBjbGFzc05hbWU9InRleHQtcmlnaHQiPnt0KCJwbHVnaW4udmlldyIpfTwvVGFibGVIZWFkPgogICAgICAgICAgICAgICAgPC9UYWJsZVJvdz4KICAgICAgICAgICAgICA8L1RhYmxlSGVhZGVyPgogICAgICAgICAgICAgIDxUYWJsZUJvZHk+CiAgICAgICAgICAgICAgICB7cm93cy5tYXAoKGQpID0+ICgKICAgICAgICAgICAgICAgICAgPFRhYmxlUm93IGtleT17ZC5pZH0+CiAgICAgICAgICAgICAgICAgICAgPFRhYmxlQ2VsbCBjbGFzc05hbWU9ImZvbnQtbWVkaXVtIj57ZC5uYW1lfTwvVGFibGVDZWxsPgogICAgICAgICAgICAgICAgICAgIDxUYWJsZUNlbGw+CiAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZvbnQtbW9ubyB0ZXh0LXhzIGJnLW11dGVkIHB4LTIgcHktMSByb3VuZGVkIj57ZC5rZXl9PC9zcGFuPgogICAgICAgICAgICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgICAgICAgICAgICAgIDxUYWJsZUNlbGwgY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQiPntkLnZlbmRvciB8fCAi4oCUIn08L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICAgICAgICA8VGFibGVDZWxsIGNsYXNzTmFtZT0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57ZC5jYXRlZ29yeSB8fCAi4oCUIn08L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICAgICAgICA8VGFibGVDZWxsPgogICAgICAgICAgICAgICAgICAgICAge2QuY3VycmVudFZlcnNpb25JZCA/ICgKICAgICAgICAgICAgICAgICAgICAgICAgPEJhZGdlIHZhcmlhbnQ9InNlY29uZGFyeSI+e3ZlcnNpb25OYW1lKGQuY3VycmVudFZlcnNpb25JZCl9PC9CYWRnZT4KICAgICAgICAgICAgICAgICAgICAgICkgOiAoCiAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPnt0KCJwbHVnaW4ubm9fY3VycmVudF92ZXJzaW9uIil9PC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgICAgICA8L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICAgICAgICA8VGFibGVDZWxsPgogICAgICAgICAgICAgICAgICAgICAgPEJhZGdlIHZhcmlhbnQ9e2QuYWN0aXZlID8gImRlZmF1bHQiIDogInNlY29uZGFyeSJ9PgogICAgICAgICAgICAgICAgICAgICAgICB7ZC5hY3RpdmUgPyB0KCJwbHVnaW4uc3RhdHVzX2F2YWlsYWJsZSIpIDogdCgicGx1Z2luLnN0YXR1c19kaXNhYmxlZCIpfQogICAgICAgICAgICAgICAgICAgICAgPC9CYWRnZT4KICAgICAgICAgICAgICAgICAgICA8L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICAgICAgICA8VGFibGVDZWxsIGNsYXNzTmFtZT0idGV4dC1yaWdodCI+CiAgICAgICAgICAgICAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Imdob3N0IiBzaXplPSJpY29uIiBhc0NoaWxkPgogICAgICAgICAgICAgICAgICAgICAgICA8TGluayB0bz17YC9wbHVnaW5zLyR7ZC5pZH1gfSBhcmlhLWxhYmVsPXt0KCJwbHVnaW4udmlld19kZXRhaWwiKX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgPEFycm93UmlnaHQgY2xhc3NOYW1lPSJ3LTQgaC00IiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8L0xpbms+CiAgICAgICAgICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICAgICAgICA8L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICAgICAgPC9UYWJsZVJvdz4KICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgIDwvVGFibGVCb2R5PgogICAgICAgICAgICA8L1RhYmxlPgogICAgICAgICAgKX0KICAgICAgICA8L0NhcmRDb250ZW50PgogICAgICA8L0NhcmQ+CgogICAgICA8RGlhbG9nIG9wZW49e29wZW59IG9uT3BlbkNoYW5nZT17c2V0T3Blbn0+CiAgICAgICAgPERpYWxvZ0NvbnRlbnQgY2xhc3NOYW1lPSJtYXgtdy1sZyI+CiAgICAgICAgICA8RGlhbG9nSGVhZGVyPgogICAgICAgICAgICA8RGlhbG9nVGl0bGU+e3QoInBsdWdpbi5uZXdfZGVmaW5pdGlvbiIpfTwvRGlhbG9nVGl0bGU+CiAgICAgICAgICA8L0RpYWxvZ0hlYWRlcj4KICAgICAgICAgIHtvcGVuICYmICgKICAgICAgICAgICAgPFBsdWdpbkRlZmluaXRpb25Gb3JtCiAgICAgICAgICAgICAgb25TYXZlPXsoKSA9PiB7IHNldE9wZW4oZmFsc2UpOyBsb2FkKCk7IH19CiAgICAgICAgICAgICAgb25DYW5jZWw9eygpID0+IHNldE9wZW4oZmFsc2UpfQogICAgICAgICAgICAvPgogICAgICAgICAgKX0KICAgICAgICA8L0RpYWxvZ0NvbnRlbnQ+CiAgICAgIDwvRGlhbG9nPgogICAgPC9kaXY+CiAgKTsKfQ==
+import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import { Plus, ArrowRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import {
+  Table, TableHeader, TableRow, TableHead, TableBody, TableCell,
+} from "@/components/ui/table";
+import ModuleHeader from "@/components/shared/ModuleHeader";
+import PluginDefinitionForm from "@/components/plugins/PluginDefinitionForm";
+import { callFn } from "@/lib/function-call";
+import { useAuth } from "@/auth/AuthContextFacade";
+import { hasCapability } from "@/lib/permissions";
+import { t } from "@/lib/i18n";
+
+export default function PluginCatalogPage() {
+  const { user } = useAuth();
+  const role = user?.role;
+  const canManage = hasCapability(role, "platform.plugins.manage");
+  const [data, setData] = useState(null);
+  const [open, setOpen] = useState(false);
+  const [err, setErr] = useState("");
+
+  const load = async () => {
+    setErr("");
+    try {
+      const res = await callFn("listPlugins", {});
+      setData(res);
+    } catch (e) {
+      setErr(e.response?.data?.error || e.message);
+    }
+  };
+  useEffect(() => { load(); }, []);
+
+  const versionName = (id) => {
+    const v = (data?.versions || []).find((x) => x.id === id);
+    return v ? v.version : "—";
+  };
+
+  const rows = data?.definitions || [];
+
+  return (
+    <div className="space-y-6">
+      <ModuleHeader
+        title={t("plugin.catalog")}
+        description={t("plugin.catalog_desc")}
+        actions={
+          <div className="flex gap-2">
+            <Button variant="outline" size="sm" asChild>
+              <Link to="/plugins/installed">{t("plugin.installed")}</Link>
+            </Button>
+            {canManage && (
+              <Button size="sm" className="gap-2" onClick={() => setOpen(true)}>
+                <Plus className="w-4 h-4" />
+                {t("plugin.register")}
+              </Button>
+            )}
+          </div>
+        }
+      />
+
+      <Card>
+        <CardContent className="pt-6">
+          {data === null ? (
+            <p className="text-sm text-muted-foreground">{t("plugin.loading")}</p>
+          ) : err ? (
+            <p className="text-sm text-destructive">{err}</p>
+          ) : rows.length === 0 ? (
+            <p className="text-sm text-muted-foreground">{t("plugin.empty")}</p>
+          ) : (
+            <Table>
+              <TableHeader>
+                <TableRow>
+                  <TableHead>{t("plugin.field.name")}</TableHead>
+                  <TableHead>{t("plugin.field.key")}</TableHead>
+                  <TableHead>{t("plugin.field.vendor")}</TableHead>
+                  <TableHead>{t("plugin.field.category")}</TableHead>
+                  <TableHead>{t("plugin.field.currentVersion")}</TableHead>
+                  <TableHead>{t("plugin.field.active")}</TableHead>
+                  <TableHead className="text-right">{t("plugin.view")}</TableHead>
+                </TableRow>
+              </TableHeader>
+              <TableBody>
+                {rows.map((d) => (
+                  <TableRow key={d.id}>
+                    <TableCell className="font-medium">{d.name}</TableCell>
+                    <TableCell>
+                      <span className="font-mono text-xs bg-muted px-2 py-1 rounded">{d.key}</span>
+                    </TableCell>
+                    <TableCell className="text-muted-foreground">{d.vendor || "—"}</TableCell>
+                    <TableCell className="text-muted-foreground">{d.category || "—"}</TableCell>
+                    <TableCell>
+                      {d.currentVersionId ? (
+                        <Badge variant="secondary">{versionName(d.currentVersionId)}</Badge>
+                      ) : (
+                        <span className="text-xs text-muted-foreground">{t("plugin.no_current_version")}</span>
+                      )}
+                    </TableCell>
+                    <TableCell>
+                      <Badge variant={d.active ? "default" : "secondary"}>
+                        {d.active ? t("plugin.status_available") : t("plugin.status_disabled")}
+                      </Badge>
+                    </TableCell>
+                    <TableCell className="text-right">
+                      <Button variant="ghost" size="icon" asChild>
+                        <Link to={`/plugins/${d.id}`} aria-label={t("plugin.view_detail")}>
+                          <ArrowRight className="w-4 h-4" />
+                        </Link>
+                      </Button>
+                    </TableCell>
+                  </TableRow>
+                ))}
+              </TableBody>
+            </Table>
+          )}
+        </CardContent>
+      </Card>
+
+      <Dialog open={open} onOpenChange={setOpen}>
+        <DialogContent className="max-w-lg">
+          <DialogHeader>
+            <DialogTitle>{t("plugin.new_definition")}</DialogTitle>
+          </DialogHeader>
+          {open && (
+            <PluginDefinitionForm
+              onSave={() => { setOpen(false); load(); }}
+              onCancel={() => setOpen(false)}
+            />
+          )}
+        </DialogContent>
+      </Dialog>
+    </div>
+  );
+}

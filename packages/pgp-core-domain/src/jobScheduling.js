@@ -1,1 +1,59 @@
-Ly8gUEdQIENvcmUg4oCUIEpvYiBTY2hlZHVsaW5nIERvbWFpbiAocHJvdmlkZXItaW5kZXBlbmRlbnQpCi8vIEJlaGF2aW9yYWwgcGFyaXR5IHdpdGggZGVwbG95ZWQgQmFzZTQ0IGZ1bmN0aW9uOgovLyAgIHJ1blNjaGVkdWxlclRpY2svZW50cnkudHMgKG9jY3VycmVuY2Uga2V5ICsgb25jZS9pbnRlcnZhbCBkZWNpc2lvbikKLy8gUHVyZTogbm8gQmFzZTQ0LCBubyBEZW5vLCBubyBTdXBhYmFzZSwgbm8gZGF0YXN0b3JlLCBubyBuZXR3b3JrLCBubyBlbnYsCi8vIG5vIGltcGxpY2l0IGN1cnJlbnQgdGltZSAobm93SXNvIGlzIGV4cGxpY2l0IGlucHV0KSwgbm8gc2lkZSBlZmZlY3RzLAovLyBubyBpbnB1dCBtdXRhdGlvbi4gVVRDIHRpbWVzdGFtcHMgZGVyaXZlZCBkZXRlcm1pbmlzdGljYWxseSBmcm9tIGlucHV0cy4KCmV4cG9ydCBmdW5jdGlvbiBidWlsZE9jY3VycmVuY2VLZXkoc2NoZWR1bGVJZCwgc2NoZWR1bGVkRm9yVXRjSXNvKSB7CiAgcmV0dXJuIHNjaGVkdWxlSWQgKyAiOiIgKyBzY2hlZHVsZWRGb3JVdGNJc287Cn0KCmV4cG9ydCBmdW5jdGlvbiBldmFsdWF0ZVNjaGVkdWxlT2NjdXJyZW5jZShpbnB1dCkgewogIGNvbnN0IHNjaGVkdWxlID0gaW5wdXQuc2NoZWR1bGU7CiAgY29uc3Qgbm93SXNvID0gaW5wdXQubm93SXNvOwogIGNvbnN0IGFscmVhZHlFbnF1ZXVlZCA9ICEhaW5wdXQuYWxyZWFkeUVucXVldWVkOwoKICBjb25zdCBzY2hlZHVsZWRGb3IgPSBzY2hlZHVsZS5uZXh0UnVuQXQ7CiAgY29uc3Qgb2NjdXJyZW5jZUtleSA9IHNjaGVkdWxlLmlkICsgIjoiICsgc2NoZWR1bGVkRm9yOwoKICBsZXQgY3JlYXRlSm9iID0gZmFsc2U7CiAgbGV0IG5ld05leHRSdW5BdCA9IG51bGw7CiAgbGV0IGRpc2FibGVBZnRlciA9IGZhbHNlOwoKICBpZiAoc2NoZWR1bGUuc2NoZWR1bGVUeXBlID09PSAib25jZSIpIHsKICAgIGNyZWF0ZUpvYiA9ICFhbHJlYWR5RW5xdWV1ZWQ7CiAgICBkaXNhYmxlQWZ0ZXIgPSB0cnVlOyAvLyBvbmNlIHNjaGVkdWxlcyBkaXNhYmxlIGFmdGVyIHRoZWlyIHNsb3QgaXMgaGFuZGxlZC4KICAgIG5ld05leHRSdW5BdCA9IG51bGw7CiAgfSBlbHNlIHsKICAgIGNvbnN0IG5vd01zID0gbmV3IERhdGUobm93SXNvKS5nZXRUaW1lKCk7CiAgICBjb25zdCBpbnRlcnZhbE1zID0gKHNjaGVkdWxlLmludGVydmFsU2Vjb25kcyB8fCA2MCkgKiAxMDAwOwogICAgY29uc3Qgb3ZlcmR1ZSA9IChub3dNcyAtIG5ldyBEYXRlKHNjaGVkdWxlZEZvcikuZ2V0VGltZSgpKSA+IGludGVydmFsTXM7CiAgICBpZiAoc2NoZWR1bGUubWlzZmlyZVBvbGljeSA9PT0gInNraXAiKSB7CiAgICAgIGlmIChvdmVyZHVlKSB7IGNyZWF0ZUpvYiA9IGZhbHNlOyB9CiAgICAgIGVsc2UgeyBjcmVhdGVKb2IgPSAhYWxyZWFkeUVucXVldWVkOyB9CiAgICB9IGVsc2UgewogICAgICAvLyBydW5fb25jZTogY3JlYXRlIGF0IG1vc3Qgb25lIGpvYiBmb3IgdGhlIG1pc3NlZCBwZXJpb2QuCiAgICAgIGNyZWF0ZUpvYiA9ICFhbHJlYWR5RW5xdWV1ZWQ7CiAgICB9CiAgICAvLyBBZHZhbmNlIG5leHRSdW5BdCB0byB0aGUgZmlyc3QgZnV0dXJlIG9jY3VycmVuY2UuCiAgICBsZXQgbmV4dCA9IG5ldyBEYXRlKHNjaGVkdWxlZEZvcikuZ2V0VGltZSgpICsgaW50ZXJ2YWxNczsKICAgIHdoaWxlIChuZXh0IDw9IG5vd01zKSB7IG5leHQgKz0gaW50ZXJ2YWxNczsgfQogICAgbmV3TmV4dFJ1bkF0ID0gbmV3IERhdGUobmV4dCkudG9JU09TdHJpbmcoKTsKCiAgICAvLyBUZXJtaW5hbCBjb25kaXRpb25zIGZvciBpbnRlcnZhbC4KICAgIGlmIChzY2hlZHVsZS5tYXhSdW5zICYmIChzY2hlZHVsZS5ydW5Db3VudCArIChjcmVhdGVKb2IgPyAxIDogMCkpID49IHNjaGVkdWxlLm1heFJ1bnMpIGRpc2FibGVBZnRlciA9IHRydWU7CiAgICBpZiAoc2NoZWR1bGUuZW5kQXQgJiYgbmV3TmV4dFJ1bkF0ICYmIG5ldyBEYXRlKG5ld05leHRSdW5BdCkuZ2V0VGltZSgpID4gbmV3IERhdGUoc2NoZWR1bGUuZW5kQXQpLmdldFRpbWUoKSkgZGlzYWJsZUFmdGVyID0gdHJ1ZTsKICB9CgogIGNvbnN0IHJ1bkNvdW50RGVsdGEgPSBjcmVhdGVKb2IgPyAxIDogMDsKCiAgcmV0dXJuIHsKICAgIHNjaGVkdWxlZEZvciwKICAgIG9jY3VycmVuY2VLZXksCiAgICBjcmVhdGVKb2IsCiAgICBuZXh0UnVuQXQ6IGRpc2FibGVBZnRlciA/IG51bGwgOiBuZXdOZXh0UnVuQXQsCiAgICBkaXNhYmxlQWZ0ZXIsCiAgICBydW5Db3VudERlbHRhLAogIH07Cn0=
+// PGP Core — Job Scheduling Domain (provider-independent)
+// Behavioral parity with deployed Base44 function:
+//   runSchedulerTick/entry.ts (occurrence key + once/interval decision)
+// Pure: no Base44, no Deno, no Supabase, no datastore, no network, no env,
+// no implicit current time (nowIso is explicit input), no side effects,
+// no input mutation. UTC timestamps derived deterministically from inputs.
+
+export function buildOccurrenceKey(scheduleId, scheduledForUtcIso) {
+  return scheduleId + ":" + scheduledForUtcIso;
+}
+
+export function evaluateScheduleOccurrence(input) {
+  const schedule = input.schedule;
+  const nowIso = input.nowIso;
+  const alreadyEnqueued = !!input.alreadyEnqueued;
+
+  const scheduledFor = schedule.nextRunAt;
+  const occurrenceKey = schedule.id + ":" + scheduledFor;
+
+  let createJob = false;
+  let newNextRunAt = null;
+  let disableAfter = false;
+
+  if (schedule.scheduleType === "once") {
+    createJob = !alreadyEnqueued;
+    disableAfter = true; // once schedules disable after their slot is handled.
+    newNextRunAt = null;
+  } else {
+    const nowMs = new Date(nowIso).getTime();
+    const intervalMs = (schedule.intervalSeconds || 60) * 1000;
+    const overdue = (nowMs - new Date(scheduledFor).getTime()) > intervalMs;
+    if (schedule.misfirePolicy === "skip") {
+      if (overdue) { createJob = false; }
+      else { createJob = !alreadyEnqueued; }
+    } else {
+      // run_once: create at most one job for the missed period.
+      createJob = !alreadyEnqueued;
+    }
+    // Advance nextRunAt to the first future occurrence.
+    let next = new Date(scheduledFor).getTime() + intervalMs;
+    while (next <= nowMs) { next += intervalMs; }
+    newNextRunAt = new Date(next).toISOString();
+
+    // Terminal conditions for interval.
+    if (schedule.maxRuns && (schedule.runCount + (createJob ? 1 : 0)) >= schedule.maxRuns) disableAfter = true;
+    if (schedule.endAt && newNextRunAt && new Date(newNextRunAt).getTime() > new Date(schedule.endAt).getTime()) disableAfter = true;
+  }
+
+  const runCountDelta = createJob ? 1 : 0;
+
+  return {
+    scheduledFor,
+    occurrenceKey,
+    createJob,
+    nextRunAt: disableAfter ? null : newNextRunAt,
+    disableAfter,
+    runCountDelta,
+  };
+}

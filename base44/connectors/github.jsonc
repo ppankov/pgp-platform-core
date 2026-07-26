@@ -1,1 +1,6 @@
-ewogICJ0eXBlIjogImdpdGh1YiIsCiAgInNjb3BlcyI6IFsKICAgICJwdWJsaWNfcmVwbyIKICBdCn0=
+{
+  "type": "github",
+  "scopes": [
+    "public_repo"
+  ]
+}

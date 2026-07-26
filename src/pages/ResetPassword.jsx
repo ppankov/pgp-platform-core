@@ -1,1 +1,114 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZVN0YXRlIH0gZnJvbSAicmVhY3QiOwppbXBvcnQgeyBMaW5rLCB1c2VTZWFyY2hQYXJhbXMgfSBmcm9tICJyZWFjdC1yb3V0ZXItZG9tIjsKaW1wb3J0IHsgYmFja2VuZCB9IGZyb20gIkAvc2VydmljZXMvYmFja2VuZEFkYXB0ZXIiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgSW5wdXQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvaW5wdXQiOwppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCI7CmltcG9ydCB7IExvY2ssIExvYWRlcjIsIEFsZXJ0VHJpYW5nbGUgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgQXV0aExheW91dCBmcm9tICJAL2NvbXBvbmVudHMvQXV0aExheW91dCI7CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBSZXNldFBhc3N3b3JkKCkgewogIGNvbnN0IFtzZWFyY2hQYXJhbXNdID0gdXNlU2VhcmNoUGFyYW1zKCk7CiAgY29uc3QgcmVzZXRUb2tlbiA9IHNlYXJjaFBhcmFtcy5nZXQoInRva2VuIik7CgogIGNvbnN0IFtuZXdQYXNzd29yZCwgc2V0TmV3UGFzc3dvcmRdID0gdXNlU3RhdGUoIiIpOwogIGNvbnN0IFtjb25maXJtUGFzc3dvcmQsIHNldENvbmZpcm1QYXNzd29yZF0gPSB1c2VTdGF0ZSgiIik7CiAgY29uc3QgW2Vycm9yLCBzZXRFcnJvcl0gPSB1c2VTdGF0ZSgiIik7CiAgY29uc3QgW2xvYWRpbmcsIHNldExvYWRpbmddID0gdXNlU3RhdGUoZmFsc2UpOwoKICBjb25zdCBoYW5kbGVTdWJtaXQgPSBhc3luYyAoZSkgPT4gewogICAgZS5wcmV2ZW50RGVmYXVsdCgpOwogICAgc2V0RXJyb3IoIiIpOwogICAgaWYgKG5ld1Bhc3N3b3JkICE9PSBjb25maXJtUGFzc3dvcmQpIHsKICAgICAgc2V0RXJyb3IoIlBhc3N3b3JkcyBkbyBub3QgbWF0Y2giKTsKICAgICAgcmV0dXJuOwogICAgfQogICAgc2V0TG9hZGluZyh0cnVlKTsKICAgIHRyeSB7CiAgICAgIGF3YWl0IGJhY2tlbmQuYXV0aC5yZXNldFBhc3N3b3JkKHsgcmVzZXRUb2tlbiwgbmV3UGFzc3dvcmQgfSk7CiAgICAgIHdpbmRvdy5sb2NhdGlvbi5ocmVmID0gIi8iOwogICAgfSBjYXRjaCAoZXJyKSB7CiAgICAgIHNldEVycm9yKGVyci5tZXNzYWdlIHx8ICJGYWlsZWQgdG8gcmVzZXQgcGFzc3dvcmQiKTsKICAgIH0gZmluYWxseSB7CiAgICAgIHNldExvYWRpbmcoZmFsc2UpOwogICAgfQogIH07CgogIGlmICghcmVzZXRUb2tlbikgewogICAgcmV0dXJuICgKICAgICAgPEF1dGhMYXlvdXQKICAgICAgICBpY29uPXtBbGVydFRyaWFuZ2xlfQogICAgICAgIHRpdGxlPSJJbnZhbGlkIHJlc2V0IGxpbmsiCiAgICAgICAgc3VidGl0bGU9IlRoaXMgcGFzc3dvcmQgcmVzZXQgbGluayBpcyBtaXNzaW5nIG9yIGludmFsaWQiCiAgICAgICAgZm9vdGVyPXsKICAgICAgICAgIDxMaW5rIHRvPSIvZm9yZ290LXBhc3N3b3JkIiBjbGFzc05hbWU9InRleHQtcHJpbWFyeSBmb250LW1lZGl1bSBob3Zlcjp1bmRlcmxpbmUiPgogICAgICAgICAgICBSZXF1ZXN0IGEgbmV3IGxpbmsKICAgICAgICAgIDwvTGluaz4KICAgICAgICB9CiAgICAgID4KICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1mb3JlZ3JvdW5kIHRleHQtY2VudGVyIj4KICAgICAgICAgIFRoZSBsaW5rIHlvdSB1c2VkIGFwcGVhcnMgdG8gYmUgaW5jb21wbGV0ZS4gUGxlYXNlIHJlcXVlc3QgYSBuZXcgcGFzc3dvcmQgcmVzZXQgZW1haWwuCiAgICAgICAgPC9wPgogICAgICA8L0F1dGhMYXlvdXQ+CiAgICApOwogIH0KCiAgcmV0dXJuICgKICAgIDxBdXRoTGF5b3V0CiAgICAgIGljb249e0xvY2t9CiAgICAgIHRpdGxlPSJOZXcgcGFzc3dvcmQiCiAgICAgIHN1YnRpdGxlPSJFbnRlciB5b3VyIG5ldyBwYXNzd29yZCBiZWxvdyIKICAgID4KICAgICAge2Vycm9yICYmICgKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWItNCBwLTMgcm91bmRlZC1sZyBiZy1kZXN0cnVjdGl2ZS8xMCB0ZXh0LWRlc3RydWN0aXZlIHRleHQtc20iPgogICAgICAgICAge2Vycm9yfQogICAgICAgIDwvZGl2PgogICAgICApfQogICAgICA8Zm9ybSBvblN1Ym1pdD17aGFuZGxlU3VibWl0fSBjbGFzc05hbWU9InNwYWNlLXktNCI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktMiI+CiAgICAgICAgICA8TGFiZWwgaHRtbEZvcj0icGFzc3dvcmQiPk5ldyBQYXNzd29yZDwvTGFiZWw+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUiPgogICAgICAgICAgICA8TG9jayBjbGFzc05hbWU9ImFic29sdXRlIGxlZnQtMyB0b3AtMS8yIC10cmFuc2xhdGUteS0xLzIgdy00IGgtNCB0ZXh0LW11dGVkLWZvcmVncm91bmQiIGFyaWEtaGlkZGVuPSJ0cnVlIiAvPgogICAgICAgICAgICA8SW5wdXQKICAgICAgICAgICAgICBpZD0icGFzc3dvcmQiCiAgICAgICAgICAgICAgdHlwZT0icGFzc3dvcmQiCiAgICAgICAgICAgICAgYXV0b0NvbXBsZXRlPSJuZXctcGFzc3dvcmQiCiAgICAgICAgICAgICAgYXV0b0ZvY3VzCiAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9IuKAouKAouKAouKAouKAouKAouKAouKAoiIKICAgICAgICAgICAgICB2YWx1ZT17bmV3UGFzc3dvcmR9CiAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXROZXdQYXNzd29yZChlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJwbC0xMCBoLTEyIgogICAgICAgICAgICAgIHJlcXVpcmVkCiAgICAgICAgICAgIC8+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS0yIj4KICAgICAgICAgIDxMYWJlbCBodG1sRm9yPSJjb25maXJtIj5Db25maXJtIFBhc3N3b3JkPC9MYWJlbD4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZWxhdGl2ZSI+CiAgICAgICAgICAgIDxMb2NrIGNsYXNzTmFtZT0iYWJzb2x1dGUgbGVmdC0zIHRvcC0xLzIgLXRyYW5zbGF0ZS15LTEvMiB3LTQgaC00IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIgYXJpYS1oaWRkZW49InRydWUiIC8+CiAgICAgICAgICAgIDxJbnB1dAogICAgICAgICAgICAgIGlkPSJjb25maXJtIgogICAgICAgICAgICAgIHR5cGU9InBhc3N3b3JkIgogICAgICAgICAgICAgIGF1dG9Db21wbGV0ZT0ibmV3LXBhc3N3b3JkIgogICAgICAgICAgICAgIHBsYWNlaG9sZGVyPSLigKLigKLigKLigKLigKLigKLigKLigKIiCiAgICAgICAgICAgICAgdmFsdWU9e2NvbmZpcm1QYXNzd29yZH0KICAgICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldENvbmZpcm1QYXNzd29yZChlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJwbC0xMCBoLTEyIgogICAgICAgICAgICAgIHJlcXVpcmVkCiAgICAgICAgICAgIC8+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8QnV0dG9uIHR5cGU9InN1Ym1pdCIgY2xhc3NOYW1lPSJ3LWZ1bGwgaC0xMiBmb250LW1lZGl1bSIgZGlzYWJsZWQ9e2xvYWRpbmd9PgogICAgICAgICAge2xvYWRpbmcgPyAoCiAgICAgICAgICAgIDw+CiAgICAgICAgICAgICAgPExvYWRlcjIgY2xhc3NOYW1lPSJ3LTQgaC00IG1yLTIgYW5pbWF0ZS1zcGluIiAvPgogICAgICAgICAgICAgIFJlc2V0dGluZy4uLgogICAgICAgICAgICA8Lz4KICAgICAgICAgICkgOiAoCiAgICAgICAgICAgICJSZXNldCBwYXNzd29yZCIKICAgICAgICAgICl9CiAgICAgICAgPC9CdXR0b24+CiAgICAgIDwvZm9ybT4KICAgIDwvQXV0aExheW91dD4KICApOwp9
+import React, { useState } from "react";
+import { Link, useSearchParams } from "react-router-dom";
+import { backend } from "@/services/backendAdapter";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Lock, Loader2, AlertTriangle } from "lucide-react";
+import AuthLayout from "@/components/AuthLayout";
+
+export default function ResetPassword() {
+  const [searchParams] = useSearchParams();
+  const resetToken = searchParams.get("token");
+
+  const [newPassword, setNewPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("");
+  const [error, setError] = useState("");
+  const [loading, setLoading] = useState(false);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setError("");
+    if (newPassword !== confirmPassword) {
+      setError("Passwords do not match");
+      return;
+    }
+    setLoading(true);
+    try {
+      await backend.auth.resetPassword({ resetToken, newPassword });
+      window.location.href = "/";
+    } catch (err) {
+      setError(err.message || "Failed to reset password");
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  if (!resetToken) {
+    return (
+      <AuthLayout
+        icon={AlertTriangle}
+        title="Invalid reset link"
+        subtitle="This password reset link is missing or invalid"
+        footer={
+          <Link to="/forgot-password" className="text-primary font-medium hover:underline">
+            Request a new link
+          </Link>
+        }
+      >
+        <p className="text-sm text-foreground text-center">
+          The link you used appears to be incomplete. Please request a new password reset email.
+        </p>
+      </AuthLayout>
+    );
+  }
+
+  return (
+    <AuthLayout
+      icon={Lock}
+      title="New password"
+      subtitle="Enter your new password below"
+    >
+      {error && (
+        <div className="mb-4 p-3 rounded-lg bg-destructive/10 text-destructive text-sm">
+          {error}
+        </div>
+      )}
+      <form onSubmit={handleSubmit} className="space-y-4">
+        <div className="space-y-2">
+          <Label htmlFor="password">New Password</Label>
+          <div className="relative">
+            <Lock className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" aria-hidden="true" />
+            <Input
+              id="password"
+              type="password"
+              autoComplete="new-password"
+              autoFocus
+              placeholder="••••••••"
+              value={newPassword}
+              onChange={(e) => setNewPassword(e.target.value)}
+              className="pl-10 h-12"
+              required
+            />
+          </div>
+        </div>
+        <div className="space-y-2">
+          <Label htmlFor="confirm">Confirm Password</Label>
+          <div className="relative">
+            <Lock className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" aria-hidden="true" />
+            <Input
+              id="confirm"
+              type="password"
+              autoComplete="new-password"
+              placeholder="••••••••"
+              value={confirmPassword}
+              onChange={(e) => setConfirmPassword(e.target.value)}
+              className="pl-10 h-12"
+              required
+            />
+          </div>
+        </div>
+        <Button type="submit" className="w-full h-12 font-medium" disabled={loading}>
+          {loading ? (
+            <>
+              <Loader2 className="w-4 h-4 mr-2 animate-spin" />
+              Resetting...
+            </>
+          ) : (
+            "Reset password"
+          )}
+        </Button>
+      </form>
+    </AuthLayout>
+  );
+}

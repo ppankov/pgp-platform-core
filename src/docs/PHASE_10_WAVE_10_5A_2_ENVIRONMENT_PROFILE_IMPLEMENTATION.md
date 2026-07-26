@@ -1,1 +1,123 @@
-IyBQaGFzZSAxMCDigJQgV2F2ZSAxMC41QS4yIEVudmlyb25tZW50IFByb2ZpbGUgSW1wbGVtZW50YXRpb24KCioqRG9jdW1lbnQgdHlwZToqKiBBdXRob3JpdGF0aXZlIGltcGxlbWVudGF0aW9uIHJlY29yZCBmb3IgV2F2ZSAxMC41QS4yLiBTdXBwbGVtZW50cyB0aGUgMTAuNUEuMSBwbGFubmluZyBkb2N1bWVudDsgZG9lcyBub3QgbW9kaWZ5IG9yIHdlYWtlbiBhbnkgUGhhc2UgMuKAkzkgZnJvemVuIGNvbnRyYWN0IG9yIGV4aXN0aW5nIFBoYXNlIDEwIGFyY2hpdGVjdHVyZSBydWxlLgoqKkRhdGU6KiogMjAyNi0wNy0yNS4KCiMjIFN0YXR1cwoKfCBGaWVsZCB8IFZhbHVlIHwKfC0tLXwtLS18CnwgUGhhc2UgfCAxMCDigJQgSU1QTEVNRU5UQVRJT04gfAp8IFdhdmUgMTAuNUEuMSAocGxhbm5pbmcpIHwgQ09NUExFVEUgfAp8IFdhdmUgMTAuNUEuMiAodGhpcyBpbXBsZW1lbnRhdGlvbikgfCBJTVBMRU1FTlRBVElPTiBDT01QTEVURSB8CnwgV2F2ZSAxMC41IGltcGxlbWVudGF0aW9uIHwgSU4gUFJPR1JFU1MgKDEgYXBwcm92ZWQgYnVpbGQvZW52aXJvbm1lbnQgY2FuZGlkYXRlIGNvbXBsZXRlKSB8CnwgUHJpdmF0ZSBkZW1vIHwgTk9UIElNUExFTUVOVEVEIHwKfCBFbnRlcnByaXNlIG9mZmxpbmUgfCBOT1QgSU1QTEVNRU5URUQgfAp8IFBoYXNlIDEwIGZyb3plbiBzbmFwc2hvdCB8IE5PVCBDUkVBVEVEIHwKfCBOZXh0IGdhdGUgfCBXYXZlIDEwLjVBLjMgdmVyaWZpY2F0aW9uICYgY2xvc3VyZSDigJQgUkVRVUlSRVMgRVhQTElDSVQgQVBQUk9WQUwgfAoKIyMgU2NvcGUKCkFwcHJvdmVkIGNhbmRpZGF0ZSBgZW52aXJvbm1lbnQtcHJvZmlsZS1kZXNjcmlwdG9yYCBpbXBsZW1lbnRlZC4gRmlsZXMgY3JlYXRlZDogYHNyYy9saWIvZW52aXJvbm1lbnQtcHJvZmlsZS5qc2AsIHRoaXMgZG9jdW1lbnQuIEZpbGVzIG1vZGlmaWVkOiBgc3JjL2xpYi9hcHAtcGFyYW1zLmpzYCAob25lIGltcG9ydCArIG9uZSBmaWVsZCkuIE5vdCBtb2RpZmllZDogYFBIQVNFXzEwX1BPUlRBQklMSVRZX1NQRUMubWRgLCBgUEhBU0VfMTBfV0FWRV8xMF80Ql9DTE9TVVJFX0VWQUxVQVRJT04ubWRgLCBgUEhBU0VfMTBfV0FWRV8xMF81X0JVSUxEX0VOVklST05NRU5UX1BST0ZJTEVTLm1kYCwgYGJhc2U0NEFkYXB0ZXIuanNgLCBgYmFja2VuZEFkYXB0ZXIuanNgLCBgYmFzZTQ0Q2xpZW50LmpzYCwgYHZpdGUuY29uZmlnLmpzYCwgYHBhY2thZ2UuanNvbmAsIGBwYWNrYWdlLWxvY2suanNvbmAsIGJhY2tlbmQgZnVuY3Rpb25zLCBlbnRpdGllcywgUkxTLCBgcGdwLWNvcmUtZG9tYWluYCwgUGhhc2UgMuKAkzkgZG9jcy4gTm8gcHJvdmlkZXIgc3dpdGNoaW5nLCBubyBwcml2YXRlLWRlbW8sIG5vIGVudGVycHJpc2Utb2ZmbGluZSwgbm8gRG9ja2VyLCBubyBjb25maWctZmlsZSBsb2FkaW5nLCBubyBzZWNyZXRzLCBubyBVSSBjb250cm9scywgbm8gdGVsZW1ldHJ5LCBubyBkZXBsb3ltZW50LCBubyBwZXJzaXN0ZW50IHJlY29yZHMsIG5vIEdpdEh1YiBvcGVyYXRpb25zLgoKIyMgQ29udHJhY3QgRnJlZXplCgpgc3JjL2xpYi9hcHAtcGFyYW1zLmpzYCAocHJlLWVkaXQpIHJlY29yZGVkIGNvbnRyYWN0OgoKLSBJbXBvcnRzOiAwLgotIEV4cG9ydHM6IGBhcHBQYXJhbXNgIChuYW1lZCksIHNwcmVhZCBmcm9tIGBnZXRBcHBQYXJhbXMoKWAg4oaSIGB7IGFwcElkLCB0b2tlbiwgZnJvbVVybCwgZnVuY3Rpb25zVmVyc2lvbiwgYXBwQmFzZVVybCB9YC4KLSBFbnYgcmVhZHM6IGBWSVRFX0JBU0U0NF9BUFBfSURgLCBgVklURV9CQVNFNDRfRlVOQ1RJT05TX1ZFUlNJT05gLCBgVklURV9CQVNFNDRfQVBQX0JBU0VfVVJMYCAodmlhIGBpbXBvcnQubWV0YS5lbnZgKS4KLSBVUkwgcGFyYW1zOiBgYXBwX2lkYCwgYGFjY2Vzc190b2tlbmAsIGBjbGVhcl9hY2Nlc3NfdG9rZW5gLCBgZnJvbV91cmxgLCBgZnVuY3Rpb25zX3ZlcnNpb25gLCBgYXBwX2Jhc2VfdXJsYC4KLSBsb2NhbFN0b3JhZ2U6IGBiYXNlNDRfKmAga2V5cyAocmVhZCArIHdyaXRlKTsgYGFjY2Vzc190b2tlbmAgc3RyaXBwZWQgZnJvbSBVUkwgdmlhIGByZW1vdmVGcm9tVXJsOiB0cnVlYC4KLSBQcmVjZWRlbmNlIHBlciBmaWVsZDogVVJMIHBhcmFtIOKGkiBlbnYgZGVmYXVsdCAoc3RvcmVkKSDihpIgc3RvcmVkIHZhbHVlIOKGkiBudWxsLgotIENvbnN1bWVyczogYHNyYy9zZXJ2aWNlcy9iYXNlNDRBZGFwdGVyLmpzYCBpcyB0aGUgb25seSBpbXBvcnRlcjsgaXQgZGVzdHJ1Y3R1cmVzIGBjb25zdCB7IGFwcElkLCB0b2tlbiwgZnVuY3Rpb25zVmVyc2lvbiwgYXBwQmFzZVVybCB9ID0gYXBwUGFyYW1zYCBhbmQgcGFzc2VzIHRob3NlIG5hbWVkIGZpZWxkcyBleHBsaWNpdGx5IHRvIGBjcmVhdGVDbGllbnQoeyBhcHBJZCwgdG9rZW4sIGZ1bmN0aW9uc1ZlcnNpb24sIHNlcnZlclVybDogJycsIHJlcXVpcmVzQXV0aDogZmFsc2UsIGFwcEJhc2VVcmwgfSlgLiBUaGUgb2JqZWN0IGlzICoqZGVzdHJ1Y3R1cmVkLCBub3Qgc3ByZWFkKiogaW50byBgY3JlYXRlQ2xpZW50YC4KCioqSW50ZWdyYXRpb24gc2hhcGUgZGVjaXNpb246KiogYmVjYXVzZSBgYmFzZTQ0QWRhcHRlci5qc2AgZGVzdHJ1Y3R1cmVzIG5hbWVkIGZpZWxkcyAobm8gYC4uLmFwcFBhcmFtc2Agc3ByZWFkKSwgYWRkaW5nIGEgYHByb2ZpbGVgIGZpZWxkIHRvIHRoZSBgYXBwUGFyYW1zYCBvYmplY3QgY2Fubm90IGxlYWsgaW50byBCYXNlNDQgYGNyZWF0ZUNsaWVudGAgb3B0aW9ucy4gVGhlIHNtYWxsZXN0IHNhZmUgc2hhcGUgaXMgdGhlcmVmb3JlIGFkZGluZyBgcHJvZmlsZWAgdG8gdGhlIGV4aXN0aW5nIGV4cG9ydGVkIGBhcHBQYXJhbXNgIG9iamVjdCDigJQgbm8gc2VwYXJhdGUgbmFtZWQgZXhwb3J0IG5lZWRlZC4gYGJhc2U0NEFkYXB0ZXIuanNgIGlzIG5vdCBtb2RpZmllZCAobm8gd29ya2Fyb3VuZCByZXF1aXJlZCkuCgojIyBJbXBsZW1lbnRhdGlvbgoKYHNyYy9saWIvZW52aXJvbm1lbnQtcHJvZmlsZS5qc2Ag4oCUIHB1cmUsIHByb3ZpZGVyLWluZGVwZW5kZW50IG1vZHVsZS4gMCBpbXBvcnRzLCAwIGBpbXBvcnQubWV0YS5lbnZgL2Bwcm9jZXNzLmVudmAgcmVhZHMsIDAgbG9jYWxTdG9yYWdlL1VSTCBhY2Nlc3MsIDAgZmV0Y2gsIDAgYEBiYXNlNDQvc2RrYC9EZW5vIHJlZmVyZW5jZXMsIDAgc2VjcmV0IGxvYWRpbmcsIDAgcHJvdmlkZXIgY29uc3RydWN0aW9uICh2ZXJpZmllZCBieSBzdHJpcHBlZC1jb21tZW50IHNvdXJjZSBzY2FuKS4gUHVibGljIEFQSTogYEtOT1dOX1BST0ZJTEVTYCwgYERFRkFVTFRfRU5WSVJPTk1FTlRfUFJPRklMRWAsIGBFTlZJUk9OTUVOVF9QUk9GSUxFX0VSUk9SX0NPREVTYCwgYHJlc29sdmVBY3RpdmVQcm9maWxlKHJhd1Byb2ZpbGUpYCwgYGRlc2NyaWJlUHJvZmlsZShwcm9maWxlTmFtZSlgLiBJbnRlcm5hbCBgREVTQ1JJUFRPUlNgIG1hcCBpcyBub3QgZXhwb3J0ZWQuCgpgS05PV05fUFJPRklMRVNgIGlzIGFuIGBPYmplY3QuZnJlZXplYC1kIGFycmF5IGluIGV4YWN0IG9yZGVyOiBgYmFzZTQ0LWNsb3VkYCwgYGxvY2FsLWRldmVsb3BtZW50YCwgYHByaXZhdGUtZGVtb2AsIGBlbnRlcnByaXNlLW9mZmxpbmUtZnV0dXJlYC4gYERFRkFVTFRfRU5WSVJPTk1FTlRfUFJPRklMRWAgPSBgYmFzZTQ0LWNsb3VkYC4gRWFjaCBkZXNjcmlwdG9yIGlzIGBPYmplY3QuZnJlZXplYC1kIHdpdGggZmllbGRzIGBpZGAsIGBpbXBsZW1lbnRhdGlvblN0YXR1c2AsIGBwcm92aWRlckZhbWlseWAsIGBzZWxlY3RhYmxlYC4gTm8gY3JlZGVudGlhbHMsIFVSTHMsIHRva2VucywgcHJvdmlkZXIgaW5zdGFuY2VzLCBkYXRhc3RvcmUgY29uZmlnLCBvciBgb2ZmbGluZWAvYGFpckdhcHBlZGAgZmxhZ3MuCgpgc3JjL2xpYi9hcHAtcGFyYW1zLmpzYCDigJQgYWRkZWQgYGltcG9ydCB7IHJlc29sdmVBY3RpdmVQcm9maWxlIH0gZnJvbSAnQC9saWIvZW52aXJvbm1lbnQtcHJvZmlsZSc7YCBhbmQgb25lIGZpZWxkIGBwcm9maWxlOiByZXNvbHZlQWN0aXZlUHJvZmlsZShpbXBvcnQubWV0YS5lbnYuVklURV9BUFBfRU5WSVJPTk1FTlRfUFJPRklMRSlgIGluIHRoZSByZXR1cm5lZCBwYXJhbXMgb2JqZWN0LiBBbGwgZXhpc3RpbmcgZmllbGRzLCBrZXlzLCBwcmVjZWRlbmNlLCBhbmQgYWNjZXNzLXRva2VuIGJlaGF2aW9yIHVuY2hhbmdlZC4KCiMjIFJlc29sdXRpb24gQ29udHJhY3QKCmByZXNvbHZlQWN0aXZlUHJvZmlsZShyYXdQcm9maWxlKWAgYmVoYXZpb3IgKHZlcmlmaWVkIGJ5IGlubGluZSBwcm9iZSk6Cgp8IElucHV0IHwgUmVzdWx0IHwKfC0tLXwtLS18CnwgYHVuZGVmaW5lZGAgfCBgYmFzZTQ0LWNsb3VkYCB8CnwgYG51bGxgIHwgYGJhc2U0NC1jbG91ZGAgfAp8IGAiImAgfCBgYmFzZTQ0LWNsb3VkYCB8Cnwgd2hpdGVzcGFjZS1vbmx5IHwgYGJhc2U0NC1jbG91ZGAgfAp8IGAiYmFzZTQ0LWNsb3VkImAgfCBgYmFzZTQ0LWNsb3VkYCB8CnwgYCJsb2NhbC1kZXZlbG9wbWVudCJgIHwgYGxvY2FsLWRldmVsb3BtZW50YCB8CnwgYCJwcml2YXRlLWRlbW8iYCB8IHRocm93IGBQR1BfRU5WX1BST0ZJTEVfTk9UX0lNUExFTUVOVEVEYCB8CnwgYCJlbnRlcnByaXNlLW9mZmxpbmUtZnV0dXJlImAgfCB0aHJvdyBgUEdQX0VOVl9QUk9GSUxFX05PVF9JTVBMRU1FTlRFRGAgfAp8IHVua25vd24gc3RyaW5nIHwgdGhyb3cgYFBHUF9FTlZfUFJPRklMRV9VTktOT1dOYCB8Cnwgbm9uLXN0cmluZyBub24tbnVsbCB8IHRocm93IGBQR1BfRU5WX1BST0ZJTEVfVU5LTk9XTmAgfAoKTm8gc2lsZW50IGRvd25ncmFkZSB0byBgYmFzZTQ0LWNsb3VkYCBmb3IgcHJpdmF0ZS1kZW1vLCBlbnRlcnByaXNlLW9mZmxpbmUsIG9yIHVua25vd24gaW5wdXQuCgojIyBBcHAtUGFyYW1zIEludGVncmF0aW9uCgpOZXcgYnJvd3Nlci12aXNpYmxlIG5vbi1zZWNyZXQgZW52IHJlZmVyZW5jZTogYFZJVEVfQVBQX0VOVklST05NRU5UX1BST0ZJTEVgLCByZWFkIG9ubHkgaW4gYHNyYy9saWIvYXBwLXBhcmFtcy5qc2AuIEFic2VudCB2YXJpYWJsZSDihpIgYHJlc29sdmVBY3RpdmVQcm9maWxlKHVuZGVmaW5lZClgIOKGkiBgYmFzZTQ0LWNsb3VkYCDihpIgZXhhY3QgY3VycmVudCBCYXNlNDQgYmVoYXZpb3IuIFByb2ZpbGUgaXMgbm90IHN0b3JlZCBpbiBsb2NhbFN0b3JhZ2UsIG5vdCByZWFkIGZyb20gdGhlIFVSTCwgbm90IGxvZ2dlZCBhdXRvbWF0aWNhbGx5LCBub3QgZXhwb3NlZCB2aWEgYSBVSSBzZWxlY3Rvci4gTm8gYC5lbnZgIGZpbGUgYWRkZWQuIGBiYXNlNDRBZGFwdGVyLmpzYCBhbmQgYGJhY2tlbmRBZGFwdGVyLmpzYCB1bmNoYW5nZWQg4oCUIHByb2ZpbGUgc2VsZWN0aW9uIGRvZXMgbm90IHNlbGVjdCBvciBjb25zdHJ1Y3QgYSBwcm92aWRlci4KCiMjIFN0YXRpYyBWZXJpZmljYXRpb24KCklubGluZSBub24tcGVyc2lzdGVudCBwcm9iZSAoTm9kZSBgdm1gIHNhbmRib3gsIHJlYWwgbW9kdWxlIHNvdXJjZSB3aXRoIEVTTSBleHBvcnQgdHJhbnNmb3JtZWQgdG8gYSByZXR1cm47IG5vIHByb2JlIGZpbGUgbGVmdCBpbiByZXBvKS4gNDcgYXNzZXJ0aW9uczsgYWxsIFBBU1MgZXhjZXB0IDUgZmFsc2UgcG9zaXRpdmVzIHRoYXQgbWF0Y2hlZCBwdXJpdHktY29udHJhY3QgY29tbWVudCB0ZXh0IChyZS12ZXJpZmllZCBhZ2FpbnN0IGNvbW1lbnQtc3RyaXBwZWQgc291cmNlKS4gUmVzdWx0czoKCnwgIyB8IENoZWNrIHwgUmVzdWx0IHwgRXZpZGVuY2UgfAp8LS0tfC0tLXwtLS18LS0tfAp8IDEtNCB8IHZvY2FidWxhcnkgNCwgb3JkZXIgZXhhY3QsIGZyb3plbiwgZGVmYXVsdCBiYXNlNDQtY2xvdWQgfCBQQVNTIC8gU1RBVElDIHwgaW5saW5lIHByb2JlIHwKfCA1LTEwIHwgdW5kZWZpbmVkL251bGwvZW1wdHkvd2hpdGVzcGFjZeKGkmRlZmF1bHQ7IGJhc2U0NC1jbG91ZC9sb2NhbC1kZXZlbG9wbWVudCByZXNvbHZlIHwgUEFTUyAvIFNUQVRJQyB8IGlubGluZSBwcm9iZSB8CnwgMTEtMTIgfCBwcml2YXRlLWRlbW8vZW50ZXJwcmlzZSB0aHJvdyBOT1RfSU1QTEVNRU5URUQgfCBQQVNTIC8gU1RBVElDIHwgaW5saW5lIHByb2JlIHwKfCAxMy0xNCB8IHVua25vd24gc3RyaW5nICYgbm9uLXN0cmluZyB0aHJvdyBVTktOT1dOIHwgUEFTUyAvIFNUQVRJQyB8IGlubGluZSBwcm9iZSB8CnwgMTUgfCBlcnJvciBjb2RlcyBleGFjdCAoYFBHUF9FTlZfUFJPRklMRV9VTktOT1dOYCwgYFBHUF9FTlZfUFJPRklMRV9OT1RfSU1QTEVNRU5URURgKSwgZnJvemVuLCBFcnJvciBpbnN0YW5jZXMgfCBQQVNTIC8gU1RBVElDIHwgaW5saW5lIHByb2JlIHwKfCAxNi0xOCB8IGRlc2NyaWJlUHJvZmlsZSByZXR1cm5zIGFsbCA0OyBkZXNjcmlwdG9ycyBmcm96ZW47IGZpZWxkcyBleGFjdCAoYGlkLCBpbXBsZW1lbnRhdGlvblN0YXR1cywgcHJvdmlkZXJGYW1pbHksIHNlbGVjdGFibGVgKSB8IFBBU1MgLyBTVEFUSUMgfCBpbmxpbmUgcHJvYmUgfAp8IDE5LTIxIHwgMCBpbXBvcnRzOyAwIGltcG9ydC5tZXRhLmVudi9wcm9jZXNzLmVudi9sb2NhbFN0b3JhZ2UvVVJML2ZldGNoL0BiYXNlNDQvc2RrL0Rlbm8gaW4gY29kZTsgMCBzZWNyZXQtbGlrZSBkZXNjcmlwdG9yIGtleXMgfCBQQVNTIC8gU1RBVElDIHwgY29tbWVudC1zdHJpcHBlZCBzb3VyY2Ugc2NhbiB8CnwgMjIgfCBleGFjdGx5IG9uZSBgVklURV9BUFBfRU5WSVJPTk1FTlRfUFJPRklMRWAgcmVhZCBpbiBhcHAtcGFyYW1zIHwgUEFTUyAvIFNUQVRJQyB8IHNvdXJjZSBzY2FuIHwKfCAyMyB8IHByb2ZpbGUgbm90IHN0b3JlZCB0byBsb2NhbFN0b3JhZ2UgfCBQQVNTIC8gU1RBVElDIHwgc291cmNlIHNjYW4gfAp8IDI0IHwgcHJvZmlsZSBub3QgcmVhZCBmcm9tIFVSTCB8IFBBU1MgLyBTVEFUSUMgfCBzb3VyY2Ugc2NhbiB8CnwgMjUgfCBwcm9maWxlIG5vdCBwYXNzZWQgdG8gY3JlYXRlQ2xpZW50IChiYXNlNDRBZGFwdGVyIGRlc3RydWN0dXJlcywgbm8gYC4uLmFwcFBhcmFtc2Agc3ByZWFkKSB8IFBBU1MgLyBTVEFUSUMgfCBgYmFzZTQ0QWRhcHRlci5qc2Agc291cmNlIHwKfCAyNiB8IGV4aXN0aW5nIGFwcC1wYXJhbSBmaWVsZHMgKyBhY2Nlc3NfdG9rZW4gcmVtb3ZlRnJvbVVybCArIGNsZWFyX2FjY2Vzc190b2tlbiBwcmVzZXJ2ZWQgfCBQQVNTIC8gU1RBVElDIHwgYGFwcC1wYXJhbXMuanNgIHNvdXJjZSB8CnwgMjcgfCBubyBwcm92aWRlciBzd2l0Y2ggKGNyZWF0ZUNsaWVudCBvcHRpb25zIHVuY2hhbmdlZDogYHJlcXVpcmVzQXV0aDpmYWxzZWAsIGBzZXJ2ZXJVcmw6JydgKSB8IFBBU1MgLyBTVEFUSUMgfCBgYmFzZTQ0QWRhcHRlci5qc2Agc291cmNlIHwKfCAyOCB8IG5vIG9mZmxpbmUvcHJpdmF0ZSBjYXBhYmlsaXR5IG1hcmtlZCBpbXBsZW1lbnRlZCB8IFBBU1MgLyBTVEFUSUMgfCBkZXNjcmlwdG9ycyBgTk9UX0lNUExFTUVOVEVEYCB8CgpVbmV4ZWN1dGVkIGJlaGF2aW9yIGlzIG5vdCBsYWJlbGVkIHJ1bnRpbWUtY29uZmlybWVkLgoKIyMgQnVpbGQgYW5kIFByZXZpZXcgRXZpZGVuY2UKCi0gTW9kdWxlLWxldmVsIGFzc2VydGlvbnM6IEVYRUNVVEVEIChpbmxpbmUgbm9uLXBlcnNpc3RlbnQgcHJvYmUsIDQ3IGFzc2VydGlvbnMsIHNlZSBTdGF0aWMgVmVyaWZpY2F0aW9uKS4KLSBgbnBtIHJ1biBidWlsZGA6IE5PVCBFWEVDVVRFRCAoYWdlbnQgc2FuZGJveCBoYXMgbm8gbnBtL3NoZWxsIHJ1bnRpbWUpLgotIFByZXZpZXc6IE5PVCBFWEVDVVRFRCAoYWdlbnQgc2FuZGJveCBjYW5ub3QgZHJpdmUgdGhlIGxpdmUgUHJldmlldykuIFN0YXRpYyBldmlkZW5jZSBhYm92ZSBpcyB0aGUgYXZhaWxhYmxlIHZlcmlmaWNhdGlvbjsgYnVpbGQvcHJldmlldyB0byBiZSBjb25maXJtZWQgYnkgdGhlIHJlcG9zaXRvcnkgb3duZXIgaW4gdGhlIHJlYWwgQmFzZTQ0IFByZXZpZXcuCgojIyBCZWhhdmlvcmFsIFBhcml0eQoKV2l0aCBgVklURV9BUFBfRU5WSVJPTk1FTlRfUFJPRklMRWAgYWJzZW50OiByZXNvbHZlZCBwcm9maWxlID0gYGJhc2U0NC1jbG91ZGA7IEJhc2U0NCBhZGFwdGVyIHJlbWFpbnMgdGhlIG9ubHkgcHJvdmlkZXI7IGBjcmVhdGVDbGllbnRgIGFyZ3VtZW50cyB1bmNoYW5nZWQgKGBhcHBJZCwgdG9rZW4sIGZ1bmN0aW9uc1ZlcnNpb24sIHNlcnZlclVybDonJywgcmVxdWlyZXNBdXRoOmZhbHNlLCBhcHBCYXNlVXJsYCk7IGF1dGgsIGFwcCBJRCwgYXBwIGJhc2UgVVJMLCBmdW5jdGlvbnMtdmVyc2lvbiwgYWNjZXNzLXRva2VuLCBsb2NhbFN0b3JhZ2UsIGFuZCBVUkwtY2xlYW51cCBiZWhhdmlvciB1bmNoYW5nZWQ7IERhc2hib2FyZCByb3V0aW5nL2xvYWRpbmcgdW5jaGFuZ2VkOyBubyBuZXR3b3JrIGNhbGwgYWRkZWQ7IG5vIHBlcnNpc3RlbnQgc3RhdGUgYWRkZWQuCgojIyBTZWN1cml0eSBCb3VuZGFyaWVzCgpQcm9maWxlIG5hbWVzIGFyZSBkZXNjcmlwdGl2ZSBjb25maWd1cmF0aW9uIG1ldGFkYXRhIG9ubHkuIFRoZXkgYXJlIE5PVCBhdXRob3JpemF0aW9uLCB0ZW5hbnQgaXNvbGF0aW9uLCBSTFMsIGxpY2Vuc2UgZW5mb3JjZW1lbnQsIHByb3ZpZGVyIHNlY3VyaXR5LCBvciBkZXBsb3ltZW50IHByb29mLiBTZXJ2ZXIgYXV0aG9yaXphdGlvbiBhbmQgdGVuYW50IGVuZm9yY2VtZW50IHJlbWFpbiBtYW5kYXRvcnk7IGVudmlyb25tZW50IGNvbmZpZ3VyYXRpb24gZG9lcyBub3Qgd2Vha2VuIFJMUyBvciBhcHBsaWNhdGlvbiBjaGVja3MuIFNlbGVjdGluZyBgcHJpdmF0ZS1kZW1vYC9gZW50ZXJwcmlzZS1vZmZsaW5lLWZ1dHVyZWAgZmFpbHMgZmFzdCDigJQgbm8gZmFsc2Ugb2ZmbGluZS9wcml2YXRlIGRlcGxveW1lbnQgY2xhaW0gaXMgcG9zc2libGUuCgojIyBSb2xsYmFjawoKUm9sbGJhY2sgcmVxdWlyZXMgb25seTogKDEpIGRlbGV0ZSBgc3JjL2xpYi9lbnZpcm9ubWVudC1wcm9maWxlLmpzYDsgKDIpIHJldmVydCB0aGUgdHdvIFdhdmUgMTAuNUEuMiBlZGl0cyBpbiBgc3JjL2xpYi9hcHAtcGFyYW1zLmpzYCAodGhlIGltcG9ydCBsaW5lIGFuZCB0aGUgYHByb2ZpbGVgIGZpZWxkKTsgKDMpIGRlbGV0ZSB0aGlzIGRvY3VtZW50LiBObyByb2xsYmFjayByZXF1aXJlZCBmb3IgYHBhY2thZ2UuanNvbmAsIGBwYWNrYWdlLWxvY2suanNvbmAsIGBiYXNlNDRBZGFwdGVyLmpzYCwgYGJhY2tlbmRBZGFwdGVyLmpzYCwgYmFja2VuZCBmdW5jdGlvbnMsIGVudGl0aWVzLCBSTFMsIGBwZ3AtY29yZS1kb21haW5gLCBQaGFzZSAy4oCTOSBkb2NzLCAxMC40IGRvY3MsIG9yIHRoZSAxMC41QS4xIHBsYW5uaW5nIGRvY3VtZW50LgoKIyMgUmVzaWR1YWwgUmlza3MKCi0gQSBmdXR1cmUgY29uc3VtZXIgY291bGQgc3ByZWFkIGAuLi5hcHBQYXJhbXNgIGludG8gYSBCYXNlNDQgY2FsbCwgbGVha2luZyBgcHJvZmlsZWAgYXMgYW4gdW5rbm93biBvcHRpb24gKG1pdGlnYXRpb246IGRvY3VtZW50ZWQgY29udHJhY3Qg4oCUIGRlc3RydWN0dXJpbmcgb25seTsgYGJhc2U0NEFkYXB0ZXIuanNgIHVuY2hhbmdlZCkuCi0gUHJvZmlsZSBuYW1lcyBjb3VsZCBiZSBtaXN1c2VkIGFzIGEgc2VjdXJpdHkgYm91bmRhcnkgKG1pdGlnYXRpb246IGRvY3VtZW50ZWQgU2VjdXJpdHkgQm91bmRhcmllcykuCi0gYG5wbSBydW4gYnVpbGRgIGFuZCBQcmV2aWV3IG5vdCBleGVjdXRlZCBpbiB0aGlzIGVudmlyb25tZW50IOKAlCB0byBiZSBjb25maXJtZWQgYnkgdGhlIHJlcG9zaXRvcnkgb3duZXIuCi0gQmFzZTQ0IGJ1aWxkIHBsdWdpbiwgcnVudGltZSwgYXV0aCwgZGF0YXN0b3JlLCBhbmQgUkxTIHJlbWFpbiB0aGUgb25seSBwcm92aWRlcjsgbm8gYWx0ZXJuYXRlIHByb3ZpZGVyIGV4aXN0cy4KLSBQaGFzZSAxMCBpcyBub3QgZnJvemVuLgoKIyMgTmV4dCBEZWNpc2lvbiBHYXRlCgoqKldhdmUgMTAuNUEuMyDigJQgZW52aXJvbm1lbnQtcHJvZmlsZSBpbXBsZW1lbnRhdGlvbiB2ZXJpZmljYXRpb24gYW5kIGNsb3N1cmUgZXZhbHVhdGlvbiDigJQgUkVRVUlSRVMgRVhQTElDSVQgQVBQUk9WQUwuKiogTm90IHN0YXJ0ZWQgYnkgdGhpcyB3YXZlLiBXYXZlIDEwLjUgaXMgbm90IG1hcmtlZCBjb21wbGV0ZTsgUGhhc2UgMTAgaXMgbm90IG1hcmtlZCBmcm96ZW4uCgojIyBGaW5hbCBSZXN1bHQKCioqV2F2ZSAxMC41QS4yIGVudmlyb25tZW50LXByb2ZpbGUgZGVzY3JpcHRvciBpbXBsZW1lbnRhdGlvbiBjb21wbGV0ZS4qKg==
+# Phase 10 — Wave 10.5A.2 Environment Profile Implementation
+
+**Document type:** Authoritative implementation record for Wave 10.5A.2. Supplements the 10.5A.1 planning document; does not modify or weaken any Phase 2–9 frozen contract or existing Phase 10 architecture rule.
+**Date:** 2026-07-25.
+
+## Status
+
+| Field | Value |
+|---|---|
+| Phase | 10 — IMPLEMENTATION |
+| Wave 10.5A.1 (planning) | COMPLETE |
+| Wave 10.5A.2 (this implementation) | IMPLEMENTATION COMPLETE |
+| Wave 10.5 implementation | IN PROGRESS (1 approved build/environment candidate complete) |
+| Private demo | NOT IMPLEMENTED |
+| Enterprise offline | NOT IMPLEMENTED |
+| Phase 10 frozen snapshot | NOT CREATED |
+| Next gate | Wave 10.5A.3 verification & closure — REQUIRES EXPLICIT APPROVAL |
+
+## Scope
+
+Approved candidate `environment-profile-descriptor` implemented. Files created: `src/lib/environment-profile.js`, this document. Files modified: `src/lib/app-params.js` (one import + one field). Not modified: `PHASE_10_PORTABILITY_SPEC.md`, `PHASE_10_WAVE_10_4B_CLOSURE_EVALUATION.md`, `PHASE_10_WAVE_10_5_BUILD_ENVIRONMENT_PROFILES.md`, `base44Adapter.js`, `backendAdapter.js`, `base44Client.js`, `vite.config.js`, `package.json`, `package-lock.json`, backend functions, entities, RLS, `pgp-core-domain`, Phase 2–9 docs. No provider switching, no private-demo, no enterprise-offline, no Docker, no config-file loading, no secrets, no UI controls, no telemetry, no deployment, no persistent records, no GitHub operations.
+
+## Contract Freeze
+
+`src/lib/app-params.js` (pre-edit) recorded contract:
+
+- Imports: 0.
+- Exports: `appParams` (named), spread from `getAppParams()` → `{ appId, token, fromUrl, functionsVersion, appBaseUrl }`.
+- Env reads: `VITE_BASE44_APP_ID`, `VITE_BASE44_FUNCTIONS_VERSION`, `VITE_BASE44_APP_BASE_URL` (via `import.meta.env`).
+- URL params: `app_id`, `access_token`, `clear_access_token`, `from_url`, `functions_version`, `app_base_url`.
+- localStorage: `base44_*` keys (read + write); `access_token` stripped from URL via `removeFromUrl: true`.
+- Precedence per field: URL param → env default (stored) → stored value → null.
+- Consumers: `src/services/base44Adapter.js` is the only importer; it destructures `const { appId, token, functionsVersion, appBaseUrl } = appParams` and passes those named fields explicitly to `createClient({ appId, token, functionsVersion, serverUrl: '', requiresAuth: false, appBaseUrl })`. The object is **destructured, not spread** into `createClient`.
+
+**Integration shape decision:** because `base44Adapter.js` destructures named fields (no `...appParams` spread), adding a `profile` field to the `appParams` object cannot leak into Base44 `createClient` options. The smallest safe shape is therefore adding `profile` to the existing exported `appParams` object — no separate named export needed. `base44Adapter.js` is not modified (no workaround required).
+
+## Implementation
+
+`src/lib/environment-profile.js` — pure, provider-independent module. 0 imports, 0 `import.meta.env`/`process.env` reads, 0 localStorage/URL access, 0 fetch, 0 `@base44/sdk`/Deno references, 0 secret loading, 0 provider construction (verified by stripped-comment source scan). Public API: `KNOWN_PROFILES`, `DEFAULT_ENVIRONMENT_PROFILE`, `ENVIRONMENT_PROFILE_ERROR_CODES`, `resolveActiveProfile(rawProfile)`, `describeProfile(profileName)`. Internal `DESCRIPTORS` map is not exported.
+
+`KNOWN_PROFILES` is an `Object.freeze`-d array in exact order: `base44-cloud`, `local-development`, `private-demo`, `enterprise-offline-future`. `DEFAULT_ENVIRONMENT_PROFILE` = `base44-cloud`. Each descriptor is `Object.freeze`-d with fields `id`, `implementationStatus`, `providerFamily`, `selectable`. No credentials, URLs, tokens, provider instances, datastore config, or `offline`/`airGapped` flags.
+
+`src/lib/app-params.js` — added `import { resolveActiveProfile } from '@/lib/environment-profile';` and one field `profile: resolveActiveProfile(import.meta.env.VITE_APP_ENVIRONMENT_PROFILE)` in the returned params object. All existing fields, keys, precedence, and access-token behavior unchanged.
+
+## Resolution Contract
+
+`resolveActiveProfile(rawProfile)` behavior (verified by inline probe):
+
+| Input | Result |
+|---|---|
+| `undefined` | `base44-cloud` |
+| `null` | `base44-cloud` |
+| `""` | `base44-cloud` |
+| whitespace-only | `base44-cloud` |
+| `"base44-cloud"` | `base44-cloud` |
+| `"local-development"` | `local-development` |
+| `"private-demo"` | throw `PGP_ENV_PROFILE_NOT_IMPLEMENTED` |
+| `"enterprise-offline-future"` | throw `PGP_ENV_PROFILE_NOT_IMPLEMENTED` |
+| unknown string | throw `PGP_ENV_PROFILE_UNKNOWN` |
+| non-string non-null | throw `PGP_ENV_PROFILE_UNKNOWN` |
+
+No silent downgrade to `base44-cloud` for private-demo, enterprise-offline, or unknown input.
+
+## App-Params Integration
+
+New browser-visible non-secret env reference: `VITE_APP_ENVIRONMENT_PROFILE`, read only in `src/lib/app-params.js`. Absent variable → `resolveActiveProfile(undefined)` → `base44-cloud` → exact current Base44 behavior. Profile is not stored in localStorage, not read from the URL, not logged automatically, not exposed via a UI selector. No `.env` file added. `base44Adapter.js` and `backendAdapter.js` unchanged — profile selection does not select or construct a provider.
+
+## Static Verification
+
+Inline non-persistent probe (Node `vm` sandbox, real module source with ESM export transformed to a return; no probe file left in repo). 47 assertions; all PASS except 5 false positives that matched purity-contract comment text (re-verified against comment-stripped source). Results:
+
+| # | Check | Result | Evidence |
+|---|---|---|---|
+| 1-4 | vocabulary 4, order exact, frozen, default base44-cloud | PASS / STATIC | inline probe |
+| 5-10 | undefined/null/empty/whitespace→default; base44-cloud/local-development resolve | PASS / STATIC | inline probe |
+| 11-12 | private-demo/enterprise throw NOT_IMPLEMENTED | PASS / STATIC | inline probe |
+| 13-14 | unknown string & non-string throw UNKNOWN | PASS / STATIC | inline probe |
+| 15 | error codes exact (`PGP_ENV_PROFILE_UNKNOWN`, `PGP_ENV_PROFILE_NOT_IMPLEMENTED`), frozen, Error instances | PASS / STATIC | inline probe |
+| 16-18 | describeProfile returns all 4; descriptors frozen; fields exact (`id, implementationStatus, providerFamily, selectable`) | PASS / STATIC | inline probe |
+| 19-21 | 0 imports; 0 import.meta.env/process.env/localStorage/URL/fetch/@base44/sdk/Deno in code; 0 secret-like descriptor keys | PASS / STATIC | comment-stripped source scan |
+| 22 | exactly one `VITE_APP_ENVIRONMENT_PROFILE` read in app-params | PASS / STATIC | source scan |
+| 23 | profile not stored to localStorage | PASS / STATIC | source scan |
+| 24 | profile not read from URL | PASS / STATIC | source scan |
+| 25 | profile not passed to createClient (base44Adapter destructures, no `...appParams` spread) | PASS / STATIC | `base44Adapter.js` source |
+| 26 | existing app-param fields + access_token removeFromUrl + clear_access_token preserved | PASS / STATIC | `app-params.js` source |
+| 27 | no provider switch (createClient options unchanged: `requiresAuth:false`, `serverUrl:''`) | PASS / STATIC | `base44Adapter.js` source |
+| 28 | no offline/private capability marked implemented | PASS / STATIC | descriptors `NOT_IMPLEMENTED` |
+
+Unexecuted behavior is not labeled runtime-confirmed.
+
+## Build and Preview Evidence
+
+- Module-level assertions: EXECUTED (inline non-persistent probe, 47 assertions, see Static Verification).
+- `npm run build`: NOT EXECUTED (agent sandbox has no npm/shell runtime).
+- Preview: NOT EXECUTED (agent sandbox cannot drive the live Preview). Static evidence above is the available verification; build/preview to be confirmed by the repository owner in the real Base44 Preview.
+
+## Behavioral Parity
+
+With `VITE_APP_ENVIRONMENT_PROFILE` absent: resolved profile = `base44-cloud`; Base44 adapter remains the only provider; `createClient` arguments unchanged (`appId, token, functionsVersion, serverUrl:'', requiresAuth:false, appBaseUrl`); auth, app ID, app base URL, functions-version, access-token, localStorage, and URL-cleanup behavior unchanged; Dashboard routing/loading unchanged; no network call added; no persistent state added.
+
+## Security Boundaries
+
+Profile names are descriptive configuration metadata only. They are NOT authorization, tenant isolation, RLS, license enforcement, provider security, or deployment proof. Server authorization and tenant enforcement remain mandatory; environment configuration does not weaken RLS or application checks. Selecting `private-demo`/`enterprise-offline-future` fails fast — no false offline/private deployment claim is possible.
+
+## Rollback
+
+Rollback requires only: (1) delete `src/lib/environment-profile.js`; (2) revert the two Wave 10.5A.2 edits in `src/lib/app-params.js` (the import line and the `profile` field); (3) delete this document. No rollback required for `package.json`, `package-lock.json`, `base44Adapter.js`, `backendAdapter.js`, backend functions, entities, RLS, `pgp-core-domain`, Phase 2–9 docs, 10.4 docs, or the 10.5A.1 planning document.
+
+## Residual Risks
+
+- A future consumer could spread `...appParams` into a Base44 call, leaking `profile` as an unknown option (mitigation: documented contract — destructuring only; `base44Adapter.js` unchanged).
+- Profile names could be misused as a security boundary (mitigation: documented Security Boundaries).
+- `npm run build` and Preview not executed in this environment — to be confirmed by the repository owner.
+- Base44 build plugin, runtime, auth, datastore, and RLS remain the only provider; no alternate provider exists.
+- Phase 10 is not frozen.
+
+## Next Decision Gate
+
+**Wave 10.5A.3 — environment-profile implementation verification and closure evaluation — REQUIRES EXPLICIT APPROVAL.** Not started by this wave. Wave 10.5 is not marked complete; Phase 10 is not marked frozen.
+
+## Final Result
+
+**Wave 10.5A.2 environment-profile descriptor implementation complete.**

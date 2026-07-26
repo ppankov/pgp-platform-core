@@ -1,1 +1,125 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZVN0YXRlIH0gZnJvbSAicmVhY3QiOwppbXBvcnQgeyBMaW5rIH0gZnJvbSAicmVhY3Qtcm91dGVyLWRvbSI7CmltcG9ydCB7IGJhY2tlbmQgfSBmcm9tICJAL3NlcnZpY2VzL2JhY2tlbmRBZGFwdGVyIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IElucHV0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2lucHV0IjsKaW1wb3J0IHsgTGFiZWwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvbGFiZWwiOwppbXBvcnQgeyBMb2dJbiwgTWFpbCwgTG9jaywgTG9hZGVyMiB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCBBdXRoTGF5b3V0IGZyb20gIkAvY29tcG9uZW50cy9BdXRoTGF5b3V0IjsKaW1wb3J0IEdvb2dsZUljb24gZnJvbSAiQC9jb21wb25lbnRzL0dvb2dsZUljb24iOwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gTG9naW4oKSB7CiAgY29uc3QgW2VtYWlsLCBzZXRFbWFpbF0gPSB1c2VTdGF0ZSgiIik7CiAgY29uc3QgW3Bhc3N3b3JkLCBzZXRQYXNzd29yZF0gPSB1c2VTdGF0ZSgiIik7CiAgY29uc3QgW2Vycm9yLCBzZXRFcnJvcl0gPSB1c2VTdGF0ZSgiIik7CiAgY29uc3QgW2xvYWRpbmcsIHNldExvYWRpbmddID0gdXNlU3RhdGUoZmFsc2UpOwoKICBjb25zdCBoYW5kbGVTdWJtaXQgPSBhc3luYyAoZSkgPT4gewogICAgZS5wcmV2ZW50RGVmYXVsdCgpOwogICAgc2V0RXJyb3IoIiIpOwogICAgc2V0TG9hZGluZyh0cnVlKTsKICAgIHRyeSB7CiAgICAgIGF3YWl0IGJhY2tlbmQuYXV0aC5sb2dpblZpYUVtYWlsUGFzc3dvcmQoZW1haWwsIHBhc3N3b3JkKTsKICAgICAgd2luZG93LmxvY2F0aW9uLmhyZWYgPSAiLyI7CiAgICB9IGNhdGNoIChlcnIpIHsKICAgICAgc2V0RXJyb3IoZXJyLm1lc3NhZ2UgfHwgIkludmFsaWQgZW1haWwgb3IgcGFzc3dvcmQiKTsKICAgIH0gZmluYWxseSB7CiAgICAgIHNldExvYWRpbmcoZmFsc2UpOwogICAgfQogIH07CgogIGNvbnN0IGhhbmRsZUdvb2dsZSA9ICgpID0+IHsKICAgIGJhY2tlbmQuYXV0aC5sb2dpbldpdGhQcm92aWRlcigiZ29vZ2xlIiwgIi8iKTsKICB9OwoKICByZXR1cm4gKAogICAgPEF1dGhMYXlvdXQKICAgICAgaWNvbj17TG9nSW59CiAgICAgIHRpdGxlPSJXZWxjb21lIGJhY2siCiAgICAgIHN1YnRpdGxlPSJMb2cgaW4gdG8geW91ciBhY2NvdW50IgogICAgICBmb290ZXI9ewogICAgICAgIDw+CiAgICAgICAgICBEb24ndCBoYXZlIGFuIGFjY291bnQ/eyIgIn0KICAgICAgICAgIDxMaW5rIHRvPSIvcmVnaXN0ZXIiIGNsYXNzTmFtZT0idGV4dC1wcmltYXJ5IGZvbnQtbWVkaXVtIGhvdmVyOnVuZGVybGluZSI+CiAgICAgICAgICAgIENyZWF0ZSBvbmUKICAgICAgICAgIDwvTGluaz4KICAgICAgICA8Lz4KICAgICAgfQogICAgPgogICAgICA8QnV0dG9uCiAgICAgICAgdmFyaWFudD0ib3V0bGluZSIKICAgICAgICBjbGFzc05hbWU9InctZnVsbCBoLTEyIHRleHQtc20gZm9udC1tZWRpdW0gbWItNiIKICAgICAgICBvbkNsaWNrPXtoYW5kbGVHb29nbGV9CiAgICAgID4KICAgICAgICA8R29vZ2xlSWNvbiBjbGFzc05hbWU9InctNSBoLTUgbXItMiIgLz4KICAgICAgICBDb250aW51ZSB3aXRoIEdvb2dsZQogICAgICA8L0J1dHRvbj4KCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZWxhdGl2ZSBtYi02Ij4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgaW5zZXQtMCBmbGV4IGl0ZW1zLWNlbnRlciI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy1mdWxsIGJvcmRlci10IGJvcmRlci1ib3JkZXIiIC8+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIGZsZXgganVzdGlmeS1jZW50ZXIgdGV4dC14cyB1cHBlcmNhc2UiPgogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJiZy1jYXJkIHB4LTMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj5vcjwvc3Bhbj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CgogICAgICB7ZXJyb3IgJiYgKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYi00IHAtMyByb3VuZGVkLWxnIGJnLWRlc3RydWN0aXZlLzEwIHRleHQtZGVzdHJ1Y3RpdmUgdGV4dC1zbSI+CiAgICAgICAgICB7ZXJyb3J9CiAgICAgICAgPC9kaXY+CiAgICAgICl9CgogICAgICA8Zm9ybSBvblN1Ym1pdD17aGFuZGxlU3VibWl0fSBjbGFzc05hbWU9InNwYWNlLXktNCI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktMiI+CiAgICAgICAgICA8TGFiZWwgaHRtbEZvcj0iZW1haWwiPkVtYWlsPC9MYWJlbD4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZWxhdGl2ZSI+CiAgICAgICAgICAgIDxNYWlsIGNsYXNzTmFtZT0iYWJzb2x1dGUgbGVmdC0zIHRvcC0xLzIgLXRyYW5zbGF0ZS15LTEvMiB3LTQgaC00IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIgYXJpYS1oaWRkZW49InRydWUiIC8+CiAgICAgICAgICAgIDxJbnB1dAogICAgICAgICAgICAgIGlkPSJlbWFpbCIKICAgICAgICAgICAgICB0eXBlPSJlbWFpbCIKICAgICAgICAgICAgICBhdXRvQ29tcGxldGU9ImVtYWlsIgogICAgICAgICAgICAgIGF1dG9Gb2N1cwogICAgICAgICAgICAgIHBsYWNlaG9sZGVyPSJ5b3VAZXhhbXBsZS5jb20iCiAgICAgICAgICAgICAgdmFsdWU9e2VtYWlsfQogICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0RW1haWwoZS50YXJnZXQudmFsdWUpfQogICAgICAgICAgICAgIGNsYXNzTmFtZT0icGwtMTAgaC0xMiIKICAgICAgICAgICAgICByZXF1aXJlZAogICAgICAgICAgICAvPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktMiI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIj4KICAgICAgICAgICAgPExhYmVsIGh0bWxGb3I9InBhc3N3b3JkIj5QYXNzd29yZDwvTGFiZWw+CiAgICAgICAgICAgIDxMaW5rIHRvPSIvZm9yZ290LXBhc3N3b3JkIiBjbGFzc05hbWU9InRleHQteHMgdGV4dC1wcmltYXJ5IGhvdmVyOnVuZGVybGluZSI+CiAgICAgICAgICAgICAgRm9yZ290IHBhc3N3b3JkPwogICAgICAgICAgICA8L0xpbms+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZWxhdGl2ZSI+CiAgICAgICAgICAgIDxMb2NrIGNsYXNzTmFtZT0iYWJzb2x1dGUgbGVmdC0zIHRvcC0xLzIgLXRyYW5zbGF0ZS15LTEvMiB3LTQgaC00IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIgYXJpYS1oaWRkZW49InRydWUiIC8+CiAgICAgICAgICAgIDxJbnB1dAogICAgICAgICAgICAgIGlkPSJwYXNzd29yZCIKICAgICAgICAgICAgICB0eXBlPSJwYXNzd29yZCIKICAgICAgICAgICAgICBhdXRvQ29tcGxldGU9ImN1cnJlbnQtcGFzc3dvcmQiCiAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9IuKAouKAouKAouKAouKAouKAouKAouKAoiIKICAgICAgICAgICAgICB2YWx1ZT17cGFzc3dvcmR9CiAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRQYXNzd29yZChlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJwbC0xMCBoLTEyIgogICAgICAgICAgICAgIHJlcXVpcmVkCiAgICAgICAgICAgIC8+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8QnV0dG9uIHR5cGU9InN1Ym1pdCIgY2xhc3NOYW1lPSJ3LWZ1bGwgaC0xMiBmb250LW1lZGl1bSIgZGlzYWJsZWQ9e2xvYWRpbmd9PgogICAgICAgICAge2xvYWRpbmcgPyAoCiAgICAgICAgICAgIDw+CiAgICAgICAgICAgICAgPExvYWRlcjIgY2xhc3NOYW1lPSJ3LTQgaC00IG1yLTIgYW5pbWF0ZS1zcGluIiAvPgogICAgICAgICAgICAgIExvZ2dpbmcgaW4uLi4KICAgICAgICAgICAgPC8+CiAgICAgICAgICApIDogKAogICAgICAgICAgICAiTG9nIGluIgogICAgICAgICAgKX0KICAgICAgICA8L0J1dHRvbj4KICAgICAgPC9mb3JtPgogICAgPC9BdXRoTGF5b3V0PgogICk7Cn0=
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import { backend } from "@/services/backendAdapter";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { LogIn, Mail, Lock, Loader2 } from "lucide-react";
+import AuthLayout from "@/components/AuthLayout";
+import GoogleIcon from "@/components/GoogleIcon";
+
+export default function Login() {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
+  const [loading, setLoading] = useState(false);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setError("");
+    setLoading(true);
+    try {
+      await backend.auth.loginViaEmailPassword(email, password);
+      window.location.href = "/";
+    } catch (err) {
+      setError(err.message || "Invalid email or password");
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleGoogle = () => {
+    backend.auth.loginWithProvider("google", "/");
+  };
+
+  return (
+    <AuthLayout
+      icon={LogIn}
+      title="Welcome back"
+      subtitle="Log in to your account"
+      footer={
+        <>
+          Don't have an account?{" "}
+          <Link to="/register" className="text-primary font-medium hover:underline">
+            Create one
+          </Link>
+        </>
+      }
+    >
+      <Button
+        variant="outline"
+        className="w-full h-12 text-sm font-medium mb-6"
+        onClick={handleGoogle}
+      >
+        <GoogleIcon className="w-5 h-5 mr-2" />
+        Continue with Google
+      </Button>
+
+      <div className="relative mb-6">
+        <div className="absolute inset-0 flex items-center">
+          <div className="w-full border-t border-border" />
+        </div>
+        <div className="relative flex justify-center text-xs uppercase">
+          <span className="bg-card px-3 text-muted-foreground">or</span>
+        </div>
+      </div>
+
+      {error && (
+        <div className="mb-4 p-3 rounded-lg bg-destructive/10 text-destructive text-sm">
+          {error}
+        </div>
+      )}
+
+      <form onSubmit={handleSubmit} className="space-y-4">
+        <div className="space-y-2">
+          <Label htmlFor="email">Email</Label>
+          <div className="relative">
+            <Mail className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" aria-hidden="true" />
+            <Input
+              id="email"
+              type="email"
+              autoComplete="email"
+              autoFocus
+              placeholder="you@example.com"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              className="pl-10 h-12"
+              required
+            />
+          </div>
+        </div>
+        <div className="space-y-2">
+          <div className="flex items-center justify-between">
+            <Label htmlFor="password">Password</Label>
+            <Link to="/forgot-password" className="text-xs text-primary hover:underline">
+              Forgot password?
+            </Link>
+          </div>
+          <div className="relative">
+            <Lock className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" aria-hidden="true" />
+            <Input
+              id="password"
+              type="password"
+              autoComplete="current-password"
+              placeholder="••••••••"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              className="pl-10 h-12"
+              required
+            />
+          </div>
+        </div>
+        <Button type="submit" className="w-full h-12 font-medium" disabled={loading}>
+          {loading ? (
+            <>
+              <Loader2 className="w-4 h-4 mr-2 animate-spin" />
+              Logging in...
+            </>
+          ) : (
+            "Log in"
+          )}
+        </Button>
+      </form>
+    </AuthLayout>
+  );
+}

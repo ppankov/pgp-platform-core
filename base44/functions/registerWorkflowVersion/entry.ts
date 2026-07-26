@@ -1,1 +1,82 @@
-aW1wb3J0IHsgY3JlYXRlQ2xpZW50RnJvbVJlcXVlc3QgfSBmcm9tICducG06QGJhc2U0NC9zZGtAMC44LjM4JzsKaW1wb3J0IHsgdmFsaWRhdGVXb3JrZmxvd0dyYXBoIH0gZnJvbSAibnBtOkBwcGFua292L3BncC1jb3JlLWRvbWFpbkAwLjEuMC1hbHBoYS4xL3dvcmtmbG93IjsKCi8vIFdvcmtmbG93IEVuZ2luZSDigJQgcmVnaXN0ZXJXb3JrZmxvd1ZlcnNpb24gKFBoYXNlIDcpCi8vIENyZWF0ZXMgYSBkcmFmdCB2ZXJzaW9uIHdpdGggYSB2YWxpZGF0ZWQgZGVjbGFyYXRpdmUgZ3JhcGguIFJlc3BlY3RzIGRlZmluaXRpb24gc2NvcGUuCi8vIHdvcmtmbG93RGVmaW5pdGlvbklkICsgdmVyc2lvbiBtdXN0IGJlIHVuaXF1ZS4gR3JhcGggaXMgZGVjbGFyYXRpdmUtb25seS4KLy8gV2F2ZSAxMC4zQjogZ3JhcGggdmFsaWRhdGlvbiBkZWxlZ2F0ZWQgdG8gQHBwYW5rb3YvcGdwLWNvcmUtZG9tYWluIChleGFjdCB2ZXJzaW9uIHBpbikuCgpjb25zdCBzdHIgPSAodikgPT4gKHR5cGVvZiB2ID09PSAnc3RyaW5nJyA/IHYudHJpbSgpIDogJycpOwoKYXN5bmMgZnVuY3Rpb24gcHVibGlzaChiYXNlNDQsIGV2ZW50VHlwZSwgc291cmNlSWQsIHBheWxvYWQpIHsKICB0cnkgewogICAgYXdhaXQgYmFzZTQ0LmZ1bmN0aW9ucy5pbnZva2UoJ3B1Ymxpc2hFdmVudCcsIHsKICAgICAgZXZlbnRUeXBlLCBzb3VyY2VUeXBlOiAnd29ya2Zsb3cnLCBzb3VyY2VJZDogU3RyaW5nKHNvdXJjZUlkKSwgcGF5bG9hZCwKICAgIH0pOwogIH0gY2F0Y2ggKF9lKSB7IC8qIGJlc3QtZWZmb3J0ICovIH0KfQoKRGVuby5zZXJ2ZShhc3luYyAocmVxKSA9PiB7CiAgdHJ5IHsKICAgIGNvbnN0IGJhc2U0NCA9IGNyZWF0ZUNsaWVudEZyb21SZXF1ZXN0KHJlcSk7CiAgICBjb25zdCB1c2VyID0gYXdhaXQgYmFzZTQ0LmF1dGgubWUoKTsKICAgIGlmICghdXNlcikgcmV0dXJuIFJlc3BvbnNlLmpzb24oeyBlcnJvcjogJ1VuYXV0aG9yaXplZCcgfSwgeyBzdGF0dXM6IDQwMSB9KTsKCiAgICBjb25zdCByb2xlID0gdXNlci5yb2xlOwogICAgY29uc3QgYm9keSA9IGF3YWl0IHJlcS5qc29uKCkuY2F0Y2goKCkgPT4gKHt9KSk7CiAgICBjb25zdCB3b3JrZmxvd0RlZmluaXRpb25JZCA9IHN0cihib2R5Py53b3JrZmxvd0RlZmluaXRpb25JZCk7CiAgICBjb25zdCB2ZXJzaW9uID0gc3RyKGJvZHk/LnZlcnNpb24pOwogICAgaWYgKCF3b3JrZmxvd0RlZmluaXRpb25JZCB8fCAhdmVyc2lvbikgewogICAgICByZXR1cm4gUmVzcG9uc2UuanNvbih7IGVycm9yOiAnd29ya2Zsb3dEZWZpbml0aW9uSWQgYW5kIHZlcnNpb24gYXJlIHJlcXVpcmVkJyB9LCB7IHN0YXR1czogNDAwIH0pOwogICAgfQogICAgY29uc3QgZ3JhcGggPSBib2R5Py5ncmFwaDsKICAgIGlmICghZ3JhcGggfHwgdHlwZW9mIGdyYXBoICE9PSAnb2JqZWN0JyB8fCBBcnJheS5pc0FycmF5KGdyYXBoKSkgewogICAgICByZXR1cm4gUmVzcG9uc2UuanNvbih7IGVycm9yOiAnZ3JhcGggaXMgcmVxdWlyZWQgYW5kIG11c3QgYmUgYW4gb2JqZWN0JyB9LCB7IHN0YXR1czogNDAwIH0pOwogICAgfQoKICAgIGNvbnN0IHN2YyA9IGJhc2U0NC5hc1NlcnZpY2VSb2xlOwogICAgY29uc3QgZGVmID0gYXdhaXQgc3ZjLmVudGl0aWVzLldvcmtmbG93RGVmaW5pdGlvbi5nZXQod29ya2Zsb3dEZWZpbml0aW9uSWQpLmNhdGNoKCgpID0+IG51bGwpOwogICAgaWYgKCFkZWYpIHJldHVybiBSZXNwb25zZS5qc29uKHsgZXJyb3I6ICdXb3JrZmxvdyBkZWZpbml0aW9uIG5vdCBmb3VuZCcgfSwgeyBzdGF0dXM6IDQwNCB9KTsKCiAgICAvLyBzY29wZSBwZXJtaXNzaW9uCiAgICBpZiAoZGVmLnNjb3BlID09PSAncGxhdGZvcm0nKSB7CiAgICAgIGlmIChyb2xlICE9PSAnY29yZV9kZXZlbG9wZXInICYmIHJvbGUgIT09ICdzdXBlcl9hZG1pbicpIHsKICAgICAgICByZXR1cm4gUmVzcG9uc2UuanNvbih7IGVycm9yOiAnTm90IHBlcm1pdHRlZCB0byBtYW5hZ2UgdmVyc2lvbnMgZm9yIHBsYXRmb3JtIHdvcmtmbG93IGRlZmluaXRpb25zJyB9LCB7IHN0YXR1czogNDAzIH0pOwogICAgICB9CiAgICB9IGVsc2UgewogICAgICBpZiAocm9sZSAhPT0gJ2FkbWluJyAmJiByb2xlICE9PSAnc3VwZXJfYWRtaW4nKSB7CiAgICAgICAgcmV0dXJuIFJlc3BvbnNlLmpzb24oeyBlcnJvcjogJ05vdCBwZXJtaXR0ZWQgdG8gbWFuYWdlIHZlcnNpb25zIGZvciBvcmdhbml6YXRpb24gd29ya2Zsb3cgZGVmaW5pdGlvbnMnIH0sIHsgc3RhdHVzOiA0MDMgfSk7CiAgICAgIH0KICAgIH0KCiAgICAvLyBQaGFzZSA5OiBvcmctc2NvcGVkIGRlZmluaXRpb25zIHJlcXVpcmUgYWN0aXZlIE9yZ2FuaXphdGlvbk1lbWJlciBtZW1iZXJzaGlwIChEZWNpc2lvbiBCMikuCiAgICBpZiAoZGVmLnNjb3BlID09PSAnb3JnYW5pemF0aW9uJyAmJiByb2xlICE9PSAnc3VwZXJfYWRtaW4nKSB7CiAgICAgIGNvbnN0IF9tZW1iZXJzID0gYXdhaXQgc3ZjLmVudGl0aWVzLk9yZ2FuaXphdGlvbk1lbWJlci5maWx0ZXIoeyB1c2VyX2lkOiB1c2VyLmlkLCBvcmdhbml6YXRpb25faWQ6IGRlZi5vcmdhbml6YXRpb25JZCwgc3RhdHVzOiAnYWN0aXZlJyB9KS5jYXRjaCgoKSA9PiBbXSk7CiAgICAgIGlmICghX21lbWJlcnMgfHwgX21lbWJlcnMubGVuZ3RoID09PSAwKSByZXR1cm4gUmVzcG9uc2UuanNvbih7IGVycm9yOiAnTm90IGEgbWVtYmVyIG9mIHRoaXMgb3JnYW5pemF0aW9uJyB9LCB7IHN0YXR1czogNDAzIH0pOwogICAgfQoKICAgIC8vIGR1cGxpY2F0ZSB2ZXJzaW9uCiAgICBjb25zdCBleGlzdGluZyA9IGF3YWl0IHN2Yy5lbnRpdGllcy5Xb3JrZmxvd1ZlcnNpb24uZmlsdGVyKHsgd29ya2Zsb3dEZWZpbml0aW9uSWQsIHZlcnNpb24gfSk7CiAgICBpZiAoZXhpc3RpbmcgJiYgZXhpc3RpbmcubGVuZ3RoID4gMCkgewogICAgICByZXR1cm4gUmVzcG9uc2UuanNvbih7IGVycm9yOiAnVmVyc2lvbiBhbHJlYWR5IGV4aXN0cyBmb3IgdGhpcyBkZWZpbml0aW9uJyB9LCB7IHN0YXR1czogNDA5IH0pOwogICAgfQoKICAgIGNvbnN0IHYgPSB2YWxpZGF0ZVdvcmtmbG93R3JhcGgoZ3JhcGgpOwogICAgaWYgKCF2Lm9rKSByZXR1cm4gUmVzcG9uc2UuanNvbih7IGVycm9yOiB2LmVycm9yIH0sIHsgc3RhdHVzOiA0MDAgfSk7CgogICAgY29uc3QgY2hlY2tzdW0gPSBzdHIoYm9keT8uY2hlY2tzdW0pOwogICAgY29uc3Qgbm93ID0gbmV3IERhdGUoKS50b0lTT1N0cmluZygpOwogICAgY29uc3Qgd2ZWZXJzaW9uID0gYXdhaXQgc3ZjLmVudGl0aWVzLldvcmtmbG93VmVyc2lvbi5jcmVhdGUoewogICAgICB3b3JrZmxvd0RlZmluaXRpb25JZCwgdmVyc2lvbiwgZ3JhcGgsCiAgICAgIHJlbGVhc2VTdGF0dXM6ICdkcmFmdCcsIGNoZWNrc3VtLCBjcmVhdGVkQXQ6IG5vdywgcmVsZWFzZWRBdDogbnVsbCwKICAgIH0pOwoKICAgIGF3YWl0IHB1Ymxpc2goYmFzZTQ0LCAnd29ya2Zsb3cudmVyc2lvbl9yZWdpc3RlcmVkJywgd2ZWZXJzaW9uLmlkLCB7CiAgICAgIHdvcmtmbG93RGVmaW5pdGlvbklkLCB3b3JrZmxvd1ZlcnNpb25JZDogd2ZWZXJzaW9uLmlkLCB2ZXJzaW9uLAogICAgfSk7CgogICAgcmV0dXJuIFJlc3BvbnNlLmpzb24oeyBzdGF0dXM6ICdjcmVhdGVkJywgdmVyc2lvbjogd2ZWZXJzaW9uIH0pOwogIH0gY2F0Y2ggKGVycm9yKSB7CiAgICByZXR1cm4gUmVzcG9uc2UuanNvbih7IGVycm9yOiBTdHJpbmcoZXJyb3I/Lm1lc3NhZ2UgfHwgJ1VuZXhwZWN0ZWQgZXJyb3InKS5zbGljZSgwLCAyMDApIH0sIHsgc3RhdHVzOiA1MDAgfSk7CiAgfQp9KTs=
+import { createClientFromRequest } from 'npm:@base44/sdk@0.8.38';
+import { validateWorkflowGraph } from "npm:@ppankov/pgp-core-domain@0.1.0-alpha.1/workflow";
+
+// Workflow Engine — registerWorkflowVersion (Phase 7)
+// Creates a draft version with a validated declarative graph. Respects definition scope.
+// workflowDefinitionId + version must be unique. Graph is declarative-only.
+// Wave 10.3B: graph validation delegated to @ppankov/pgp-core-domain (exact version pin).
+
+const str = (v) => (typeof v === 'string' ? v.trim() : '');
+
+async function publish(base44, eventType, sourceId, payload) {
+  try {
+    await base44.functions.invoke('publishEvent', {
+      eventType, sourceType: 'workflow', sourceId: String(sourceId), payload,
+    });
+  } catch (_e) { /* best-effort */ }
+}
+
+Deno.serve(async (req) => {
+  try {
+    const base44 = createClientFromRequest(req);
+    const user = await base44.auth.me();
+    if (!user) return Response.json({ error: 'Unauthorized' }, { status: 401 });
+
+    const role = user.role;
+    const body = await req.json().catch(() => ({}));
+    const workflowDefinitionId = str(body?.workflowDefinitionId);
+    const version = str(body?.version);
+    if (!workflowDefinitionId || !version) {
+      return Response.json({ error: 'workflowDefinitionId and version are required' }, { status: 400 });
+    }
+    const graph = body?.graph;
+    if (!graph || typeof graph !== 'object' || Array.isArray(graph)) {
+      return Response.json({ error: 'graph is required and must be an object' }, { status: 400 });
+    }
+
+    const svc = base44.asServiceRole;
+    const def = await svc.entities.WorkflowDefinition.get(workflowDefinitionId).catch(() => null);
+    if (!def) return Response.json({ error: 'Workflow definition not found' }, { status: 404 });
+
+    // scope permission
+    if (def.scope === 'platform') {
+      if (role !== 'core_developer' && role !== 'super_admin') {
+        return Response.json({ error: 'Not permitted to manage versions for platform workflow definitions' }, { status: 403 });
+      }
+    } else {
+      if (role !== 'admin' && role !== 'super_admin') {
+        return Response.json({ error: 'Not permitted to manage versions for organization workflow definitions' }, { status: 403 });
+      }
+    }
+
+    // Phase 9: org-scoped definitions require active OrganizationMember membership (Decision B2).
+    if (def.scope === 'organization' && role !== 'super_admin') {
+      const _members = await svc.entities.OrganizationMember.filter({ user_id: user.id, organization_id: def.organizationId, status: 'active' }).catch(() => []);
+      if (!_members || _members.length === 0) return Response.json({ error: 'Not a member of this organization' }, { status: 403 });
+    }
+
+    // duplicate version
+    const existing = await svc.entities.WorkflowVersion.filter({ workflowDefinitionId, version });
+    if (existing && existing.length > 0) {
+      return Response.json({ error: 'Version already exists for this definition' }, { status: 409 });
+    }
+
+    const v = validateWorkflowGraph(graph);
+    if (!v.ok) return Response.json({ error: v.error }, { status: 400 });
+
+    const checksum = str(body?.checksum);
+    const now = new Date().toISOString();
+    const wfVersion = await svc.entities.WorkflowVersion.create({
+      workflowDefinitionId, version, graph,
+      releaseStatus: 'draft', checksum, createdAt: now, releasedAt: null,
+    });
+
+    await publish(base44, 'workflow.version_registered', wfVersion.id, {
+      workflowDefinitionId, workflowVersionId: wfVersion.id, version,
+    });
+
+    return Response.json({ status: 'created', version: wfVersion });
+  } catch (error) {
+    return Response.json({ error: String(error?.message || 'Unexpected error').slice(0, 200) }, { status: 500 });
+  }
+});

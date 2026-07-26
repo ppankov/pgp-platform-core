@@ -1,1 +1,1 @@
-ZXhwb3J0IHsgQXV0aFByb3ZpZGVyLCB1c2VBdXRoIH0gZnJvbSAnQC9saWIvQXV0aENvbnRleHQnOw==
+export { AuthProvider, useAuth } from '@/lib/AuthContext';

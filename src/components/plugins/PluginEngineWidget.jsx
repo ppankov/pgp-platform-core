@@ -1,1 +1,73 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IExpbmsgfSBmcm9tICJyZWFjdC1yb3V0ZXItZG9tIjsKaW1wb3J0IHsgUHV6emxlIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IHsgYmFja2VuZCB9IGZyb20gIkAvc2VydmljZXMvYmFja2VuZEFkYXB0ZXIiOwppbXBvcnQgeyBjYWxsRm4gfSBmcm9tICJAL2xpYi9mdW5jdGlvbi1jYWxsIjsKaW1wb3J0IHsgQ2FyZCwgQ2FyZENvbnRlbnQsIENhcmRIZWFkZXIgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvY2FyZCI7CmltcG9ydCB7IFNrZWxldG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3NrZWxldG9uIjsKaW1wb3J0IHsgdCB9IGZyb20gIkAvbGliL2kxOG4iOwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gUGx1Z2luRW5naW5lV2lkZ2V0KCkgewogIGNvbnN0IFtjb3VudHMsIHNldENvdW50c10gPSB1c2VTdGF0ZSh7CiAgICBkZWZpbml0aW9uczogbnVsbCwKICAgIHJlbGVhc2VkOiBudWxsLAogICAgaW5zdGFsbGVkOiBudWxsLAogICAgZW5hYmxlZDogbnVsbCwKICB9KTsKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIFByb21pc2UuYWxsKFsKICAgICAgYmFja2VuZC5jYXRhbG9nLmxpc3QoIlBsdWdpbkRlZmluaXRpb24iKS50aGVuKChyKSA9PiByLmxlbmd0aCkuY2F0Y2goKCkgPT4gMCksCiAgICAgIGNhbGxGbigibGlzdFBsdWdpbnMiLCB7fSkKICAgICAgICAudGhlbigocikgPT4gKHI/LnZlcnNpb25zIHx8IFtdKS5maWx0ZXIoKHYpID0+IHYucmVsZWFzZVN0YXR1cyA9PT0gInJlbGVhc2VkIikubGVuZ3RoKQogICAgICAgIC5jYXRjaCgoKSA9PiAwKSwKICAgICAgY2FsbEZuKCJnZXRPcmdhbml6YXRpb25zIiwge30pCiAgICAgICAgLnRoZW4oKHIpID0+IChyPy5vcmdhbml6YXRpb25zIHx8IFtdKVswXT8uaWQpCiAgICAgICAgLnRoZW4oKG9yZ0lkKSA9PiAob3JnSWQgPyBjYWxsRm4oImxpc3RQbHVnaW5zIiwgeyBvcmdhbml6YXRpb25JZDogb3JnSWQgfSkgOiB7IGluc3RhbGxhdGlvbnM6IFtdIH0pKQogICAgICAgIC50aGVuKChyKSA9PiAoKHI/Lmluc3RhbGxhdGlvbnMgfHwgW10pLmZpbHRlcigoaSkgPT4gIWkudW5pbnN0YWxsZWRBdCkpLmxlbmd0aCkKICAgICAgICAuY2F0Y2goKCkgPT4gMCksCiAgICAgIGNhbGxGbigiZ2V0T3JnYW5pemF0aW9ucyIsIHt9KQogICAgICAgIC50aGVuKChyKSA9PiAocj8ub3JnYW5pemF0aW9ucyB8fCBbXSlbMF0/LmlkKQogICAgICAgIC50aGVuKChvcmdJZCkgPT4gKG9yZ0lkID8gY2FsbEZuKCJsaXN0UGx1Z2lucyIsIHsgb3JnYW5pemF0aW9uSWQ6IG9yZ0lkIH0pIDogeyBpbnN0YWxsYXRpb25zOiBbXSB9KSkKICAgICAgICAudGhlbigocikgPT4gKChyPy5pbnN0YWxsYXRpb25zIHx8IFtdKS5maWx0ZXIoKGkpID0+IGkuZW5hYmxlZCAmJiAhaS51bmluc3RhbGxlZEF0KSkubGVuZ3RoKQogICAgICAgIC5jYXRjaCgoKSA9PiAwKSwKICAgIF0pLnRoZW4oKFtkZWZpbml0aW9ucywgcmVsZWFzZWQsIGluc3RhbGxlZCwgZW5hYmxlZF0pID0+CiAgICAgIHNldENvdW50cyh7IGRlZmluaXRpb25zLCByZWxlYXNlZCwgaW5zdGFsbGVkLCBlbmFibGVkIH0pCiAgICApOwogIH0sIFtdKTsKCiAgY29uc3QgaXRlbXMgPSBbCiAgICB7IGxhYmVsOiB0KCJwbHVnaW4uY291bnRfZGVmaW5pdGlvbnMiKSwgdmFsdWU6IGNvdW50cy5kZWZpbml0aW9ucywgdG86ICIvcGx1Z2lucyIgfSwKICAgIHsgbGFiZWw6IHQoInBsdWdpbi5jb3VudF9yZWxlYXNlZCIpLCB2YWx1ZTogY291bnRzLnJlbGVhc2VkLCB0bzogIi9wbHVnaW5zIiB9LAogICAgeyBsYWJlbDogdCgicGx1Z2luLmNvdW50X2luc3RhbGxlZCIpLCB2YWx1ZTogY291bnRzLmluc3RhbGxlZCwgdG86ICIvcGx1Z2lucy9pbnN0YWxsZWQiIH0sCiAgICB7IGxhYmVsOiB0KCJwbHVnaW4uY291bnRfZW5hYmxlZCIpLCB2YWx1ZTogY291bnRzLmVuYWJsZWQsIHRvOiAiL3BsdWdpbnMvaW5zdGFsbGVkIiB9LAogIF07CgogIHJldHVybiAoCiAgICA8Q2FyZD4KICAgICAgPENhcmRIZWFkZXI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgIDxQdXp6bGUgY2xhc3NOYW1lPSJ3LTQgaC00IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIgLz4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0iZm9udC1oZWFkaW5nIGZvbnQtc2VtaWJvbGQgdGV4dC1mb3JlZ3JvdW5kIj57dCgicGx1Z2luLndpZGdldF90aXRsZSIpfTwvcD4KICAgICAgICA8L2Rpdj4KICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57dCgicGx1Z2luLndpZGdldF9kZXNjIil9PC9wPgogICAgICA8L0NhcmRIZWFkZXI+CiAgICAgIDxDYXJkQ29udGVudD4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMiBnYXAtMyBzbTpncmlkLWNvbHMtNCI+CiAgICAgICAgICB7aXRlbXMubWFwKChpdCkgPT4gKAogICAgICAgICAgICA8TGluawogICAgICAgICAgICAgIGtleT17aXQubGFiZWx9CiAgICAgICAgICAgICAgdG89e2l0LnRvfQogICAgICAgICAgICAgIGNsYXNzTmFtZT0icm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWJvcmRlciBwLTMgaG92ZXI6YmctYWNjZW50IHRyYW5zaXRpb24tY29sb3JzIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LTJ4bCBmb250LWJvbGQgdGV4dC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgIHtpdC52YWx1ZSA9PT0gbnVsbCA/IDxTa2VsZXRvbiBjbGFzc05hbWU9ImgtNiB3LTgiIC8+IDogaXQudmFsdWV9CiAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPntpdC5sYWJlbH08L3A+CiAgICAgICAgICAgIDwvTGluaz4KICAgICAgICAgICkpfQogICAgICAgIDwvZGl2PgogICAgICA8L0NhcmRDb250ZW50PgogICAgPC9DYXJkPgogICk7Cn0=
+import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import { Puzzle } from "lucide-react";
+import { backend } from "@/services/backendAdapter";
+import { callFn } from "@/lib/function-call";
+import { Card, CardContent, CardHeader } from "@/components/ui/card";
+import { Skeleton } from "@/components/ui/skeleton";
+import { t } from "@/lib/i18n";
+
+export default function PluginEngineWidget() {
+  const [counts, setCounts] = useState({
+    definitions: null,
+    released: null,
+    installed: null,
+    enabled: null,
+  });
+
+  useEffect(() => {
+    Promise.all([
+      backend.catalog.list("PluginDefinition").then((r) => r.length).catch(() => 0),
+      callFn("listPlugins", {})
+        .then((r) => (r?.versions || []).filter((v) => v.releaseStatus === "released").length)
+        .catch(() => 0),
+      callFn("getOrganizations", {})
+        .then((r) => (r?.organizations || [])[0]?.id)
+        .then((orgId) => (orgId ? callFn("listPlugins", { organizationId: orgId }) : { installations: [] }))
+        .then((r) => ((r?.installations || []).filter((i) => !i.uninstalledAt)).length)
+        .catch(() => 0),
+      callFn("getOrganizations", {})
+        .then((r) => (r?.organizations || [])[0]?.id)
+        .then((orgId) => (orgId ? callFn("listPlugins", { organizationId: orgId }) : { installations: [] }))
+        .then((r) => ((r?.installations || []).filter((i) => i.enabled && !i.uninstalledAt)).length)
+        .catch(() => 0),
+    ]).then(([definitions, released, installed, enabled]) =>
+      setCounts({ definitions, released, installed, enabled })
+    );
+  }, []);
+
+  const items = [
+    { label: t("plugin.count_definitions"), value: counts.definitions, to: "/plugins" },
+    { label: t("plugin.count_released"), value: counts.released, to: "/plugins" },
+    { label: t("plugin.count_installed"), value: counts.installed, to: "/plugins/installed" },
+    { label: t("plugin.count_enabled"), value: counts.enabled, to: "/plugins/installed" },
+  ];
+
+  return (
+    <Card>
+      <CardHeader>
+        <div className="flex items-center gap-2">
+          <Puzzle className="w-4 h-4 text-muted-foreground" />
+          <p className="font-heading font-semibold text-foreground">{t("plugin.widget_title")}</p>
+        </div>
+        <p className="text-xs text-muted-foreground">{t("plugin.widget_desc")}</p>
+      </CardHeader>
+      <CardContent>
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+          {items.map((it) => (
+            <Link
+              key={it.label}
+              to={it.to}
+              className="rounded-lg border border-border p-3 hover:bg-accent transition-colors"
+            >
+              <p className="text-2xl font-bold text-foreground">
+                {it.value === null ? <Skeleton className="h-6 w-8" /> : it.value}
+              </p>
+              <p className="text-xs text-muted-foreground">{it.label}</p>
+            </Link>
+          ))}
+        </div>
+      </CardContent>
+    </Card>
+  );
+}

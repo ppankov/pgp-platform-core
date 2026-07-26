@@ -1,1 +1,216 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IExpbmssIHVzZVBhcmFtcyB9IGZyb20gInJlYWN0LXJvdXRlci1kb20iOwppbXBvcnQgeyBBcnJvd0xlZnQsIENoZWNrQ2lyY2xlMiwgWENpcmNsZSwgQmFuIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IENhcmQsIENhcmRDb250ZW50LCBDYXJkSGVhZGVyIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2NhcmQiOwppbXBvcnQgeyBCYWRnZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9iYWRnZSI7CmltcG9ydCB7IFRleHRhcmVhIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3RleHRhcmVhIjsKaW1wb3J0IHsgTGFiZWwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvbGFiZWwiOwppbXBvcnQgeyBJbnB1dCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9pbnB1dCI7CmltcG9ydCB7IFNlbGVjdCwgU2VsZWN0VHJpZ2dlciwgU2VsZWN0VmFsdWUsIFNlbGVjdENvbnRlbnQsIFNlbGVjdEl0ZW0gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc2VsZWN0IjsKaW1wb3J0IHsgVGFibGUsIFRhYmxlSGVhZGVyLCBUYWJsZVJvdywgVGFibGVIZWFkLCBUYWJsZUJvZHksIFRhYmxlQ2VsbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS90YWJsZSI7CmltcG9ydCBNb2R1bGVIZWFkZXIgZnJvbSAiQC9jb21wb25lbnRzL3NoYXJlZC9Nb2R1bGVIZWFkZXIiOwppbXBvcnQgeyBjYWxsRm4gfSBmcm9tICJAL2xpYi9mdW5jdGlvbi1jYWxsIjsKaW1wb3J0IHsgdXNlQXV0aCB9IGZyb20gIkAvYXV0aC9BdXRoQ29udGV4dEZhY2FkZSI7CmltcG9ydCB7IGhhc0NhcGFiaWxpdHkgfSBmcm9tICJAL2xpYi9wZXJtaXNzaW9ucyI7CmltcG9ydCB7IHVzZVRvYXN0IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3VzZS10b2FzdCI7CmltcG9ydCB7IHQgfSBmcm9tICJAL2xpYi9pMThuIjsKCmNvbnN0IFNUQVRVU19WQVJJQU5UID0gewogIHBlbmRpbmc6ICJzZWNvbmRhcnkiLCBydW5uaW5nOiAiZGVmYXVsdCIsIHdhaXRpbmc6ICJkZWZhdWx0IiwKICBjb21wbGV0ZWQ6ICJkZWZhdWx0IiwgZmFpbGVkOiAiZGVzdHJ1Y3RpdmUiLCBjYW5jZWxsZWQ6ICJzZWNvbmRhcnkiLAogIHNraXBwZWQ6ICJzZWNvbmRhcnkiLAp9OwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gV29ya2Zsb3dJbnN0YW5jZURldGFpbFBhZ2UoKSB7CiAgY29uc3QgeyBpbnN0YW5jZUlkIH0gPSB1c2VQYXJhbXMoKTsKICBjb25zdCB7IHVzZXIgfSA9IHVzZUF1dGgoKTsKICBjb25zdCB7IHRvYXN0IH0gPSB1c2VUb2FzdCgpOwogIGNvbnN0IGNhblByb2dyZXNzID0gaGFzQ2FwYWJpbGl0eSh1c2VyPy5yb2xlLCAicGxhdGZvcm0ud29ya2Zsb3dzLmNvbm5lY3QiKTsKICBjb25zdCBbZGF0YSwgc2V0RGF0YV0gPSB1c2VTdGF0ZShudWxsKTsKICBjb25zdCBbZXJyLCBzZXRFcnJdID0gdXNlU3RhdGUoIiIpOwogIGNvbnN0IFtvdXRwdXQsIHNldE91dHB1dF0gPSB1c2VTdGF0ZSgiIik7CiAgY29uc3QgW25leHROb2RlS2V5LCBzZXROZXh0Tm9kZUtleV0gPSB1c2VTdGF0ZSgiIik7CiAgY29uc3QgW2JyYW5jaE9wdGlvbnMsIHNldEJyYW5jaE9wdGlvbnNdID0gdXNlU3RhdGUoW10pOwoKICBjb25zdCBsb2FkID0gYXN5bmMgKCkgPT4gewogICAgc2V0RXJyKCIiKTsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IGNhbGxGbigiZ2V0V29ya2Zsb3dJbnN0YW5jZSIsIHsgd29ya2Zsb3dJbnN0YW5jZUlkOiBpbnN0YW5jZUlkIH0pOwogICAgICBzZXREYXRhKHJlcyk7CiAgICAgIC8vIGNvbXB1dGUgYnJhbmNoIG9wdGlvbnMgZm9yIGN1cnJlbnQgd2FpdGluZyBtYW51YWwgbm9kZQogICAgICBjb25zdCBpbnN0ID0gcmVzLmluc3RhbmNlOwogICAgICBjb25zdCBncmFwaCA9IHJlcy52ZXJzaW9uPy5ncmFwaCB8fCB7fTsKICAgICAgY29uc3Qgb3V0ID0gKGdyYXBoLmVkZ2VzIHx8IFtdKS5maWx0ZXIoKGUpID0+IGUuZnJvbSA9PT0gaW5zdD8uY3VycmVudE5vZGVLZXkpOwogICAgICBzZXRCcmFuY2hPcHRpb25zKG91dCk7CiAgICB9IGNhdGNoIChlKSB7CiAgICAgIHNldEVycihlLnJlc3BvbnNlPy5kYXRhPy5lcnJvciB8fCBlLm1lc3NhZ2UpOwogICAgfQogIH07CiAgdXNlRWZmZWN0KCgpID0+IHsgbG9hZCgpOyB9LCBbaW5zdGFuY2VJZF0pOwoKICBjb25zdCBjb21wbGV0ZSA9IGFzeW5jICgpID0+IHsKICAgIGxldCBwYXJzZWRPdXRwdXQgPSB7fTsKICAgIGlmIChvdXRwdXQudHJpbSgpKSB7CiAgICAgIHRyeSB7IHBhcnNlZE91dHB1dCA9IEpTT04ucGFyc2Uob3V0cHV0KTsgfQogICAgICBjYXRjaCAoZSkgeyB0b2FzdCh7IHZhcmlhbnQ6ICJkZXN0cnVjdGl2ZSIsIHRpdGxlOiBlLm1lc3NhZ2UgfSk7IHJldHVybjsgfQogICAgfQogICAgdHJ5IHsKICAgICAgY29uc3QgcGF5bG9hZCA9IHsgd29ya2Zsb3dJbnN0YW5jZUlkOiBpbnN0YW5jZUlkLCBvdXRwdXQ6IHBhcnNlZE91dHB1dCB9OwogICAgICBpZiAoYnJhbmNoT3B0aW9ucy5sZW5ndGggPiAxKSB7CiAgICAgICAgaWYgKCFuZXh0Tm9kZUtleSkgeyB0b2FzdCh7IHZhcmlhbnQ6ICJkZXN0cnVjdGl2ZSIsIHRpdGxlOiB0KCJ3b3JrZmxvdy5uZXh0X3JlcXVpcmVkIikgfSk7IHJldHVybjsgfQogICAgICAgIHBheWxvYWQubmV4dE5vZGVLZXkgPSBuZXh0Tm9kZUtleTsKICAgICAgfQogICAgICBjb25zdCByZXMgPSBhd2FpdCBjYWxsRm4oImNvbXBsZXRlV29ya2Zsb3dTdGVwIiwgcGF5bG9hZCk7CiAgICAgIHRvYXN0KHsgdGl0bGU6IHQoIndvcmtmbG93LnByb2dyZXNzZWQiKSwgZGVzY3JpcHRpb246IGAke3QoIndvcmtmbG93LnN0YXR1cyIpfTogJHtyZXMuaW5zdGFuY2Uuc3RhdHVzfWAgfSk7CiAgICAgIHNldE91dHB1dCgiIik7IHNldE5leHROb2RlS2V5KCIiKTsKICAgICAgbG9hZCgpOwogICAgfSBjYXRjaCAoZSkgewogICAgICB0b2FzdCh7IHZhcmlhbnQ6ICJkZXN0cnVjdGl2ZSIsIHRpdGxlOiBlLnJlc3BvbnNlPy5kYXRhPy5lcnJvciB8fCBlLm1lc3NhZ2UgfSk7CiAgICB9CiAgfTsKCiAgY29uc3QgZmFpbCA9IGFzeW5jICgpID0+IHsKICAgIHRyeSB7CiAgICAgIGF3YWl0IGNhbGxGbigiZmFpbFdvcmtmbG93U3RlcCIsIHsgd29ya2Zsb3dJbnN0YW5jZUlkOiBpbnN0YW5jZUlkLCBlcnJvcjogIk1hbnVhbGx5IGZhaWxlZCIgfSk7CiAgICAgIHRvYXN0KHsgdGl0bGU6IHQoIndvcmtmbG93LmZhaWxlZCIpIH0pOwogICAgICBsb2FkKCk7CiAgICB9IGNhdGNoIChlKSB7CiAgICAgIHRvYXN0KHsgdmFyaWFudDogImRlc3RydWN0aXZlIiwgdGl0bGU6IGUucmVzcG9uc2U/LmRhdGE/LmVycm9yIHx8IGUubWVzc2FnZSB9KTsKICAgIH0KICB9OwoKICBjb25zdCBjYW5jZWwgPSBhc3luYyAoKSA9PiB7CiAgICB0cnkgewogICAgICBhd2FpdCBjYWxsRm4oImNhbmNlbFdvcmtmbG93SW5zdGFuY2UiLCB7IHdvcmtmbG93SW5zdGFuY2VJZDogaW5zdGFuY2VJZCB9KTsKICAgICAgdG9hc3QoeyB0aXRsZTogdCgid29ya2Zsb3cuY2FuY2VsbGVkIikgfSk7CiAgICAgIGxvYWQoKTsKICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgdG9hc3QoeyB2YXJpYW50OiAiZGVzdHJ1Y3RpdmUiLCB0aXRsZTogZS5yZXNwb25zZT8uZGF0YT8uZXJyb3IgfHwgZS5tZXNzYWdlIH0pOwogICAgfQogIH07CgogIGNvbnN0IGluc3QgPSBkYXRhPy5pbnN0YW5jZTsKCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTYiPgogICAgICA8ZGl2PgogICAgICAgIDxCdXR0b24gdmFyaWFudD0iZ2hvc3QiIHNpemU9InNtIiBhc0NoaWxkIGNsYXNzTmFtZT0ibWItMiI+CiAgICAgICAgICA8TGluayB0bz0iL3dvcmtmbG93cy9pbnN0YW5jZXMiPjxBcnJvd0xlZnQgY2xhc3NOYW1lPSJ3LTQgaC00IG1yLTEiIC8+e3QoIndvcmtmbG93LmJhY2siKX08L0xpbms+CiAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPE1vZHVsZUhlYWRlciB0aXRsZT17dCgid29ya2Zsb3cuaW5zdGFuY2VfZGV0YWlsIil9IGRlc2NyaXB0aW9uPXtkYXRhPy5kZWZpbml0aW9uPy5uYW1lIHx8ICIifSAvPgogICAgICA8L2Rpdj4KCiAgICAgIHtlcnIgJiYgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtZGVzdHJ1Y3RpdmUiPntlcnJ9PC9wPn0KICAgICAgeyFkYXRhICYmICFlcnIgJiYgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3QoIndvcmtmbG93LmxvYWRpbmciKX08L3A+fQoKICAgICAge2RhdGEgJiYgaW5zdCAmJiAoCiAgICAgICAgPD4KICAgICAgICAgIDxDYXJkPgogICAgICAgICAgICA8Q2FyZENvbnRlbnQgY2xhc3NOYW1lPSJwdC02Ij4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMiBtZDpncmlkLWNvbHMtNCBnYXAtNCB0ZXh0LXNtIj4KICAgICAgICAgICAgICAgIDxkaXY+PHAgY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQiPnt0KCJ3b3JrZmxvdy5maWVsZC5zdGF0dXMiKX08L3A+CiAgICAgICAgICAgICAgICAgIDxCYWRnZSB2YXJpYW50PXtTVEFUVVNfVkFSSUFOVFtpbnN0LnN0YXR1c10gfHwgInNlY29uZGFyeSJ9Pnt0KCJ3b3JrZmxvdy5zdGF0dXNfIiArIGluc3Quc3RhdHVzKX08L0JhZGdlPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2PjxwIGNsYXNzTmFtZT0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57dCgid29ya2Zsb3cuZmllbGQuY3VycmVudE5vZGVLZXkiKX08L3A+PHAgY2xhc3NOYW1lPSJmb250LW1vbm8iPntpbnN0LmN1cnJlbnROb2RlS2V5IHx8ICLigJQifTwvcD48L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXY+PHAgY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQiPnt0KCJ3b3JrZmxvdy5maWVsZC5jb3JyZWxhdGlvbklkIil9PC9wPjxwIGNsYXNzTmFtZT0iZm9udC1tb25vIHRleHQteHMgdHJ1bmNhdGUiPntpbnN0LmNvcnJlbGF0aW9uSWQgfHwgIuKAlCJ9PC9wPjwvZGl2PgogICAgICAgICAgICAgICAgPGRpdj48cCBjbGFzc05hbWU9InRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3QoIndvcmtmbG93LmZpZWxkLm9yZ2FuaXphdGlvbklkIil9PC9wPjxwPntpbnN0Lm9yZ2FuaXphdGlvbklkfTwvcD48L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXY+PHAgY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQiPnt0KCJ3b3JrZmxvdy5maWVsZC5yZXNvdXJjZVR5cGUiKX08L3A+PHA+e2luc3QucmVzb3VyY2VUeXBlIHx8ICLigJQifTwvcD48L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXY+PHAgY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQiPnt0KCJ3b3JrZmxvdy5maWVsZC5yZXNvdXJjZUlkIil9PC9wPjxwIGNsYXNzTmFtZT0iZm9udC1tb25vIHRleHQteHMiPntpbnN0LnJlc291cmNlSWQgfHwgIuKAlCJ9PC9wPjwvZGl2PgogICAgICAgICAgICAgICAgPGRpdj48cCBjbGFzc05hbWU9InRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3QoIndvcmtmbG93LmZpZWxkLnN0YXJ0ZWRBdCIpfTwvcD48cCBjbGFzc05hbWU9InRleHQteHMiPntpbnN0LnN0YXJ0ZWRBdCA/IG5ldyBEYXRlKGluc3Quc3RhcnRlZEF0KS50b0xvY2FsZVN0cmluZygpIDogIuKAlCJ9PC9wPjwvZGl2PgogICAgICAgICAgICAgICAgPGRpdj48cCBjbGFzc05hbWU9InRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3QoIndvcmtmbG93LmZpZWxkLnZlcnNpb24iKX08L3A+PHAgY2xhc3NOYW1lPSJmb250LW1vbm8iPntkYXRhLnZlcnNpb24/LnZlcnNpb24gfHwgIuKAlCJ9PC9wPjwvZGl2PgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIHtpbnN0Lmxhc3RFcnJvciAmJiA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1kZXN0cnVjdGl2ZSBtdC0zIj57aW5zdC5sYXN0RXJyb3J9PC9wPn0KICAgICAgICAgICAgPC9DYXJkQ29udGVudD4KICAgICAgICAgIDwvQ2FyZD4KCiAgICAgICAgICB7Y2FuUHJvZ3Jlc3MgJiYgaW5zdC5zdGF0dXMgPT09ICJ3YWl0aW5nIiAmJiAoCiAgICAgICAgICAgIDxDYXJkPgogICAgICAgICAgICAgIDxDYXJkSGVhZGVyPjxwIGNsYXNzTmFtZT0iZm9udC1oZWFkaW5nIGZvbnQtc2VtaWJvbGQiPnt0KCJ3b3JrZmxvdy5wcm9ncmVzc19zdGVwIil9PC9wPjwvQ2FyZEhlYWRlcj4KICAgICAgICAgICAgICA8Q2FyZENvbnRlbnQgY2xhc3NOYW1lPSJzcGFjZS15LTQiPgogICAgICAgICAgICAgICAge2JyYW5jaE9wdGlvbnMubGVuZ3RoID4gMSAmJiAoCiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTIiPgogICAgICAgICAgICAgICAgICAgIDxMYWJlbD57dCgid29ya2Zsb3cubmV4dF9ub2RlIil9PC9MYWJlbD4KICAgICAgICAgICAgICAgICAgICA8U2VsZWN0IHZhbHVlPXtuZXh0Tm9kZUtleX0gb25WYWx1ZUNoYW5nZT17c2V0TmV4dE5vZGVLZXl9PgogICAgICAgICAgICAgICAgICAgICAgPFNlbGVjdFRyaWdnZXI+PFNlbGVjdFZhbHVlIHBsYWNlaG9sZGVyPXt0KCJ3b3JrZmxvdy5uZXh0X3JlcXVpcmVkIil9IC8+PC9TZWxlY3RUcmlnZ2VyPgogICAgICAgICAgICAgICAgICAgICAgPFNlbGVjdENvbnRlbnQ+CiAgICAgICAgICAgICAgICAgICAgICAgIHticmFuY2hPcHRpb25zLm1hcCgoZSkgPT4gKAogICAgICAgICAgICAgICAgICAgICAgICAgIDxTZWxlY3RJdGVtIGtleT17ZS50b30gdmFsdWU9e2UudG99PntlLnRvfXtlLmxhYmVsID8gYCAoJHtlLmxhYmVsfSlgIDogIiJ9PC9TZWxlY3RJdGVtPgogICAgICAgICAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICAgICAgICAgIDwvU2VsZWN0Q29udGVudD4KICAgICAgICAgICAgICAgICAgICA8L1NlbGVjdD4KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktMiI+CiAgICAgICAgICAgICAgICAgIDxMYWJlbD57dCgid29ya2Zsb3cuZmllbGQub3V0cHV0Iil9PC9MYWJlbD4KICAgICAgICAgICAgICAgICAgPFRleHRhcmVhIHZhbHVlPXtvdXRwdXR9IG9uQ2hhbmdlPXsoZSkgPT4gc2V0T3V0cHV0KGUudGFyZ2V0LnZhbHVlKX0gcm93cz17NH0gY2xhc3NOYW1lPSJmb250LW1vbm8gdGV4dC14cyIgcGxhY2Vob2xkZXI9Int9IiAvPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBnYXAtMiI+CiAgICAgICAgICAgICAgICAgIDxCdXR0b24gc2l6ZT0ic20iIGNsYXNzTmFtZT0iZ2FwLTIiIG9uQ2xpY2s9e2NvbXBsZXRlfT48Q2hlY2tDaXJjbGUyIGNsYXNzTmFtZT0idy00IGgtNCIgLz57dCgid29ya2Zsb3cuY29tcGxldGVfc3RlcCIpfTwvQnV0dG9uPgogICAgICAgICAgICAgICAgICA8QnV0dG9uIHNpemU9InNtIiB2YXJpYW50PSJvdXRsaW5lIiBjbGFzc05hbWU9ImdhcC0yIiBvbkNsaWNrPXtmYWlsfT48WENpcmNsZSBjbGFzc05hbWU9InctNCBoLTQiIC8+e3QoIndvcmtmbG93LmZhaWxfc3RlcCIpfTwvQnV0dG9uPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9DYXJkQ29udGVudD4KICAgICAgICAgICAgPC9DYXJkPgogICAgICAgICAgKX0KCiAgICAgICAgICB7Y2FuUHJvZ3Jlc3MgJiYgKGluc3Quc3RhdHVzID09PSAicnVubmluZyIgfHwgaW5zdC5zdGF0dXMgPT09ICJ3YWl0aW5nIiB8fCBpbnN0LnN0YXR1cyA9PT0gInBlbmRpbmciKSAmJiAoCiAgICAgICAgICAgIDxCdXR0b24gc2l6ZT0ic20iIHZhcmlhbnQ9Im91dGxpbmUiIGNsYXNzTmFtZT0iZ2FwLTIiIG9uQ2xpY2s9e2NhbmNlbH0+PEJhbiBjbGFzc05hbWU9InctNCBoLTQiIC8+e3QoIndvcmtmbG93LmNhbmNlbF9pbnN0YW5jZSIpfTwvQnV0dG9uPgogICAgICAgICAgKX0KCiAgICAgICAgICA8Q2FyZD4KICAgICAgICAgICAgPENhcmRIZWFkZXI+PHAgY2xhc3NOYW1lPSJmb250LWhlYWRpbmcgZm9udC1zZW1pYm9sZCI+e3QoIndvcmtmbG93LnN0ZXBzIil9PC9wPjwvQ2FyZEhlYWRlcj4KICAgICAgICAgICAgPENhcmRDb250ZW50PgogICAgICAgICAgICAgIHsoZGF0YS5zdGVwUnVucyB8fCBbXSkubGVuZ3RoID09PSAwID8gKAogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3QoIndvcmtmbG93Lm5vX3N0ZXBzIil9PC9wPgogICAgICAgICAgICAgICkgOiAoCiAgICAgICAgICAgICAgICA8VGFibGU+CiAgICAgICAgICAgICAgICAgIDxUYWJsZUhlYWRlcj4KICAgICAgICAgICAgICAgICAgICA8VGFibGVSb3c+CiAgICAgICAgICAgICAgICAgICAgICA8VGFibGVIZWFkPnt0KCJ3b3JrZmxvdy5maWVsZC5ub2RlS2V5Iil9PC9UYWJsZUhlYWQ+CiAgICAgICAgICAgICAgICAgICAgICA8VGFibGVIZWFkPnt0KCJ3b3JrZmxvdy5maWVsZC5ub2RlVHlwZSIpfTwvVGFibGVIZWFkPgogICAgICAgICAgICAgICAgICAgICAgPFRhYmxlSGVhZD57dCgid29ya2Zsb3cuZmllbGQuc3RhdHVzIil9PC9UYWJsZUhlYWQ+CiAgICAgICAgICAgICAgICAgICAgICA8VGFibGVIZWFkPnt0KCJ3b3JrZmxvdy5maWVsZC5zdGFydGVkQXQiKX08L1RhYmxlSGVhZD4KICAgICAgICAgICAgICAgICAgICAgIDxUYWJsZUhlYWQ+e3QoIndvcmtmbG93LmZpZWxkLmNvbXBsZXRlZEF0Iil9PC9UYWJsZUhlYWQ+CiAgICAgICAgICAgICAgICAgICAgPC9UYWJsZVJvdz4KICAgICAgICAgICAgICAgICAgPC9UYWJsZUhlYWRlcj4KICAgICAgICAgICAgICAgICAgPFRhYmxlQm9keT4KICAgICAgICAgICAgICAgICAgICB7KGRhdGEuc3RlcFJ1bnMgfHwgW10pLm1hcCgocykgPT4gKAogICAgICAgICAgICAgICAgICAgICAgPFRhYmxlUm93IGtleT17cy5pZH0+CiAgICAgICAgICAgICAgICAgICAgICAgIDxUYWJsZUNlbGwgY2xhc3NOYW1lPSJmb250LW1vbm8gdGV4dC14cyI+e3Mubm9kZUtleX08L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICAgICAgICAgICAgPFRhYmxlQ2VsbD57cy5ub2RlVHlwZX08L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICAgICAgICAgICAgPFRhYmxlQ2VsbD48QmFkZ2UgdmFyaWFudD17U1RBVFVTX1ZBUklBTlRbcy5zdGF0dXNdIHx8ICJzZWNvbmRhcnkifT57dCgid29ya2Zsb3cuc3RhdHVzXyIgKyBzLnN0YXR1cyl9PC9CYWRnZT48L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICAgICAgICAgICAgPFRhYmxlQ2VsbCBjbGFzc05hbWU9InRleHQteHMiPntzLnN0YXJ0ZWRBdCA/IG5ldyBEYXRlKHMuc3RhcnRlZEF0KS50b0xvY2FsZVN0cmluZygpIDogIuKAlCJ9PC9UYWJsZUNlbGw+CiAgICAgICAgICAgICAgICAgICAgICAgIDxUYWJsZUNlbGwgY2xhc3NOYW1lPSJ0ZXh0LXhzIj57cy5jb21wbGV0ZWRBdCA/IG5ldyBEYXRlKHMuY29tcGxldGVkQXQpLnRvTG9jYWxlU3RyaW5nKCkgOiAi4oCUIn08L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICAgICAgICAgIDwvVGFibGVSb3c+CiAgICAgICAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgICAgICAgIDwvVGFibGVCb2R5PgogICAgICAgICAgICAgICAgPC9UYWJsZT4KICAgICAgICAgICAgICApfQogICAgICAgICAgICA8L0NhcmRDb250ZW50PgogICAgICAgICAgPC9DYXJkPgoKICAgICAgICAgIDxDYXJkPgogICAgICAgICAgICA8Q2FyZEhlYWRlcj48cCBjbGFzc05hbWU9ImZvbnQtaGVhZGluZyBmb250LXNlbWlib2xkIj57dCgid29ya2Zsb3cudGltZWxpbmUiKX08L3A+PC9DYXJkSGVhZGVyPgogICAgICAgICAgICA8Q2FyZENvbnRlbnQ+CiAgICAgICAgICAgICAgeyhkYXRhLmV2ZW50cyB8fCBbXSkubGVuZ3RoID09PSAwID8gKAogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3QoIndvcmtmbG93Lm5vX2V2ZW50cyIpfTwvcD4KICAgICAgICAgICAgICApIDogKAogICAgICAgICAgICAgICAgPG9sIGNsYXNzTmFtZT0ic3BhY2UteS0yIj4KICAgICAgICAgICAgICAgICAgeyhkYXRhLmV2ZW50cyB8fCBbXSkubWFwKChlKSA9PiAoCiAgICAgICAgICAgICAgICAgICAgPGxpIGtleT17ZS5pZH0gY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLXN0YXJ0IGdhcC0zIHRleHQtc20iPgogICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ3LTIgaC0yIHJvdW5kZWQtZnVsbCBiZy1wcmltYXJ5IG10LTEuNSBzaHJpbmstMCIgLz4KICAgICAgICAgICAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0iZm9udC1tb25vIHRleHQteHMiPntlLmV2ZW50VHlwZX17ZS5ub2RlS2V5ID8gYCDCtyAke2Uubm9kZUtleX1gIDogIiJ9PC9wPgogICAgICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57ZS5jcmVhdGVkQXQgPyBuZXcgRGF0ZShlLmNyZWF0ZWRBdCkudG9Mb2NhbGVTdHJpbmcoKSA6ICIifTwvcD4KICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgIDwvbGk+CiAgICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgICAgPC9vbD4KICAgICAgICAgICAgICApfQogICAgICAgICAgICA8L0NhcmRDb250ZW50PgogICAgICAgICAgPC9DYXJkPgogICAgICAgIDwvPgogICAgICApfQogICAgPC9kaXY+CiAgKTsKfQ==
+import React, { useEffect, useState } from "react";
+import { Link, useParams } from "react-router-dom";
+import { ArrowLeft, CheckCircle2, XCircle, Ban } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { Textarea } from "@/components/ui/textarea";
+import { Label } from "@/components/ui/label";
+import { Input } from "@/components/ui/input";
+import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "@/components/ui/select";
+import { Table, TableHeader, TableRow, TableHead, TableBody, TableCell } from "@/components/ui/table";
+import ModuleHeader from "@/components/shared/ModuleHeader";
+import { callFn } from "@/lib/function-call";
+import { useAuth } from "@/auth/AuthContextFacade";
+import { hasCapability } from "@/lib/permissions";
+import { useToast } from "@/components/ui/use-toast";
+import { t } from "@/lib/i18n";
+
+const STATUS_VARIANT = {
+  pending: "secondary", running: "default", waiting: "default",
+  completed: "default", failed: "destructive", cancelled: "secondary",
+  skipped: "secondary",
+};
+
+export default function WorkflowInstanceDetailPage() {
+  const { instanceId } = useParams();
+  const { user } = useAuth();
+  const { toast } = useToast();
+  const canProgress = hasCapability(user?.role, "platform.workflows.connect");
+  const [data, setData] = useState(null);
+  const [err, setErr] = useState("");
+  const [output, setOutput] = useState("");
+  const [nextNodeKey, setNextNodeKey] = useState("");
+  const [branchOptions, setBranchOptions] = useState([]);
+
+  const load = async () => {
+    setErr("");
+    try {
+      const res = await callFn("getWorkflowInstance", { workflowInstanceId: instanceId });
+      setData(res);
+      // compute branch options for current waiting manual node
+      const inst = res.instance;
+      const graph = res.version?.graph || {};
+      const out = (graph.edges || []).filter((e) => e.from === inst?.currentNodeKey);
+      setBranchOptions(out);
+    } catch (e) {
+      setErr(e.response?.data?.error || e.message);
+    }
+  };
+  useEffect(() => { load(); }, [instanceId]);
+
+  const complete = async () => {
+    let parsedOutput = {};
+    if (output.trim()) {
+      try { parsedOutput = JSON.parse(output); }
+      catch (e) { toast({ variant: "destructive", title: e.message }); return; }
+    }
+    try {
+      const payload = { workflowInstanceId: instanceId, output: parsedOutput };
+      if (branchOptions.length > 1) {
+        if (!nextNodeKey) { toast({ variant: "destructive", title: t("workflow.next_required") }); return; }
+        payload.nextNodeKey = nextNodeKey;
+      }
+      const res = await callFn("completeWorkflowStep", payload);
+      toast({ title: t("workflow.progressed"), description: `${t("workflow.status")}: ${res.instance.status}` });
+      setOutput(""); setNextNodeKey("");
+      load();
+    } catch (e) {
+      toast({ variant: "destructive", title: e.response?.data?.error || e.message });
+    }
+  };
+
+  const fail = async () => {
+    try {
+      await callFn("failWorkflowStep", { workflowInstanceId: instanceId, error: "Manually failed" });
+      toast({ title: t("workflow.failed") });
+      load();
+    } catch (e) {
+      toast({ variant: "destructive", title: e.response?.data?.error || e.message });
+    }
+  };
+
+  const cancel = async () => {
+    try {
+      await callFn("cancelWorkflowInstance", { workflowInstanceId: instanceId });
+      toast({ title: t("workflow.cancelled") });
+      load();
+    } catch (e) {
+      toast({ variant: "destructive", title: e.response?.data?.error || e.message });
+    }
+  };
+
+  const inst = data?.instance;
+
+  return (
+    <div className="space-y-6">
+      <div>
+        <Button variant="ghost" size="sm" asChild className="mb-2">
+          <Link to="/workflows/instances"><ArrowLeft className="w-4 h-4 mr-1" />{t("workflow.back")}</Link>
+        </Button>
+        <ModuleHeader title={t("workflow.instance_detail")} description={data?.definition?.name || ""} />
+      </div>
+
+      {err && <p className="text-sm text-destructive">{err}</p>}
+      {!data && !err && <p className="text-sm text-muted-foreground">{t("workflow.loading")}</p>}
+
+      {data && inst && (
+        <>
+          <Card>
+            <CardContent className="pt-6">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+                <div><p className="text-muted-foreground">{t("workflow.field.status")}</p>
+                  <Badge variant={STATUS_VARIANT[inst.status] || "secondary"}>{t("workflow.status_" + inst.status)}</Badge>
+                </div>
+                <div><p className="text-muted-foreground">{t("workflow.field.currentNodeKey")}</p><p className="font-mono">{inst.currentNodeKey || "—"}</p></div>
+                <div><p className="text-muted-foreground">{t("workflow.field.correlationId")}</p><p className="font-mono text-xs truncate">{inst.correlationId || "—"}</p></div>
+                <div><p className="text-muted-foreground">{t("workflow.field.organizationId")}</p><p>{inst.organizationId}</p></div>
+                <div><p className="text-muted-foreground">{t("workflow.field.resourceType")}</p><p>{inst.resourceType || "—"}</p></div>
+                <div><p className="text-muted-foreground">{t("workflow.field.resourceId")}</p><p className="font-mono text-xs">{inst.resourceId || "—"}</p></div>
+                <div><p className="text-muted-foreground">{t("workflow.field.startedAt")}</p><p className="text-xs">{inst.startedAt ? new Date(inst.startedAt).toLocaleString() : "—"}</p></div>
+                <div><p className="text-muted-foreground">{t("workflow.field.version")}</p><p className="font-mono">{data.version?.version || "—"}</p></div>
+              </div>
+              {inst.lastError && <p className="text-sm text-destructive mt-3">{inst.lastError}</p>}
+            </CardContent>
+          </Card>
+
+          {canProgress && inst.status === "waiting" && (
+            <Card>
+              <CardHeader><p className="font-heading font-semibold">{t("workflow.progress_step")}</p></CardHeader>
+              <CardContent className="space-y-4">
+                {branchOptions.length > 1 && (
+                  <div className="space-y-2">
+                    <Label>{t("workflow.next_node")}</Label>
+                    <Select value={nextNodeKey} onValueChange={setNextNodeKey}>
+                      <SelectTrigger><SelectValue placeholder={t("workflow.next_required")} /></SelectTrigger>
+                      <SelectContent>
+                        {branchOptions.map((e) => (
+                          <SelectItem key={e.to} value={e.to}>{e.to}{e.label ? ` (${e.label})` : ""}</SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
+                  </div>
+                )}
+                <div className="space-y-2">
+                  <Label>{t("workflow.field.output")}</Label>
+                  <Textarea value={output} onChange={(e) => setOutput(e.target.value)} rows={4} className="font-mono text-xs" placeholder="{}" />
+                </div>
+                <div className="flex gap-2">
+                  <Button size="sm" className="gap-2" onClick={complete}><CheckCircle2 className="w-4 h-4" />{t("workflow.complete_step")}</Button>
+                  <Button size="sm" variant="outline" className="gap-2" onClick={fail}><XCircle className="w-4 h-4" />{t("workflow.fail_step")}</Button>
+                </div>
+              </CardContent>
+            </Card>
+          )}
+
+          {canProgress && (inst.status === "running" || inst.status === "waiting" || inst.status === "pending") && (
+            <Button size="sm" variant="outline" className="gap-2" onClick={cancel}><Ban className="w-4 h-4" />{t("workflow.cancel_instance")}</Button>
+          )}
+
+          <Card>
+            <CardHeader><p className="font-heading font-semibold">{t("workflow.steps")}</p></CardHeader>
+            <CardContent>
+              {(data.stepRuns || []).length === 0 ? (
+                <p className="text-sm text-muted-foreground">{t("workflow.no_steps")}</p>
+              ) : (
+                <Table>
+                  <TableHeader>
+                    <TableRow>
+                      <TableHead>{t("workflow.field.nodeKey")}</TableHead>
+                      <TableHead>{t("workflow.field.nodeType")}</TableHead>
+                      <TableHead>{t("workflow.field.status")}</TableHead>
+                      <TableHead>{t("workflow.field.startedAt")}</TableHead>
+                      <TableHead>{t("workflow.field.completedAt")}</TableHead>
+                    </TableRow>
+                  </TableHeader>
+                  <TableBody>
+                    {(data.stepRuns || []).map((s) => (
+                      <TableRow key={s.id}>
+                        <TableCell className="font-mono text-xs">{s.nodeKey}</TableCell>
+                        <TableCell>{s.nodeType}</TableCell>
+                        <TableCell><Badge variant={STATUS_VARIANT[s.status] || "secondary"}>{t("workflow.status_" + s.status)}</Badge></TableCell>
+                        <TableCell className="text-xs">{s.startedAt ? new Date(s.startedAt).toLocaleString() : "—"}</TableCell>
+                        <TableCell className="text-xs">{s.completedAt ? new Date(s.completedAt).toLocaleString() : "—"}</TableCell>
+                      </TableRow>
+                    ))}
+                  </TableBody>
+                </Table>
+              )}
+            </CardContent>
+          </Card>
+
+          <Card>
+            <CardHeader><p className="font-heading font-semibold">{t("workflow.timeline")}</p></CardHeader>
+            <CardContent>
+              {(data.events || []).length === 0 ? (
+                <p className="text-sm text-muted-foreground">{t("workflow.no_events")}</p>
+              ) : (
+                <ol className="space-y-2">
+                  {(data.events || []).map((e) => (
+                    <li key={e.id} className="flex items-start gap-3 text-sm">
+                      <span className="w-2 h-2 rounded-full bg-primary mt-1.5 shrink-0" />
+                      <div>
+                        <p className="font-mono text-xs">{e.eventType}{e.nodeKey ? ` · ${e.nodeKey}` : ""}</p>
+                        <p className="text-xs text-muted-foreground">{e.createdAt ? new Date(e.createdAt).toLocaleString() : ""}</p>
+                      </div>
+                    </li>
+                  ))}
+                </ol>
+              )}
+            </CardContent>
+          </Card>
+        </>
+      )}
+    </div>
+  );
+}

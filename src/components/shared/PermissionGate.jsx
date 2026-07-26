@@ -1,1 +1,12 @@
-aW1wb3J0IFJlYWN0IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgdXNlQXV0aCB9IGZyb20gIkAvYXV0aC9BdXRoQ29udGV4dEZhY2FkZSI7CmltcG9ydCB7IGhhc0NhcGFiaWxpdHkgfSBmcm9tICJAL2xpYi9wZXJtaXNzaW9ucyI7CgovLyBGcm9udGVuZCB2aXNpYmlsaXR5IGhlbHBlciDigJQgTk9UIGEgc2VjdXJpdHkgYm91bmRhcnkuCi8vIFJlYWwgYXV0aG9yaXphdGlvbiBpcyBhbHdheXMgYmFja2VuZC1lbmZvcmNlZC4KZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gUGVybWlzc2lvbkdhdGUoeyBjYXBhYmlsaXR5LCBjaGlsZHJlbiwgZmFsbGJhY2sgPSBudWxsIH0pIHsKICBjb25zdCB7IHVzZXIgfSA9IHVzZUF1dGgoKTsKICBjb25zdCByb2xlID0gdXNlcj8ucm9sZSB8fCAidXNlciI7CiAgaWYgKCFoYXNDYXBhYmlsaXR5KHJvbGUsIGNhcGFiaWxpdHkpKSByZXR1cm4gPD57ZmFsbGJhY2t9PC8+OwogIHJldHVybiA8PntjaGlsZHJlbn08Lz47Cn0=
+import React from "react";
+import { useAuth } from "@/auth/AuthContextFacade";
+import { hasCapability } from "@/lib/permissions";
+
+// Frontend visibility helper — NOT a security boundary.
+// Real authorization is always backend-enforced.
+export default function PermissionGate({ capability, children, fallback = null }) {
+  const { user } = useAuth();
+  const role = user?.role || "user";
+  if (!hasCapability(role, capability)) return <>{fallback}</>;
+  return <>{children}</>;
+}

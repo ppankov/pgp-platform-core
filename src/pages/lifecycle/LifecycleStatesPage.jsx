@@ -1,1 +1,155 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IHVzZVNlYXJjaFBhcmFtcyB9IGZyb20gInJlYWN0LXJvdXRlci1kb20iOwppbXBvcnQgeyBQbHVzLCBQZW5jaWwsIFRyYXNoMiB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB7IGJhY2tlbmQgfSBmcm9tICJAL3NlcnZpY2VzL2JhY2tlbmRBZGFwdGVyIjsKaW1wb3J0IHsgY2FsbEZuIH0gZnJvbSAiQC9saWIvZnVuY3Rpb24tY2FsbCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwppbXBvcnQgeyBDYXJkLCBDYXJkQ29udGVudCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9jYXJkIjsKaW1wb3J0IHsgQmFkZ2UgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYmFkZ2UiOwppbXBvcnQgeyBEaWFsb2csIERpYWxvZ0NvbnRlbnQsIERpYWxvZ0hlYWRlciwgRGlhbG9nVGl0bGUgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvZGlhbG9nIjsKaW1wb3J0IHsKICBUYWJsZSwgVGFibGVIZWFkZXIsIFRhYmxlUm93LCBUYWJsZUhlYWQsIFRhYmxlQm9keSwgVGFibGVDZWxsLAp9IGZyb20gIkAvY29tcG9uZW50cy91aS90YWJsZSI7CmltcG9ydCB7IFNlbGVjdCwgU2VsZWN0VHJpZ2dlciwgU2VsZWN0VmFsdWUsIFNlbGVjdENvbnRlbnQsIFNlbGVjdEl0ZW0gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvc2VsZWN0IjsKaW1wb3J0IE1vZHVsZUhlYWRlciBmcm9tICJAL2NvbXBvbmVudHMvc2hhcmVkL01vZHVsZUhlYWRlciI7CmltcG9ydCBMaWZlY3ljbGVTdGF0ZUZvcm0gZnJvbSAiQC9jb21wb25lbnRzL2xpZmVjeWNsZS9MaWZlY3ljbGVTdGF0ZUZvcm0iOwppbXBvcnQgeyB0IH0gZnJvbSAiQC9saWIvaTE4biI7CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBMaWZlY3ljbGVTdGF0ZXNQYWdlKCkgewogIGNvbnN0IFtwYXJhbXMsIHNldFBhcmFtc10gPSB1c2VTZWFyY2hQYXJhbXMoKTsKICBjb25zdCBsaWZlY3ljbGVJZCA9IHBhcmFtcy5nZXQoImxpZmVjeWNsZSIpIHx8ICIiOwogIGNvbnN0IFtkZWZpbml0aW9ucywgc2V0RGVmaW5pdGlvbnNdID0gdXNlU3RhdGUobnVsbCk7CiAgY29uc3QgW3N0YXRlcywgc2V0U3RhdGVzXSA9IHVzZVN0YXRlKG51bGwpOwogIGNvbnN0IFtlZGl0aW5nLCBzZXRFZGl0aW5nXSA9IHVzZVN0YXRlKG51bGwpOwogIGNvbnN0IFtvcGVuLCBzZXRPcGVuXSA9IHVzZVN0YXRlKGZhbHNlKTsKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGJhY2tlbmQuY2F0YWxvZy5saXN0KCJMaWZlY3ljbGVEZWZpbml0aW9uIikudGhlbihzZXREZWZpbml0aW9ucyk7CiAgfSwgW10pOwoKICBjb25zdCBsb2FkU3RhdGVzID0gKGlkKSA9PiB7CiAgICBpZiAoIWlkKSB7IHNldFN0YXRlcyhbXSk7IHJldHVybjsgfQogICAgYmFja2VuZC5jYXRhbG9nLmZpbHRlcigiTGlmZWN5Y2xlU3RhdGUiLCB7IGxpZmVjeWNsZUlkOiBpZCB9KS50aGVuKHNldFN0YXRlcykuY2F0Y2goKCkgPT4gc2V0U3RhdGVzKFtdKSk7CiAgfTsKICB1c2VFZmZlY3QoKCkgPT4gewogICAgbG9hZFN0YXRlcyhsaWZlY3ljbGVJZCk7CiAgfSwgW2xpZmVjeWNsZUlkXSk7CgogIGNvbnN0IG9uU2VsZWN0TGlmZWN5Y2xlID0gKGlkKSA9PiBzZXRQYXJhbXMoaWQgPyB7IGxpZmVjeWNsZTogaWQgfSA6IHt9KTsKICBjb25zdCBoYW5kbGVOZXcgPSAoKSA9PiB7IHNldEVkaXRpbmcobnVsbCk7IHNldE9wZW4odHJ1ZSk7IH07CiAgY29uc3QgaGFuZGxlRWRpdCA9IChzKSA9PiB7IHNldEVkaXRpbmcocyk7IHNldE9wZW4odHJ1ZSk7IH07CiAgY29uc3QgaGFuZGxlU2F2ZWQgPSAoKSA9PiB7IHNldE9wZW4oZmFsc2UpOyBsb2FkU3RhdGVzKGxpZmVjeWNsZUlkKTsgfTsKICBjb25zdCBoYW5kbGVEZWxldGUgPSBhc3luYyAocykgPT4gewogICAgaWYgKCF3aW5kb3cuY29uZmlybSh0KCJsaWZlY3ljbGUuY29uZmlybV9kZWxldGUiKSkpIHJldHVybjsKICAgIGF3YWl0IGNhbGxGbigiZGVsZXRlTGlmZWN5Y2xlU3RhdGUiLCB7IGlkOiBzLmlkIH0pOwogICAgbG9hZFN0YXRlcyhsaWZlY3ljbGVJZCk7CiAgfTsKCiAgY29uc3Qgc29ydGVkID0gc3RhdGVzID8gWy4uLnN0YXRlc10uc29ydCgoYSwgYikgPT4gKGEub3JkZXIgPz8gMCkgLSAoYi5vcmRlciA/PyAwKSkgOiBudWxsOwoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktNiI+CiAgICAgIDxNb2R1bGVIZWFkZXIgdGl0bGU9e3QoImxpZmVjeWNsZS5zdGF0ZXMiKX0gZGVzY3JpcHRpb249e3QoImxpZmVjeWNsZS5zdWJ0aXRsZSIpfSAvPgoKICAgICAgPENhcmQ+CiAgICAgICAgPENhcmRDb250ZW50IGNsYXNzTmFtZT0icHQtNiBzcGFjZS15LTQiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktMS41IG1heC13LXNtIj4KICAgICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LW1lZGl1bSI+e3QoImxpZmVjeWNsZS5zZWxlY3RfbGlmZWN5Y2xlIil9PC9sYWJlbD4KICAgICAgICAgICAgPFNlbGVjdCB2YWx1ZT17bGlmZWN5Y2xlSWR9IG9uVmFsdWVDaGFuZ2U9e29uU2VsZWN0TGlmZWN5Y2xlfT4KICAgICAgICAgICAgICA8U2VsZWN0VHJpZ2dlcj4KICAgICAgICAgICAgICAgIDxTZWxlY3RWYWx1ZSBwbGFjZWhvbGRlcj17dCgibGlmZWN5Y2xlLnNlbGVjdF9saWZlY3ljbGUiKX0gLz4KICAgICAgICAgICAgICA8L1NlbGVjdFRyaWdnZXI+CiAgICAgICAgICAgICAgPFNlbGVjdENvbnRlbnQ+CiAgICAgICAgICAgICAgICB7KGRlZmluaXRpb25zIHx8IFtdKS5tYXAoKGQpID0+ICgKICAgICAgICAgICAgICAgICAgPFNlbGVjdEl0ZW0ga2V5PXtkLmlkfSB2YWx1ZT17ZC5pZH0+e2QubmFtZX08L1NlbGVjdEl0ZW0+CiAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICA8L1NlbGVjdENvbnRlbnQ+CiAgICAgICAgICAgIDwvU2VsZWN0PgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgeyFsaWZlY3ljbGVJZCA/ICgKICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3QoImxpZmVjeWNsZS5ub19saWZlY3ljbGUiKX08L3A+CiAgICAgICAgICApIDogc3RhdGVzID09PSBudWxsID8gKAogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57dCgibGlmZWN5Y2xlLmxvYWRpbmciKX08L3A+CiAgICAgICAgICApIDogKAogICAgICAgICAgICA8PgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGp1c3RpZnktZW5kIj4KICAgICAgICAgICAgICAgIDxCdXR0b24gb25DbGljaz17aGFuZGxlTmV3fSBzaXplPSJzbSIgY2xhc3NOYW1lPSJnYXAtMiI+CiAgICAgICAgICAgICAgICAgIDxQbHVzIGNsYXNzTmFtZT0idy00IGgtNCIgLz4KICAgICAgICAgICAgICAgICAge3QoImxpZmVjeWNsZS5uZXciKX0KICAgICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIHtzb3J0ZWQubGVuZ3RoID09PSAwID8gKAogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3QoImxpZmVjeWNsZS5lbXB0eSIpfTwvcD4KICAgICAgICAgICAgICApIDogKAogICAgICAgICAgICAgICAgPFRhYmxlPgogICAgICAgICAgICAgICAgICA8VGFibGVIZWFkZXI+CiAgICAgICAgICAgICAgICAgICAgPFRhYmxlUm93PgogICAgICAgICAgICAgICAgICAgICAgPFRhYmxlSGVhZD57dCgibGlmZWN5Y2xlLmZpZWxkLm9yZGVyIil9PC9UYWJsZUhlYWQ+CiAgICAgICAgICAgICAgICAgICAgICA8VGFibGVIZWFkPnt0KCJsaWZlY3ljbGUuZmllbGQua2V5Iil9PC9UYWJsZUhlYWQ+CiAgICAgICAgICAgICAgICAgICAgICA8VGFibGVIZWFkPnt0KCJsaWZlY3ljbGUuZmllbGQudGl0bGUiKX08L1RhYmxlSGVhZD4KICAgICAgICAgICAgICAgICAgICAgIDxUYWJsZUhlYWQ+e3QoImxpZmVjeWNsZS5maWVsZC5jb2xvciIpfTwvVGFibGVIZWFkPgogICAgICAgICAgICAgICAgICAgICAgPFRhYmxlSGVhZD57dCgibGlmZWN5Y2xlLmluaXRpYWwiKX0gLyB7dCgibGlmZWN5Y2xlLmZpbmFsIil9PC9UYWJsZUhlYWQ+CiAgICAgICAgICAgICAgICAgICAgICA8VGFibGVIZWFkIGNsYXNzTmFtZT0idGV4dC1yaWdodCI+e3QoImxpZmVjeWNsZS5tYW5hZ2UiKX08L1RhYmxlSGVhZD4KICAgICAgICAgICAgICAgICAgICA8L1RhYmxlUm93PgogICAgICAgICAgICAgICAgICA8L1RhYmxlSGVhZGVyPgogICAgICAgICAgICAgICAgICA8VGFibGVCb2R5PgogICAgICAgICAgICAgICAgICAgIHtzb3J0ZWQubWFwKChzKSA9PiAoCiAgICAgICAgICAgICAgICAgICAgICA8VGFibGVSb3cga2V5PXtzLmlkfT4KICAgICAgICAgICAgICAgICAgICAgICAgPFRhYmxlQ2VsbCBjbGFzc05hbWU9ImZvbnQtbW9ubyB0ZXh0LXhzIj57cy5vcmRlciA/PyAwfTwvVGFibGVDZWxsPgogICAgICAgICAgICAgICAgICAgICAgICA8VGFibGVDZWxsIGNsYXNzTmFtZT0iZm9udC1tb25vIHRleHQteHMiPntzLmtleX08L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICAgICAgICAgICAgPFRhYmxlQ2VsbCBjbGFzc05hbWU9ImZvbnQtbWVkaXVtIj57cy50aXRsZX08L1RhYmxlQ2VsbD4KICAgICAgICAgICAgICAgICAgICAgICAgPFRhYmxlQ2VsbD4KICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41IHRleHQteHMiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAge3MuY29sb3IgPyAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idy0zIGgtMyByb3VuZGVkLWZ1bGwgYm9yZGVyIGJvcmRlci1ib3JkZXIiIHN0eWxlPXt7IGJhY2tncm91bmRDb2xvcjogcy5jb2xvciB9fSAvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgKSA6IG51bGx9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7cy5jb2xvciB8fCAi4oCUIn0KICAgICAgICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgICAgICAgICAgICAgICAgICA8VGFibGVDZWxsPgogICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGdhcC0xIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtzLmlzSW5pdGlhbCAmJiA8QmFkZ2UgdmFyaWFudD0ib3V0bGluZSI+e3QoImxpZmVjeWNsZS5pbml0aWFsIil9PC9CYWRnZT59CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7cy5pc0ZpbmFsICYmIDxCYWRnZSB2YXJpYW50PSJzZWNvbmRhcnkiPnt0KCJsaWZlY3ljbGUuZmluYWwiKX08L0JhZGdlPn0KICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgPC9UYWJsZUNlbGw+CiAgICAgICAgICAgICAgICAgICAgICAgIDxUYWJsZUNlbGwgY2xhc3NOYW1lPSJ0ZXh0LXJpZ2h0Ij4KICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iaW5saW5lLWZsZXggZ2FwLTEiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJnaG9zdCIgc2l6ZT0iaWNvbiIgb25DbGljaz17KCkgPT4gaGFuZGxlRWRpdChzKX0gYXJpYS1sYWJlbD17dCgibGlmZWN5Y2xlLmVkaXQiKX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxQZW5jaWwgY2xhc3NOYW1lPSJ3LTQgaC00IiAvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Imdob3N0IiBzaXplPSJpY29uIiBvbkNsaWNrPXsoKSA9PiBoYW5kbGVEZWxldGUocyl9IGFyaWEtbGFiZWw9e3QoImxpZmVjeWNsZS5kZWxldGUiKX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxUcmFzaDIgY2xhc3NOYW1lPSJ3LTQgaC00IiAvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvVGFibGVDZWxsPgogICAgICAgICAgICAgICAgICAgICAgPC9UYWJsZVJvdz4KICAgICAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICAgICAgPC9UYWJsZUJvZHk+CiAgICAgICAgICAgICAgICA8L1RhYmxlPgogICAgICAgICAgICAgICl9CiAgICAgICAgICAgIDwvPgogICAgICAgICAgKX0KICAgICAgICA8L0NhcmRDb250ZW50PgogICAgICA8L0NhcmQ+CgogICAgICA8RGlhbG9nIG9wZW49e29wZW59IG9uT3BlbkNoYW5nZT17c2V0T3Blbn0+CiAgICAgICAgPERpYWxvZ0NvbnRlbnQ+CiAgICAgICAgICA8RGlhbG9nSGVhZGVyPgogICAgICAgICAgICA8RGlhbG9nVGl0bGU+CiAgICAgICAgICAgICAge2VkaXRpbmcgPyB0KCJsaWZlY3ljbGUuZWRpdCIpIDogdCgibGlmZWN5Y2xlLm5ldyIpfSDigJQge3QoImxpZmVjeWNsZS5zdGF0ZXMiKX0KICAgICAgICAgICAgPC9EaWFsb2dUaXRsZT4KICAgICAgICAgIDwvRGlhbG9nSGVhZGVyPgogICAgICAgICAge29wZW4gJiYgbGlmZWN5Y2xlSWQgJiYgKAogICAgICAgICAgICA8TGlmZWN5Y2xlU3RhdGVGb3JtCiAgICAgICAgICAgICAgbGlmZWN5Y2xlSWQ9e2xpZmVjeWNsZUlkfQogICAgICAgICAgICAgIGluaXRpYWw9e2VkaXRpbmd9CiAgICAgICAgICAgICAgb25TYXZlPXtoYW5kbGVTYXZlZH0KICAgICAgICAgICAgICBvbkNhbmNlbD17KCkgPT4gc2V0T3BlbihmYWxzZSl9CiAgICAgICAgICAgIC8+CiAgICAgICAgICApfQogICAgICAgIDwvRGlhbG9nQ29udGVudD4KICAgICAgPC9EaWFsb2c+CiAgICA8L2Rpdj4KICApOwp9
+import React, { useEffect, useState } from "react";
+import { useSearchParams } from "react-router-dom";
+import { Plus, Pencil, Trash2 } from "lucide-react";
+import { backend } from "@/services/backendAdapter";
+import { callFn } from "@/lib/function-call";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import {
+  Table, TableHeader, TableRow, TableHead, TableBody, TableCell,
+} from "@/components/ui/table";
+import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "@/components/ui/select";
+import ModuleHeader from "@/components/shared/ModuleHeader";
+import LifecycleStateForm from "@/components/lifecycle/LifecycleStateForm";
+import { t } from "@/lib/i18n";
+
+export default function LifecycleStatesPage() {
+  const [params, setParams] = useSearchParams();
+  const lifecycleId = params.get("lifecycle") || "";
+  const [definitions, setDefinitions] = useState(null);
+  const [states, setStates] = useState(null);
+  const [editing, setEditing] = useState(null);
+  const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    backend.catalog.list("LifecycleDefinition").then(setDefinitions);
+  }, []);
+
+  const loadStates = (id) => {
+    if (!id) { setStates([]); return; }
+    backend.catalog.filter("LifecycleState", { lifecycleId: id }).then(setStates).catch(() => setStates([]));
+  };
+  useEffect(() => {
+    loadStates(lifecycleId);
+  }, [lifecycleId]);
+
+  const onSelectLifecycle = (id) => setParams(id ? { lifecycle: id } : {});
+  const handleNew = () => { setEditing(null); setOpen(true); };
+  const handleEdit = (s) => { setEditing(s); setOpen(true); };
+  const handleSaved = () => { setOpen(false); loadStates(lifecycleId); };
+  const handleDelete = async (s) => {
+    if (!window.confirm(t("lifecycle.confirm_delete"))) return;
+    await callFn("deleteLifecycleState", { id: s.id });
+    loadStates(lifecycleId);
+  };
+
+  const sorted = states ? [...states].sort((a, b) => (a.order ?? 0) - (b.order ?? 0)) : null;
+
+  return (
+    <div className="space-y-6">
+      <ModuleHeader title={t("lifecycle.states")} description={t("lifecycle.subtitle")} />
+
+      <Card>
+        <CardContent className="pt-6 space-y-4">
+          <div className="space-y-1.5 max-w-sm">
+            <label className="text-sm font-medium">{t("lifecycle.select_lifecycle")}</label>
+            <Select value={lifecycleId} onValueChange={onSelectLifecycle}>
+              <SelectTrigger>
+                <SelectValue placeholder={t("lifecycle.select_lifecycle")} />
+              </SelectTrigger>
+              <SelectContent>
+                {(definitions || []).map((d) => (
+                  <SelectItem key={d.id} value={d.id}>{d.name}</SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+          </div>
+
+          {!lifecycleId ? (
+            <p className="text-sm text-muted-foreground">{t("lifecycle.no_lifecycle")}</p>
+          ) : states === null ? (
+            <p className="text-sm text-muted-foreground">{t("lifecycle.loading")}</p>
+          ) : (
+            <>
+              <div className="flex justify-end">
+                <Button onClick={handleNew} size="sm" className="gap-2">
+                  <Plus className="w-4 h-4" />
+                  {t("lifecycle.new")}
+                </Button>
+              </div>
+              {sorted.length === 0 ? (
+                <p className="text-sm text-muted-foreground">{t("lifecycle.empty")}</p>
+              ) : (
+                <Table>
+                  <TableHeader>
+                    <TableRow>
+                      <TableHead>{t("lifecycle.field.order")}</TableHead>
+                      <TableHead>{t("lifecycle.field.key")}</TableHead>
+                      <TableHead>{t("lifecycle.field.title")}</TableHead>
+                      <TableHead>{t("lifecycle.field.color")}</TableHead>
+                      <TableHead>{t("lifecycle.initial")} / {t("lifecycle.final")}</TableHead>
+                      <TableHead className="text-right">{t("lifecycle.manage")}</TableHead>
+                    </TableRow>
+                  </TableHeader>
+                  <TableBody>
+                    {sorted.map((s) => (
+                      <TableRow key={s.id}>
+                        <TableCell className="font-mono text-xs">{s.order ?? 0}</TableCell>
+                        <TableCell className="font-mono text-xs">{s.key}</TableCell>
+                        <TableCell className="font-medium">{s.title}</TableCell>
+                        <TableCell>
+                          <span className="inline-flex items-center gap-1.5 text-xs">
+                            {s.color ? (
+                              <span className="w-3 h-3 rounded-full border border-border" style={{ backgroundColor: s.color }} />
+                            ) : null}
+                            {s.color || "—"}
+                          </span>
+                        </TableCell>
+                        <TableCell>
+                          <div className="flex gap-1">
+                            {s.isInitial && <Badge variant="outline">{t("lifecycle.initial")}</Badge>}
+                            {s.isFinal && <Badge variant="secondary">{t("lifecycle.final")}</Badge>}
+                          </div>
+                        </TableCell>
+                        <TableCell className="text-right">
+                          <div className="inline-flex gap-1">
+                            <Button variant="ghost" size="icon" onClick={() => handleEdit(s)} aria-label={t("lifecycle.edit")}>
+                              <Pencil className="w-4 h-4" />
+                            </Button>
+                            <Button variant="ghost" size="icon" onClick={() => handleDelete(s)} aria-label={t("lifecycle.delete")}>
+                              <Trash2 className="w-4 h-4" />
+                            </Button>
+                          </div>
+                        </TableCell>
+                      </TableRow>
+                    ))}
+                  </TableBody>
+                </Table>
+              )}
+            </>
+          )}
+        </CardContent>
+      </Card>
+
+      <Dialog open={open} onOpenChange={setOpen}>
+        <DialogContent>
+          <DialogHeader>
+            <DialogTitle>
+              {editing ? t("lifecycle.edit") : t("lifecycle.new")} — {t("lifecycle.states")}
+            </DialogTitle>
+          </DialogHeader>
+          {open && lifecycleId && (
+            <LifecycleStateForm
+              lifecycleId={lifecycleId}
+              initial={editing}
+              onSave={handleSaved}
+              onCancel={() => setOpen(false)}
+            />
+          )}
+        </DialogContent>
+      </Dialog>
+    </div>
+  );
+}

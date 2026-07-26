@@ -1,1 +1,58 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZVN0YXRlIH0gZnJvbSAicmVhY3QiOwppbXBvcnQgeyBTZWFyY2ggfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgeyBJbnB1dCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9pbnB1dCI7CmltcG9ydCB7IEFMTF9ST1VURVMsIGlzUm9sZUFsbG93ZWQgfSBmcm9tICJAL2xpYi9uYXZpZ2F0aW9uIjsKaW1wb3J0IHsgZ2V0RWZmZWN0aXZlUGxhdGZvcm1Sb2xlIH0gZnJvbSAiQC9saWIvYWNjZXNzLWNvbnRyb2wiOwppbXBvcnQgeyB0IH0gZnJvbSAiQC9saWIvaTE4biI7CmltcG9ydCB7IHVzZUF1dGggfSBmcm9tICJAL2F1dGgvQXV0aENvbnRleHRGYWNhZGUiOwppbXBvcnQgeyB1c2VOYXZpZ2F0ZSB9IGZyb20gInJlYWN0LXJvdXRlci1kb20iOwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gR2xvYmFsU2VhcmNoKCkgewogIGNvbnN0IFtxdWVyeSwgc2V0UXVlcnldID0gdXNlU3RhdGUoIiIpOwogIGNvbnN0IFtmb2N1c2VkLCBzZXRGb2N1c2VkXSA9IHVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCB7IHVzZXIgfSA9IHVzZUF1dGgoKTsKICBjb25zdCByb2xlID0gZ2V0RWZmZWN0aXZlUGxhdGZvcm1Sb2xlKHVzZXIpOwogIGNvbnN0IG5hdmlnYXRlID0gdXNlTmF2aWdhdGUoKTsKCiAgY29uc3QgcmVzdWx0cyA9IHF1ZXJ5CiAgICA/IEFMTF9ST1VURVMuZmlsdGVyKAogICAgICAgIChyKSA9PgogICAgICAgICAgaXNSb2xlQWxsb3dlZChyLnJvbGVzLCByb2xlKSAmJgogICAgICAgICAgdChyLmxhYmVsS2V5KS50b0xvd2VyQ2FzZSgpLmluY2x1ZGVzKHF1ZXJ5LnRvTG93ZXJDYXNlKCkpCiAgICAgICkuc2xpY2UoMCwgOCkKICAgIDogW107CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUgdy1mdWxsIj4KICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIj4KICAgICAgICA8U2VhcmNoIGNsYXNzTmFtZT0iYWJzb2x1dGUgbGVmdC0yLjUgdG9wLTEvMiAtdHJhbnNsYXRlLXktMS8yIHctNCBoLTQgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIHBvaW50ZXItZXZlbnRzLW5vbmUiIC8+CiAgICAgICAgPElucHV0CiAgICAgICAgICB2YWx1ZT17cXVlcnl9CiAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldFF1ZXJ5KGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgIG9uRm9jdXM9eygpID0+IHNldEZvY3VzZWQodHJ1ZSl9CiAgICAgICAgICBvbkJsdXI9eygpID0+IHNldFRpbWVvdXQoKCkgPT4gc2V0Rm9jdXNlZChmYWxzZSksIDE1MCl9CiAgICAgICAgICBwbGFjZWhvbGRlcj17dCgiY29tbW9uLnNlYXJjaCIpfQogICAgICAgICAgYXJpYS1sYWJlbD0iU2VhcmNoIG5hdmlnYXRpb24iCiAgICAgICAgICBjbGFzc05hbWU9InBsLTggaC05IgogICAgICAgIC8+CiAgICAgIDwvZGl2PgogICAgICB7Zm9jdXNlZCAmJiByZXN1bHRzLmxlbmd0aCA+IDAgJiYgKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSB0b3AtZnVsbCBsZWZ0LTAgcmlnaHQtMCBtdC0xIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctcG9wb3ZlciBzaGFkb3ctbWQgei01MCBweS0xIG1heC1oLTcyIG92ZXJmbG93LXktYXV0byI+CiAgICAgICAgICB7cmVzdWx0cy5tYXAoKHIpID0+ICgKICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgIGtleT17ci5rZXl9CiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgdGV4dC1sZWZ0IHB4LTMgcHktMiB0ZXh0LXNtIGhvdmVyOmJnLWFjY2VudCB0ZXh0LWZvcmVncm91bmQgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIgogICAgICAgICAgICAgIG9uTW91c2VEb3duPXsoKSA9PiB7CiAgICAgICAgICAgICAgICBuYXZpZ2F0ZShyLnBhdGgpOwogICAgICAgICAgICAgICAgc2V0UXVlcnkoIiIpOwogICAgICAgICAgICAgIH19CiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8c3Bhbj57dChyLmxhYmVsS2V5KX08L3NwYW4+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSB0ZXh0LW11dGVkLWZvcmVncm91bmQgZm9udC1tb25vIj57ci5wYXRofTwvc3Bhbj4KICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICApKX0KICAgICAgICA8L2Rpdj4KICAgICAgKX0KICAgIDwvZGl2PgogICk7Cn0=
+import React, { useState } from "react";
+import { Search } from "lucide-react";
+import { Input } from "@/components/ui/input";
+import { ALL_ROUTES, isRoleAllowed } from "@/lib/navigation";
+import { getEffectivePlatformRole } from "@/lib/access-control";
+import { t } from "@/lib/i18n";
+import { useAuth } from "@/auth/AuthContextFacade";
+import { useNavigate } from "react-router-dom";
+
+export default function GlobalSearch() {
+  const [query, setQuery] = useState("");
+  const [focused, setFocused] = useState(false);
+  const { user } = useAuth();
+  const role = getEffectivePlatformRole(user);
+  const navigate = useNavigate();
+
+  const results = query
+    ? ALL_ROUTES.filter(
+        (r) =>
+          isRoleAllowed(r.roles, role) &&
+          t(r.labelKey).toLowerCase().includes(query.toLowerCase())
+      ).slice(0, 8)
+    : [];
+
+  return (
+    <div className="relative w-full">
+      <div className="relative">
+        <Search className="absolute left-2.5 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground pointer-events-none" />
+        <Input
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          onFocus={() => setFocused(true)}
+          onBlur={() => setTimeout(() => setFocused(false), 150)}
+          placeholder={t("common.search")}
+          aria-label="Search navigation"
+          className="pl-8 h-9"
+        />
+      </div>
+      {focused && results.length > 0 && (
+        <div className="absolute top-full left-0 right-0 mt-1 rounded-md border border-border bg-popover shadow-md z-50 py-1 max-h-72 overflow-y-auto">
+          {results.map((r) => (
+            <button
+              key={r.key}
+              className="w-full text-left px-3 py-2 text-sm hover:bg-accent text-foreground flex items-center justify-between"
+              onMouseDown={() => {
+                navigate(r.path);
+                setQuery("");
+              }}
+            >
+              <span>{t(r.labelKey)}</span>
+              <span className="text-[10px] text-muted-foreground font-mono">{r.path}</span>
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
