@@ -4,12 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node scripts/run-vite.mjs dev",
+    "build": "node scripts/run-vite.mjs build",
+    "test:build-target": "node --test tests/buildTargetDescriptor.test.js",
     "lint": "eslint . --quiet",
     "lint:fix": "eslint . --fix",
     "typecheck": "tsc -p ./jsconfig.json",
-    "preview": "vite preview"
+    "preview": "node scripts/run-vite.mjs preview"
   },
   "dependencies": {
     "@base44/sdk": "^0.8.40",
