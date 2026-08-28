@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import { Plus, Pencil, Trash2 } from "lucide-react";
-import { base44 } from "@/api/base44Client";
+import { backend } from "@/services/backendAdapter";
 import { callFn } from "@/lib/function-call";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -27,14 +27,14 @@ export default function LifecycleTransitionsPage() {
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
-    base44.entities.LifecycleDefinition.list().then(setDefinitions);
+    backend.catalog.list("LifecycleDefinition").then(setDefinitions);
   }, []);
 
   const load = (id) => {
     if (!id) { setStates([]); setTransitions([]); return; }
     Promise.all([
-      base44.entities.LifecycleState.filter({ lifecycleId: id }).catch(() => []),
-      base44.entities.LifecycleTransition.filter({ lifecycleId: id }).catch(() => []),
+      backend.catalog.filter("LifecycleState", { lifecycleId: id }).catch(() => []),
+      backend.catalog.filter("LifecycleTransition", { lifecycleId: id }).catch(() => []),
     ]).then(([s, tr]) => {
       setStates(s);
       setTransitions(tr);

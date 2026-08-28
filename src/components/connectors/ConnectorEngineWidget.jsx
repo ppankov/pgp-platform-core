@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Plug } from "lucide-react";
-import { base44 } from "@/api/base44Client";
+import { backend } from "@/services/backendAdapter";
 import { callFn } from "@/lib/function-call";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
@@ -14,8 +14,8 @@ export default function ConnectorEngineWidget() {
 
   useEffect(() => {
     Promise.all([
-      base44.entities.ConnectorDefinition.list().then((r) => r.length).catch(() => 0),
-      base44.entities.ConnectorProvider.filter({ active: true }).then((r) => r.length).catch(() => 0),
+      backend.catalog.list("ConnectorDefinition").then((r) => r.length).catch(() => 0),
+      backend.catalog.filter("ConnectorProvider", { active: true }).then((r) => r.length).catch(() => 0),
       callFn("getOrganizations", {})
         .then((r) => (r?.organizations || [])[0]?.id)
         .then((orgId) => (orgId ? callFn("listConnectors", { organizationId: orgId }) : { connections: [] }))

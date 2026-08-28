@@ -11,7 +11,7 @@ import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "@
 import { Table, TableHeader, TableRow, TableHead, TableBody, TableCell } from "@/components/ui/table";
 import ModuleHeader from "@/components/shared/ModuleHeader";
 import { callFn } from "@/lib/function-call";
-import { useAuth } from "@/lib/AuthContext";
+import { useAuth } from "@/auth/AuthContextFacade";
 import { hasCapability } from "@/lib/permissions";
 import { useToast } from "@/components/ui/use-toast";
 import { t } from "@/lib/i18n";

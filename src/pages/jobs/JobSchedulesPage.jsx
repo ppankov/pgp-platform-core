@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Plus, ArrowRight } from "lucide-react";
-import { base44 } from "@/api/base44Client";
+import { backend } from "@/services/backendAdapter";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -10,7 +10,7 @@ import { Table, TableHeader, TableRow, TableHead, TableBody, TableCell } from "@
 import ModuleHeader from "@/components/shared/ModuleHeader";
 import JobScheduleForm from "@/components/jobs/JobScheduleForm";
 import { callFn } from "@/lib/function-call";
-import { useAuth } from "@/lib/AuthContext";
+import { useAuth } from "@/auth/AuthContextFacade";
 import { hasCapability } from "@/lib/permissions";
 import { t } from "@/lib/i18n";
 
@@ -32,7 +32,7 @@ export default function JobSchedulesPage() {
     }
   };
   const loadDefs = async () => {
-    try { setDefs(await base44.entities.JobDefinition.list()); } catch (e) {}
+    try { setDefs(await backend.catalog.list("JobDefinition")); } catch (e) {}
   };
   useEffect(() => { load(); loadDefs(); }, []);
 

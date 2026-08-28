@@ -1,0 +1,26 @@
+{
+  "name": "@ppankov/pgp-core-domain",
+  "version": "0.1.0-alpha.1",
+  "description": "Provider-independent PGP Core domain rules. Pure, side-effect-free. No Base44 or Supabase dependency.",
+  "type": "module",
+  "private": false,
+  "sideEffects": false,
+  "license": "UNLICENSED",
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "exports": {
+    ".": "./src/index.js",
+    "./workflow": "./src/workflowGraph.js",
+    "./scheduling": "./src/jobScheduling.js",
+    "./background-job": "./src/backgroundJob.js",
+    "./safe-data": "./src/safeData.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node test/verify.mjs"
+  }
+}

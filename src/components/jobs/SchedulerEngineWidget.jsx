@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Timer, AlertTriangle } from "lucide-react";
-import { base44 } from "@/api/base44Client";
+import { backend } from "@/services/backendAdapter";
 import { callFn } from "@/lib/function-call";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
@@ -20,7 +20,7 @@ export default function SchedulerEngineWidget() {
 
   useEffect(() => {
     Promise.all([
-      base44.entities.JobDefinition.list().then((r) => r.length).catch(() => 0),
+      backend.catalog.list("JobDefinition").then((r) => r.length).catch(() => 0),
       callFn("listJobSchedules", { enabled: true }).then((r) => (r?.schedules || []).length).catch(() => 0),
       callFn("listBackgroundJobs", { status: ["queued", "retry_wait"] }).then((r) => (r?.jobs || []).length).catch(() => 0),
       callFn("listBackgroundJobs", { status: ["leased", "running"] }).then((r) => (r?.jobs || []).length).catch(() => 0),

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import { Plus, Pencil, Trash2 } from "lucide-react";
-import { base44 } from "@/api/base44Client";
+import { backend } from "@/services/backendAdapter";
 import { callFn } from "@/lib/function-call";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -24,12 +24,12 @@ export default function LifecycleStatesPage() {
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
-    base44.entities.LifecycleDefinition.list().then(setDefinitions);
+    backend.catalog.list("LifecycleDefinition").then(setDefinitions);
   }, []);
 
   const loadStates = (id) => {
     if (!id) { setStates([]); return; }
-    base44.entities.LifecycleState.filter({ lifecycleId: id }).then(setStates).catch(() => setStates([]));
+    backend.catalog.filter("LifecycleState", { lifecycleId: id }).then(setStates).catch(() => setStates([]));
   };
   useEffect(() => {
     loadStates(lifecycleId);

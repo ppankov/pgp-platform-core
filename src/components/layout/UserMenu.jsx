@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { ChevronDown, LogOut, User as UserIcon } from "lucide-react";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
-import { useAuth } from "@/lib/AuthContext";
+import { useAuth } from "@/auth/AuthContextFacade";
 import { t } from "@/lib/i18n";
 import { SUPPORTED_LANGUAGES, getLang, setLang } from "@/lib/i18n";
 

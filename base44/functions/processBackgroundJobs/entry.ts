@@ -1,9 +1,15 @@
 import { createClientFromRequest } from 'npm:@base44/sdk@0.8.38';
+import { calculateRetryDelay, decideFailedJobTransition } from "npm:@ppankov/pgp-core-domain@0.1.0-alpha.1/background-job";
+import { containsSecretKey, redactSecretKeys, sanitizeErrorText } from "npm:@ppankov/pgp-core-domain@0.1.0-alpha.1/safe-data";
 
 // Scheduler and Background Job Runtime — processBackgroundJobs
 // Super Admin manual invocation (or future native scheduler) only. Accepts bounded batchSize
 // (default 10, max 50). Claims jobs using lease semantics, processes only static registered
 // handlers, handles success/retry/dead-letter transitions. Returns counts and identifiers only.
+// Wave 10.3B: secret detection/redaction, error-text sanitization, retry-delay calculation,
+// and retry/dead-letter decision delegated to @ppankov/pgp-core-domain (exact version pin).
+// Infrastructure orchestration, handlers, lease, audit, events, and at-least-once semantics
+// are unchanged.
 
 const HANDLERS = {
   "system.health_check": async (ctx) => ({
@@ -15,55 +21,11 @@ const HANDLERS = {
 };
 const LEASE_SECONDS = 300;
 
-const SECRET_KEYS = ["password","passwd","secret","token","access_token","refresh_token","api_key","apikey","client_secret","private_key","credential","authorization","cookie","session"];
-function hasSecretKey(v, d=0) {
-  if (d > 12 || v == null || typeof v !== "object") return false;
-  for (const k of Object.keys(v)) {
-    const lk = String(k).toLowerCase();
-    if (SECRET_KEYS.some(s => lk.includes(s))) return true;
-    if (hasSecretKey(v[k], d + 1)) return true;
-  }
-  return false;
-}
-function redactResult(v, d=0) {
-  if (d > 12 || v == null || typeof v !== "object") return v;
-  const out = Array.isArray(v) ? [] : {};
-  for (const k of Object.keys(v)) {
-    const lk = String(k).toLowerCase();
-    if (SECRET_KEYS.some(s => lk.includes(s))) out[k] = "[redacted]";
-    else out[k] = redactResult(v[k], d + 1);
-  }
-  return out;
-}
-// Phase 9 stabilization: sanitize lastError text — mask secret-like values in
-// error strings (key=value / key: value / Bearer / Authorization header) and
-// cap to 500 chars. Stack traces never stored (only .message is used).
-const SECRET_TEXT_KEY = /\b(password|passwd|secret|token|access_token|refresh_token|api_key|apikey|client_secret|private_key|credential|credentialref|authorization|cookie|session)\b\s*[:=]\s*([^\s,;"']+)/gi;
-const BEARER_TEXT = /\b(Bearer)\s+([^\s,;"']+)/gi;
-function sanitizeErrorText(msg) {
-  let s = typeof msg === "string" ? msg : String(msg || "");
-  s = s.replace(SECRET_TEXT_KEY, "$1=[redacted]");
-  s = s.replace(BEARER_TEXT, "$1 [redacted]");
-  return s.length > 500 ? s.slice(0, 500) : s;
-}
-
 async function audit(base44, ev) {
   try { await base44.asServiceRole.entities.JobExecutionEvent.create({ ...ev, createdAt: new Date().toISOString() }); } catch (e) {}
 }
 async function publish(base44, eventType, sourceId, payload, orgId) {
   try { await base44.asServiceRole.functions.invoke("publishEvent", { eventType, sourceType: "job", sourceId, payload, actorId: null, organizationId: orgId ?? null }); } catch (e) {}
-}
-
-function retryDelay(retryPolicy, attemptNumber) {
-  if (!retryPolicy) return 0;
-  const bt = retryPolicy.backoffType || "none";
-  const base = Number(retryPolicy.baseDelaySeconds || 0);
-  const maxd = Number(retryPolicy.maxDelaySeconds || 0);
-  if (bt === "none") return 0;
-  if (bt === "fixed") return base;
-  // exponential
-  const d = Math.min(maxd, base * Math.pow(2, Math.max(0, attemptNumber - 1)));
-  return d;
 }
 
 Deno.serve(async (req) => {
@@ -139,7 +101,7 @@ Deno.serve(async (req) => {
       try {
         if (!handler) throw new Error("unknown handler: " + job.handlerKey);
         const handlerResult = await handler({ jobId: job.id, attemptNumber: newAttempt, payload: job.payload || {} });
-        const safeResult = hasSecretKey(handlerResult) ? redactResult(handlerResult) : handlerResult;
+        const safeResult = containsSecretKey(handlerResult) ? redactSecretKeys(handlerResult) : handlerResult;
         await base44.asServiceRole.entities.BackgroundJob.update(job.id, {
           status: "succeeded", result: safeResult || {}, completedAt: nowIso,
           leaseOwner: null, leaseAcquiredAt: null, leaseExpiresAt: null, lastError: null,
@@ -151,9 +113,9 @@ Deno.serve(async (req) => {
       } catch (handlerError) {
         const safeError = sanitizeErrorText(String(handlerError.message || "handler error"));
         await base44.asServiceRole.entities.JobAttempt.update(attempt.id, { status: "failed", failedAt: nowIso, errorCode: "handler_error", lastError: safeError });
-        if (newAttempt < (job.maxAttempts || 1)) {
-          const delay = retryDelay(job.retryPolicy, newAttempt);
-          const availableAt = new Date(now.getTime() + delay * 1000).toISOString();
+        const transition = decideFailedJobTransition({ attemptNumber: newAttempt, maxAttempts: job.maxAttempts || 1, retryPolicy: job.retryPolicy, nowIso });
+        if (transition.status === "retry_wait") {
+          const availableAt = transition.availableAt;
           await base44.asServiceRole.entities.BackgroundJob.update(job.id, {
             status: "retry_wait", availableAt, lastError: safeError,
             leaseOwner: null, leaseAcquiredAt: null, leaseExpiresAt: null,
@@ -163,7 +125,7 @@ Deno.serve(async (req) => {
           result.retried++;
         } else {
           await base44.asServiceRole.entities.BackgroundJob.update(job.id, {
-            status: "dead_letter", deadLetteredAt: nowIso, lastError: safeError,
+            status: "dead_letter", deadLetteredAt: transition.deadLetteredAt, lastError: safeError,
             leaseOwner: null, leaseAcquiredAt: null, leaseExpiresAt: null,
           });
           await audit(base44, { backgroundJobId: job.id, jobDefinitionId: job.jobDefinitionId, jobScheduleId: job.jobScheduleId, organizationId: job.organizationId, eventType: "job.dead_lettered", status: "dead_letter", attemptNumber: newAttempt, actorId: null, workerId, correlationId: job.correlationId, metadata: { maxAttempts: job.maxAttempts } });

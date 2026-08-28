@@ -4,7 +4,7 @@ import { Input } from "@/components/ui/input";
 import { ALL_ROUTES, isRoleAllowed } from "@/lib/navigation";
 import { getEffectivePlatformRole } from "@/lib/access-control";
 import { t } from "@/lib/i18n";
-import { useAuth } from "@/lib/AuthContext";
+import { useAuth } from "@/auth/AuthContextFacade";
 import { useNavigate } from "react-router-dom";
 
 export default function GlobalSearch() {

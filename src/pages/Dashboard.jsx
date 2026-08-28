@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Layers, Boxes, Plug, Shield, FileText } from "lucide-react";
-import { useAuth } from "@/lib/AuthContext";
+import { useAuth } from "@/auth/AuthContextFacade";
 import { t } from "@/lib/i18n";
 import { ALL_ROUTES, NAV_GROUPS } from "@/lib/navigation";
 import { PLATFORM_ROLES } from "@/lib/permissions";

@@ -2,7 +2,7 @@
 // Delegates entirely to access-control.js — no duplicated role matrices.
 // Backend authorization and RLS remain mandatory in Phase 2.
 import { useLocation } from 'react-router-dom';
-import { useAuth } from '@/lib/AuthContext';
+import { useAuth } from '@/auth/AuthContextFacade';
 import { ALL_ROUTES } from '@/lib/navigation';
 import { getEffectivePlatformRole, canAccessRoute } from '@/lib/access-control';
 import NotAuthorized from '@/pages/NotAuthorized';

@@ -5,7 +5,6 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "@/components/ui/select";
 import { callFn } from "@/lib/function-call";
-import { base44 } from "@/api/base44Client";
 import { t } from "@/lib/i18n";
 
 export default function ConnectorConnectionForm({ onSave, onCancel }) {

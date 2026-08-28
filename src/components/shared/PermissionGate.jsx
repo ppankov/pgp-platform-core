@@ -1,5 +1,5 @@
 import React from "react";
-import { useAuth } from "@/lib/AuthContext";
+import { useAuth } from "@/auth/AuthContextFacade";
 import { hasCapability } from "@/lib/permissions";
 
 // Frontend visibility helper — NOT a security boundary.

@@ -10,7 +10,6 @@ import {
 } from "@/components/ui/table";
 import ModuleHeader from "@/components/shared/ModuleHeader";
 import { callFn } from "@/lib/function-call";
-import { base44 } from "@/api/base44Client";
 import { t } from "@/lib/i18n";
 
 export default function InstalledPluginsPage() {

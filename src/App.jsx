@@ -66,7 +66,7 @@ const AuthenticatedApp = () => {
   // Render the main app — all platform routes under ProtectedRoute + AdminLayout
   return (
     <Routes>
-      <Route element={<ProtectedRoute unauthenticatedElement={<Navigate to="/login" replace />} />}>
+      <Route element={<ProtectedRoute unauthenticatedElement={<Navigate to="/" replace />} />}>
         <Route element={<AdminLayout />}>
           <Route path="/" element={<Dashboard />} />
           <Route path="/lifecycle/definitions" element={<RoleRoute><LifecycleDefinitionsPage /></RoleRoute>} />
@@ -101,6 +101,7 @@ const AuthenticatedApp = () => {
           ))}
         </Route>
       </Route>
+      <Route path="/login" element={<Navigate to="/" replace />} />
       <Route path="*" element={<PageNotFound />} />
     </Routes>
   );

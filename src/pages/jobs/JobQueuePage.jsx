@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Plus, ArrowRight, AlertTriangle, Play, Timer } from "lucide-react";
-import { base44 } from "@/api/base44Client";
+import { backend } from "@/services/backendAdapter";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -14,7 +14,7 @@ import { Table, TableHeader, TableRow, TableHead, TableBody, TableCell } from "@
 import ModuleHeader from "@/components/shared/ModuleHeader";
 import JobStatusBadge from "@/components/jobs/JobStatusBadge";
 import { callFn } from "@/lib/function-call";
-import { useAuth } from "@/lib/AuthContext";
+import { useAuth } from "@/auth/AuthContextFacade";
 import { hasCapability } from "@/lib/permissions";
 import { useToast } from "@/components/ui/use-toast";
 import { t } from "@/lib/i18n";
@@ -40,7 +40,7 @@ export default function JobQueuePage() {
       setErr(e.response?.data?.error || e.message);
     }
   };
-  const loadDefs = async () => { try { setDefs(await base44.entities.JobDefinition.list()); } catch (e) {} };
+  const loadDefs = async () => { try { setDefs(await backend.catalog.list("JobDefinition")); } catch (e) {} };
   useEffect(() => { load(); loadDefs(); }, []);
 
   const runTick = async () => {

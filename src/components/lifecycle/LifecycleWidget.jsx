@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Workflow } from "lucide-react";
-import { base44 } from "@/api/base44Client";
+import { backend } from "@/services/backendAdapter";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
 import { t } from "@/lib/i18n";
@@ -15,9 +15,9 @@ export default function LifecycleWidget() {
 
   useEffect(() => {
     Promise.all([
-      base44.entities.LifecycleDefinition.list().then((r) => r.length).catch(() => 0),
-      base44.entities.LifecycleState.list().then((r) => r.length).catch(() => 0),
-      base44.entities.LifecycleTransition.list().then((r) => r.length).catch(() => 0),
+      backend.catalog.list("LifecycleDefinition").then((r) => r.length).catch(() => 0),
+      backend.catalog.list("LifecycleState").then((r) => r.length).catch(() => 0),
+      backend.catalog.list("LifecycleTransition").then((r) => r.length).catch(() => 0),
     ]).then(([d, s, tr]) =>
       setCounts({ definitions: d, states: s, transitions: tr })
     );

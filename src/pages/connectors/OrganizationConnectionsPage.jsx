@@ -10,8 +10,7 @@ import { Table, TableHeader, TableRow, TableHead, TableBody, TableCell } from "@
 import ModuleHeader from "@/components/shared/ModuleHeader";
 import ConnectorConnectionForm from "@/components/connectors/ConnectorConnectionForm";
 import { callFn } from "@/lib/function-call";
-import { base44 } from "@/api/base44Client";
-import { useAuth } from "@/lib/AuthContext";
+import { useAuth } from "@/auth/AuthContextFacade";
 import { hasCapability } from "@/lib/permissions";
 import { t } from "@/lib/i18n";
 

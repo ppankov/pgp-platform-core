@@ -1,6 +1,6 @@
 import React from "react";
 import { Shield } from "lucide-react";
-import { useAuth } from "@/lib/AuthContext";
+import { useAuth } from "@/auth/AuthContextFacade";
 import { t } from "@/lib/i18n";
 
 export default function RoleIndicator() {

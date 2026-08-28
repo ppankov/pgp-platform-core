@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Plus, Pencil, Trash2, Eye, ArrowRight } from "lucide-react";
-import { base44 } from "@/api/base44Client";
+import { backend } from "@/services/backendAdapter";
 import { callFn } from "@/lib/function-call";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -20,7 +20,7 @@ export default function LifecycleDefinitionsPage() {
   const [open, setOpen] = useState(false);
 
   const load = async () => {
-    const list = await base44.entities.LifecycleDefinition.list();
+    const list = await backend.catalog.list("LifecycleDefinition");
     setItems(list);
   };
   useEffect(() => {

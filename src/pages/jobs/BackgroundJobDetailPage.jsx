@@ -8,7 +8,7 @@ import { Table, TableHeader, TableRow, TableHead, TableBody, TableCell } from "@
 import ModuleHeader from "@/components/shared/ModuleHeader";
 import JobStatusBadge from "@/components/jobs/JobStatusBadge";
 import { callFn } from "@/lib/function-call";
-import { useAuth } from "@/lib/AuthContext";
+import { useAuth } from "@/auth/AuthContextFacade";
 import { hasCapability } from "@/lib/permissions";
 import { useToast } from "@/components/ui/use-toast";
 import { t } from "@/lib/i18n";

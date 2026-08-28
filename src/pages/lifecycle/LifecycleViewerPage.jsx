@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useMemo } from "react";
 import { useSearchParams } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
-import { base44 } from "@/api/base44Client";
+import { backend } from "@/services/backendAdapter";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "@/components/ui/select";
@@ -16,14 +16,14 @@ export default function LifecycleViewerPage() {
   const [transitions, setTransitions] = useState([]);
 
   useEffect(() => {
-    base44.entities.LifecycleDefinition.list().then(setDefinitions);
+    backend.catalog.list("LifecycleDefinition").then(setDefinitions);
   }, []);
 
   useEffect(() => {
     if (!lifecycleId) { setStates([]); setTransitions([]); return; }
     Promise.all([
-      base44.entities.LifecycleState.filter({ lifecycleId }).catch(() => []),
-      base44.entities.LifecycleTransition.filter({ lifecycleId }).catch(() => []),
+      backend.catalog.filter("LifecycleState", { lifecycleId }).catch(() => []),
+      backend.catalog.filter("LifecycleTransition", { lifecycleId }).catch(() => []),
     ]).then(([s, tr]) => {
       setStates(s);
       setTransitions(tr);

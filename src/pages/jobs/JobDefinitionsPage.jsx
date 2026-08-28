@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Plus } from "lucide-react";
-import { base44 } from "@/api/base44Client";
+import { backend } from "@/services/backendAdapter";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -8,7 +8,7 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/u
 import { Table, TableHeader, TableRow, TableHead, TableBody, TableCell } from "@/components/ui/table";
 import ModuleHeader from "@/components/shared/ModuleHeader";
 import JobDefinitionForm from "@/components/jobs/JobDefinitionForm";
-import { useAuth } from "@/lib/AuthContext";
+import { useAuth } from "@/auth/AuthContextFacade";
 import { hasCapability } from "@/lib/permissions";
 import { t } from "@/lib/i18n";
 
@@ -22,7 +22,7 @@ export default function JobDefinitionsPage() {
   const load = async () => {
     setErr("");
     try {
-      const r = await base44.entities.JobDefinition.list();
+      const r = await backend.catalog.list("JobDefinition");
       setRows(r);
     } catch (e) {
       setErr(e.response?.data?.error || e.message);

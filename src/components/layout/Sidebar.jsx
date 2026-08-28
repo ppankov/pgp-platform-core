@@ -4,7 +4,7 @@ import { ChevronDown, ChevronRight } from "lucide-react";
 import { NAV_GROUPS, NAV_ITEMS, isRoleAllowed } from "@/lib/navigation";
 import { getEffectivePlatformRole } from "@/lib/access-control";
 import { t } from "@/lib/i18n";
-import { useAuth } from "@/lib/AuthContext";
+import { useAuth } from "@/auth/AuthContextFacade";
 
 export default function Sidebar({ onNavigate }) {
   const { user } = useAuth();
