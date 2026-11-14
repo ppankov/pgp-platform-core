@@ -4,7 +4,7 @@ import { mkdtemp, mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import test from "node:test";
-import { fileURLToPath } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
 
 const WRAPPER_PATH = fileURLToPath(
   new URL("../scripts/run-vite.mjs", import.meta.url)
@@ -15,6 +15,8 @@ async function createFixture() {
   const scriptsDirectory = join(fixtureRoot, "scripts");
   const viteBinDirectory = join(fixtureRoot, "node_modules", "vite", "bin");
   const markerPath = join(fixtureRoot, "vite-started.json");
+  const targetMarkerPath = join(fixtureRoot, "target-at-exit.txt");
+  const preloadPath = join(fixtureRoot, "observe-target.mjs");
 
   await mkdir(scriptsDirectory, { recursive: true });
   await mkdir(viteBinDirectory, { recursive: true });
@@ -32,17 +34,33 @@ async function createFixture() {
       "}));",
     ].join("\n")
   );
+  await writeFile(
+    preloadPath,
+    [
+      'import { writeFileSync } from "node:fs";',
+      "process.on(\"exit\", () => {",
+      `  writeFileSync(${JSON.stringify(targetMarkerPath)}, process.env.PGP_BUILD_TARGET ?? "<missing>");`,
+      "});",
+    ].join("\n")
+  );
 
   return {
     fixtureRoot,
     markerPath,
+    preloadPath,
+    targetMarkerPath,
     wrapperPath: join(scriptsDirectory, "run-vite.mjs"),
   };
 }
 
 async function runFixture(args, callerTarget = "unknown-target") {
   const fixture = await createFixture();
-  const result = spawnSync(process.execPath, [fixture.wrapperPath, ...args], {
+  const result = spawnSync(process.execPath, [
+    "--import",
+    pathToFileURL(fixture.preloadPath).href,
+    fixture.wrapperPath,
+    ...args,
+  ], {
     cwd: fixture.fixtureRoot,
     encoding: "utf8",
     env: {
@@ -52,8 +70,16 @@ async function runFixture(args, callerTarget = "unknown-target") {
   });
 
   let marker = null;
+  let targetAtExit = null;
   try {
     marker = JSON.parse(await readFile(fixture.markerPath, "utf8"));
+  } catch (error) {
+    if (error.code !== "ENOENT") {
+      throw error;
+    }
+  }
+  try {
+    targetAtExit = await readFile(fixture.targetMarkerPath, "utf8");
   } catch (error) {
     if (error.code !== "ENOENT") {
       throw error;
@@ -62,14 +88,19 @@ async function runFixture(args, callerTarget = "unknown-target") {
     await rm(fixture.fixtureRoot, { recursive: true, force: true });
   }
 
-  return { result, marker };
+  return { result, marker, targetAtExit };
 }
 
 async function assertRejected(args, expectedCode) {
-  const { result, marker } = await runFixture(args);
+  const { result, marker, targetAtExit } = await runFixture(args);
   assert.notEqual(result.status, 0);
   assert.match(result.stderr, new RegExp(expectedCode));
   assert.equal(marker, null, "Vite must not start for rejected input");
+  assert.equal(
+    targetAtExit,
+    "unknown-target",
+    "Rejected input must not mutate the caller target"
+  );
 }
 
 test("rejects unsupported and prototype-like command names before Vite starts", async () => {
@@ -85,6 +116,9 @@ test("rejects every caller-provided build argument before Vite starts", async ()
     ["--config=evil.js"],
     ["--mode", "hostile"],
     ["--mode=hostile"],
+    ["--configLoader"],
+    ["--configLoader=native"],
+    ["--configLoader", "bundle"],
     ["hostile-root"],
     ["--"],
     ["--unknown"],
@@ -105,15 +139,16 @@ test("rejects arguments after dev and preview before Vite starts", async () => {
 
 test("runs valid commands with fixed argv and fixed Base44 target", async () => {
   const expectedArguments = {
-    dev: [],
-    build: ["build"],
-    preview: ["preview"],
+    dev: ["--configLoader", "native"],
+    build: ["build", "--configLoader", "native"],
+    preview: ["preview", "--configLoader", "native"],
   };
 
   for (const [command, viteArguments] of Object.entries(expectedArguments)) {
-    const { result, marker } = await runFixture([command]);
+    const { result, marker, targetAtExit } = await runFixture([command]);
     assert.equal(result.status, 0, result.stderr);
     assert.equal(marker.buildTarget, "base44-cloud");
+    assert.equal(targetAtExit, "base44-cloud");
     assert.deepEqual(marker.argv.slice(1), viteArguments);
   }
 });

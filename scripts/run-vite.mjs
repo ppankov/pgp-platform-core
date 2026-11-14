@@ -4,6 +4,10 @@ const COMMAND_ARGUMENTS = Object.freeze({
   build: ["build"],
   preview: ["preview"],
 });
+const VITE_CONFIG_LOADER_ARGUMENTS = Object.freeze([
+  "--configLoader",
+  "native",
+]);
 
 const [command, ...forwardedArgs] = process.argv.slice(2);
 if (!Object.prototype.hasOwnProperty.call(COMMAND_ARGUMENTS, command)) {
@@ -29,6 +33,7 @@ process.argv = [
   process.argv[0],
   "vite",
   ...COMMAND_ARGUMENTS[command],
+  ...VITE_CONFIG_LOADER_ARGUMENTS,
 ];
 
 await import(new URL("../node_modules/vite/bin/vite.js", import.meta.url));
